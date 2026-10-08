@@ -1,0 +1,14 @@
+fecha: 2026-10-08T20:16:30Z
+commit: 86dffd940cef118cc7bdd1cfe1599aaa54b08437
+evento: push
+resultado: failure
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37838187792
+---
+WP_URL: presente
+WP_USER: presente
+WP_APP_PASSWORD: presente
+Argumentos: --check
+Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Conectado como soporte (roles: administrator)
+ERROR autor: el usuario conectado es 'soporte', no Fernando Martínez; define autor.id en docs/sitio.yml o usa la contraseña de aplicación de Fernando
