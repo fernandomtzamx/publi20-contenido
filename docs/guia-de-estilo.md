@@ -33,8 +33,10 @@ Si está disponible, el agente carga la skill `business-casual-conversion-copy` 
 
 Todo lo visual sigue el logo de Publi2.0 (`brand/logo-publi20.png`): **negro #000000, rojo #EA3322 y blanco**, con grises neutros de apoyo. Nada de colores, clases ni estilos de otros sitios.
 
-- **Portada de cada nota:** se genera con `scripts/cover.py`. Lleva el logo, el pilar en rojo, el titular en negro y un panel negro con datos o nombres. Ningún logotipo de terceros.
-- **Nombre del archivo:** `images/<slug>-portada.png`. Si rehaces una portada, cambia el nombre (por ejemplo `-portada-v2`), porque el publicador reutiliza la imagen que ya existe con el mismo nombre.
+- **Portada de cada nota:** la genera Gemini como fotografía editorial, sin texto, sin logos y sin marca de agua visible. Se escribe la escena en `image_prompt` (en inglés, una o dos frases concretas: lugar, objetos, luz, ambiente). El prompt base de `docs/sitio.yml` agrega el estilo y las prohibiciones. Nada de personas famosas, marcas, letreros ni pantallas con texto.
+- **Rankings:** usan la plantilla de Publi2.0 (`scripts/cover.py`, con logo y paleta negro, rojo #EA3322 y blanco) y no pasan por Gemini. Se marca con `portada: plantilla` o basta con la categoría `rankings`.
+- **Nombre del archivo:** Gemini guarda en `images/<slug>-portada.jpg` y la plantilla en `images/<slug>-portada.png`. Si rehaces una portada, cambia el nombre en `featured_image` (por ejemplo `-portada-v2`), porque el publicador reutiliza la imagen que ya existe con el mismo nombre.
+- **Revisión:** la portada generada queda en el repositorio después de publicar; si no convence, se cambia `image_prompt` y el nombre del archivo y se vuelve a publicar.
 - **Estilos dentro de la nota:** solo las clases de `scripts/article.css` con prefijo `p20-` (`p20-tldr`, `p20-def`, `p20-video`).
 
 ## Videos
@@ -63,6 +65,7 @@ status: draft               # pasa a publish solo después de la revisión human
 date: 2026-10-27 08:00      # hora de Ciudad de México
 excerpt: "..."              # 140 a 160 caracteres, meta descripción
 categories: [creatividad]   # la subsección; su pilar padre define la URL
+image_prompt: "..."         # escena para la portada de Gemini (no aplica en rankings)
 tags: [...]
 ---
 

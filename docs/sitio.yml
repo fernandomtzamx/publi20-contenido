@@ -36,3 +36,20 @@ categorias:
   - {slug: ventas, name: Ventas, parent: emprendimiento}
   - {slug: rankings, name: Rankings, description: "Rankings con metodología pública. Nadie paga por aparecer."}
   - {slug: noticias, name: Noticias, description: "Lo que pasó en publicidad, marketing y negocios, cada semana."}
+
+# Portadas generadas con Gemini (todas las notas excepto rankings, que usan scripts/cover.py).
+# Requiere el secreto GEMINI_API_KEY en GitHub.
+imagenes:
+  modelo: gemini-nano-banana-2.1
+  modelos_respaldo: [gemini-3.1-flash-image, gemini-2.5-flash-image]
+  aspecto: "16:9"
+  tamano: "2K"
+  ancho: 1600
+  alto: 900
+  prompt_base: >-
+    Editorial photograph for a Mexican magazine about advertising, marketing and business.
+    Scene: {escena}.
+    Realistic documentary style, shot on a full-frame camera with a 35mm lens, natural light,
+    shallow depth of field, rich but natural color, clean composition with negative space, 16:9.
+    Absolutely no text, letters, numbers, signage, captions, logos, brand names, trademarks
+    or watermarks anywhere in the image. No recognizable public figures or celebrities.

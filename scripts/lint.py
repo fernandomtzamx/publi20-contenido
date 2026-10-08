@@ -46,9 +46,16 @@ def check(path):
     if meta.get("type", "post") == "post":
         if not meta.get("date") and meta.get("layout") != "raw":
             warns.append("sin fecha programada")
+        cats = [str(c) for c in meta.get("categories") or []]
+        portada = meta.get("portada", "plantilla" if "rankings" in cats else "gemini")
         img = meta.get("featured_image")
-        if not img or not (ROOT / img).exists():
-            warns.append("sin portada")
+        if portada == "gemini":
+            if not meta.get("image_prompt"):
+                errs.append("falta image_prompt para la portada de Gemini")
+            elif not img or not (ROOT / img).exists():
+                warns.append("la portada se generará con Gemini al publicar")
+        elif not img or not (ROOT / img).exists():
+            errs.append("falta la portada de plantilla (scripts/cover.py)")
         if words < 900:
             errs.append(f"muy corto ({words} palabras)")
         if sources < 2:

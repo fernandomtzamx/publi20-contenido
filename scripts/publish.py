@@ -321,6 +321,21 @@ def publish(wp, path):
         parent = wp.find_by_slug("pages", meta["parent"])
         if parent:
             payload["parent"] = parent["id"]
+    if kind == "post":
+        # Regla del sitio: portadas de Gemini (fotografía editorial); los rankings usan la plantilla de Publi2.0.
+        cats = [str(c) for c in meta.get("categories") or []]
+        portada = meta.get("portada", "plantilla" if "rankings" in cats else "gemini")
+        img_rel = meta.get("featured_image") or f"images/{meta['slug']}-portada.{'jpg' if portada == 'gemini' else 'png'}"
+        if not (ROOT / img_rel).exists():
+            if portada == "gemini":
+                import importlib.util as _ilu
+                _spec = _ilu.spec_from_file_location("gemini_image", ROOT / "scripts" / "gemini_image.py")
+                _gi = _ilu.module_from_spec(_spec)
+                _spec.loader.exec_module(_gi)
+                _gi.generate(meta, ROOT / img_rel)
+            else:
+                raise RuntimeError(f"falta la portada de plantilla {img_rel}: genérala con scripts/cover.py")
+        meta["featured_image"] = img_rel
     if meta.get("featured_image"):
         payload["featured_media"] = wp.media_id(
             ROOT / meta["featured_image"], meta.get("featured_alt", meta["title"]))

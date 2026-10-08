@@ -8,6 +8,7 @@ on:
       - "images/**"
       - "docs/sitio.yml"
       - "scripts/publish.py"
+      - "scripts/gemini_image.py"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
     inputs:
@@ -32,6 +33,7 @@ jobs:
       WP_URL: ${{ secrets.WP_URL }}
       WP_USER: ${{ secrets.WP_USER }}
       WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -45,7 +47,7 @@ jobs:
 
       - name: Diagnóstico de secretos (sin revelar valores)
         run: |
-          for v in WP_URL WP_USER WP_APP_PASSWORD; do
+          for v in WP_URL WP_USER WP_APP_PASSWORD GEMINI_API_KEY; do
             if [ -n "${!v}" ]; then echo "$v: presente"; else echo "$v: FALTA"; fi
           done | tee -a publish.log
 
@@ -87,6 +89,6 @@ jobs:
           } > registro/ultima-publicacion.log
           git config user.name "publi20-bot"
           git config user.email "publi20-bot@users.noreply.github.com"
-          git add registro/ultima-publicacion.log
-          git commit -m "Registro de publicación [skip ci]" || exit 0
+          git add registro/ultima-publicacion.log images/
+          git commit -m "Registro de publicación y portadas generadas [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main
