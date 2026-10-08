@@ -1,0 +1,17 @@
+{
+ "tipo": "page",
+ "id": 139,
+ "slug": "home",
+ "link": "https://www.publi20.com/",
+ "titulo": "Home",
+ "fecha": "2021-07-07T14:42:30",
+ "modificado": "2026-06-24T22:17:06",
+ "autor": "Fernando Martínez",
+ "categorias": [],
+ "etiquetas": [],
+ "extracto": "",
+ "imagen_destacada": 0,
+ "parent": 0,
+ "plantilla": "elementor_theme",
+ "contenido": "[RH_ELEMENTOR id=\"8011\"]"
+}
