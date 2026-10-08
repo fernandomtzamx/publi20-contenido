@@ -555,7 +555,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/46-cap-servicios-empresariales-sa-de-cv,301,200,/publicidad/,1
 /proveedores/buscar-por/city?value=NARVARTE PONIENTE,301,200,/publicidad/,1
 /component/mtree/buscar-por/city?value=GAMEZ,301,200,/publicidad/,1
-/isuzu-presenta-el-autobus-para-pasajeros-elf-600-bus/,error,error,Exceeded 30 redirects.,0
+/isuzu-presenta-el-autobus-para-pasajeros-elf-600-bus/,301,200,/noticias/isuzu-presenta-el-autobus-para-pasajeros-elf-600-bus/,1
 /proveedores/150-corporacion-interpublic-mexicana-sa-de-cv/recomendar,301,200,/publicidad/,1
 /proveedores/369-descar-s-a-de-c-v,301,200,/publicidad/,1
 /proveedores/promocionales/347-promo-rigba-internacional-s-de-rl-de-cv,301,200,/publicidad/,1
@@ -590,7 +590,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/diseno/1419-despacho-de-diseno-solo-idea,301,200,/publicidad/,1
 /proveedores/403-publiservicios-vanguardia-s-a-de-c-v,301,200,/publicidad/,1
 /proveedores/marketing-digital/874-agencia-de-marketing-digital-ontwice-interactive-marketing,301,200,/mercadotecnia/,1
-/noticias/5270-el-parque-eolico-dominica-de-enel-en-mexico-gana-el-premio-de-sostenibilidad-del-bid,error,error,Exceeded 30 redirects.,0
+/noticias/5270-el-parque-eolico-dominica-de-enel-en-mexico-gana-el-premio-de-sostenibilidad-del-bid,301,200,/noticias/el-parque-eolico-dominica-de-enel-en-mexico-gana-el-premio-de-sostenibilidad-del-bid/,1
 /proveedores/eventos/778-agencia-de-eventos-blend-producciones,301,200,/publicidad/,1
 /proveedores/television/casas-productoras/1698-productoras-suave-films,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-mercadotecnia/1286-agencias-de-marketing-circulo-de-ideas-btl/contactar,301,200,/mercadotecnia/,1
@@ -598,7 +598,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/99-angelus-producciones-s-a-de-c-v,301,200,/publicidad/,1
 /proveedores/692-profesionales-de-playa-mujeres-sa-de-cv,301,200,/publicidad/,1
 /proveedores/buscar-por/country/16?value=Mexico,301,200,/publicidad/,1
-/landsteiner-scientific-la-farmaceutica-mexicana-mejor-posicionada-en-el-ranking-great-place-to-work/,error,error,Exceeded 30 redirects.,0
+/landsteiner-scientific-la-farmaceutica-mexicana-mejor-posicionada-en-el-ranking-great-place-to-work/,301,200,/noticias/landsteiner-scientific-la-farmaceutica-mexicana-mejor-posicionada-en-el-ranking-great-place-to-work/,1
 /proveedores/impresion-y-artes-graficas/521-sublimarte-s-a-de-c-v,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/1153-agencia-de-publicidad-farmaceutica-ifloat-mexico,301,200,/publicidad/,1
 /proveedores/promocionales/146-imaginacion-promocional-s-a-de-c-v/contactar,301,200,/publicidad/,1
@@ -614,7 +614,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/agencias/agencias-de-publicidad/497-computadoras-y-publicidad-s-a-de-c-v,301,200,/publicidad/,1
 /listing/photobooth-mexico-df/,200,200,/listing/photobooth-mexico-df/,0
 /proveedores/television/casas-productoras/1609-productoras-altavision-producciones-sc,301,200,/publicidad/,1
-/noticias/5323-la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica,error,error,Exceeded 30 redirects.,0
+/noticias/5323-la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica,301,200,/noticias/la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica/,1
 /proveedores/todo/pagina27?lang=es,301,200,/publicidad/,1
 /proveedores/impresion-y-artes-graficas/pagina5,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-modelos/917-agencia-de-modelos-lmnts-promotions,301,200,/publicidad/,1
@@ -651,7 +651,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/television/casas-productoras/1622-productoras-bitbang-studio,301,200,/publicidad/,1
 /proveedores/356-hildetex-s-a-de-c-v,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/1151-agencia-de-publicidad-farmaceutica-cdyp-concepto-diseno-y-publicidad,301,200,/publicidad/,1
-/tane-y-la-iconica-iris-apfel-colaboran-juntos-en-una-coleccion-inolvidable/,error,error,Exceeded 30 redirects.,0
+/tane-y-la-iconica-iris-apfel-colaboran-juntos-en-una-coleccion-inolvidable/,301,200,/noticias/tane-y-la-iconica-iris-apfel-colaboran-juntos-en-una-coleccion-inolvidable/,1
 /proveedores/495-fazt-proveedor-de-publiservicios-sa-de-cv/recomendar,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/1024-agencia-de-publicidad-delta-group,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/628-bimad-publicidad-s-a-de-c-v,301,200,/publicidad/,1
@@ -707,13 +707,13 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/buscar-por/city?value=SANTA ANITA,301,200,/publicidad/,1
 /proveedores/television/casas-productoras/1621-productoras-betelfilms,301,200,/publicidad/,1
 /proveedores/television/casas-productoras/todo/pagina3,301,200,/publicidad/,1
-/destino-extraordinario-el-nuevo-reto-de-meditacion-de-deepak-chopra-e-ismael-cala/,error,error,Exceeded 30 redirects.,0
+/destino-extraordinario-el-nuevo-reto-de-meditacion-de-deepak-chopra-e-ismael-cala/,301,200,/noticias/destino-extraordinario-el-nuevo-reto-de-meditacion-de-deepak-chopra-e-ismael-cala/,1
 /proveedores/investigacion-de-mercados/1597-investigacion-de-mercados-qualimerc,301,200,/mercadotecnia/,1
 /proveedores/eventos/43-brain-firma-creativa/contactar,301,200,/publicidad/,1
 /proveedores/diseno/diseno-y-desarrollo-web/1461-diseno-y-desarrollo-web-el-milagrito,301,200,/mercadotecnia/,1
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-cinco-ciudades-de-la-republica-dominicana-representadas/,error,error,Exceeded 30 redirects.,0
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-cinco-ciudades-de-la-republica-dominicana-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
 /proveedores/agencias/agencias-de-mercadotecnia/772-agencia-de-comunicacion-y-marketing-tengo-una-idea,301,200,/mercadotecnia/,1
-/packers-plus-y-schlumberger-ingresan-a-una-alianza-global/,error,error,Exceeded 30 redirects.,0
+/packers-plus-y-schlumberger-ingresan-a-una-alianza-global/,301,200,/noticias/packers-plus-y-schlumberger-ingresan-a-una-alianza-global/,1
 /proveedores/publicidad-exterior/1142-agencia-de-publicidad-exterior-strada-publicidad/recomendar,301,200,/publicidad/,1
 /proveedores/125-intersexion-queretaro-s-c/contactar,301,200,/publicidad/,1
 /proveedores/388-guia-conurbada,301,200,/publicidad/,1
@@ -769,7 +769,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/buscar-por/city?value=CENTRO,301,200,/publicidad/,1
 /proveedores/buscar-por/country/32?value=M,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-mercadotecnia/1341-agencias-de-marketing-quarks-consultoria-creativa,301,200,/mercadotecnia/,1
-/noticias/4988-ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico,error,error,Exceeded 30 redirects.,0
+/noticias/4988-ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico,301,200,/noticias/ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico/,1
 /proveedores/promocionales/articulos-promocionales/127-publicitarios-del-norte-de-mexico-s-a-de-c-v,301,200,/publicidad/,1
 /proveedores/buscar-por/city?value=PARQUE INDUSTRIAL,301,200,/publicidad/,1
 /component/mtree/buscar-por/country/59?value=M%C3%A9xico,301,200,/publicidad/,1
@@ -795,7 +795,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/agencias/agencias-de-publicidad/1068-agencia-de-publicidad-ogilvy-y-mather,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/1086-agencia-de-publicidad-publycity,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/pagina6,301,200,/publicidad/,1
-/noticias/5262-destino-extraordinario-el-nuevo-reto-de-meditacion-de-deepak-chopra-e-ismael-cala,error,error,Exceeded 30 redirects.,0
+/noticias/5262-destino-extraordinario-el-nuevo-reto-de-meditacion-de-deepak-chopra-e-ismael-cala,301,200,/noticias/destino-extraordinario-el-nuevo-reto-de-meditacion-de-deepak-chopra-e-ismael-cala/,1
 /proveedores/169-sak,301,200,/publicidad/,1
 /mapa-de-sitio,301,200,/,1
 /proveedores/promocionales/186-comercializadora-de-promocionales-ideas-de-puebla-sa-de-cv,301,200,/publicidad/,1
@@ -803,11 +803,11 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/buscar-por/country/77?value=Mexico,301,200,/publicidad/,1
 /proveedores/603-comercabos-sa-de-cv/contactar,301,200,/publicidad/,1
 /component/mtree/agencias/agencias-de-promocion/todo/pagina3,301,200,/publicidad/,1
-/noticias/5221-enel-green-power-confirma-su-liderazgo-en-energias-renovables-en-mexico-tras-resultados-de-subasta,error,error,Exceeded 30 redirects.,0
+/noticias/5221-enel-green-power-confirma-su-liderazgo-en-energias-renovables-en-mexico-tras-resultados-de-subasta,301,200,/noticias/enel-green-power-confirma-su-liderazgo-en-energias-renovables-en-mexico-tras-resultados-de-subasta/,1
 /proveedores/buscar-por/city?value=VISTA HERMOSA,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-promocion/958-agencia-de-promocion-payroling,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/1036-agencia-de-publicidad-grey-global-group-mexico,301,200,/publicidad/,1
-/afluenta-la-red-lider-de-financiamiento-entre-personas-de-america-latina-recibe-us-8-millones-de-dolares-de-ifc-y-elevar-equity-para-expandirse-en-la-region/,error,error,Exceeded 30 redirects.,0
+/afluenta-la-red-lider-de-financiamiento-entre-personas-de-america-latina-recibe-us-8-millones-de-dolares-de-ifc-y-elevar-equity-para-expandirse-en-la-region/,301,200,/noticias/afluenta-la-red-lider-de-financiamiento-entre-personas-de-america-latina-recibe-us-8-millones-de-dolares-de-ifc-y-elevar-equity-para-expandirse-en-la-region/,1
 /component/mtree/buscar-por/city?value=PRADOS AGUA,301,200,/publicidad/,1
 /proveedores/promocionales/articulos-promocionales/630-servicios-publicitarios-publiram,301,200,/publicidad/,1
 /component/mtree/buscar-por/city?value=TORREON CENTRO,301,200,/publicidad/,1
@@ -860,7 +860,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /component/mtree/buscar-por/city/15?value=MEXICO,301,200,/publicidad/,1
 /proveedores/agencias/agencias-de-publicidad/271-o-k-publicidad,301,200,/publicidad/,1
 /proveedores/impresion-y-artes-graficas/139-gransfeer-ideas-publicidad-impresa-especializada-sa-de-cv,301,200,/publicidad/,1
-/noticias/5243-nerium-international-ofrece-innovacion-para-la-vitalidad-cerebral-con-el-lanzamiento-en-mexico-del-suplemento-alimenticio-eht,error,error,Exceeded 30 redirects.,0
+/noticias/5243-nerium-international-ofrece-innovacion-para-la-vitalidad-cerebral-con-el-lanzamiento-en-mexico-del-suplemento-alimenticio-eht,301,200,/noticias/nerium-international-ofrece-innovacion-para-la-vitalidad-cerebral-con-el-lanzamiento-en-mexico-del-suplemento-alimenticio-eht/,1
 /proveedores/agencias/agencias-de-publicidad/232-mr-publicidad-s-a-de-c-v/contactar,301,200,/publicidad/,1
 /proveedores/impresion-y-artes-graficas/480-noved-arte,301,200,/publicidad/,1
 /proveedores/buscar-por/city?value=LAS HADAS MUNDIAL,301,200,/publicidad/,1
@@ -934,7 +934,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/agencias/agencias-de-promocion/931-agencia-de-promocion-circus-marketing/contactar,301,200,/publicidad/,1
 /proveedores/campanas-politicas,301,200,/publicidad/,1
 /component/mtree/television/casas-productoras/pagina6,301,200,/publicidad/,1
-/noticias/5044-que-compran-en-internet-las-mujeres-de-latinoamerica,error,error,Exceeded 30 redirects.,0
+/noticias/5044-que-compran-en-internet-las-mujeres-de-latinoamerica,301,200,/noticias/que-compran-en-internet-las-mujeres-de-latinoamerica/,1
 /proveedores/diseno/206-fucar-arte-y-diseño,301,200,/publicidad/,1
 /proveedores/442-daisa-proyectos,301,200,/publicidad/,1
 /proveedores/buscar-por/country/32?value=Mexico,301,200,/publicidad/,1
@@ -986,7 +986,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /component/mtree/buscar-por/city?value=ALTAMIRA,301,200,/publicidad/,1
 /proveedores/278-grupo-integra,301,200,/publicidad/,1
 /proveedores/buscar-por/city?value=LOMAS DE,301,200,/publicidad/,1
-/noticias/5407-qs-world-university-rankings-by-subject-2017,error,error,Exceeded 30 redirects.,0
+/noticias/5407-qs-world-university-rankings-by-subject-2017,301,200,/noticias/qs-world-university-rankings-by-subject-2017/,1
 /proveedores/stands-y-display/1725-stands-y-displays-instintos-creativos,301,200,/publicidad/,1
 /noticias/4786-asahi-kasei-chemicals-celebra-la-apertura-de-asahi-kasei-plastics-mexico-sa-de-cv,301,200,/noticias/,1
 /component/mtree/buscar-por/state/54?value=DISTRITO,301,200,/publicidad/,1
@@ -999,343 +999,343 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/marketing-digital/1234-agencia-digital-espora-estudio,301,200,/mercadotecnia/,1
 /proveedores/agencias/agencias-de-mercadotecnia/1283-agencias-de-marketing-camaleon-marketing,301,200,/mercadotecnia/,1
 /component/mtree/impresion-y-artes-graficas/todo/pagina5,301,200,/publicidad/,1
-/pedido-canadiense-a-las-agencias-internacionales-para-que-investiguen-el-asesinato-de-berta-caceres/,error,error,Exceeded 30 redirects.,0
-/comba-telecom-ofrece-conectividad-inalambrica-para-los-108-millones-de-pasajeros-de-un-aeropuerto-regional/,error,error,Exceeded 30 redirects.,0
-/care-energy-ofrece-representacion-a-accionistas-de-eon-y-rwe-los-modelos-de-negocios-de-las-sa-deben-ser-controlados-de-manera-mas-cercana-con-una-experiencia-especializada/,error,error,Exceeded 30 redirects.,0
-/cendyn-es-ahora-el-mayor-integrante-de-crm-en-la-industria-hospitalaria/,error,error,Exceeded 30 redirects.,0
-/diario-bae-negocios-internacional-reconoce-a-las-mujeres-argentinas-extraordinarias-2016/,error,error,Exceeded 30 redirects.,0
-/huawei-habilita-la-aplicacion-de-la-nb-iot-en-industrias-verticales-a-traves-de-la-innovacion-y-la-colaboracion/,error,error,Exceeded 30 redirects.,0
-/emblematica-publicacion-de-lancet-neurology-exige-compromiso-a-largo-plazo-para-luchar-contra-la-demencia/,error,error,Exceeded 30 redirects.,0
-/heidrick-struggles-ayuda-al-foro-economico-mundial-a-encontrar-a-los-young-global-leaders-de-2016/,error,error,Exceeded 30 redirects.,0
-/ofertas-365-inc-anuncia-el-lanzamiento-de-su-juego-lucky-6-en-colombia-mercado-de-gaming-en-pleno-desarrollo-en-alianza-con-el-operador-local-eds-inversiones/,error,error,Exceeded 30 redirects.,0
-/safetypay-lanza-aplicacion-y-peruvian-es-la-primera-compania-aerea-de-america-latina-en-invertir-en-la-tecnologia/,error,error,Exceeded 30 redirects.,0
-/emprendedores-de-silicon-valley-y-america-latina-comienzan-un-equipo-de-futbol-profesional-en-san-francisco/,error,error,Exceeded 30 redirects.,0
-/el-futuro-de-los-viajes-internacionales-y-el-papel-del-seguro/,error,error,Exceeded 30 redirects.,0
+/pedido-canadiense-a-las-agencias-internacionales-para-que-investiguen-el-asesinato-de-berta-caceres/,301,200,/noticias/pedido-canadiense-a-las-agencias-internacionales-para-que-investiguen-el-asesinato-de-berta-caceres/,1
+/comba-telecom-ofrece-conectividad-inalambrica-para-los-108-millones-de-pasajeros-de-un-aeropuerto-regional/,301,200,/noticias/comba-telecom-ofrece-conectividad-inalambrica-para-los-108-millones-de-pasajeros-de-un-aeropuerto-regional/,1
+/care-energy-ofrece-representacion-a-accionistas-de-eon-y-rwe-los-modelos-de-negocios-de-las-sa-deben-ser-controlados-de-manera-mas-cercana-con-una-experiencia-especializada/,301,200,/noticias/care-energy-ofrece-representacion-a-accionistas-de-eon-y-rwe-los-modelos-de-negocios-de-las-sa-deben-ser-controlados-de-manera-mas-cercana-con-una-experiencia-especializada/,1
+/cendyn-es-ahora-el-mayor-integrante-de-crm-en-la-industria-hospitalaria/,301,200,/noticias/cendyn-es-ahora-el-mayor-integrante-de-crm-en-la-industria-hospitalaria/,1
+/diario-bae-negocios-internacional-reconoce-a-las-mujeres-argentinas-extraordinarias-2016/,301,200,/noticias/diario-bae-negocios-internacional-reconoce-a-las-mujeres-argentinas-extraordinarias-2016/,1
+/huawei-habilita-la-aplicacion-de-la-nb-iot-en-industrias-verticales-a-traves-de-la-innovacion-y-la-colaboracion/,301,200,/noticias/huawei-habilita-la-aplicacion-de-la-nb-iot-en-industrias-verticales-a-traves-de-la-innovacion-y-la-colaboracion/,1
+/emblematica-publicacion-de-lancet-neurology-exige-compromiso-a-largo-plazo-para-luchar-contra-la-demencia/,301,200,/noticias/emblematica-publicacion-de-lancet-neurology-exige-compromiso-a-largo-plazo-para-luchar-contra-la-demencia/,1
+/heidrick-struggles-ayuda-al-foro-economico-mundial-a-encontrar-a-los-young-global-leaders-de-2016/,301,200,/noticias/heidrick-struggles-ayuda-al-foro-economico-mundial-a-encontrar-a-los-young-global-leaders-de-2016/,1
+/ofertas-365-inc-anuncia-el-lanzamiento-de-su-juego-lucky-6-en-colombia-mercado-de-gaming-en-pleno-desarrollo-en-alianza-con-el-operador-local-eds-inversiones/,301,200,/noticias/ofertas-365-inc-anuncia-el-lanzamiento-de-su-juego-lucky-6-en-colombia-mercado-de-gaming-en-pleno-desarrollo-en-alianza-con-el-operador-local-eds-inversiones/,1
+/safetypay-lanza-aplicacion-y-peruvian-es-la-primera-compania-aerea-de-america-latina-en-invertir-en-la-tecnologia/,301,200,/noticias/safetypay-lanza-aplicacion-y-peruvian-es-la-primera-compania-aerea-de-america-latina-en-invertir-en-la-tecnologia/,1
+/emprendedores-de-silicon-valley-y-america-latina-comienzan-un-equipo-de-futbol-profesional-en-san-francisco/,301,200,/noticias/emprendedores-de-silicon-valley-y-america-latina-comienzan-un-equipo-de-futbol-profesional-en-san-francisco/,1
+/el-futuro-de-los-viajes-internacionales-y-el-papel-del-seguro/,301,200,/noticias/el-futuro-de-los-viajes-internacionales-y-el-papel-del-seguro/,1
 /en-la-vida-y-los-negocios/,301,200,/emprendimiento/liderazgo/en-la-vida-y-los-negocios/,1
-/ipoint-presenta-borrador-de-leyes-sobre-trafico-de-personas-y-esclavitud-para-el-sector-privado/,error,error,Exceeded 30 redirects.,0
-/la-nomina-del-futbol-de-pepsi-2016-introduce-la-tarjeta-azul-en-el-juego-global/,error,error,Exceeded 30 redirects.,0
-/huawei-impulsa-apertura-colaboracion-y-exito-compartido-para-habilitar-la-transformacion-digital-y-construir-un-mundo-mejor-conectado/,error,error,Exceeded 30 redirects.,0
-/equisoft-gana-un-premio-de-excelencia-de-la-industria/,error,error,Exceeded 30 redirects.,0
-/nerium-international-ofrece-innovacion-para-la-vitalidad-cerebral-con-el-lanzamiento-en-mexico-del-suplemento-alimenticio-eht/,error,error,Exceeded 30 redirects.,0
-/andes-wines-destaca-que-la-vendimia-argentina-se-atrasara-entre-10-a-30-dias-segun-cepaje/,error,error,Exceeded 30 redirects.,0
-/italtel-lanza-una-nueva-aplicacion-basada-en-sdn-para-la-harmonizacion-de-la-red-de-servicios/,error,error,Exceeded 30 redirects.,0
-/etihad-airways-comienza-la-venta-de-pasajes-en-la-argentina/,error,error,Exceeded 30 redirects.,0
-/agile-alliance-anuncia-el-programa-del-agile2016/,error,error,Exceeded 30 redirects.,0
-/el-parque-eolico-dominica-de-enel-en-mexico-gana-el-premio-de-sostenibilidad-del-bid/,error,error,Exceeded 30 redirects.,0
-/cobertura-especial-del-viaje-del-presidente-obama-a-cuba-domingo-20-de-marzo-por-america-teve/,error,error,Exceeded 30 redirects.,0
-/i-protect-el-gran-avance-de-kiekert-en-sistemas-de-proteccion-de-puertas/,error,error,Exceeded 30 redirects.,0
-/la-digitalizacion-creara-350-millones-de-nuevos-exportadores-segun-el-informe-del-dmcc-el-futuro-del-comercio/,error,error,Exceeded 30 redirects.,0
-/new-diamond-technology-ndt-dara-a-conocer-la-piedra-azul-fabricada-en-laboratorio-mas-grande-y-mas-rara-del-mundo-en-baselworld-a-las-1200-del-mediodia-cet/,error,error,Exceeded 30 redirects.,0
-/disene-instalaciones-hidraulicas-de-manera-facil-by-iway-magazine/,error,error,Exceeded 30 redirects.,0
-/sc-johnson-venezuela-fue-reconocida-como-el-mejor-lugar-de-trabajo/,error,error,Exceeded 30 redirects.,0
-/modulo-digitalizador-de-viewsonic-mejora-las-soluciones-de-cajeros-automaticos-vtm-de-avanzada-para-el-sector-bancario/,error,error,Exceeded 30 redirects.,0
-/wincor-nixdorf-y-mahindra-comviva-se-asocian-para-permitir-operaciones-basadas-en-nfc-y-codigo-qr-en-los-cajeros-automaticos-con-la-billetera-mobiquity/,error,error,Exceeded 30 redirects.,0
-/pacific-da-a-conocer-actualizacion-acerca-de-la-reestructuracion/,error,error,Exceeded 30 redirects.,0
+/ipoint-presenta-borrador-de-leyes-sobre-trafico-de-personas-y-esclavitud-para-el-sector-privado/,301,200,/noticias/ipoint-presenta-borrador-de-leyes-sobre-trafico-de-personas-y-esclavitud-para-el-sector-privado/,1
+/la-nomina-del-futbol-de-pepsi-2016-introduce-la-tarjeta-azul-en-el-juego-global/,301,200,/noticias/la-nomina-del-futbol-de-pepsi-2016-introduce-la-tarjeta-azul-en-el-juego-global/,1
+/huawei-impulsa-apertura-colaboracion-y-exito-compartido-para-habilitar-la-transformacion-digital-y-construir-un-mundo-mejor-conectado/,301,200,/noticias/huawei-impulsa-apertura-colaboracion-y-exito-compartido-para-habilitar-la-transformacion-digital-y-construir-un-mundo-mejor-conectado/,1
+/equisoft-gana-un-premio-de-excelencia-de-la-industria/,301,200,/noticias/equisoft-gana-un-premio-de-excelencia-de-la-industria/,1
+/nerium-international-ofrece-innovacion-para-la-vitalidad-cerebral-con-el-lanzamiento-en-mexico-del-suplemento-alimenticio-eht/,301,200,/noticias/nerium-international-ofrece-innovacion-para-la-vitalidad-cerebral-con-el-lanzamiento-en-mexico-del-suplemento-alimenticio-eht/,1
+/andes-wines-destaca-que-la-vendimia-argentina-se-atrasara-entre-10-a-30-dias-segun-cepaje/,301,200,/noticias/andes-wines-destaca-que-la-vendimia-argentina-se-atrasara-entre-10-a-30-dias-segun-cepaje/,1
+/italtel-lanza-una-nueva-aplicacion-basada-en-sdn-para-la-harmonizacion-de-la-red-de-servicios/,301,200,/noticias/italtel-lanza-una-nueva-aplicacion-basada-en-sdn-para-la-harmonizacion-de-la-red-de-servicios/,1
+/etihad-airways-comienza-la-venta-de-pasajes-en-la-argentina/,301,200,/noticias/etihad-airways-comienza-la-venta-de-pasajes-en-la-argentina/,1
+/agile-alliance-anuncia-el-programa-del-agile2016/,301,200,/noticias/agile-alliance-anuncia-el-programa-del-agile2016/,1
+/el-parque-eolico-dominica-de-enel-en-mexico-gana-el-premio-de-sostenibilidad-del-bid/,301,200,/noticias/el-parque-eolico-dominica-de-enel-en-mexico-gana-el-premio-de-sostenibilidad-del-bid/,1
+/cobertura-especial-del-viaje-del-presidente-obama-a-cuba-domingo-20-de-marzo-por-america-teve/,301,200,/noticias/cobertura-especial-del-viaje-del-presidente-obama-a-cuba-domingo-20-de-marzo-por-america-teve/,1
+/i-protect-el-gran-avance-de-kiekert-en-sistemas-de-proteccion-de-puertas/,301,200,/noticias/i-protect-el-gran-avance-de-kiekert-en-sistemas-de-proteccion-de-puertas/,1
+/la-digitalizacion-creara-350-millones-de-nuevos-exportadores-segun-el-informe-del-dmcc-el-futuro-del-comercio/,301,200,/noticias/la-digitalizacion-creara-350-millones-de-nuevos-exportadores-segun-el-informe-del-dmcc-el-futuro-del-comercio/,1
+/new-diamond-technology-ndt-dara-a-conocer-la-piedra-azul-fabricada-en-laboratorio-mas-grande-y-mas-rara-del-mundo-en-baselworld-a-las-1200-del-mediodia-cet/,301,200,/noticias/new-diamond-technology-ndt-dara-a-conocer-la-piedra-azul-fabricada-en-laboratorio-mas-grande-y-mas-rara-del-mundo-en-baselworld-a-las-1200-del-mediodia-cet/,1
+/disene-instalaciones-hidraulicas-de-manera-facil-by-iway-magazine/,301,200,/noticias/disene-instalaciones-hidraulicas-de-manera-facil-by-iway-magazine/,1
+/sc-johnson-venezuela-fue-reconocida-como-el-mejor-lugar-de-trabajo/,301,200,/noticias/sc-johnson-venezuela-fue-reconocida-como-el-mejor-lugar-de-trabajo/,1
+/modulo-digitalizador-de-viewsonic-mejora-las-soluciones-de-cajeros-automaticos-vtm-de-avanzada-para-el-sector-bancario/,301,200,/noticias/modulo-digitalizador-de-viewsonic-mejora-las-soluciones-de-cajeros-automaticos-vtm-de-avanzada-para-el-sector-bancario/,1
+/wincor-nixdorf-y-mahindra-comviva-se-asocian-para-permitir-operaciones-basadas-en-nfc-y-codigo-qr-en-los-cajeros-automaticos-con-la-billetera-mobiquity/,301,200,/noticias/wincor-nixdorf-y-mahindra-comviva-se-asocian-para-permitir-operaciones-basadas-en-nfc-y-codigo-qr-en-los-cajeros-automaticos-con-la-billetera-mobiquity/,1
+/pacific-da-a-conocer-actualizacion-acerca-de-la-reestructuracion/,301,200,/noticias/pacific-da-a-conocer-actualizacion-acerca-de-la-reestructuracion/,1
 /ya-vienen-los-effies/,301,200,/publicidad/creatividad/ya-vienen-los-effies/,1
-/nuevo-webinar-de-impartner-presenta-a-analista-prm-de-gartner-y-ofrece-terapia-de-relaciones-para-profesionales-de-ti-y-sus-contrapartes-de-ventasmarketing/,error,error,Exceeded 30 redirects.,0
-/los-operadores-de-telefonia-movil-aprovechan-los-us12-billones-del-ecosistema-de-los-viajes/,error,error,Exceeded 30 redirects.,0
-/un-vistazo-al-festival-imaginativo-thomas-sabo-celebra-el-verano-con-estilo/,error,error,Exceeded 30 redirects.,0
+/nuevo-webinar-de-impartner-presenta-a-analista-prm-de-gartner-y-ofrece-terapia-de-relaciones-para-profesionales-de-ti-y-sus-contrapartes-de-ventasmarketing/,301,200,/noticias/nuevo-webinar-de-impartner-presenta-a-analista-prm-de-gartner-y-ofrece-terapia-de-relaciones-para-profesionales-de-ti-y-sus-contrapartes-de-ventasmarketing/,1
+/los-operadores-de-telefonia-movil-aprovechan-los-us12-billones-del-ecosistema-de-los-viajes/,301,200,/noticias/los-operadores-de-telefonia-movil-aprovechan-los-us12-billones-del-ecosistema-de-los-viajes/,1
+/un-vistazo-al-festival-imaginativo-thomas-sabo-celebra-el-verano-con-estilo/,301,200,/noticias/un-vistazo-al-festival-imaginativo-thomas-sabo-celebra-el-verano-con-estilo/,1
 /puedes-haber-sido-victima-de-un-fraude-informate/,301,200,/publicidad/creatividad/puedes-haber-sido-victima-de-un-fraude-informate/,1
-/aeropuerto-salvadoreno-a-la-vanguardia-en-la-region-by-contrapunto-diario-digital/,error,error,Exceeded 30 redirects.,0
-/mohawk-industries-con-record-de-utilidades-en-el-cuarto-trimestre/,error,error,Exceeded 30 redirects.,0
-/menor-crecimiento-economico-para-el-salvador-en-2016-by-contrapunto-diario-digital/,error,error,Exceeded 30 redirects.,0
-/dugout-la-maxima-expresion-de-plataforma-futbolistica-para-los-aficionados-lanza-su-primera-aplicacion/,error,error,Exceeded 30 redirects.,0
-/grundig-presenta-su-coleccion-premium-de-electrodomesticos-integrados-en-eurocucina/,error,error,Exceeded 30 redirects.,0
-/bridgestone-extiende-alianza-premium-con-grupo-bmw/,error,error,Exceeded 30 redirects.,0
-/netflix-confirma-nueva-serie-original-basada-en-la-actual-investigacion-de-corrupcion-brasilena/,error,error,Exceeded 30 redirects.,0
-/gillette-revela-la-campana-lo-perfecto-no-es-bonito-rumbo-a-los-juegos-olimpicos-de-rio-de-janeiro-2016/,error,error,Exceeded 30 redirects.,0
+/aeropuerto-salvadoreno-a-la-vanguardia-en-la-region-by-contrapunto-diario-digital/,301,200,/noticias/aeropuerto-salvadoreno-a-la-vanguardia-en-la-region-by-contrapunto-diario-digital/,1
+/mohawk-industries-con-record-de-utilidades-en-el-cuarto-trimestre/,301,200,/noticias/mohawk-industries-con-record-de-utilidades-en-el-cuarto-trimestre/,1
+/menor-crecimiento-economico-para-el-salvador-en-2016-by-contrapunto-diario-digital/,301,200,/noticias/menor-crecimiento-economico-para-el-salvador-en-2016-by-contrapunto-diario-digital/,1
+/dugout-la-maxima-expresion-de-plataforma-futbolistica-para-los-aficionados-lanza-su-primera-aplicacion/,301,200,/noticias/dugout-la-maxima-expresion-de-plataforma-futbolistica-para-los-aficionados-lanza-su-primera-aplicacion/,1
+/grundig-presenta-su-coleccion-premium-de-electrodomesticos-integrados-en-eurocucina/,301,200,/noticias/grundig-presenta-su-coleccion-premium-de-electrodomesticos-integrados-en-eurocucina/,1
+/bridgestone-extiende-alianza-premium-con-grupo-bmw/,301,200,/noticias/bridgestone-extiende-alianza-premium-con-grupo-bmw/,1
+/netflix-confirma-nueva-serie-original-basada-en-la-actual-investigacion-de-corrupcion-brasilena/,301,200,/noticias/netflix-confirma-nueva-serie-original-basada-en-la-actual-investigacion-de-corrupcion-brasilena/,1
+/gillette-revela-la-campana-lo-perfecto-no-es-bonito-rumbo-a-los-juegos-olimpicos-de-rio-de-janeiro-2016/,301,200,/noticias/gillette-revela-la-campana-lo-perfecto-no-es-bonito-rumbo-a-los-juegos-olimpicos-de-rio-de-janeiro-2016/,1
 /aliados-o-charlatanes-donde-te-ves/,301,200,/publicidad/aliados-o-charlatanes-donde-te-ves/,1
-/nerium-international-presenta-el-suero-anti-edad-para-ojos/,error,error,Exceeded 30 redirects.,0
-/netflix-y-los-maratones-un-nuevo-indice-revela-que-series-devoramos-y-cuales-saboreamos/,error,error,Exceeded 30 redirects.,0
-/apr-energy-pone-en-marcha-planta-de-turbina-a-gas-para-cliente-industrial-en-egipto/,error,error,Exceeded 30 redirects.,0
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-30-ciudades-de-argentina-representadas/,error,error,Exceeded 30 redirects.,0
-/uruguay-avanza-firmemente-hacia-la-universalizacion-del-acceso-a-servicios-financieros/,error,error,Exceeded 30 redirects.,0
-/xs-international-fue-incluida-en-el-informe-2016-competitive-landscape-report-de-gartner/,error,error,Exceeded 30 redirects.,0
-/el-atleta-conocido-como-el-picasso-olimpico-promueve-un-esfuerzo-para-hacer-crecer-al-grupo-de-atletas-olimpicos-artistas/,error,error,Exceeded 30 redirects.,0
-/pew-se-congratula-del-amplio-apoyo-mundial-a-las-propuestas-de-proteccion-de-tiburones-y-rayas/,error,error,Exceeded 30 redirects.,0
-/la-biometria-de-dermalog-contribuye-a-la-prevencion-de-fraudes-en-nigeria/,error,error,Exceeded 30 redirects.,0
-/husqvarna-lanza-la-primera-aplicacion-apple-watch-para-cortadoras-de-cesped-roboticas/,error,error,Exceeded 30 redirects.,0
-/pew-nombra-a-10-cientificos-latinoamericanos-como-becarios/,error,error,Exceeded 30 redirects.,0
-/conceden-el-be-open-young-talent-award-a-jovenes-de-chile/,error,error,Exceeded 30 redirects.,0
-/colaboracion-hemisferica-para-resolver-problemas-relevantes-a-traves-de-la-investigacion/,error,error,Exceeded 30 redirects.,0
-/havas-edge-nombra-a-nicole-cordero-como-vicepresidenta-de-medios-hispanos-de-ee-uu/,error,error,Exceeded 30 redirects.,0
-/spin-master-mexico-se-expande-con-nuevas-oficinas-corporativas-y-contrataciones-de-talento-senior/,error,error,Exceeded 30 redirects.,0
-/otorga-grupo-gentera-apoyos-por-82-mdp-a-organizaciones-civiles-by-juan-carlos-machorro/,error,error,Exceeded 30 redirects.,0
-/the-home-depot-anuncia-resultados-record-del-cuarto-trimestre-y-del-ano-fiscal-2015-aumenta-el-dividendo-trimestral-en-un-17-por-ciento-y-proporciona-la-guia-para-el-ano-fiscal-2016/,error,error,Exceeded 30 redirects.,0
-/huawei-y-leica-camera-anuncian-alianza-tecnologica-a-largo-plazo-para-la-reinvencion-de-la-fotografia-en-los-telefonos-inteligentes/,error,error,Exceeded 30 redirects.,0
-/barbados-adopta-legislacion-sobre-companias-de-celulas-incorporadas/,error,error,Exceeded 30 redirects.,0
-/womens-forum-mexico-2016-recibe-a-la-delegacion-cubana-de-mujeres-emprendedoras/,error,error,Exceeded 30 redirects.,0
-/spectra-group-y-tesacom-presentan-slingshot-en-chile/,error,error,Exceeded 30 redirects.,0
-/premian-a-daniel-chavez-moran-fundador-de-grupo-vidanta-como-empresario-del-ano/,error,error,Exceeded 30 redirects.,0
-/el-fabricante-chino-de-ropa-deportiva-peak-celebra-una-nueva-presentacion-de-productos-olimpicos-en-eslovenia/,error,error,Exceeded 30 redirects.,0
-/arisglobal-firma-acuerdo-con-el-primer-cliente-de-arisg-en-china/,error,error,Exceeded 30 redirects.,0
-/mead-johnson-nutrition-llevo-a-cabo-encuentros-medicos-sobre-nuevas-tendencias-en-nutricion-pediatrica-y-desarrollo-mental/,error,error,Exceeded 30 redirects.,0
-/smirnoff-lanza-la-iniciativa-equalizing-music-en-un-esfuerzo-por-duplicar-la-cantidad-de-figuras-femeninas-destacadas-para-el-ano-2020/,error,error,Exceeded 30 redirects.,0
-/comunicado-al-mercado-itau-unibanco-holding-archiva-formulario-20-f-de-2015-en-sec-y-cvm/,error,error,Exceeded 30 redirects.,0
-/markets-group-mas-de-400-socios-limitados-se-reunen-con-lideres-en-materia-de-capital-de-riesgo-en-nueva-york-para-abordar-las-principales-asignaciones-del-2016/,error,error,Exceeded 30 redirects.,0
-/mas-del-50-de-las-empresas-tienen-dispositivos-moviles-que-no-cumplen-con-las-normativas/,error,error,Exceeded 30 redirects.,0
-/konica-minolta-sensing-anuncia-su-participacion-en-plastimagen-mexico-2016/,error,error,Exceeded 30 redirects.,0
-/ypf-presenta-informe-anual-2015-en-formulario-20-f/,error,error,Exceeded 30 redirects.,0
-/la-version-mas-reciente-de-finscan-simplifica-y-acelera-la-exploracion-de-cumplimiento-antilavado-de-dinero/,error,error,Exceeded 30 redirects.,0
-/el-lider-global-en-gestion-de-relaciones-con-socios-impartner-gana-en-los-stevie-awards-2016-por-ventas-y-servicio-al-cliente/,error,error,Exceeded 30 redirects.,0
-/el-mayor-talento-musical-en-el-xviii-festival-del-habano/,error,error,Exceeded 30 redirects.,0
-/colombia-y-mexico-con-una-actitud-positiva-hacia-el-emprendimiento-resultados-ager-2015-encuesta-aplicada-por-amway/,error,error,Exceeded 30 redirects.,0
-/el-grupo-lombard-odier-informa-los-resultados-del-ano-2015/,error,error,Exceeded 30 redirects.,0
-/movado-se-asocia-con-google-para-lanzar-una-nueva-coleccion-de-relojes-inteligentes/,error,error,Exceeded 30 redirects.,0
-/digital-marine-solutions-adquirira-la-division-marina-de-jeppesen/,error,error,Exceeded 30 redirects.,0
-/a-48-ciudades-en-colombia-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,error,error,Exceeded 30 redirects.,0
-/phenomenome-discoveries-anuncia-la-exitosa-validacion-de-ovaware-un-simple-analisis-de-sangre-para-la-deteccion-precoz-de-cancer-de-ovario/,error,error,Exceeded 30 redirects.,0
-/a-156-ciudades-en-mexico-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,error,error,Exceeded 30 redirects.,0
-/precision-aviation-group-pag-empresa-matriz-de-precision-heliparts-php-anuncia-la-inauguracion-de-nuevo-centro-en-sao-paulo-brasil/,error,error,Exceeded 30 redirects.,0
-/martini-da-inicio-a-la-temporada-2016-de-la-formula-uno-con-felipe-massa-y-valtteri-bottas/,error,error,Exceeded 30 redirects.,0
-/andes-wines-invita-a-cosechar-malbec-de-san-rosendo-de-mas-de-140-anos/,error,error,Exceeded 30 redirects.,0
+/nerium-international-presenta-el-suero-anti-edad-para-ojos/,301,200,/noticias/nerium-international-presenta-el-suero-anti-edad-para-ojos/,1
+/netflix-y-los-maratones-un-nuevo-indice-revela-que-series-devoramos-y-cuales-saboreamos/,301,200,/noticias/netflix-y-los-maratones-un-nuevo-indice-revela-que-series-devoramos-y-cuales-saboreamos/,1
+/apr-energy-pone-en-marcha-planta-de-turbina-a-gas-para-cliente-industrial-en-egipto/,301,200,/noticias/apr-energy-pone-en-marcha-planta-de-turbina-a-gas-para-cliente-industrial-en-egipto/,1
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-30-ciudades-de-argentina-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
+/uruguay-avanza-firmemente-hacia-la-universalizacion-del-acceso-a-servicios-financieros/,301,200,/noticias/uruguay-avanza-firmemente-hacia-la-universalizacion-del-acceso-a-servicios-financieros/,1
+/xs-international-fue-incluida-en-el-informe-2016-competitive-landscape-report-de-gartner/,301,200,/noticias/xs-international-fue-incluida-en-el-informe-2016-competitive-landscape-report-de-gartner/,1
+/el-atleta-conocido-como-el-picasso-olimpico-promueve-un-esfuerzo-para-hacer-crecer-al-grupo-de-atletas-olimpicos-artistas/,301,200,/noticias/el-atleta-conocido-como-el-picasso-olimpico-promueve-un-esfuerzo-para-hacer-crecer-al-grupo-de-atletas-olimpicos-artistas/,1
+/pew-se-congratula-del-amplio-apoyo-mundial-a-las-propuestas-de-proteccion-de-tiburones-y-rayas/,301,200,/noticias/pew-se-congratula-del-amplio-apoyo-mundial-a-las-propuestas-de-proteccion-de-tiburones-y-rayas/,1
+/la-biometria-de-dermalog-contribuye-a-la-prevencion-de-fraudes-en-nigeria/,301,200,/noticias/la-biometria-de-dermalog-contribuye-a-la-prevencion-de-fraudes-en-nigeria/,1
+/husqvarna-lanza-la-primera-aplicacion-apple-watch-para-cortadoras-de-cesped-roboticas/,301,200,/noticias/husqvarna-lanza-la-primera-aplicacion-apple-watch-para-cortadoras-de-cesped-roboticas/,1
+/pew-nombra-a-10-cientificos-latinoamericanos-como-becarios/,301,200,/noticias/pew-nombra-a-10-cientificos-latinoamericanos-como-becarios/,1
+/conceden-el-be-open-young-talent-award-a-jovenes-de-chile/,301,200,/noticias/conceden-el-be-open-young-talent-award-a-jovenes-de-chile/,1
+/colaboracion-hemisferica-para-resolver-problemas-relevantes-a-traves-de-la-investigacion/,301,200,/noticias/colaboracion-hemisferica-para-resolver-problemas-relevantes-a-traves-de-la-investigacion/,1
+/havas-edge-nombra-a-nicole-cordero-como-vicepresidenta-de-medios-hispanos-de-ee-uu/,301,200,/noticias/havas-edge-nombra-a-nicole-cordero-como-vicepresidenta-de-medios-hispanos-de-ee-uu/,1
+/spin-master-mexico-se-expande-con-nuevas-oficinas-corporativas-y-contrataciones-de-talento-senior/,301,200,/noticias/spin-master-mexico-se-expande-con-nuevas-oficinas-corporativas-y-contrataciones-de-talento-senior/,1
+/otorga-grupo-gentera-apoyos-por-82-mdp-a-organizaciones-civiles-by-juan-carlos-machorro/,301,200,/noticias/otorga-grupo-gentera-apoyos-por-82-mdp-a-organizaciones-civiles-by-juan-carlos-machorro/,1
+/the-home-depot-anuncia-resultados-record-del-cuarto-trimestre-y-del-ano-fiscal-2015-aumenta-el-dividendo-trimestral-en-un-17-por-ciento-y-proporciona-la-guia-para-el-ano-fiscal-2016/,301,200,/noticias/the-home-depot-anuncia-resultados-record-del-cuarto-trimestre-y-del-ano-fiscal-2015-aumenta-el-dividendo-trimestral-en-un-17-por-ciento-y-proporciona-la-guia-para-el-ano-fiscal-2016/,1
+/huawei-y-leica-camera-anuncian-alianza-tecnologica-a-largo-plazo-para-la-reinvencion-de-la-fotografia-en-los-telefonos-inteligentes/,301,200,/noticias/huawei-y-leica-camera-anuncian-alianza-tecnologica-a-largo-plazo-para-la-reinvencion-de-la-fotografia-en-los-telefonos-inteligentes/,1
+/barbados-adopta-legislacion-sobre-companias-de-celulas-incorporadas/,301,200,/noticias/barbados-adopta-legislacion-sobre-companias-de-celulas-incorporadas/,1
+/womens-forum-mexico-2016-recibe-a-la-delegacion-cubana-de-mujeres-emprendedoras/,301,200,/noticias/womens-forum-mexico-2016-recibe-a-la-delegacion-cubana-de-mujeres-emprendedoras/,1
+/spectra-group-y-tesacom-presentan-slingshot-en-chile/,301,200,/noticias/spectra-group-y-tesacom-presentan-slingshot-en-chile/,1
+/premian-a-daniel-chavez-moran-fundador-de-grupo-vidanta-como-empresario-del-ano/,301,200,/noticias/premian-a-daniel-chavez-moran-fundador-de-grupo-vidanta-como-empresario-del-ano/,1
+/el-fabricante-chino-de-ropa-deportiva-peak-celebra-una-nueva-presentacion-de-productos-olimpicos-en-eslovenia/,301,200,/noticias/el-fabricante-chino-de-ropa-deportiva-peak-celebra-una-nueva-presentacion-de-productos-olimpicos-en-eslovenia/,1
+/arisglobal-firma-acuerdo-con-el-primer-cliente-de-arisg-en-china/,301,200,/noticias/arisglobal-firma-acuerdo-con-el-primer-cliente-de-arisg-en-china/,1
+/mead-johnson-nutrition-llevo-a-cabo-encuentros-medicos-sobre-nuevas-tendencias-en-nutricion-pediatrica-y-desarrollo-mental/,301,200,/noticias/mead-johnson-nutrition-llevo-a-cabo-encuentros-medicos-sobre-nuevas-tendencias-en-nutricion-pediatrica-y-desarrollo-mental/,1
+/smirnoff-lanza-la-iniciativa-equalizing-music-en-un-esfuerzo-por-duplicar-la-cantidad-de-figuras-femeninas-destacadas-para-el-ano-2020/,301,200,/noticias/smirnoff-lanza-la-iniciativa-equalizing-music-en-un-esfuerzo-por-duplicar-la-cantidad-de-figuras-femeninas-destacadas-para-el-ano-2020/,1
+/comunicado-al-mercado-itau-unibanco-holding-archiva-formulario-20-f-de-2015-en-sec-y-cvm/,301,200,/noticias/comunicado-al-mercado-itau-unibanco-holding-archiva-formulario-20-f-de-2015-en-sec-y-cvm/,1
+/markets-group-mas-de-400-socios-limitados-se-reunen-con-lideres-en-materia-de-capital-de-riesgo-en-nueva-york-para-abordar-las-principales-asignaciones-del-2016/,301,200,/noticias/markets-group-mas-de-400-socios-limitados-se-reunen-con-lideres-en-materia-de-capital-de-riesgo-en-nueva-york-para-abordar-las-principales-asignaciones-del-2016/,1
+/mas-del-50-de-las-empresas-tienen-dispositivos-moviles-que-no-cumplen-con-las-normativas/,301,200,/noticias/mas-del-50-de-las-empresas-tienen-dispositivos-moviles-que-no-cumplen-con-las-normativas/,1
+/konica-minolta-sensing-anuncia-su-participacion-en-plastimagen-mexico-2016/,301,200,/noticias/konica-minolta-sensing-anuncia-su-participacion-en-plastimagen-mexico-2016/,1
+/ypf-presenta-informe-anual-2015-en-formulario-20-f/,301,200,/noticias/ypf-presenta-informe-anual-2015-en-formulario-20-f/,1
+/la-version-mas-reciente-de-finscan-simplifica-y-acelera-la-exploracion-de-cumplimiento-antilavado-de-dinero/,301,200,/noticias/la-version-mas-reciente-de-finscan-simplifica-y-acelera-la-exploracion-de-cumplimiento-antilavado-de-dinero/,1
+/el-lider-global-en-gestion-de-relaciones-con-socios-impartner-gana-en-los-stevie-awards-2016-por-ventas-y-servicio-al-cliente/,301,200,/noticias/el-lider-global-en-gestion-de-relaciones-con-socios-impartner-gana-en-los-stevie-awards-2016-por-ventas-y-servicio-al-cliente/,1
+/el-mayor-talento-musical-en-el-xviii-festival-del-habano/,301,200,/noticias/el-mayor-talento-musical-en-el-xviii-festival-del-habano/,1
+/colombia-y-mexico-con-una-actitud-positiva-hacia-el-emprendimiento-resultados-ager-2015-encuesta-aplicada-por-amway/,301,200,/noticias/colombia-y-mexico-con-una-actitud-positiva-hacia-el-emprendimiento-resultados-ager-2015-encuesta-aplicada-por-amway/,1
+/el-grupo-lombard-odier-informa-los-resultados-del-ano-2015/,301,200,/noticias/el-grupo-lombard-odier-informa-los-resultados-del-ano-2015/,1
+/movado-se-asocia-con-google-para-lanzar-una-nueva-coleccion-de-relojes-inteligentes/,301,200,/noticias/movado-se-asocia-con-google-para-lanzar-una-nueva-coleccion-de-relojes-inteligentes/,1
+/digital-marine-solutions-adquirira-la-division-marina-de-jeppesen/,301,200,/noticias/digital-marine-solutions-adquirira-la-division-marina-de-jeppesen/,1
+/a-48-ciudades-en-colombia-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,301,200,/noticias/a-156-ciudades-en-mexico-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,1
+/phenomenome-discoveries-anuncia-la-exitosa-validacion-de-ovaware-un-simple-analisis-de-sangre-para-la-deteccion-precoz-de-cancer-de-ovario/,301,200,/noticias/phenomenome-discoveries-anuncia-la-exitosa-validacion-de-ovaware-un-simple-analisis-de-sangre-para-la-deteccion-precoz-de-cancer-de-ovario/,1
+/a-156-ciudades-en-mexico-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,301,200,/noticias/a-156-ciudades-en-mexico-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,1
+/precision-aviation-group-pag-empresa-matriz-de-precision-heliparts-php-anuncia-la-inauguracion-de-nuevo-centro-en-sao-paulo-brasil/,301,200,/noticias/precision-aviation-group-pag-empresa-matriz-de-precision-heliparts-php-anuncia-la-inauguracion-de-nuevo-centro-en-sao-paulo-brasil/,1
+/martini-da-inicio-a-la-temporada-2016-de-la-formula-uno-con-felipe-massa-y-valtteri-bottas/,301,200,/noticias/martini-da-inicio-a-la-temporada-2016-de-la-formula-uno-con-felipe-massa-y-valtteri-bottas/,1
+/andes-wines-invita-a-cosechar-malbec-de-san-rosendo-de-mas-de-140-anos/,301,200,/noticias/andes-wines-invita-a-cosechar-malbec-de-san-rosendo-de-mas-de-140-anos/,1
 /etica-en-las-agencias-de-publicidad-y-anarquia-en-los-negocios/,301,200,/publicidad/etica-en-las-agencias-de-publicidad-y-anarquia-en-los-negocios/,1
-/proximamente-seran-anunciados-los-ganadores-de-la-tarjeta-verde-2017/,error,error,Exceeded 30 redirects.,0
-/el-primer-destino-en-linea-global-para-la-moda-recatada-de-lujo-se-lanza-el-dia-internacional-de-la-mujer-el-8-de-marzo-de-2017/,error,error,Exceeded 30 redirects.,0
-/qs-world-university-rankings-by-subject-2017/,error,error,Exceeded 30 redirects.,0
-/continua-llegando-ayuda-tras-el-terremoto-en-ecuador-mas-de-un-millon-de-dolares-recolectados-en-gofundme/,error,error,Exceeded 30 redirects.,0
-/la-oficina-mas-sostenible-del-mundo-se-encuentra-en-los-paises-bajos/,error,error,Exceeded 30 redirects.,0
-/la-fundacion-tory-burch-lanza-una-campana-alentando-a-las-mujeres-a-ser-mas-ambiciosas-con-el-hashtag-embraceambition/,error,error,Exceeded 30 redirects.,0
-/el-aeropuerto-internacional-numero-uno-del-mundo-ahora-mas-grande-y-mejor/,error,error,Exceeded 30 redirects.,0
-/phoenix-tower-international-cierra-la-compra-de-145-torres-de-telecomunicacion-inalambricas-y-derechos-de-mercadeo-sobre-400-sitios-de-viva-en-la-republica-dominicana/,error,error,Exceeded 30 redirects.,0
-/ddb-worldwide-conmemora-el-dia-internacional-de-la-mujer-2016-con-una-iniciativa-para-eliminar-el-genero/,error,error,Exceeded 30 redirects.,0
-/que-son-las-familias-en-autodesk-revit-by-iway-magazine/,error,error,Exceeded 30 redirects.,0
-/isagenix-alcanza-los-us4000-millones-en-ventas-globales-acumuladas/,error,error,Exceeded 30 redirects.,0
-/desde-la-costa-a-costa-southwest-airlines-conecta-a-los-pasajeros-de-los-angeles-con-las-playas-doradas-de-costa-rica/,error,error,Exceeded 30 redirects.,0
-/despega-el-deporte-del-futuro-mountain-dew-se-asocia-con-dr1-racing/,error,error,Exceeded 30 redirects.,0
-/hennessy-xo-invita-al-director-de-cine-nicolas-winding-refn-a-crear-un-viaje-sensorial-para-su-nueva-campana-odyssey/,error,error,Exceeded 30 redirects.,0
-/carrier-ethernet-20-llega-a-brasil-tim-se-asocia-con-accedian-para-obtener-certificacion-mef/,error,error,Exceeded 30 redirects.,0
-/bulldog-gin-crea-division-region-america/,error,error,Exceeded 30 redirects.,0
-/del-director-y-los-productores-de-velvet-y-gran-hotel-llega-la-primera-serie-original-de-netflix-filmada-y-producida-en-espana/,error,error,Exceeded 30 redirects.,0
-/estudio-comisionado-por-visa-estima-que-la-migracion-a-los-pagos-electronicos-aporto-cerca-de-us300-mil-millones-al-pib-de-70-paises/,error,error,Exceeded 30 redirects.,0
-/hikvision-comunica-los-resultados-preliminares-de-sus-ganancias-en-2015-con-un-4697-de-crecimiento/,error,error,Exceeded 30 redirects.,0
-/linedata-anuncia-el-lanzamiento-de-linedata-mobilekip/,error,error,Exceeded 30 redirects.,0
-/pacific-brinda-actualizacion-con-respecto-al-bloque-quifa/,error,error,Exceeded 30 redirects.,0
-/mohawk-industries-inc-invita-a-sumarse-a-la-teleconferencia-del-primer-trimestre-de-2016-en-internet/,error,error,Exceeded 30 redirects.,0
-/virgin-hotels-anuncia-a-su-nuevo-vicepresidente-de-desarrollo/,error,error,Exceeded 30 redirects.,0
-/la-marca-sothebys-international-realty-se-extiende-a-nicaragua/,error,error,Exceeded 30 redirects.,0
-/el-empire-state-deja-a-sus-fans-decidir-como-lucira-iluminado-para-celebrar-su-cumpleanos-numero-85/,error,error,Exceeded 30 redirects.,0
-/miranda-xmod-el-primer-conjunto-de-biela-y-plato-para-bicicletas-totalmente-modular-del-mundo/,error,error,Exceeded 30 redirects.,0
-/eurasia-media-forum-coincidira-el-ano-que-viene-con-astana-expo-2017/,error,error,Exceeded 30 redirects.,0
-/dubai-lleva-la-innovacion-al-area-deportiva-con-los-juegos-world-future-sports-en-diciembre-de-2017/,error,error,Exceeded 30 redirects.,0
-/el-programa-futbol-por-la-amistad-de-gazprom-international-gana-los-premios-gold-quill-2016/,error,error,Exceeded 30 redirects.,0
-/michelin-presenta-el-nuevo-neumatico-defender-el-neumatico-mas-largo-entre-los-principales-competidores/,error,error,Exceeded 30 redirects.,0
-/trax-designa-a-steve-hornyak-para-dirigir-su-expansion-por-el-continente-americano/,error,error,Exceeded 30 redirects.,0
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-12-ciudades-de-ecuador-representadas/,error,error,Exceeded 30 redirects.,0
-/fossil-group-lanzara-wearables-para-ocho-marcas-y-en-40-paises-el-2016/,error,error,Exceeded 30 redirects.,0
-/fibra-prologis-asistira-a-la-conferencia-denominada-citi-2016-global-property-ceo-conference/,error,error,Exceeded 30 redirects.,0
-/alberto-moreno-nuevo-director-de-vanity-fair-de-espana-y-mexico/,error,error,Exceeded 30 redirects.,0
-/gerilimzumab-de-bird-rock-bio-anticuerpo-anti-il-6-demuestra-potencial-acceso-global-asequible-a-biofarmaco-novedoso-para-tratar-la-artritis-reumatoide/,error,error,Exceeded 30 redirects.,0
+/proximamente-seran-anunciados-los-ganadores-de-la-tarjeta-verde-2017/,301,200,/noticias/proximamente-seran-anunciados-los-ganadores-de-la-tarjeta-verde-2017/,1
+/el-primer-destino-en-linea-global-para-la-moda-recatada-de-lujo-se-lanza-el-dia-internacional-de-la-mujer-el-8-de-marzo-de-2017/,301,200,/noticias/el-primer-destino-en-linea-global-para-la-moda-recatada-de-lujo-se-lanza-el-dia-internacional-de-la-mujer-el-8-de-marzo-de-2017/,1
+/qs-world-university-rankings-by-subject-2017/,301,200,/noticias/qs-world-university-rankings-by-subject-2017/,1
+/continua-llegando-ayuda-tras-el-terremoto-en-ecuador-mas-de-un-millon-de-dolares-recolectados-en-gofundme/,301,200,/noticias/continua-llegando-ayuda-tras-el-terremoto-en-ecuador-mas-de-un-millon-de-dolares-recolectados-en-gofundme/,1
+/la-oficina-mas-sostenible-del-mundo-se-encuentra-en-los-paises-bajos/,301,200,/noticias/la-oficina-mas-sostenible-del-mundo-se-encuentra-en-los-paises-bajos/,1
+/la-fundacion-tory-burch-lanza-una-campana-alentando-a-las-mujeres-a-ser-mas-ambiciosas-con-el-hashtag-embraceambition/,301,200,/noticias/la-fundacion-tory-burch-lanza-una-campana-alentando-a-las-mujeres-a-ser-mas-ambiciosas-con-el-hashtag-embraceambition/,1
+/el-aeropuerto-internacional-numero-uno-del-mundo-ahora-mas-grande-y-mejor/,301,200,/noticias/el-aeropuerto-internacional-numero-uno-del-mundo-ahora-mas-grande-y-mejor/,1
+/phoenix-tower-international-cierra-la-compra-de-145-torres-de-telecomunicacion-inalambricas-y-derechos-de-mercadeo-sobre-400-sitios-de-viva-en-la-republica-dominicana/,301,200,/noticias/phoenix-tower-international-cierra-la-compra-de-145-torres-de-telecomunicacion-inalambricas-y-derechos-de-mercadeo-sobre-400-sitios-de-viva-en-la-republica-dominicana/,1
+/ddb-worldwide-conmemora-el-dia-internacional-de-la-mujer-2016-con-una-iniciativa-para-eliminar-el-genero/,301,200,/noticias/ddb-worldwide-conmemora-el-dia-internacional-de-la-mujer-2016-con-una-iniciativa-para-eliminar-el-genero/,1
+/que-son-las-familias-en-autodesk-revit-by-iway-magazine/,301,200,/noticias/que-son-las-familias-en-autodesk-revit-by-iway-magazine/,1
+/isagenix-alcanza-los-us4000-millones-en-ventas-globales-acumuladas/,301,200,/noticias/isagenix-alcanza-los-us4000-millones-en-ventas-globales-acumuladas/,1
+/desde-la-costa-a-costa-southwest-airlines-conecta-a-los-pasajeros-de-los-angeles-con-las-playas-doradas-de-costa-rica/,301,200,/noticias/desde-la-costa-a-costa-southwest-airlines-conecta-a-los-pasajeros-de-los-angeles-con-las-playas-doradas-de-costa-rica/,1
+/despega-el-deporte-del-futuro-mountain-dew-se-asocia-con-dr1-racing/,301,200,/noticias/despega-el-deporte-del-futuro-mountain-dew-se-asocia-con-dr1-racing/,1
+/hennessy-xo-invita-al-director-de-cine-nicolas-winding-refn-a-crear-un-viaje-sensorial-para-su-nueva-campana-odyssey/,301,200,/noticias/hennessy-xo-invita-al-director-de-cine-nicolas-winding-refn-a-crear-un-viaje-sensorial-para-su-nueva-campana-odyssey/,1
+/carrier-ethernet-20-llega-a-brasil-tim-se-asocia-con-accedian-para-obtener-certificacion-mef/,301,200,/noticias/carrier-ethernet-20-llega-a-brasil-tim-se-asocia-con-accedian-para-obtener-certificacion-mef/,1
+/bulldog-gin-crea-division-region-america/,301,200,/noticias/bulldog-gin-crea-division-region-america/,1
+/del-director-y-los-productores-de-velvet-y-gran-hotel-llega-la-primera-serie-original-de-netflix-filmada-y-producida-en-espana/,301,200,/noticias/del-director-y-los-productores-de-velvet-y-gran-hotel-llega-la-primera-serie-original-de-netflix-filmada-y-producida-en-espana/,1
+/estudio-comisionado-por-visa-estima-que-la-migracion-a-los-pagos-electronicos-aporto-cerca-de-us300-mil-millones-al-pib-de-70-paises/,301,200,/noticias/estudio-comisionado-por-visa-estima-que-la-migracion-a-los-pagos-electronicos-aporto-cerca-de-us300-mil-millones-al-pib-de-70-paises/,1
+/hikvision-comunica-los-resultados-preliminares-de-sus-ganancias-en-2015-con-un-4697-de-crecimiento/,301,200,/noticias/hikvision-comunica-los-resultados-preliminares-de-sus-ganancias-en-2015-con-un-4697-de-crecimiento/,1
+/linedata-anuncia-el-lanzamiento-de-linedata-mobilekip/,301,200,/noticias/linedata-anuncia-el-lanzamiento-de-linedata-mobilekip/,1
+/pacific-brinda-actualizacion-con-respecto-al-bloque-quifa/,301,200,/noticias/pacific-brinda-actualizacion-con-respecto-al-bloque-quifa/,1
+/mohawk-industries-inc-invita-a-sumarse-a-la-teleconferencia-del-primer-trimestre-de-2016-en-internet/,301,200,/noticias/mohawk-industries-inc-invita-a-sumarse-a-la-teleconferencia-del-primer-trimestre-de-2016-en-internet/,1
+/virgin-hotels-anuncia-a-su-nuevo-vicepresidente-de-desarrollo/,301,200,/noticias/virgin-hotels-anuncia-a-su-nuevo-vicepresidente-de-desarrollo/,1
+/la-marca-sothebys-international-realty-se-extiende-a-nicaragua/,301,200,/noticias/la-marca-sothebys-international-realty-se-extiende-a-nicaragua/,1
+/el-empire-state-deja-a-sus-fans-decidir-como-lucira-iluminado-para-celebrar-su-cumpleanos-numero-85/,301,200,/noticias/el-empire-state-deja-a-sus-fans-decidir-como-lucira-iluminado-para-celebrar-su-cumpleanos-numero-85/,1
+/miranda-xmod-el-primer-conjunto-de-biela-y-plato-para-bicicletas-totalmente-modular-del-mundo/,301,200,/noticias/miranda-xmod-el-primer-conjunto-de-biela-y-plato-para-bicicletas-totalmente-modular-del-mundo/,1
+/eurasia-media-forum-coincidira-el-ano-que-viene-con-astana-expo-2017/,301,200,/noticias/eurasia-media-forum-coincidira-el-ano-que-viene-con-astana-expo-2017/,1
+/dubai-lleva-la-innovacion-al-area-deportiva-con-los-juegos-world-future-sports-en-diciembre-de-2017/,301,200,/noticias/dubai-lleva-la-innovacion-al-area-deportiva-con-los-juegos-world-future-sports-en-diciembre-de-2017/,1
+/el-programa-futbol-por-la-amistad-de-gazprom-international-gana-los-premios-gold-quill-2016/,301,200,/noticias/el-programa-futbol-por-la-amistad-de-gazprom-international-gana-los-premios-gold-quill-2016/,1
+/michelin-presenta-el-nuevo-neumatico-defender-el-neumatico-mas-largo-entre-los-principales-competidores/,301,200,/noticias/michelin-presenta-el-nuevo-neumatico-defender-el-neumatico-mas-largo-entre-los-principales-competidores/,1
+/trax-designa-a-steve-hornyak-para-dirigir-su-expansion-por-el-continente-americano/,301,200,/noticias/trax-designa-a-steve-hornyak-para-dirigir-su-expansion-por-el-continente-americano/,1
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-12-ciudades-de-ecuador-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
+/fossil-group-lanzara-wearables-para-ocho-marcas-y-en-40-paises-el-2016/,301,200,/noticias/fossil-group-lanzara-wearables-para-ocho-marcas-y-en-40-paises-el-2016/,1
+/fibra-prologis-asistira-a-la-conferencia-denominada-citi-2016-global-property-ceo-conference/,301,200,/noticias/fibra-prologis-asistira-a-la-conferencia-denominada-citi-2016-global-property-ceo-conference/,1
+/alberto-moreno-nuevo-director-de-vanity-fair-de-espana-y-mexico/,301,200,/noticias/alberto-moreno-nuevo-director-de-vanity-fair-de-espana-y-mexico/,1
+/gerilimzumab-de-bird-rock-bio-anticuerpo-anti-il-6-demuestra-potencial-acceso-global-asequible-a-biofarmaco-novedoso-para-tratar-la-artritis-reumatoide/,301,200,/noticias/gerilimzumab-de-bird-rock-bio-anticuerpo-anti-il-6-demuestra-potencial-acceso-global-asequible-a-biofarmaco-novedoso-para-tratar-la-artritis-reumatoide/,1
 /regla-de-oro-para-tu-marca-personal-contra-la-homogeneidad-se-tu-mismo/,301,200,/emprendimiento/liderazgo/regla-de-oro-para-tu-marca-personal-contra-la-homogeneidad-se-tu-mismo/,1
-/moneta-technologies-lanza-solucion-biometrica-facial-que-impide-el-robo-de-identidad/,error,error,Exceeded 30 redirects.,0
-/huawei-anuncia-nueva-tecnologia-de-informacion-y-comunicaciones-lider-para-crear-un-mundo-mejor-conectado/,error,error,Exceeded 30 redirects.,0
-/la-desigualdad-global-en-materia-de-paz-se-ha-ampliado-el-ano-pasado-al-aumentar-la-violencia-en-los-paises-menos-pacificos/,error,error,Exceeded 30 redirects.,0
-/research-now-anuncia-nuevo-equipo-de-liderazgo-ejecutivo/,error,error,Exceeded 30 redirects.,0
-/best-buy-apoya-a-los-emprendedores-en-mexico/,error,error,Exceeded 30 redirects.,0
+/moneta-technologies-lanza-solucion-biometrica-facial-que-impide-el-robo-de-identidad/,301,200,/noticias/moneta-technologies-lanza-solucion-biometrica-facial-que-impide-el-robo-de-identidad/,1
+/huawei-anuncia-nueva-tecnologia-de-informacion-y-comunicaciones-lider-para-crear-un-mundo-mejor-conectado/,301,200,/noticias/huawei-anuncia-nueva-tecnologia-de-informacion-y-comunicaciones-lider-para-crear-un-mundo-mejor-conectado/,1
+/la-desigualdad-global-en-materia-de-paz-se-ha-ampliado-el-ano-pasado-al-aumentar-la-violencia-en-los-paises-menos-pacificos/,301,200,/noticias/la-desigualdad-global-en-materia-de-paz-se-ha-ampliado-el-ano-pasado-al-aumentar-la-violencia-en-los-paises-menos-pacificos/,1
+/research-now-anuncia-nuevo-equipo-de-liderazgo-ejecutivo/,301,200,/noticias/research-now-anuncia-nuevo-equipo-de-liderazgo-ejecutivo/,1
+/best-buy-apoya-a-los-emprendedores-en-mexico/,301,200,/noticias/best-buy-apoya-a-los-emprendedores-en-mexico/,1
 /en-un-mundo-perfecto-la-marca-es-irrelevante/,301,200,/mercadotecnia/en-un-mundo-perfecto-la-marca-es-irrelevante/,1
-/fibra-prologis-anuncia-asamblea-anual-y-extraordinaria-de-tenedores/,error,error,Exceeded 30 redirects.,0
-/la-fundacion-loreal-junto-a-la-unesco-lanzan-un-manifiesto-para-defender-el-rol-de-las-mujeres-en-las-ciencias/,error,error,Exceeded 30 redirects.,0
-/sc-johnson-reconocida-como-el-mejor-lugar-para-trabajar-en-mexico-por-decimoquinto-ano-consecutivo-en-2016/,error,error,Exceeded 30 redirects.,0
-/consultas-gratis-para-detectar-cancer-de-piel-en-la-republica-mexicana/,error,error,Exceeded 30 redirects.,0
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-55-ciudades-de-colombia-representadas/,error,error,Exceeded 30 redirects.,0
-/jared-leto-en-exlusiva-para-la-edicion-de-mayo-by-gq-mexico/,error,error,Exceeded 30 redirects.,0
+/fibra-prologis-anuncia-asamblea-anual-y-extraordinaria-de-tenedores/,301,200,/noticias/fibra-prologis-anuncia-asamblea-anual-y-extraordinaria-de-tenedores/,1
+/la-fundacion-loreal-junto-a-la-unesco-lanzan-un-manifiesto-para-defender-el-rol-de-las-mujeres-en-las-ciencias/,301,200,/noticias/la-fundacion-loreal-junto-a-la-unesco-lanzan-un-manifiesto-para-defender-el-rol-de-las-mujeres-en-las-ciencias/,1
+/sc-johnson-reconocida-como-el-mejor-lugar-para-trabajar-en-mexico-por-decimoquinto-ano-consecutivo-en-2016/,301,200,/noticias/sc-johnson-reconocida-como-el-mejor-lugar-para-trabajar-en-mexico-por-decimoquinto-ano-consecutivo-en-2016/,1
+/consultas-gratis-para-detectar-cancer-de-piel-en-la-republica-mexicana/,301,200,/noticias/consultas-gratis-para-detectar-cancer-de-piel-en-la-republica-mexicana/,1
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-55-ciudades-de-colombia-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
+/jared-leto-en-exlusiva-para-la-edicion-de-mayo-by-gq-mexico/,301,200,/noticias/jared-leto-en-exlusiva-para-la-edicion-de-mayo-by-gq-mexico/,1
 /por-que-snapchat-se-ha-convertido-en-una-interesante-herramienta-para-el-marketing-digital/,301,200,/mercadotecnia/marketing-digital/por-que-snapchat-se-ha-convertido-en-una-interesante-herramienta-para-el-marketing-digital/,1
-/burnham-sterling-cierra-colocacion-privada-de-ocho-aeronaves-con-avianca-holdings/,error,error,Exceeded 30 redirects.,0
-/rotarios-asistieron-a-la-audiencia-del-jubileo-en-la-ciudad-del-vaticano/,error,error,Exceeded 30 redirects.,0
-/la-universidad-laval-recupera-el-titulo-en-la-shell-eco-marathon-de-las-americas-que-ostentaba-la-universidad-de-toronto/,error,error,Exceeded 30 redirects.,0
-/ifly-res-de-ibs-recibe-estatus-ndc-capable-nivel-3-de-iata/,error,error,Exceeded 30 redirects.,0
-/haciendo-que-cada-dolar-cuente-jereh-en-la-cippe-2016/,error,error,Exceeded 30 redirects.,0
-/el-servicio-de-paqueteria-de-ups-worldwide-express-se-expande-a-nuevos-paises-de-latinoamerica-y-el-caribe/,error,error,Exceeded 30 redirects.,0
-/amazoncrossing-en-espanol-lanza-estados-unidos-de-banana-libro-latinoamericano-vislumbra-la-desintegracion-del-imperio-americano/,error,error,Exceeded 30 redirects.,0
-/fibra-prologis-anuncia-canje-de-titulo-de-cbfis/,error,error,Exceeded 30 redirects.,0
-/circum-designa-a-morgan-stanley-para-llevar-a-cabo-una-revision-estrategica-y-optimiza-el-estudio-de-factibilidad/,error,error,Exceeded 30 redirects.,0
-/las-ventas-netas-consolidadas-de-grupo-famsa-crecieron-120-durante-el-1t16/,error,error,Exceeded 30 redirects.,0
-/institucion-del-grupo-ser-educacional-se-asocia-con-colgate-de-ee-uu/,error,error,Exceeded 30 redirects.,0
-/mts-3060-smartcan-de-marvin-test-solutions-elegida-como-la-solucion-para-pruebas-de-armamento-de-lineas-de-vuelo-para-aviones-f-16-tafa-50-y-hawk/,error,error,Exceeded 30 redirects.,0
+/burnham-sterling-cierra-colocacion-privada-de-ocho-aeronaves-con-avianca-holdings/,301,200,/noticias/burnham-sterling-cierra-colocacion-privada-de-ocho-aeronaves-con-avianca-holdings/,1
+/rotarios-asistieron-a-la-audiencia-del-jubileo-en-la-ciudad-del-vaticano/,301,200,/noticias/rotarios-asistieron-a-la-audiencia-del-jubileo-en-la-ciudad-del-vaticano/,1
+/la-universidad-laval-recupera-el-titulo-en-la-shell-eco-marathon-de-las-americas-que-ostentaba-la-universidad-de-toronto/,301,200,/noticias/la-universidad-laval-recupera-el-titulo-en-la-shell-eco-marathon-de-las-americas-que-ostentaba-la-universidad-de-toronto/,1
+/ifly-res-de-ibs-recibe-estatus-ndc-capable-nivel-3-de-iata/,301,200,/noticias/ifly-res-de-ibs-recibe-estatus-ndc-capable-nivel-3-de-iata/,1
+/haciendo-que-cada-dolar-cuente-jereh-en-la-cippe-2016/,301,200,/noticias/haciendo-que-cada-dolar-cuente-jereh-en-la-cippe-2016/,1
+/el-servicio-de-paqueteria-de-ups-worldwide-express-se-expande-a-nuevos-paises-de-latinoamerica-y-el-caribe/,301,200,/noticias/el-servicio-de-paqueteria-de-ups-worldwide-express-se-expande-a-nuevos-paises-de-latinoamerica-y-el-caribe/,1
+/amazoncrossing-en-espanol-lanza-estados-unidos-de-banana-libro-latinoamericano-vislumbra-la-desintegracion-del-imperio-americano/,301,200,/noticias/amazoncrossing-en-espanol-lanza-estados-unidos-de-banana-libro-latinoamericano-vislumbra-la-desintegracion-del-imperio-americano/,1
+/fibra-prologis-anuncia-canje-de-titulo-de-cbfis/,301,200,/noticias/fibra-prologis-anuncia-canje-de-titulo-de-cbfis/,1
+/circum-designa-a-morgan-stanley-para-llevar-a-cabo-una-revision-estrategica-y-optimiza-el-estudio-de-factibilidad/,301,200,/noticias/circum-designa-a-morgan-stanley-para-llevar-a-cabo-una-revision-estrategica-y-optimiza-el-estudio-de-factibilidad/,1
+/las-ventas-netas-consolidadas-de-grupo-famsa-crecieron-120-durante-el-1t16/,301,200,/noticias/las-ventas-netas-consolidadas-de-grupo-famsa-crecieron-120-durante-el-1t16/,1
+/institucion-del-grupo-ser-educacional-se-asocia-con-colgate-de-ee-uu/,301,200,/noticias/institucion-del-grupo-ser-educacional-se-asocia-con-colgate-de-ee-uu/,1
+/mts-3060-smartcan-de-marvin-test-solutions-elegida-como-la-solucion-para-pruebas-de-armamento-de-lineas-de-vuelo-para-aviones-f-16-tafa-50-y-hawk/,301,200,/noticias/mts-3060-smartcan-de-marvin-test-solutions-elegida-como-la-solucion-para-pruebas-de-armamento-de-lineas-de-vuelo-para-aviones-f-16-tafa-50-y-hawk/,1
 /infografia-claves-para-edificar-tu-marca-personal/,301,200,/emprendimiento/liderazgo/infografia-claves-para-edificar-tu-marca-personal/,1
-/equipment-spare-parts-de-miami-es-nombrado-vendedor-autorizado-para-el-caribe-por-uno-de-los-principales-suministradores-de-piezas-de-motores-y-maquinaria-del-mundo/,error,error,Exceeded 30 redirects.,0
-/focusvision-presenta-a-jamin-brazil-como-ceo/,error,error,Exceeded 30 redirects.,0
-/basf-y-avantium-pretenden-establecer-una-joint-venture/,error,error,Exceeded 30 redirects.,0
-/cooper-gay-argentina-le-da-la-bienvenida-a-los-nuevos-miembros-del-equipo-de-contratos-para-fortalecer-y-desarrollar-su-posicion-en-el-mercado/,error,error,Exceeded 30 redirects.,0
-/hacienda-altagracia-an-auberge-resort-es-destacado-como-uno-de-los-mejores-nuevos-hoteles-del-mundo-en-la-lista-de-lo-mejor-del-2016-de-conde-nast-traveler/,error,error,Exceeded 30 redirects.,0
-/dunkin-brands-dona-us10000-para-ayudar-a-los-damnificados-del-reciente-terremoto-en-ecuador/,error,error,Exceeded 30 redirects.,0
-/zte-corporation-llega-a-un-arreglo-con-las-autoridades-estadounidenses/,error,error,Exceeded 30 redirects.,0
-/cuatro-increibles-activistas-humanitarios-finalistas-del-aurora-prize-for-awakening-humanity-por-us1-millon/,error,error,Exceeded 30 redirects.,0
-/conectividad-vial-para-favorece-desarrollo-economico-en-el-salvador-by-contrapunto-diario-digital/,error,error,Exceeded 30 redirects.,0
-/thuraya-lanza-servicio-m2m-y-primer-terminal-que-operara-en-norteamerica/,error,error,Exceeded 30 redirects.,0
+/equipment-spare-parts-de-miami-es-nombrado-vendedor-autorizado-para-el-caribe-por-uno-de-los-principales-suministradores-de-piezas-de-motores-y-maquinaria-del-mundo/,301,200,/noticias/equipment-spare-parts-de-miami-es-nombrado-vendedor-autorizado-para-el-caribe-por-uno-de-los-principales-suministradores-de-piezas-de-motores-y-maquinaria-del-mundo/,1
+/focusvision-presenta-a-jamin-brazil-como-ceo/,301,200,/noticias/focusvision-presenta-a-jamin-brazil-como-ceo/,1
+/basf-y-avantium-pretenden-establecer-una-joint-venture/,301,200,/noticias/basf-y-avantium-pretenden-establecer-una-joint-venture/,1
+/cooper-gay-argentina-le-da-la-bienvenida-a-los-nuevos-miembros-del-equipo-de-contratos-para-fortalecer-y-desarrollar-su-posicion-en-el-mercado/,301,200,/noticias/cooper-gay-argentina-le-da-la-bienvenida-a-los-nuevos-miembros-del-equipo-de-contratos-para-fortalecer-y-desarrollar-su-posicion-en-el-mercado/,1
+/hacienda-altagracia-an-auberge-resort-es-destacado-como-uno-de-los-mejores-nuevos-hoteles-del-mundo-en-la-lista-de-lo-mejor-del-2016-de-conde-nast-traveler/,301,200,/noticias/hacienda-altagracia-an-auberge-resort-es-destacado-como-uno-de-los-mejores-nuevos-hoteles-del-mundo-en-la-lista-de-lo-mejor-del-2016-de-conde-nast-traveler/,1
+/dunkin-brands-dona-us10000-para-ayudar-a-los-damnificados-del-reciente-terremoto-en-ecuador/,301,200,/noticias/dunkin-brands-dona-us10000-para-ayudar-a-los-damnificados-del-reciente-terremoto-en-ecuador/,1
+/zte-corporation-llega-a-un-arreglo-con-las-autoridades-estadounidenses/,301,200,/noticias/zte-corporation-llega-a-un-arreglo-con-las-autoridades-estadounidenses/,1
+/cuatro-increibles-activistas-humanitarios-finalistas-del-aurora-prize-for-awakening-humanity-por-us1-millon/,301,200,/noticias/cuatro-increibles-activistas-humanitarios-finalistas-del-aurora-prize-for-awakening-humanity-por-us1-millon/,1
+/conectividad-vial-para-favorece-desarrollo-economico-en-el-salvador-by-contrapunto-diario-digital/,301,200,/noticias/conectividad-vial-para-favorece-desarrollo-economico-en-el-salvador-by-contrapunto-diario-digital/,1
+/thuraya-lanza-servicio-m2m-y-primer-terminal-que-operara-en-norteamerica/,301,200,/noticias/thuraya-lanza-servicio-m2m-y-primer-terminal-que-operara-en-norteamerica/,1
 /lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no/,301,200,/publicidad/guias/lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no/,1
-/mas-seguidores-menos-oportunidades-de-encontrar-el-amor/,error,error,Exceeded 30 redirects.,0
-/fibra-prologis-anuncia-asamblea-extraordinaria-de-tenedores/,error,error,Exceeded 30 redirects.,0
-/octopus-dentro-del-top-100-de-mejores-agencias-marketing-digital-en-mexico/,error,error,Exceeded 30 redirects.,0
-/noche-de-estrellas-en-la-clausura-del-xviii-festival-del-habano/,error,error,Exceeded 30 redirects.,0
-/g2a-junto-con-gaming-for-good-y-save-the-children-activan-a-los-vengadores-de-la-comunidad-de-los-juegos-para-el-humanitarian-emergency-all-out-response-team-heart-en-etiopia/,error,error,Exceeded 30 redirects.,0
-/la-feria-de-canton-establece-un-nuevo-modelo-para-presentar-su-negocio-a-traves-de-una-videoconferencia-remota/,error,error,Exceeded 30 redirects.,0
-/latin-trade-presenta-el-ranking-de-multimillonarios-de-america-latina/,error,error,Exceeded 30 redirects.,0
-/servicio-de-video-iot-smartvue-ahora-es-mas-grande-que-youtube-carga-28-millones-de-minutos-de-videovigilancia-a-diario/,error,error,Exceeded 30 redirects.,0
-/latin-trade-presenta-a-los-25-mejores-jovenes-empresarios-de-america-latina/,error,error,Exceeded 30 redirects.,0
-/la-alianza-con-rainforest-alliance-anade-una-capa-mas-de-placer-al-comer-una-paleta-magnum/,error,error,Exceeded 30 redirects.,0
-/pacific-confirma-conversaciones-con-los-accionistas-en-relacion-con-el-proceso-de-reestructuracion-de-deuda/,error,error,Exceeded 30 redirects.,0
-/american-bookkeeping-institute-ahora-ensena-a-los-estudiantes-a-trabajar-en-linea-como-contadores-independientes/,error,error,Exceeded 30 redirects.,0
-/el-festival-internacional-de-cine-de-morelia-presentara-una-funcion-especial-en-el-festival-de-cannes/,error,error,Exceeded 30 redirects.,0
-/antes-y-despues-connie-talbot-la-estrella-de-britains-got-talent-emerge-como-una-increible-compositora-y-cantante-con-su-nuevo-album-matters-to-me-en-venta-a-traves-de-evolution-music-group/,error,error,Exceeded 30 redirects.,0
-/portadalat-anuncia-un-importante-listado-de-conferencistas-que-incluye-a-avon-meliahoteles-best-western-brown-forman-y-nestle/,error,error,Exceeded 30 redirects.,0
-/gobierno-cubano-toma-represalia-contra-reportera-de-america-teve/,error,error,Exceeded 30 redirects.,0
-/las-ciudades-europeas-continuaron-atrayendo-a-cada-vez-mas-cantidad-de-turistas-a-pesar-de-un-ano-problematico-en-europa-el-numero-de-noches-aumento-42-en-2015/,error,error,Exceeded 30 redirects.,0
-/el-mercado-europeo-responde-de-manera-favorable-a-los-productos-exclusivos-de-xcmg-en-bauma-2016/,error,error,Exceeded 30 redirects.,0
-/cornershop-recibe-inversion-por-usd-67-millones/,error,error,Exceeded 30 redirects.,0
-/pancho-guru-el-origen-by-yellowlink/,error,error,Exceeded 30 redirects.,0
-/stadler-director-ejecutivo-de-audi-planeamos-continuar-con-nuestro-crecimiento-en-2016/,error,error,Exceeded 30 redirects.,0
-/dermalog-suministra-lectores-de-huellas-digitales-para-el-registro-de-refugiados-en-alemania/,error,error,Exceeded 30 redirects.,0
-/aplican-ciencia-en-elaboracion-de-tacos-by-juan-carlos-machorro/,error,error,Exceeded 30 redirects.,0
-/reed-meriwether-se-incorpora-a-greeley-and-hansen-como-nuevo-director-gerente/,error,error,Exceeded 30 redirects.,0
-/young-living-nombra-nuevo-coo/,error,error,Exceeded 30 redirects.,0
-/uol-boacompra-llega-a-chile/,error,error,Exceeded 30 redirects.,0
-/versy-nueva-red-social-basada-en-los-intereses-de-los-usuarios/,error,error,Exceeded 30 redirects.,0
-/polyeco-international-y-lamor-fusionan-sus-operaciones-de-servicios-internacionales-y-forman-polyeco-group-empresa-de-servicios-ambientales-totalmente-integrados/,error,error,Exceeded 30 redirects.,0
-/fast-evolving-watersport-company-flydive-anuncia-la-adquisicion-de-aquafly/,error,error,Exceeded 30 redirects.,0
-/make-up-for-ever-se-asocia-con-charli-xcx-para-su-nueva-campana-aqua-xl/,error,error,Exceeded 30 redirects.,0
-/oh-la-la-deals-de-air-france-las-mejores-ofertas-de-temporada/,error,error,Exceeded 30 redirects.,0
-/fossil-presenta-nuevos-smartwatches-android-wear-mas-finos-en-baselworld/,error,error,Exceeded 30 redirects.,0
-/barbados-asevera-los-beneficios-economicos-de-sus-estructuras-offshore/,error,error,Exceeded 30 redirects.,0
-/rafael-valdez-de-envision-fue-nominado-como-campeon-de-la-industria-eolica-en-la-conferencia-sobre-energias-renovables-2016-de-mexico/,error,error,Exceeded 30 redirects.,0
-/aprendiendo-autocad-2016-en-3d-para-diseno-arquitectonico-by-iway-magazine/,error,error,Exceeded 30 redirects.,0
-/level-3-designada-como-miembro-avanzado-de-aws-partner-network/,error,error,Exceeded 30 redirects.,0
+/mas-seguidores-menos-oportunidades-de-encontrar-el-amor/,301,200,/noticias/mas-seguidores-menos-oportunidades-de-encontrar-el-amor/,1
+/fibra-prologis-anuncia-asamblea-extraordinaria-de-tenedores/,301,200,/noticias/fibra-prologis-anuncia-asamblea-extraordinaria-de-tenedores/,1
+/octopus-dentro-del-top-100-de-mejores-agencias-marketing-digital-en-mexico/,301,200,/noticias/octopus-dentro-del-top-100-de-mejores-agencias-marketing-digital-en-mexico/,1
+/noche-de-estrellas-en-la-clausura-del-xviii-festival-del-habano/,301,200,/noticias/noche-de-estrellas-en-la-clausura-del-xviii-festival-del-habano/,1
+/g2a-junto-con-gaming-for-good-y-save-the-children-activan-a-los-vengadores-de-la-comunidad-de-los-juegos-para-el-humanitarian-emergency-all-out-response-team-heart-en-etiopia/,301,200,/noticias/g2a-junto-con-gaming-for-good-y-save-the-children-activan-a-los-vengadores-de-la-comunidad-de-los-juegos-para-el-humanitarian-emergency-all-out-response-team-heart-en-etiopia/,1
+/la-feria-de-canton-establece-un-nuevo-modelo-para-presentar-su-negocio-a-traves-de-una-videoconferencia-remota/,301,200,/noticias/la-feria-de-canton-establece-un-nuevo-modelo-para-presentar-su-negocio-a-traves-de-una-videoconferencia-remota/,1
+/latin-trade-presenta-el-ranking-de-multimillonarios-de-america-latina/,301,200,/noticias/latin-trade-presenta-el-ranking-de-multimillonarios-de-america-latina/,1
+/servicio-de-video-iot-smartvue-ahora-es-mas-grande-que-youtube-carga-28-millones-de-minutos-de-videovigilancia-a-diario/,301,200,/noticias/servicio-de-video-iot-smartvue-ahora-es-mas-grande-que-youtube-carga-28-millones-de-minutos-de-videovigilancia-a-diario/,1
+/latin-trade-presenta-a-los-25-mejores-jovenes-empresarios-de-america-latina/,301,200,/noticias/latin-trade-presenta-a-los-25-mejores-jovenes-empresarios-de-america-latina/,1
+/la-alianza-con-rainforest-alliance-anade-una-capa-mas-de-placer-al-comer-una-paleta-magnum/,301,200,/noticias/la-alianza-con-rainforest-alliance-anade-una-capa-mas-de-placer-al-comer-una-paleta-magnum/,1
+/pacific-confirma-conversaciones-con-los-accionistas-en-relacion-con-el-proceso-de-reestructuracion-de-deuda/,301,200,/noticias/pacific-confirma-conversaciones-con-los-accionistas-en-relacion-con-el-proceso-de-reestructuracion-de-deuda/,1
+/american-bookkeeping-institute-ahora-ensena-a-los-estudiantes-a-trabajar-en-linea-como-contadores-independientes/,301,200,/noticias/american-bookkeeping-institute-ahora-ensena-a-los-estudiantes-a-trabajar-en-linea-como-contadores-independientes/,1
+/el-festival-internacional-de-cine-de-morelia-presentara-una-funcion-especial-en-el-festival-de-cannes/,301,200,/noticias/el-festival-internacional-de-cine-de-morelia-presentara-una-funcion-especial-en-el-festival-de-cannes/,1
+/antes-y-despues-connie-talbot-la-estrella-de-britains-got-talent-emerge-como-una-increible-compositora-y-cantante-con-su-nuevo-album-matters-to-me-en-venta-a-traves-de-evolution-music-group/,301,200,/noticias/antes-y-despues-connie-talbot-la-estrella-de-britains-got-talent-emerge-como-una-increible-compositora-y-cantante-con-su-nuevo-album-matters-to-me-en-venta-a-traves-de-evolution-music-group/,1
+/portadalat-anuncia-un-importante-listado-de-conferencistas-que-incluye-a-avon-meliahoteles-best-western-brown-forman-y-nestle/,301,200,/noticias/portadalat-anuncia-un-importante-listado-de-conferencistas-que-incluye-a-avon-meliahoteles-best-western-brown-forman-y-nestle/,1
+/gobierno-cubano-toma-represalia-contra-reportera-de-america-teve/,301,200,/noticias/gobierno-cubano-toma-represalia-contra-reportera-de-america-teve/,1
+/las-ciudades-europeas-continuaron-atrayendo-a-cada-vez-mas-cantidad-de-turistas-a-pesar-de-un-ano-problematico-en-europa-el-numero-de-noches-aumento-42-en-2015/,301,200,/noticias/las-ciudades-europeas-continuaron-atrayendo-a-cada-vez-mas-cantidad-de-turistas-a-pesar-de-un-ano-problematico-en-europa-el-numero-de-noches-aumento-42-en-2015/,1
+/el-mercado-europeo-responde-de-manera-favorable-a-los-productos-exclusivos-de-xcmg-en-bauma-2016/,301,200,/noticias/el-mercado-europeo-responde-de-manera-favorable-a-los-productos-exclusivos-de-xcmg-en-bauma-2016/,1
+/cornershop-recibe-inversion-por-usd-67-millones/,301,200,/noticias/cornershop-recibe-inversion-por-usd-67-millones/,1
+/pancho-guru-el-origen-by-yellowlink/,301,200,/noticias/pancho-guru-el-origen-by-yellowlink/,1
+/stadler-director-ejecutivo-de-audi-planeamos-continuar-con-nuestro-crecimiento-en-2016/,301,200,/noticias/stadler-director-ejecutivo-de-audi-planeamos-continuar-con-nuestro-crecimiento-en-2016/,1
+/dermalog-suministra-lectores-de-huellas-digitales-para-el-registro-de-refugiados-en-alemania/,301,200,/noticias/dermalog-suministra-lectores-de-huellas-digitales-para-el-registro-de-refugiados-en-alemania/,1
+/aplican-ciencia-en-elaboracion-de-tacos-by-juan-carlos-machorro/,301,200,/noticias/aplican-ciencia-en-elaboracion-de-tacos-by-juan-carlos-machorro/,1
+/reed-meriwether-se-incorpora-a-greeley-and-hansen-como-nuevo-director-gerente/,301,200,/noticias/reed-meriwether-se-incorpora-a-greeley-and-hansen-como-nuevo-director-gerente/,1
+/young-living-nombra-nuevo-coo/,301,200,/noticias/young-living-nombra-nuevo-coo/,1
+/uol-boacompra-llega-a-chile/,301,200,/noticias/uol-boacompra-llega-a-chile/,1
+/versy-nueva-red-social-basada-en-los-intereses-de-los-usuarios/,301,200,/noticias/versy-nueva-red-social-basada-en-los-intereses-de-los-usuarios/,1
+/polyeco-international-y-lamor-fusionan-sus-operaciones-de-servicios-internacionales-y-forman-polyeco-group-empresa-de-servicios-ambientales-totalmente-integrados/,301,200,/noticias/polyeco-international-y-lamor-fusionan-sus-operaciones-de-servicios-internacionales-y-forman-polyeco-group-empresa-de-servicios-ambientales-totalmente-integrados/,1
+/fast-evolving-watersport-company-flydive-anuncia-la-adquisicion-de-aquafly/,301,200,/noticias/fast-evolving-watersport-company-flydive-anuncia-la-adquisicion-de-aquafly/,1
+/make-up-for-ever-se-asocia-con-charli-xcx-para-su-nueva-campana-aqua-xl/,301,200,/noticias/make-up-for-ever-se-asocia-con-charli-xcx-para-su-nueva-campana-aqua-xl/,1
+/oh-la-la-deals-de-air-france-las-mejores-ofertas-de-temporada/,301,200,/noticias/oh-la-la-deals-de-air-france-las-mejores-ofertas-de-temporada/,1
+/fossil-presenta-nuevos-smartwatches-android-wear-mas-finos-en-baselworld/,301,200,/noticias/fossil-presenta-nuevos-smartwatches-android-wear-mas-finos-en-baselworld/,1
+/barbados-asevera-los-beneficios-economicos-de-sus-estructuras-offshore/,301,200,/noticias/barbados-asevera-los-beneficios-economicos-de-sus-estructuras-offshore/,1
+/rafael-valdez-de-envision-fue-nominado-como-campeon-de-la-industria-eolica-en-la-conferencia-sobre-energias-renovables-2016-de-mexico/,301,200,/noticias/rafael-valdez-de-envision-fue-nominado-como-campeon-de-la-industria-eolica-en-la-conferencia-sobre-energias-renovables-2016-de-mexico/,1
+/aprendiendo-autocad-2016-en-3d-para-diseno-arquitectonico-by-iway-magazine/,301,200,/noticias/aprendiendo-autocad-2016-en-3d-para-diseno-arquitectonico-by-iway-magazine/,1
+/level-3-designada-como-miembro-avanzado-de-aws-partner-network/,301,200,/noticias/level-3-designada-como-miembro-avanzado-de-aws-partner-network/,1
 /los-numeros-no-importan-la-influencia-si/,301,200,/mercadotecnia/marketing-digital/los-numeros-no-importan-la-influencia-si/,1
-/datos-y-sesiones-relevantes-en-la-reunion-de-la-sages-2016-prueban-la-seguridad-y-la-eficacia-de-la-terapia-stretta-para-la-erge/,error,error,Exceeded 30 redirects.,0
-/hola-tv-celebra-a-la-mujer-en-marzo-con-estrenos-y-programacion-especial-de-mujeres-que-inspiran/,error,error,Exceeded 30 redirects.,0
-/mec-prime-banner-chemicals-uk-se-enorgullece-de-presentar-la-nueva-gama-de-productos-de-cloruro-de-metileno-prime/,error,error,Exceeded 30 redirects.,0
-/i2c-y-tis-forman-una-asociacion-estrategica-para-llevar-innovadoras-soluciones-de-pago-a-japon-y-otros-mercados-asiaticos-cruciales/,error,error,Exceeded 30 redirects.,0
-/cru-ofrece-la-conferencia-mundial-del-cobre-mas-completa-hasta-la-fecha/,error,error,Exceeded 30 redirects.,0
+/datos-y-sesiones-relevantes-en-la-reunion-de-la-sages-2016-prueban-la-seguridad-y-la-eficacia-de-la-terapia-stretta-para-la-erge/,301,200,/noticias/datos-y-sesiones-relevantes-en-la-reunion-de-la-sages-2016-prueban-la-seguridad-y-la-eficacia-de-la-terapia-stretta-para-la-erge/,1
+/hola-tv-celebra-a-la-mujer-en-marzo-con-estrenos-y-programacion-especial-de-mujeres-que-inspiran/,301,200,/noticias/hola-tv-celebra-a-la-mujer-en-marzo-con-estrenos-y-programacion-especial-de-mujeres-que-inspiran/,1
+/mec-prime-banner-chemicals-uk-se-enorgullece-de-presentar-la-nueva-gama-de-productos-de-cloruro-de-metileno-prime/,301,200,/noticias/mec-prime-banner-chemicals-uk-se-enorgullece-de-presentar-la-nueva-gama-de-productos-de-cloruro-de-metileno-prime/,1
+/i2c-y-tis-forman-una-asociacion-estrategica-para-llevar-innovadoras-soluciones-de-pago-a-japon-y-otros-mercados-asiaticos-cruciales/,301,200,/noticias/i2c-y-tis-forman-una-asociacion-estrategica-para-llevar-innovadoras-soluciones-de-pago-a-japon-y-otros-mercados-asiaticos-cruciales/,1
+/cru-ofrece-la-conferencia-mundial-del-cobre-mas-completa-hasta-la-fecha/,301,200,/noticias/cru-ofrece-la-conferencia-mundial-del-cobre-mas-completa-hasta-la-fecha/,1
 /el-consumidor-no-quiere-mas-opciones/,301,200,/mercadotecnia/el-consumidor-no-quiere-mas-opciones/,1
-/level-3-incorpora-microsoft-office-365-a-su-ecosistema-de-soluciones-cloud-connect/,error,error,Exceeded 30 redirects.,0
-/el-grupo-expansion-firma-contrato-con-navegg/,error,error,Exceeded 30 redirects.,0
-/genius-plaza-lanza-sammie-seal-un-juego-de-lenguaje-educativo-bilinge-y-gratuito/,error,error,Exceeded 30 redirects.,0
-/lenovo-revela-el-zuk-z2-pro-el-dispositivo-que-cambiara-las-reglas/,error,error,Exceeded 30 redirects.,0
-/la-capacidad-financiera-mas-que-los-conocimientos-basicos-o-la-educacion-es-la-clave-para-la-inclusion-financiera/,error,error,Exceeded 30 redirects.,0
-/lcm-partners-gana-en-los-premios-private-debt-investor-2015/,error,error,Exceeded 30 redirects.,0
-/experiencias-fuera-de-lo-ordinario-para-descubrir-la-ciudad-de-mexico-en-semana-santa/,error,error,Exceeded 30 redirects.,0
-/conoce-las-novedades-four-seasons-para-este-2016/,error,error,Exceeded 30 redirects.,0
-/emerge-americas-anuncia-los-finalistas-del-startup-showcase-2016-que-incluyen-representantes-de-15-paises/,error,error,Exceeded 30 redirects.,0
+/level-3-incorpora-microsoft-office-365-a-su-ecosistema-de-soluciones-cloud-connect/,301,200,/noticias/level-3-incorpora-microsoft-office-365-a-su-ecosistema-de-soluciones-cloud-connect/,1
+/el-grupo-expansion-firma-contrato-con-navegg/,301,200,/noticias/el-grupo-expansion-firma-contrato-con-navegg/,1
+/genius-plaza-lanza-sammie-seal-un-juego-de-lenguaje-educativo-bilinge-y-gratuito/,301,200,/noticias/genius-plaza-lanza-sammie-seal-un-juego-de-lenguaje-educativo-bilinge-y-gratuito/,1
+/lenovo-revela-el-zuk-z2-pro-el-dispositivo-que-cambiara-las-reglas/,301,200,/noticias/lenovo-revela-el-zuk-z2-pro-el-dispositivo-que-cambiara-las-reglas/,1
+/la-capacidad-financiera-mas-que-los-conocimientos-basicos-o-la-educacion-es-la-clave-para-la-inclusion-financiera/,301,200,/noticias/la-capacidad-financiera-mas-que-los-conocimientos-basicos-o-la-educacion-es-la-clave-para-la-inclusion-financiera/,1
+/lcm-partners-gana-en-los-premios-private-debt-investor-2015/,301,200,/noticias/lcm-partners-gana-en-los-premios-private-debt-investor-2015/,1
+/experiencias-fuera-de-lo-ordinario-para-descubrir-la-ciudad-de-mexico-en-semana-santa/,301,200,/noticias/experiencias-fuera-de-lo-ordinario-para-descubrir-la-ciudad-de-mexico-en-semana-santa/,1
+/conoce-las-novedades-four-seasons-para-este-2016/,301,200,/noticias/conoce-las-novedades-four-seasons-para-este-2016/,1
+/emerge-americas-anuncia-los-finalistas-del-startup-showcase-2016-que-incluyen-representantes-de-15-paises/,301,200,/noticias/emerge-americas-anuncia-los-finalistas-del-startup-showcase-2016-que-incluyen-representantes-de-15-paises/,1
 /las-redes-sociales-como-canal-de-atencion-a-clientes/,301,200,/mercadotecnia/marketing-digital/las-redes-sociales-como-canal-de-atencion-a-clientes/,1
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,error,error,Exceeded 30 redirects.,0
-/rackspace-lider-en-nube-gestionada-colabora-con-impartner-para-fortalecer-la-experiencia-de-socios-de-canales/,error,error,Exceeded 30 redirects.,0
-/joven-emprendedor-forestal-premia-el-talento-de-jovenes-de-mexico-centro-y-sudamerica-en-su-tercer-certamen/,error,error,Exceeded 30 redirects.,0
-/gamechange-solar-recibe-orden-de-genius-tracker-de-28-mw-para-el-sudeste/,error,error,Exceeded 30 redirects.,0
-/celigo-concreta-us8-millones-en-financiacion-de-capital-para-el-crecimiento/,error,error,Exceeded 30 redirects.,0
-/ceremonia-inaugural-de-baselworld-2016/,error,error,Exceeded 30 redirects.,0
-/uefa-y-pepsi-llevan-por-primera-vez-epico-recital-en-vivo-a-la-final-de-la-liga-de-campeones-de-la-uefa/,error,error,Exceeded 30 redirects.,0
-/h2opendoors-llega-a-cuba/,error,error,Exceeded 30 redirects.,0
-/ramboll-crece-28-a-pesar-de-las-dificiles-condiciones-de-mercado/,error,error,Exceeded 30 redirects.,0
-/osteoartritis-de-rodilla-suero-autologo-condicionado-acs-combinado-con-fisioterapia-produjo-una-significativa-mejora-en-el-dolor-y-la-funcion/,error,error,Exceeded 30 redirects.,0
-/la-carrera-de-chicharito-en-canciones-de-rock-by-rock-sonico/,error,error,Exceeded 30 redirects.,0
-/reed-exhibitions-japan-hara-la-3ra-wearable-expo-del-18-al-20-de-enero-de-2017-en-tokio/,error,error,Exceeded 30 redirects.,0
-/womens-forum-mexico-2016-girara-en-torno-a-co-creando-junts-co-creating-together/,error,error,Exceeded 30 redirects.,0
-/la-curacao-lanza-una-nueva-aplicacion-movil-para-sus-usuarios/,error,error,Exceeded 30 redirects.,0
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
+/rackspace-lider-en-nube-gestionada-colabora-con-impartner-para-fortalecer-la-experiencia-de-socios-de-canales/,301,200,/noticias/rackspace-lider-en-nube-gestionada-colabora-con-impartner-para-fortalecer-la-experiencia-de-socios-de-canales/,1
+/joven-emprendedor-forestal-premia-el-talento-de-jovenes-de-mexico-centro-y-sudamerica-en-su-tercer-certamen/,301,200,/noticias/joven-emprendedor-forestal-premia-el-talento-de-jovenes-de-mexico-centro-y-sudamerica-en-su-tercer-certamen/,1
+/gamechange-solar-recibe-orden-de-genius-tracker-de-28-mw-para-el-sudeste/,301,200,/noticias/gamechange-solar-recibe-orden-de-genius-tracker-de-28-mw-para-el-sudeste/,1
+/celigo-concreta-us8-millones-en-financiacion-de-capital-para-el-crecimiento/,301,200,/noticias/celigo-concreta-us8-millones-en-financiacion-de-capital-para-el-crecimiento/,1
+/ceremonia-inaugural-de-baselworld-2016/,301,200,/noticias/ceremonia-inaugural-de-baselworld-2016/,1
+/uefa-y-pepsi-llevan-por-primera-vez-epico-recital-en-vivo-a-la-final-de-la-liga-de-campeones-de-la-uefa/,301,200,/noticias/uefa-y-pepsi-llevan-por-primera-vez-epico-recital-en-vivo-a-la-final-de-la-liga-de-campeones-de-la-uefa/,1
+/h2opendoors-llega-a-cuba/,301,200,/noticias/h2opendoors-llega-a-cuba/,1
+/ramboll-crece-28-a-pesar-de-las-dificiles-condiciones-de-mercado/,301,200,/noticias/ramboll-crece-28-a-pesar-de-las-dificiles-condiciones-de-mercado/,1
+/osteoartritis-de-rodilla-suero-autologo-condicionado-acs-combinado-con-fisioterapia-produjo-una-significativa-mejora-en-el-dolor-y-la-funcion/,301,200,/noticias/osteoartritis-de-rodilla-suero-autologo-condicionado-acs-combinado-con-fisioterapia-produjo-una-significativa-mejora-en-el-dolor-y-la-funcion/,1
+/la-carrera-de-chicharito-en-canciones-de-rock-by-rock-sonico/,301,200,/noticias/la-carrera-de-chicharito-en-canciones-de-rock-by-rock-sonico/,1
+/reed-exhibitions-japan-hara-la-3ra-wearable-expo-del-18-al-20-de-enero-de-2017-en-tokio/,301,200,/noticias/reed-exhibitions-japan-hara-la-3ra-wearable-expo-del-18-al-20-de-enero-de-2017-en-tokio/,1
+/womens-forum-mexico-2016-girara-en-torno-a-co-creando-junts-co-creating-together/,301,200,/noticias/womens-forum-mexico-2016-girara-en-torno-a-co-creando-junts-co-creating-together/,1
+/la-curacao-lanza-una-nueva-aplicacion-movil-para-sus-usuarios/,301,200,/noticias/la-curacao-lanza-una-nueva-aplicacion-movil-para-sus-usuarios/,1
 /como-la-ves-verdad-que-todo-depende/,301,200,/publicidad/creatividad/como-la-ves-verdad-que-todo-depende/,1
-/sirva-presenta-nueva-identidad-de-marca/,error,error,Exceeded 30 redirects.,0
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-34-ciudades-de-chile-representadas/,error,error,Exceeded 30 redirects.,0
-/markets-group-los-principales-bancos-centrales-de-ee-uu-america-latina-y-el-caribe-se-reuniran-en-ciudad-de-panama-con-el-proposito-de-discutir-estrategias-de-inversion/,error,error,Exceeded 30 redirects.,0
-/donde-el-retorno-a-la-vida-silvestre-produce-maravillas-se-inaugura-en-shanghai-leden-by-perrier-jout/,error,error,Exceeded 30 redirects.,0
-/vichy-anuncia-la-primera-beca-exposoma-de-vichy-anual/,error,error,Exceeded 30 redirects.,0
-/impulsando-el-crecimiento-de-un-nuevo-movimiento-de-lujo-bsi-capital-group-invierte-5m-de-francos-suizos-chf-en-swiss-cosmeceuticals-ag/,error,error,Exceeded 30 redirects.,0
-/music-world-cup-anuncia-el-prelanzamiento-de-su-plataforma/,error,error,Exceeded 30 redirects.,0
-/pruebas-realizadas-por-un-laboratorio-independiente-demuestran-una-diferencia-de-rendimiento-de-hasta-el-40-entre-los-turbocargadores-para-el-mercado-postventa-originales-de-honeywell-y-sus-copias/,error,error,Exceeded 30 redirects.,0
-/que-compran-en-internet-las-mujeres-de-latinoamerica/,error,error,Exceeded 30 redirects.,0
-/sundyne-anuncia-un-nuevo-centro-de-servicio-autorizado-en-colombia/,error,error,Exceeded 30 redirects.,0
+/sirva-presenta-nueva-identidad-de-marca/,301,200,/noticias/sirva-presenta-nueva-identidad-de-marca/,1
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-34-ciudades-de-chile-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
+/markets-group-los-principales-bancos-centrales-de-ee-uu-america-latina-y-el-caribe-se-reuniran-en-ciudad-de-panama-con-el-proposito-de-discutir-estrategias-de-inversion/,301,200,/noticias/markets-group-los-principales-bancos-centrales-de-ee-uu-america-latina-y-el-caribe-se-reuniran-en-ciudad-de-panama-con-el-proposito-de-discutir-estrategias-de-inversion/,1
+/donde-el-retorno-a-la-vida-silvestre-produce-maravillas-se-inaugura-en-shanghai-leden-by-perrier-jout/,301,200,/noticias/donde-el-retorno-a-la-vida-silvestre-produce-maravillas-se-inaugura-en-shanghai-leden-by-perrier-jout/,1
+/vichy-anuncia-la-primera-beca-exposoma-de-vichy-anual/,301,200,/noticias/vichy-anuncia-la-primera-beca-exposoma-de-vichy-anual/,1
+/impulsando-el-crecimiento-de-un-nuevo-movimiento-de-lujo-bsi-capital-group-invierte-5m-de-francos-suizos-chf-en-swiss-cosmeceuticals-ag/,301,200,/noticias/impulsando-el-crecimiento-de-un-nuevo-movimiento-de-lujo-bsi-capital-group-invierte-5m-de-francos-suizos-chf-en-swiss-cosmeceuticals-ag/,1
+/music-world-cup-anuncia-el-prelanzamiento-de-su-plataforma/,301,200,/noticias/music-world-cup-anuncia-el-prelanzamiento-de-su-plataforma/,1
+/pruebas-realizadas-por-un-laboratorio-independiente-demuestran-una-diferencia-de-rendimiento-de-hasta-el-40-entre-los-turbocargadores-para-el-mercado-postventa-originales-de-honeywell-y-sus-copias/,301,200,/noticias/pruebas-realizadas-por-un-laboratorio-independiente-demuestran-una-diferencia-de-rendimiento-de-hasta-el-40-entre-los-turbocargadores-para-el-mercado-postventa-originales-de-honeywell-y-sus-copias/,1
+/que-compran-en-internet-las-mujeres-de-latinoamerica/,301,200,/noticias/que-compran-en-internet-las-mujeres-de-latinoamerica/,1
+/sundyne-anuncia-un-nuevo-centro-de-servicio-autorizado-en-colombia/,301,200,/noticias/sundyne-anuncia-un-nuevo-centro-de-servicio-autorizado-en-colombia/,1
 /converse-x-brain-dead/,301,200,/publicidad/creatividad/converse-x-brain-dead/,1
-/la-nueva-arcserve-unified-data-protection-udp-elimina-el-tiempo-de-recuperacion-mediante-disponibilidad-continua-recuperacion-instantanea-y-replicacion-en-entornos-en-la-nube-virtuales-y-fisicos/,error,error,Exceeded 30 redirects.,0
-/emaar-da-forma-al-fastuoso-perfil-nuevo-de-dubai-con-una-impactante-torre-en-el-puerto-dubai-creek/,error,error,Exceeded 30 redirects.,0
-/impartner-se-asocia-con-expertos-del-sector-de-canales-de-venta-indirecta-para-abordar-los-principales-desafios-que-desvelan-a-los-directores-de-canal/,error,error,Exceeded 30 redirects.,0
-/pacific-anuncia-revision-de-su-elegibilidad-para-cotizar-en-la-bolsa-de-valores-de-toronto/,error,error,Exceeded 30 redirects.,0
-/sothebys-international-realty-amplia-la-presencia-de-su-marca-de-lujo-en-toda-la-argentina/,error,error,Exceeded 30 redirects.,0
-/cana-de-azucar-fuente-de-energia-sostenible-en-el-salvador-by-contra-punto-diario-digital/,error,error,Exceeded 30 redirects.,0
-/telepizza-se-apoyara-en-master-franquiciados-locales-para-liderar-su-expansion-en-el-reino-unido/,error,error,Exceeded 30 redirects.,0
-/20-de-marzo-dia-internacional-de-la-felicidad/,error,error,Exceeded 30 redirects.,0
-/la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica/,error,error,Exceeded 30 redirects.,0
-/la-experiencia-de-viajes-blast-off-to-houston-ofrece-grandes-ahorros-en-el-hyatt-regency-houston-y-las-principales-atracciones-de-la-ciudad/,error,error,Exceeded 30 redirects.,0
-/isuzu-motors-de-mexico-anuncia-cambios-en-sus-puestos-directivos/,error,error,Exceeded 30 redirects.,0
-/mot-hennessy-y-solar-impulse-continuan-celebrando-la-sustentabilidad-en-2016/,error,error,Exceeded 30 redirects.,0
-/la-ultra-hd-4k-smart-ir-ptz-de-hikvision-gano-el-premio-new-product-showcase-en-isc-west/,error,error,Exceeded 30 redirects.,0
-/diebold-cumple-con-exito-con-las-condiciones-de-oferta-para-las-acciones-de-wincor-nixdorf/,error,error,Exceeded 30 redirects.,0
-/se-estrena-exhibicion-sobre-educacion-en-ddhh-en-la-sede-de-la-onu-ginebra/,error,error,Exceeded 30 redirects.,0
-/la-provincia-de-neuquen-anuncia-la-modificacion-del-coeficiente-de-cambio-de-su-oferta-de-cambio/,error,error,Exceeded 30 redirects.,0
-/se-inaugura-el-festival-internacional-de-cortometrajes-mercy-and-justice/,error,error,Exceeded 30 redirects.,0
-/conozca-una-de-las-7-maravillas-de-la-ingenieria-moderna-la-torre-cn-de-toronto-by-iway-magazine/,error,error,Exceeded 30 redirects.,0
-/los-megaataques-alcanzan-un-nuevo-record-se-dispara-el-numero-de-ataques-repetidos-los-sitios-de-stresserbooter-lanzan-vectores-de-ataque-multiples-de-forma-simultanea/,error,error,Exceeded 30 redirects.,0
-/wyndham-hotel-group-revela-su-estrategia-de-transformacion-global-a-lo-largo-de-16-marcas/,error,error,Exceeded 30 redirects.,0
-/huawei-y-deutsche-telekom-presentan-la-tecnologia-de-seccionado-de-red-5g-e2e/,error,error,Exceeded 30 redirects.,0
-/las-perspectivas-de-la-cooperacion-entre-rusia-y-los-paises-de-america-latina-fueron-discutidas-en-la-ronda-mediatica-y-el-foro-de-negocios-en-uruguay/,error,error,Exceeded 30 redirects.,0
-/para-mejorar-la-vida-de-casi-2-millones-de-trabajadores-el-grupo-hm-alentara-a-los-proveedores-a-pagarles-a-los-trabajadores-de-manera-digital/,error,error,Exceeded 30 redirects.,0
-/urban-jrgensen-la-exclusiva-conexion-danesa-suiza-presenta-una-nueva-coleccion-en-la-baselworld-2016/,error,error,Exceeded 30 redirects.,0
-/el-salvador-presenta-logros-de-foro-de-inversiones-realizado-en-chile-by-contra-punto-diario-digital/,error,error,Exceeded 30 redirects.,0
-/lexington-partners-inaugura-oficina-en-santiago/,error,error,Exceeded 30 redirects.,0
-/hna-tourism-group-sella-un-acuerdo-con-carlson-hospitality-group-para-la-adquisicion-de-carlson-hotels-inc/,error,error,Exceeded 30 redirects.,0
-/telepizza-apuesta-por-la-master-franquicia-para-su-expansion-internacional-abrira-100-tiendas-en-10-anos-en-arabia-saudi/,error,error,Exceeded 30 redirects.,0
-/los-pilotos-de-ups-respetaran-los-piquetes-alemanes-en-el-aeropuerto-de-colonia-bonn/,error,error,Exceeded 30 redirects.,0
-/diebold-confirma-los-resultados-de-la-oferta-de-compra-de-acciones-de-wincor-nixdorf/,error,error,Exceeded 30 redirects.,0
-/un-nuevo-registro-de-multiples-centros-estudiara-los-beneficios-de-la-terapia-stretta-para-pacientes-gerd-luego-de-una-gastrectomia-en-manga/,error,error,Exceeded 30 redirects.,0
-/maria-laria-presentadora-de-arrebatados-en-america-teve-celebra-su-decimo-aniversario/,error,error,Exceeded 30 redirects.,0
-/pacific-prorroga-hasta-el-29-de-abril-de-2016-los-acuerdos-de-indulgencia-con-bancos-y-un-importante-grupo-de-tenedores-de-notas/,error,error,Exceeded 30 redirects.,0
-/m-holland-finaliza-adquisiciones-en-puerto-rico/,error,error,Exceeded 30 redirects.,0
-/cancun-y-riviera-maya-los-destinos-favoritos-para-viajar-este-verano-by-cancun-foros/,error,error,Exceeded 30 redirects.,0
-/la-division-consumer-healthdesempenara-un-papel-fundamental-en-la-estrategia-de-crecimiento-de-merck-para-africa/,error,error,Exceeded 30 redirects.,0
-/omnicom-media-group-revela-detalles-sobre-su-tercera-red/,error,error,Exceeded 30 redirects.,0
-/la-competencia-de-diseno-innovador-medioambiental-xcmg-cup-se-enfoca-en-las-tecnologias-medioambientales-limpias/,error,error,Exceeded 30 redirects.,0
-/risen-energy-anuncia-los-resultados-para-el-ano-2015-completo/,error,error,Exceeded 30 redirects.,0
-/reed-presenta-exposiciones-inaugurales-de-robotica-y-fabricacion-inteligente-en-tokio-desde-el-18-de-enero-de-2017/,error,error,Exceeded 30 redirects.,0
-/rokkan-obtiene-la-funcion-de-la-direccion-creativa-para-cafe-de-colombia/,error,error,Exceeded 30 redirects.,0
+/la-nueva-arcserve-unified-data-protection-udp-elimina-el-tiempo-de-recuperacion-mediante-disponibilidad-continua-recuperacion-instantanea-y-replicacion-en-entornos-en-la-nube-virtuales-y-fisicos/,301,200,/noticias/la-nueva-arcserve-unified-data-protection-udp-elimina-el-tiempo-de-recuperacion-mediante-disponibilidad-continua-recuperacion-instantanea-y-replicacion-en-entornos-en-la-nube-virtuales-y-fisicos/,1
+/emaar-da-forma-al-fastuoso-perfil-nuevo-de-dubai-con-una-impactante-torre-en-el-puerto-dubai-creek/,301,200,/noticias/emaar-da-forma-al-fastuoso-perfil-nuevo-de-dubai-con-una-impactante-torre-en-el-puerto-dubai-creek/,1
+/impartner-se-asocia-con-expertos-del-sector-de-canales-de-venta-indirecta-para-abordar-los-principales-desafios-que-desvelan-a-los-directores-de-canal/,301,200,/noticias/impartner-se-asocia-con-expertos-del-sector-de-canales-de-venta-indirecta-para-abordar-los-principales-desafios-que-desvelan-a-los-directores-de-canal/,1
+/pacific-anuncia-revision-de-su-elegibilidad-para-cotizar-en-la-bolsa-de-valores-de-toronto/,301,200,/noticias/pacific-anuncia-revision-de-su-elegibilidad-para-cotizar-en-la-bolsa-de-valores-de-toronto/,1
+/sothebys-international-realty-amplia-la-presencia-de-su-marca-de-lujo-en-toda-la-argentina/,301,200,/noticias/sothebys-international-realty-amplia-la-presencia-de-su-marca-de-lujo-en-toda-la-argentina/,1
+/cana-de-azucar-fuente-de-energia-sostenible-en-el-salvador-by-contra-punto-diario-digital/,301,200,/noticias/cana-de-azucar-fuente-de-energia-sostenible-en-el-salvador-by-contra-punto-diario-digital/,1
+/telepizza-se-apoyara-en-master-franquiciados-locales-para-liderar-su-expansion-en-el-reino-unido/,301,200,/noticias/telepizza-se-apoyara-en-master-franquiciados-locales-para-liderar-su-expansion-en-el-reino-unido/,1
+/20-de-marzo-dia-internacional-de-la-felicidad/,301,200,/noticias/20-de-marzo-dia-internacional-de-la-felicidad/,1
+/la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica/,301,200,/noticias/la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica/,1
+/la-experiencia-de-viajes-blast-off-to-houston-ofrece-grandes-ahorros-en-el-hyatt-regency-houston-y-las-principales-atracciones-de-la-ciudad/,301,200,/noticias/la-experiencia-de-viajes-blast-off-to-houston-ofrece-grandes-ahorros-en-el-hyatt-regency-houston-y-las-principales-atracciones-de-la-ciudad/,1
+/isuzu-motors-de-mexico-anuncia-cambios-en-sus-puestos-directivos/,301,200,/noticias/isuzu-motors-de-mexico-anuncia-cambios-en-sus-puestos-directivos/,1
+/mot-hennessy-y-solar-impulse-continuan-celebrando-la-sustentabilidad-en-2016/,301,200,/noticias/mot-hennessy-y-solar-impulse-continuan-celebrando-la-sustentabilidad-en-2016/,1
+/la-ultra-hd-4k-smart-ir-ptz-de-hikvision-gano-el-premio-new-product-showcase-en-isc-west/,301,200,/noticias/la-ultra-hd-4k-smart-ir-ptz-de-hikvision-gano-el-premio-new-product-showcase-en-isc-west/,1
+/diebold-cumple-con-exito-con-las-condiciones-de-oferta-para-las-acciones-de-wincor-nixdorf/,301,200,/noticias/diebold-cumple-con-exito-con-las-condiciones-de-oferta-para-las-acciones-de-wincor-nixdorf/,1
+/se-estrena-exhibicion-sobre-educacion-en-ddhh-en-la-sede-de-la-onu-ginebra/,301,200,/noticias/se-estrena-exhibicion-sobre-educacion-en-ddhh-en-la-sede-de-la-onu-ginebra/,1
+/la-provincia-de-neuquen-anuncia-la-modificacion-del-coeficiente-de-cambio-de-su-oferta-de-cambio/,301,200,/noticias/la-provincia-de-neuquen-anuncia-la-modificacion-del-coeficiente-de-cambio-de-su-oferta-de-cambio/,1
+/se-inaugura-el-festival-internacional-de-cortometrajes-mercy-and-justice/,301,200,/noticias/se-inaugura-el-festival-internacional-de-cortometrajes-mercy-and-justice/,1
+/conozca-una-de-las-7-maravillas-de-la-ingenieria-moderna-la-torre-cn-de-toronto-by-iway-magazine/,301,200,/noticias/conozca-una-de-las-7-maravillas-de-la-ingenieria-moderna-la-torre-cn-de-toronto-by-iway-magazine/,1
+/los-megaataques-alcanzan-un-nuevo-record-se-dispara-el-numero-de-ataques-repetidos-los-sitios-de-stresserbooter-lanzan-vectores-de-ataque-multiples-de-forma-simultanea/,301,200,/noticias/los-megaataques-alcanzan-un-nuevo-record-se-dispara-el-numero-de-ataques-repetidos-los-sitios-de-stresserbooter-lanzan-vectores-de-ataque-multiples-de-forma-simultanea/,1
+/wyndham-hotel-group-revela-su-estrategia-de-transformacion-global-a-lo-largo-de-16-marcas/,301,200,/noticias/wyndham-hotel-group-revela-su-estrategia-de-transformacion-global-a-lo-largo-de-16-marcas/,1
+/huawei-y-deutsche-telekom-presentan-la-tecnologia-de-seccionado-de-red-5g-e2e/,301,200,/noticias/huawei-y-deutsche-telekom-presentan-la-tecnologia-de-seccionado-de-red-5g-e2e/,1
+/las-perspectivas-de-la-cooperacion-entre-rusia-y-los-paises-de-america-latina-fueron-discutidas-en-la-ronda-mediatica-y-el-foro-de-negocios-en-uruguay/,301,200,/noticias/las-perspectivas-de-la-cooperacion-entre-rusia-y-los-paises-de-america-latina-fueron-discutidas-en-la-ronda-mediatica-y-el-foro-de-negocios-en-uruguay/,1
+/para-mejorar-la-vida-de-casi-2-millones-de-trabajadores-el-grupo-hm-alentara-a-los-proveedores-a-pagarles-a-los-trabajadores-de-manera-digital/,301,200,/noticias/para-mejorar-la-vida-de-casi-2-millones-de-trabajadores-el-grupo-hm-alentara-a-los-proveedores-a-pagarles-a-los-trabajadores-de-manera-digital/,1
+/urban-jrgensen-la-exclusiva-conexion-danesa-suiza-presenta-una-nueva-coleccion-en-la-baselworld-2016/,301,200,/noticias/urban-jrgensen-la-exclusiva-conexion-danesa-suiza-presenta-una-nueva-coleccion-en-la-baselworld-2016/,1
+/el-salvador-presenta-logros-de-foro-de-inversiones-realizado-en-chile-by-contra-punto-diario-digital/,301,200,/noticias/el-salvador-presenta-logros-de-foro-de-inversiones-realizado-en-chile-by-contra-punto-diario-digital/,1
+/lexington-partners-inaugura-oficina-en-santiago/,301,200,/noticias/lexington-partners-inaugura-oficina-en-santiago/,1
+/hna-tourism-group-sella-un-acuerdo-con-carlson-hospitality-group-para-la-adquisicion-de-carlson-hotels-inc/,301,200,/noticias/hna-tourism-group-sella-un-acuerdo-con-carlson-hospitality-group-para-la-adquisicion-de-carlson-hotels-inc/,1
+/telepizza-apuesta-por-la-master-franquicia-para-su-expansion-internacional-abrira-100-tiendas-en-10-anos-en-arabia-saudi/,301,200,/noticias/telepizza-apuesta-por-la-master-franquicia-para-su-expansion-internacional-abrira-100-tiendas-en-10-anos-en-arabia-saudi/,1
+/los-pilotos-de-ups-respetaran-los-piquetes-alemanes-en-el-aeropuerto-de-colonia-bonn/,301,200,/noticias/los-pilotos-de-ups-respetaran-los-piquetes-alemanes-en-el-aeropuerto-de-colonia-bonn/,1
+/diebold-confirma-los-resultados-de-la-oferta-de-compra-de-acciones-de-wincor-nixdorf/,301,200,/noticias/diebold-confirma-los-resultados-de-la-oferta-de-compra-de-acciones-de-wincor-nixdorf/,1
+/un-nuevo-registro-de-multiples-centros-estudiara-los-beneficios-de-la-terapia-stretta-para-pacientes-gerd-luego-de-una-gastrectomia-en-manga/,301,200,/noticias/un-nuevo-registro-de-multiples-centros-estudiara-los-beneficios-de-la-terapia-stretta-para-pacientes-gerd-luego-de-una-gastrectomia-en-manga/,1
+/maria-laria-presentadora-de-arrebatados-en-america-teve-celebra-su-decimo-aniversario/,301,200,/noticias/maria-laria-presentadora-de-arrebatados-en-america-teve-celebra-su-decimo-aniversario/,1
+/pacific-prorroga-hasta-el-29-de-abril-de-2016-los-acuerdos-de-indulgencia-con-bancos-y-un-importante-grupo-de-tenedores-de-notas/,301,200,/noticias/pacific-prorroga-hasta-el-29-de-abril-de-2016-los-acuerdos-de-indulgencia-con-bancos-y-un-importante-grupo-de-tenedores-de-notas/,1
+/m-holland-finaliza-adquisiciones-en-puerto-rico/,301,200,/noticias/m-holland-finaliza-adquisiciones-en-puerto-rico/,1
+/cancun-y-riviera-maya-los-destinos-favoritos-para-viajar-este-verano-by-cancun-foros/,301,200,/noticias/cancun-y-riviera-maya-los-destinos-favoritos-para-viajar-este-verano-by-cancun-foros/,1
+/la-division-consumer-healthdesempenara-un-papel-fundamental-en-la-estrategia-de-crecimiento-de-merck-para-africa/,301,200,/noticias/la-division-consumer-healthdesempenara-un-papel-fundamental-en-la-estrategia-de-crecimiento-de-merck-para-africa/,1
+/omnicom-media-group-revela-detalles-sobre-su-tercera-red/,301,200,/noticias/omnicom-media-group-revela-detalles-sobre-su-tercera-red/,1
+/la-competencia-de-diseno-innovador-medioambiental-xcmg-cup-se-enfoca-en-las-tecnologias-medioambientales-limpias/,301,200,/noticias/la-competencia-de-diseno-innovador-medioambiental-xcmg-cup-se-enfoca-en-las-tecnologias-medioambientales-limpias/,1
+/risen-energy-anuncia-los-resultados-para-el-ano-2015-completo/,301,200,/noticias/risen-energy-anuncia-los-resultados-para-el-ano-2015-completo/,1
+/reed-presenta-exposiciones-inaugurales-de-robotica-y-fabricacion-inteligente-en-tokio-desde-el-18-de-enero-de-2017/,301,200,/noticias/reed-presenta-exposiciones-inaugurales-de-robotica-y-fabricacion-inteligente-en-tokio-desde-el-18-de-enero-de-2017/,1
+/rokkan-obtiene-la-funcion-de-la-direccion-creativa-para-cafe-de-colombia/,301,200,/noticias/rokkan-obtiene-la-funcion-de-la-direccion-creativa-para-cafe-de-colombia/,1
 /pymes-y-sus-marcas-la-mente-y-corazon-de-los-empresarios/,301,200,/emprendimiento/pymes/pymes-y-sus-marcas-la-mente-y-corazon-de-los-empresarios/,1
-/hikvision-anuncia-su-exito-en-el-isc-brasil/,error,error,Exceeded 30 redirects.,0
-/inauguracion-oficial-de-la-119na-feria-de-canton/,error,error,Exceeded 30 redirects.,0
-/la-119a-feria-de-canton-finaliza-con-acuerdos-comerciales-por-un-total-de-us28000-millones/,error,error,Exceeded 30 redirects.,0
-/dentsply-sirona-la-fusion-crea-the-dental-solutions-company/,error,error,Exceeded 30 redirects.,0
-/pacific-anuncia-dictamen-de-reconocimiento-del-tribunal-de-bancarrotas-de-estados-unidos-segun-lo-dispuesto-en-el-capitulo-15/,error,error,Exceeded 30 redirects.,0
-/un-ano-al-aire-by-diario-moda-radio/,error,error,Exceeded 30 redirects.,0
-/hennessy-celebra-la-llegada-de-la-octava-generacion-de-maestros-mezcladores-con-el-legado-cognac-hennessy-8/,error,error,Exceeded 30 redirects.,0
-/impulso-a-emprendedurismo-ambiental-premios-verde-by-juan-carlos-machorro/,error,error,Exceeded 30 redirects.,0
-/activacion-de-la-nueva-ruta-submarina-del-pacifico-de-level-3-mejora-la-conexion-de-colombia-con-las-principales-ciudades-de-las-americas-europa-y-asia/,error,error,Exceeded 30 redirects.,0
-/a-57-ciudades-en-argentina-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,error,error,Exceeded 30 redirects.,0
-/enel-green-power-confirma-su-liderazgo-en-energias-renovables-en-mexico-tras-resultados-de-subasta/,error,error,Exceeded 30 redirects.,0
+/hikvision-anuncia-su-exito-en-el-isc-brasil/,301,200,/noticias/hikvision-anuncia-su-exito-en-el-isc-brasil/,1
+/inauguracion-oficial-de-la-119na-feria-de-canton/,301,200,/noticias/inauguracion-oficial-de-la-119na-feria-de-canton/,1
+/la-119a-feria-de-canton-finaliza-con-acuerdos-comerciales-por-un-total-de-us28000-millones/,301,200,/noticias/la-119a-feria-de-canton-finaliza-con-acuerdos-comerciales-por-un-total-de-us28000-millones/,1
+/dentsply-sirona-la-fusion-crea-the-dental-solutions-company/,301,200,/noticias/dentsply-sirona-la-fusion-crea-the-dental-solutions-company/,1
+/pacific-anuncia-dictamen-de-reconocimiento-del-tribunal-de-bancarrotas-de-estados-unidos-segun-lo-dispuesto-en-el-capitulo-15/,301,200,/noticias/pacific-anuncia-dictamen-de-reconocimiento-del-tribunal-de-bancarrotas-de-estados-unidos-segun-lo-dispuesto-en-el-capitulo-15/,1
+/un-ano-al-aire-by-diario-moda-radio/,301,200,/noticias/un-ano-al-aire-by-diario-moda-radio/,1
+/hennessy-celebra-la-llegada-de-la-octava-generacion-de-maestros-mezcladores-con-el-legado-cognac-hennessy-8/,301,200,/noticias/hennessy-celebra-la-llegada-de-la-octava-generacion-de-maestros-mezcladores-con-el-legado-cognac-hennessy-8/,1
+/impulso-a-emprendedurismo-ambiental-premios-verde-by-juan-carlos-machorro/,301,200,/noticias/impulso-a-emprendedurismo-ambiental-premios-verde-by-juan-carlos-machorro/,1
+/activacion-de-la-nueva-ruta-submarina-del-pacifico-de-level-3-mejora-la-conexion-de-colombia-con-las-principales-ciudades-de-las-americas-europa-y-asia/,301,200,/noticias/activacion-de-la-nueva-ruta-submarina-del-pacifico-de-level-3-mejora-la-conexion-de-colombia-con-las-principales-ciudades-de-las-americas-europa-y-asia/,1
+/a-57-ciudades-en-argentina-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,301,200,/noticias/a-156-ciudades-en-mexico-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion/,1
+/enel-green-power-confirma-su-liderazgo-en-energias-renovables-en-mexico-tras-resultados-de-subasta/,301,200,/noticias/enel-green-power-confirma-su-liderazgo-en-energias-renovables-en-mexico-tras-resultados-de-subasta/,1
 /si-tu-puedes-despedir-a-un-cliente/,301,200,/emprendimiento/liderazgo/si-tu-puedes-despedir-a-un-cliente/,1
-/aireuropa-integra-a-safetypay-como-medio-de-pago/,error,error,Exceeded 30 redirects.,0
-/alimentaria-espera-mas-de-5500-visitantes-latinoamericanos/,error,error,Exceeded 30 redirects.,0
-/complejo-grand-lucayan-resort-en-venta-en-subasta-a-sobre-cerrado/,error,error,Exceeded 30 redirects.,0
-/las-pruebas-con-5g-de-verizon-impulsan-al-ecosistema-hacia-una-rapida-comercializacion/,error,error,Exceeded 30 redirects.,0
-/juegos-de-casino-de-primera-de-playstudios-amplian-la-asociacion-con-resorts-world-con-el-lanzamiento-de-premios-en-nueva-york-y-bimini/,error,error,Exceeded 30 redirects.,0
-/reciclaje-de-eps-una-realidad-para-cuidar-el-medio-ambiente/,error,error,Exceeded 30 redirects.,0
-/informe-de-la-rueda-de-prensa-en-vivo-de-baselworld-2016/,error,error,Exceeded 30 redirects.,0
-/los-clientes-de-impartner-reciben-una-cantidad-record-de-premios-destacados-de-crn-magazine/,error,error,Exceeded 30 redirects.,0
-/ixblue-presenta-su-novedoso-sistema-de-navegacion-inercial-rovins-nano-y-revoluciona-la-navegacion-de-rov/,error,error,Exceeded 30 redirects.,0
-/nucor-y-jfe-steel-forman-empresa-conjunta-para-abastecer-al-mercado-automotriz-de-mexico/,error,error,Exceeded 30 redirects.,0
-/fibra-prologis-anuncia-que-el-22-de-abril-llevara-a-cabo-la-conferencia-telefonica-donde-presentara-los-resultados-financieros-del-primer-trimestre-de-2016/,error,error,Exceeded 30 redirects.,0
+/aireuropa-integra-a-safetypay-como-medio-de-pago/,301,200,/noticias/aireuropa-integra-a-safetypay-como-medio-de-pago/,1
+/alimentaria-espera-mas-de-5500-visitantes-latinoamericanos/,301,200,/noticias/alimentaria-espera-mas-de-5500-visitantes-latinoamericanos/,1
+/complejo-grand-lucayan-resort-en-venta-en-subasta-a-sobre-cerrado/,301,200,/noticias/complejo-grand-lucayan-resort-en-venta-en-subasta-a-sobre-cerrado/,1
+/las-pruebas-con-5g-de-verizon-impulsan-al-ecosistema-hacia-una-rapida-comercializacion/,301,200,/noticias/las-pruebas-con-5g-de-verizon-impulsan-al-ecosistema-hacia-una-rapida-comercializacion/,1
+/juegos-de-casino-de-primera-de-playstudios-amplian-la-asociacion-con-resorts-world-con-el-lanzamiento-de-premios-en-nueva-york-y-bimini/,301,200,/noticias/juegos-de-casino-de-primera-de-playstudios-amplian-la-asociacion-con-resorts-world-con-el-lanzamiento-de-premios-en-nueva-york-y-bimini/,1
+/reciclaje-de-eps-una-realidad-para-cuidar-el-medio-ambiente/,301,200,/noticias/reciclaje-de-eps-una-realidad-para-cuidar-el-medio-ambiente/,1
+/informe-de-la-rueda-de-prensa-en-vivo-de-baselworld-2016/,301,200,/noticias/informe-de-la-rueda-de-prensa-en-vivo-de-baselworld-2016/,1
+/los-clientes-de-impartner-reciben-una-cantidad-record-de-premios-destacados-de-crn-magazine/,301,200,/noticias/los-clientes-de-impartner-reciben-una-cantidad-record-de-premios-destacados-de-crn-magazine/,1
+/ixblue-presenta-su-novedoso-sistema-de-navegacion-inercial-rovins-nano-y-revoluciona-la-navegacion-de-rov/,301,200,/noticias/ixblue-presenta-su-novedoso-sistema-de-navegacion-inercial-rovins-nano-y-revoluciona-la-navegacion-de-rov/,1
+/nucor-y-jfe-steel-forman-empresa-conjunta-para-abastecer-al-mercado-automotriz-de-mexico/,301,200,/noticias/nucor-y-jfe-steel-forman-empresa-conjunta-para-abastecer-al-mercado-automotriz-de-mexico/,1
+/fibra-prologis-anuncia-que-el-22-de-abril-llevara-a-cabo-la-conferencia-telefonica-donde-presentara-los-resultados-financieros-del-primer-trimestre-de-2016/,301,200,/noticias/fibra-prologis-anuncia-que-el-22-de-abril-llevara-a-cabo-la-conferencia-telefonica-donde-presentara-los-resultados-financieros-del-primer-trimestre-de-2016/,1
 /comerciales-prohibidos-censurados/,200,200,/comerciales-prohibidos-censurados/,0
-/bladex-registra-reporte-anual-formulario-20-f/,error,error,Exceeded 30 redirects.,0
-/anuncian-a-los-ganadores-del-premio-harold-w-mcgraw-jr-en-educacion/,error,error,Exceeded 30 redirects.,0
-/se-publica-el-estudio-sirflox-en-la-journal-of-clinical-oncology/,error,error,Exceeded 30 redirects.,0
-/attain-anuncia-licencia-de-paternidad-pagada/,error,error,Exceeded 30 redirects.,0
-/papa-merece-tecnologia-best-buy/,error,error,Exceeded 30 redirects.,0
-/ningxia-ansia-recibir-mas-visitantes-americanos-y-celebra-un-evento-en-los-angeles/,error,error,Exceeded 30 redirects.,0
-/visa-inc-designa-a-eduardo-perez-lider-de-riesgo-para-america-latina-y-el-caribe/,error,error,Exceeded 30 redirects.,0
-/ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico/,error,error,Exceeded 30 redirects.,0
-/risen-coloca-22-mwp-en-europa-del-este/,error,error,Exceeded 30 redirects.,0
-/el-salvador-apuesta-convertir-turismo-en-sector-estrategico-by-contrapunto-diario-digital/,error,error,Exceeded 30 redirects.,0
-/donde-vamos-a-cenar-hoy-taco-guru-by-yellowlink/,error,error,Exceeded 30 redirects.,0
-/fortinet-elige-la-tecnologia-prm-de-impartner-para-ayudar-a-transformar-su-plataforma-global-de-relaciones-con-los-socios/,error,error,Exceeded 30 redirects.,0
-/lanzamiento-mundial-de-la-honourable-order-of-international-hotel-general-managers/,error,error,Exceeded 30 redirects.,0
-/solucion-automatizada-camds-de-ipoint-minimiza-esfuerzos-de-datos-materiales-para-la-industria-automotriz/,error,error,Exceeded 30 redirects.,0
-/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-12-ciudades-de-peru-representadas/,error,error,Exceeded 30 redirects.,0
-/kenneth-cole-presenta-su-coleccion-otono-invierno-2016-de-relojes-automaticos/,error,error,Exceeded 30 redirects.,0
-/lutron-presenta-ultimas-innovaciones-en-ela-2016/,error,error,Exceeded 30 redirects.,0
-/marcatel-selecciona-la-solucion-de-genband-y-netnumber-para-modernizar-su-vital-infraestructura/,error,error,Exceeded 30 redirects.,0
-/las-tres-responsabilidades-corporativas-mas-importantes-segun-los-consumidores/,error,error,Exceeded 30 redirects.,0
-/canticos-presenta-los-pollitos-little-chickies-el-primer-titulo-de-la-coleccion-inspirada-en-las-adorables-canciones-de-cuna/,error,error,Exceeded 30 redirects.,0
-/wyndham-rewards-presenta-niveles-de-miembro-y-amplia-su-premiado-programa-de-lealtad-con-la-primera-experiencia-mejorada-en-canje-de-puntos-del-sector/,error,error,Exceeded 30 redirects.,0
-/nuevo-curso-online-de-ismael-cala-quienes-rompen-paradigmas-convierten-los-problemas-en-oportunidades/,error,error,Exceeded 30 redirects.,0
-/huawei-permite-a-las-portadoras-hacer-realidad-un-futuro-digital-mediante-la-transformacion-de-las-operaciones-y-un-ecosistema-abierto/,error,error,Exceeded 30 redirects.,0
-/nira-dynamics-ab-lanza-una-nueva-solucion-de-seguridad-para-una-mayor-conciencia-del-conductor/,error,error,Exceeded 30 redirects.,0
-/fibra-prologis-anuncia-los-resultados-de-la-asamblea-anual-ordinaria-de-tenedores/,error,error,Exceeded 30 redirects.,0
-/medico-internista-el-guardian-de-la-salud-en-adultos/,error,error,Exceeded 30 redirects.,0
-/el-ganador-de-1-idea-para-cambiar-la-historia-reconocido-por-barack-obama/,error,error,Exceeded 30 redirects.,0
+/bladex-registra-reporte-anual-formulario-20-f/,301,200,/noticias/bladex-registra-reporte-anual-formulario-20-f/,1
+/anuncian-a-los-ganadores-del-premio-harold-w-mcgraw-jr-en-educacion/,301,200,/noticias/anuncian-a-los-ganadores-del-premio-harold-w-mcgraw-jr-en-educacion/,1
+/se-publica-el-estudio-sirflox-en-la-journal-of-clinical-oncology/,301,200,/noticias/se-publica-el-estudio-sirflox-en-la-journal-of-clinical-oncology/,1
+/attain-anuncia-licencia-de-paternidad-pagada/,301,200,/noticias/attain-anuncia-licencia-de-paternidad-pagada/,1
+/papa-merece-tecnologia-best-buy/,301,200,/noticias/papa-merece-tecnologia-best-buy/,1
+/ningxia-ansia-recibir-mas-visitantes-americanos-y-celebra-un-evento-en-los-angeles/,301,200,/noticias/ningxia-ansia-recibir-mas-visitantes-americanos-y-celebra-un-evento-en-los-angeles/,1
+/visa-inc-designa-a-eduardo-perez-lider-de-riesgo-para-america-latina-y-el-caribe/,301,200,/noticias/visa-inc-designa-a-eduardo-perez-lider-de-riesgo-para-america-latina-y-el-caribe/,1
+/ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico/,301,200,/noticias/ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico/,1
+/risen-coloca-22-mwp-en-europa-del-este/,301,200,/noticias/risen-coloca-22-mwp-en-europa-del-este/,1
+/el-salvador-apuesta-convertir-turismo-en-sector-estrategico-by-contrapunto-diario-digital/,301,200,/noticias/el-salvador-apuesta-convertir-turismo-en-sector-estrategico-by-contrapunto-diario-digital/,1
+/donde-vamos-a-cenar-hoy-taco-guru-by-yellowlink/,301,200,/noticias/donde-vamos-a-cenar-hoy-taco-guru-by-yellowlink/,1
+/fortinet-elige-la-tecnologia-prm-de-impartner-para-ayudar-a-transformar-su-plataforma-global-de-relaciones-con-los-socios/,301,200,/noticias/fortinet-elige-la-tecnologia-prm-de-impartner-para-ayudar-a-transformar-su-plataforma-global-de-relaciones-con-los-socios/,1
+/lanzamiento-mundial-de-la-honourable-order-of-international-hotel-general-managers/,301,200,/noticias/lanzamiento-mundial-de-la-honourable-order-of-international-hotel-general-managers/,1
+/solucion-automatizada-camds-de-ipoint-minimiza-esfuerzos-de-datos-materiales-para-la-industria-automotriz/,301,200,/noticias/solucion-automatizada-camds-de-ipoint-minimiza-esfuerzos-de-datos-materiales-para-la-industria-automotriz/,1
+/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-12-ciudades-de-peru-representadas/,301,200,/noticias/el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-68-ciudades-de-mejico-representadas/,1
+/kenneth-cole-presenta-su-coleccion-otono-invierno-2016-de-relojes-automaticos/,301,200,/noticias/kenneth-cole-presenta-su-coleccion-otono-invierno-2016-de-relojes-automaticos/,1
+/lutron-presenta-ultimas-innovaciones-en-ela-2016/,301,200,/noticias/lutron-presenta-ultimas-innovaciones-en-ela-2016/,1
+/marcatel-selecciona-la-solucion-de-genband-y-netnumber-para-modernizar-su-vital-infraestructura/,301,200,/noticias/marcatel-selecciona-la-solucion-de-genband-y-netnumber-para-modernizar-su-vital-infraestructura/,1
+/las-tres-responsabilidades-corporativas-mas-importantes-segun-los-consumidores/,301,200,/noticias/las-tres-responsabilidades-corporativas-mas-importantes-segun-los-consumidores/,1
+/canticos-presenta-los-pollitos-little-chickies-el-primer-titulo-de-la-coleccion-inspirada-en-las-adorables-canciones-de-cuna/,301,200,/noticias/canticos-presenta-los-pollitos-little-chickies-el-primer-titulo-de-la-coleccion-inspirada-en-las-adorables-canciones-de-cuna/,1
+/wyndham-rewards-presenta-niveles-de-miembro-y-amplia-su-premiado-programa-de-lealtad-con-la-primera-experiencia-mejorada-en-canje-de-puntos-del-sector/,301,200,/noticias/wyndham-rewards-presenta-niveles-de-miembro-y-amplia-su-premiado-programa-de-lealtad-con-la-primera-experiencia-mejorada-en-canje-de-puntos-del-sector/,1
+/nuevo-curso-online-de-ismael-cala-quienes-rompen-paradigmas-convierten-los-problemas-en-oportunidades/,301,200,/noticias/nuevo-curso-online-de-ismael-cala-quienes-rompen-paradigmas-convierten-los-problemas-en-oportunidades/,1
+/huawei-permite-a-las-portadoras-hacer-realidad-un-futuro-digital-mediante-la-transformacion-de-las-operaciones-y-un-ecosistema-abierto/,301,200,/noticias/huawei-permite-a-las-portadoras-hacer-realidad-un-futuro-digital-mediante-la-transformacion-de-las-operaciones-y-un-ecosistema-abierto/,1
+/nira-dynamics-ab-lanza-una-nueva-solucion-de-seguridad-para-una-mayor-conciencia-del-conductor/,301,200,/noticias/nira-dynamics-ab-lanza-una-nueva-solucion-de-seguridad-para-una-mayor-conciencia-del-conductor/,1
+/fibra-prologis-anuncia-los-resultados-de-la-asamblea-anual-ordinaria-de-tenedores/,301,200,/noticias/fibra-prologis-anuncia-los-resultados-de-la-asamblea-anual-ordinaria-de-tenedores/,1
+/medico-internista-el-guardian-de-la-salud-en-adultos/,301,200,/noticias/medico-internista-el-guardian-de-la-salud-en-adultos/,1
+/el-ganador-de-1-idea-para-cambiar-la-historia-reconocido-por-barack-obama/,301,200,/noticias/el-ganador-de-1-idea-para-cambiar-la-historia-reconocido-por-barack-obama/,1
 /category/publicidad/,301,200,/listing/publicidad-activa-mobil-s-a-de-c-v/,1
 /category/mercadotecnia/,404,404,/category/mercadotecnia/,0
 /category/negocios/,404,404,/category/negocios/,0
