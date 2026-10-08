@@ -1,13 +1,17 @@
-.pm-article{line-height:1.75}
-.pm-article h2{margin-top:2.2em}
-.pm-article h3{margin-top:1.7em}
-.pm-article table{width:100%;border-collapse:collapse;margin:1.2em 0 1.6em;font-size:.95em}
-.pm-article th{background:#0f1222;color:#fff;text-align:left;padding:.65em .85em}
-.pm-article td{padding:.6em .85em;border-bottom:1px solid #e4e1d8;vertical-align:top}
-.pm-article .toc{background:#f6f4ef;border-radius:10px;padding:1em 1.4em;margin:1.6em 0}
-.pm-article .toc .toctitle{display:block;font-weight:700;margin-bottom:.3em}
-.pm-tldr{background:#0f1222;color:#fff;border-radius:12px;padding:1.2em 1.5em;margin:1.6em 0}
-.pm-tldr p,.pm-tldr li{color:#fff}
-.pm-tldr strong{color:#ff5a3c}
-.pm-nota{font-size:.92em;color:#5b6070;border-left:3px solid #e4e1d8;padding-left:1em}
-.pm-def{background:#f6f4ef;border-left:5px solid #ff5a3c;border-radius:8px;padding:1em 1.3em;margin:1.4em 0}
+.p20-article{line-height:1.75;color:#000}
+.p20-article a{color:#ea3322;text-decoration:underline;text-underline-offset:2px}
+.p20-article a:hover{color:#000}
+.p20-article h2{margin-top:2.2em;padding-top:.5em;border-top:3px solid #ea3322}
+.p20-article h3{margin-top:1.7em}
+.p20-article table{width:100%;border-collapse:collapse;margin:1.2em 0 1.6em;font-size:.95em}
+.p20-article th{background:#000;color:#fff;text-align:left;padding:.65em .85em}
+.p20-article td{padding:.6em .85em;border-bottom:1px solid #ccc;vertical-align:top}
+.p20-article .toc{background:#eee;border-left:5px solid #000;border-radius:4px;padding:1em 1.4em;margin:1.6em 0}
+.p20-article .toc .toctitle{display:block;font-weight:700;margin-bottom:.3em}
+.p20-tldr{background:#000;color:#fff;border-radius:6px;padding:1.2em 1.5em;margin:1.6em 0;border-left:8px solid #ea3322}
+.p20-tldr p,.p20-tldr li{color:#fff}
+.p20-tldr strong{color:#ef6659}
+.p20-def{background:#fff;border:2px solid #000;border-left:8px solid #ea3322;border-radius:4px;padding:1em 1.3em;margin:1.4em 0}
+.p20-video{margin:1.6em 0}
+.p20-video .wp-block-embed__wrapper{position:relative}
+.p20-video figcaption{font-size:.88em;color:#404040;margin-top:.5em;border-left:3px solid #ea3322;padding-left:.7em}

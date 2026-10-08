@@ -29,6 +29,29 @@ Si está disponible, el agente carga la skill `business-casual-conversion-copy` 
 8. **Rankings:** cada uno publica su metodología, sus fuentes y su fecha de corte. Ninguna empresa real aparece con datos que no se puedan verificar en su sitio, en premios o en prensa. Nadie paga por aparecer.
 9. **Revisión humana** antes de cambiar `status` a `publish`. Mientras tanto, todo va como `draft`.
 
+## Identidad visual de Publi2.0
+
+Todo lo visual sigue el logo de Publi2.0 (`brand/logo-publi20.png`): **negro #000000, rojo #EA3322 y blanco**, con grises neutros de apoyo. Nada de colores, clases ni estilos de otros sitios.
+
+- **Portada de cada nota:** se genera con `scripts/cover.py`. Lleva el logo, el pilar en rojo, el titular en negro y un panel negro con datos o nombres. Ningún logotipo de terceros.
+- **Nombre del archivo:** `images/<slug>-portada.png`. Si rehaces una portada, cambia el nombre (por ejemplo `-portada-v2`), porque el publicador reutiliza la imagen que ya existe con el mismo nombre.
+- **Estilos dentro de la nota:** solo las clases de `scripts/article.css` con prefijo `p20-` (`p20-tldr`, `p20-def`, `p20-video`).
+
+## Videos
+
+Cuando la nota hable de un comercial, una campaña o un evento que tenga video, búscalo e insértalo.
+
+1. **Primero el canal oficial** [@Publi20](https://www.youtube.com/@Publi20). Si ahí está, se usa ese.
+2. Si no está, usa el canal oficial de la marca o de un medio reconocido. Evita resubidas de cuentas anónimas.
+3. Para buscar: agrega los términos a `docs/busquedas-video.txt` y haz push; los resultados (id, título, canal y duración) quedan en `registro/videos.log`.
+4. Insértalo en su propia línea, justo después del párrafo que lo menciona:
+
+```markdown
+[youtube ID_O_URL "Qué muestra el video. Video: nombre del canal en YouTube."]
+```
+
+El publicador lo convierte en un bloque de inserción de YouTube de WordPress. El pie siempre dice de qué canal es el video.
+
 ## Estructura de un artículo
 
 ```markdown
@@ -45,7 +68,7 @@ tags: [...]
 
 Gancho (2 a 4 párrafos cortos)
 
-<div class="pm-tldr" markdown="1">
+<div class="p20-tldr" markdown="1">
 **Si solo tienes 30 segundos:**
 - ...
 </div>

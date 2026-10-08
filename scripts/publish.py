@@ -184,6 +184,39 @@ def nofollow_external(html):
     return _A_TAG.sub(fix, html)
 
 
+_YT = re.compile(r"^\[youtube\s+(\S+)(?:\s+\"([^\"]*)\")?\]\s*$", re.M)
+
+
+def youtube_id(ref):
+    m = re.search(r"(?:v=|youtu\.be/|/embed/|/shorts/)([A-Za-z0-9_-]{11})", ref)
+    if m:
+        return m.group(1)
+    if re.fullmatch(r"[A-Za-z0-9_-]{11}", ref):
+        return ref
+    raise ValueError(f"video de YouTube no reconocido: {ref}")
+
+
+def youtube_embed(vid, caption=""):
+    """Bloque de inserción de YouTube de WordPress (oEmbed responsivo) con pie opcional."""
+    url = f"https://www.youtube.com/watch?v={vid}"
+    cap = f'<figcaption class="wp-element-caption">{caption}</figcaption>' if caption else ""
+    return ('<!-- wp:embed {"url":"' + url + '","type":"video","providerNameSlug":"youtube","responsive":true,'
+            '"className":"p20-video wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->\n'
+            '<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube p20-video '
+            'wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">\n'
+            f'{url}\n</div>{cap}</figure>\n<!-- /wp:embed -->')
+
+
+def expand_videos(body):
+    """Convierte cada línea [youtube URL_o_ID "pie de video"] en un marcador y devuelve los bloques."""
+    blocks = []
+
+    def sub(m):
+        blocks.append(youtube_embed(youtube_id(m.group(1)), m.group(2) or ""))
+        return f"P20VIDEO{len(blocks) - 1}X"
+    return _YT.sub(sub, body), blocks
+
+
 def parse(path):
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
@@ -196,15 +229,19 @@ def parse(path):
     status = meta.get("status", "draft")
     if status not in VALID_STATUS:
         raise ValueError(f"{path}: status inválido '{status}'")
+    body, videos = expand_videos(body)
     html = markdown.markdown(
         body.strip(),
         extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
         extension_configs={"toc": {"toc_depth": "2-3", "title": "Índice de contenidos"}},
     )
+    for i, block in enumerate(videos):
+        html = re.sub(rf"<p>\s*P20VIDEO{i}X\s*</p>", lambda _m, b=block: b, html)
+        html = html.replace(f"P20VIDEO{i}X", block)
     if meta.get("layout", "article") == "article":
         css = (ROOT / "scripts" / "article.css").read_text(encoding="utf-8")
         footer = ""
-        html = f'<style>\n{css}</style>\n<div class="pm-article">\n{html}\n{footer}\n</div>'
+        html = f'<style>\n{css}</style>\n<div class="p20-article">\n{html}\n{footer}\n</div>'
     return meta, nofollow_external(html)
 
 

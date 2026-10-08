@@ -5,7 +5,7 @@ type: post
 status: draft
 date: 2026-10-27 08:00
 excerpt: "Cinco comerciales que se retiraron o se prohibieron por polémica: qué mostraban, por qué se cayeron y qué revisar antes de lanzar tu próxima campaña."
-featured_image: images/comerciales-prohibidos-censurados.png
+featured_image: images/comerciales-prohibidos-censurados-portada.png
 featured_alt: "Portada de Publi2.0: Comerciales prohibidos y censurados, 5 casos y lo que enseñan. Pepsi, Coca-Cola, Dove, Heineken y Volkswagen"
 categories: [creatividad]
 tags: [comerciales prohibidos, comerciales censurados, crisis de marca, creatividad, regulación publicitaria]
@@ -17,7 +17,7 @@ Nadie en una sala de juntas dijo "hagamos algo ofensivo". Lo que pasó fue más 
 
 Y luego llegó internet, que siempre pregunta.
 
-<div class="pm-tldr" markdown="1">
+<div class="p20-tldr" markdown="1">
 **Si solo tienes 30 segundos:**
 
 - La mayoría de los comerciales "prohibidos" no los prohibió un gobierno: **los retiró la propia marca** después de una ola de críticas.
@@ -44,6 +44,8 @@ La crítica fue inmediata. El anuncio parecía reducir las protestas por justici
 
 Pepsi lo retiró al día siguiente de lanzarlo. Su disculpa empezó con un "Clearly we missed the mark" (claramente fallamos el tiro).
 
+[youtube bTivpgMkGKA "Por qué el anuncio de Pepsi fue tan polémico. Video: The Washington Post en YouTube."]
+
 **Lo que enseña:** si tu marca toma prestada la estética de una causa, tienes que poder explicar qué haces por esa causa. Si la respuesta es "nada", no es una campaña: es un disfraz.
 
 ## 2. Coca-Cola en la sierra mixe: el comercial que se cayó en México
@@ -53,6 +55,8 @@ En diciembre de 2015, Coca-Cola México publicó un anuncio navideño grabado en
 Integrantes de la comunidad y organizaciones como Aser Litigio y El Poder del Consumidor lo calificaron de discriminatorio y condescendiente. Su argumento: presentaba a la comunidad indígena como receptora pasiva de la generosidad de jóvenes urbanos, y llevaba una cultura de consumo ajena a ella. Pidieron al Conapred que actuara.
 
 La marca bajó el video de sus redes sociales y dijo lamentar que el mensaje se hubiera "malinterpretado".
+
+[youtube lYeBLWz1K0M "El comercial navideño grabado en Totontepec. Video: Alianza por la Salud Alimentaria en YouTube."]
 
 **Lo que enseña:** "malinterpretado" casi nunca es la respuesta correcta. Si mucha gente entendió lo mismo, el mensaje sí llegó. Solo que no era el que querías mandar.
 
@@ -64,6 +68,8 @@ La marca borró la publicación y se disculpó en Twitter. Reconoció que la ima
 
 Lo más incómodo es que no era la primera vez. La misma nota recuerda que un anuncio de Dove de 2011, con un "antes y después" de piel, ya había recibido críticas parecidas.
 
+[youtube w4OreEdwaAM "La reacción al anuncio de Dove. Video: CNN Business en YouTube."]
+
 **Lo que enseña:** una marca con un posicionamiento fuerte en diversidad tiene menos margen de error, no más. El público ya sabe lo que prometiste y te va a medir con esa regla.
 
 ## 4. Heineken Light: tres palabras de más
@@ -71,6 +77,8 @@ Lo más incómodo es que no era la primera vez. La misma nota recuerda que un an
 En marzo de 2018, un comercial de Heineken Light mostraba a un bartender deslizando una botella por la barra. La botella pasaba junto a varias personas negras antes de llegar a una mujer de piel clara, y cerraba con la frase "Sometimes lighter is better" ([CNBC](https://www.cnbc.com/2018/03/27/heineken-pulls-lighter-is-better-commercial-after-some-call-it-racist.html)).
 
 El rapero Chance the Rapper lo criticó públicamente y la conversación creció. Heineken explicó que la frase se refería a su cerveza ligera, admitió el error y retiró el anuncio de televisión e internet.
+
+[youtube _DXsJDDkOMo "Heineken retira su comercial de Heineken Light. Video: CBS News en YouTube."]
 
 **Lo que enseña:** a veces el problema no es la idea, es el remate. Un claim que funciona solo en la cabeza de quien lo escribió es un claim que todavía no está terminado.
 
@@ -82,7 +90,19 @@ En agosto de 2019, la ASA, el organismo que regula la publicidad en Reino Unido,
 
 El de Philadelphia mostraba a dos papás tan distraídos por unos bagels que dejaban a sus bebés en una banda transportadora. El de Volkswagen alternaba hombres en situaciones de aventura con una mujer cuidando una carriola. Las dos marcas defendieron sus piezas; la ASA no les dio la razón.
 
+[youtube g9I_BIbRz2U "Los anuncios de Philadelphia y Volkswagen prohibidos en Reino Unido. Video: CNN en YouTube."]
+
 **Lo que enseña:** lo que hoy es "un chiste inofensivo" puede ser una infracción mañana. Las reglas cambian, y tu biblioteca de comerciales no se actualiza sola.
+
+## Del archivo de Publi2.0: más publicidad censurada
+
+En nuestro canal de YouTube guardamos una serie de spots que en su momento circularon como "publicidad censurada". Dos para que los compares con los casos de arriba:
+
+[youtube Ft3DWS0jP54 "Spot de cerveza Amstel, de la serie Publicidad Censurada. Video: canal de Publi2.0."]
+
+[youtube rWbojKw-ICU "Spot de Seat, de la serie Publicidad Censurada. Video: canal de Publi2.0."]
+
+Hay más en el [canal de Publi2.0 en YouTube](https://www.youtube.com/@Publi20).
 
 ## En México, ¿quién puede bajar un anuncio?
 
