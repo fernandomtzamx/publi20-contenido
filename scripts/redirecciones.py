@@ -15,6 +15,8 @@ import concurrent.futures as cf
 import csv
 import importlib.util
 import pathlib
+import random
+import re
 import sys
 
 import requests
@@ -35,10 +37,13 @@ def revisar():
 
     def uno(ruta):
         url = ruta if ruta.startswith("http") else BASE + ruta
+        # Parámetro aleatorio para saltar la caché de páginas del sitio (Redirection ignora la query).
+        url += ("&" if "?" in url else "?") + f"nc={random.randint(1, 10**9)}"
         try:
-            r = s.get(url, timeout=25, allow_redirects=True)
+            r = s.get(url, timeout=25, allow_redirects=True, headers={"Cache-Control": "no-cache"})
             first = r.history[0].status_code if r.history else r.status_code
-            return [ruta, first, r.status_code, r.url.replace(BASE, ""), len(r.history)]
+            final = re.sub(r"[?&]nc=\d+$", "", r.url.replace(BASE, ""))
+            return [ruta, first, r.status_code, final, len(r.history)]
         except Exception as e:  # noqa: BLE001
             return [ruta, "error", "error", str(e)[:80], 0]
 

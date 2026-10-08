@@ -1,4 +1,4 @@
-# Rutas viejas a revisar (GSC 16 meses + permalinks anteriores /slug/) v2
+# Rutas viejas a revisar (GSC 16 meses + permalinks anteriores /slug/) v3
 /proveedores/publicidad-exterior/234-vendor-publicidad-exterior-s-de-r-l-de-cv
 /proveedores/television/casas-productoras/pagina3
 /proveedores/120-grupo-alparied-s-a-de-c-v
@@ -245,7 +245,6 @@
 /proveedores/agencias/agencias-de-publicidad/1083-agencia-de-publicidad-proyecta-publicidad
 /proveedores/eventos/fotografias/14-photobooth-mexico-df
 /component/mtree/buscar-por/city?value=EL COLLI 
-URBANO 1A. SECCION
 /proveedores/agencias/agencias-de-publicidad/1120-agencia-de-publicidad-zeta-publicidad
 /proveedores/television/casas-productoras/pagina1
 /proveedores/431-grupo-signos-s-a-de-c-v
@@ -347,7 +346,6 @@ URBANO 1A. SECCION
 /proveedores/agencias/agencias-de-publicidad/1053-agencia-de-publicidad-lebrija-rubio-publicidad/contactar
 /proveedores/agencias/agencias-de-promocion/pagina3
 /proveedores/buscar-por/state/10?value=Distrito 
-Federal
 /proveedores/449-beltran-y-bernal-stoopen-sc
 /proveedores/agencias/agencias-de-tecnologia/1224-agencia-de-tecnologia-tkinov
 /proveedores/406-publimedia-los-cabos-sa-de-cv
@@ -355,7 +353,6 @@ Federal
 /proveedores/investigacion-de-mercados/1586-investigacion-de-mercados-merc-gfk
 /proveedores/agencias/agencias-de-medios/899-agencia-de-medios-mediacorp
 /proveedores/buscar-por/city?value=Ciudad de 
-M%C3%A9xico
 /listing/889-noticias-df/
 /proveedores/413-mentor-s-a-de-c-v
 /proveedores/97-editorial-magesa-s-a-de-c-v
@@ -364,7 +361,6 @@ M%C3%A9xico
 /proveedores/602-comercializadora-gps-2000-sa-de-cv
 /proveedores/agencias/agencias-de-medios/563-estrategia-inteligente-de-medios-s-a-de-c-v
 /proveedores/buscar-por/city?value=GOMEZ PALACIO 
-CENTRO
 /proveedores/impresion-y-artes-graficas/160-imagenes-de-guadalajara-s-a-de-c-v
 /proveedores/inbound-marketing-mexico/734-fernando-arturo-martinez-aguilar/recomendar
 /proveedores/television/casas-productoras/1614-productoras-ares-producciones
@@ -373,7 +369,6 @@ CENTRO
 /proveedores/impresion-y-artes-graficas/243-seriart-publicidad
 /proveedores/269-hyc-trade-business-s-a-de-c-v
 /proveedores/buscar-por/city?value=CIUDAD GUZMAN 
-CENTRO
 /proveedores/68-cortina-tagle-isoard-y-cia-sc
 /proveedores/stands-y-display/1723-stands-y-displays-grupo-tochijara
 /proveedores/television/casas-productoras/1660-productoras-hormiga-films
@@ -399,7 +394,6 @@ CENTRO
 /1670-como-se-deben-empezar-las-cosas-por-el-principio
 /proveedores/diseno/1410-despacho-de-diseno-retorno-tassier/contactar
 /component/mtree/buscar-por/city/17?value=Ciudad de 
-Mexico
 /proveedores/investigacion-de-mercados/1601-investigacion-de-mercados-wilbert-sierra-y-asociados
 /proveedores/287-rumbo-publicaciones-s-c
 /proveedores/agencias/agencias-de-publicidad/1106-agencia-de-publicidad-tovar-mina-y-asociados/contactar
@@ -434,7 +428,6 @@ Mexico
 /proveedores/494-publi-imagen
 /proveedores/inbound-marketing-mexico/1728-go-virtual
 /component/mtree/buscar-por/city?value=CIUDAD 
-OBREGON CENTRO (FUNDO LEGAL)
 /component/mtree/buscar-por/city?value=EL CARMEN
 /proveedores/impresion-y-artes-graficas/701-grafinsa-grafica-s-a-de-c-v
 /proveedores/agencias/agencias-de-promocion/950-agencia-de-promocion-inteligencia-avanzada
@@ -473,7 +466,6 @@ OBREGON CENTRO (FUNDO LEGAL)
 /proveedores/buscar-por/state?value=Colima
 /proveedores/agencias/agencias-de-publicidad/621-publicidad-augusto-elias-s-a-de-c-v/contactar
 /component/mtree/buscar-por/city?value=VICTORIA DE 
-DURANGO CENTRO
 /component/mtree/radio/todo
 /component/mtree/television/casas-productoras/pagina1
 /proveedores/agencias/agencias-de-publicidad/1005-agencia-de-publicidad-bbdo-mexico
@@ -491,7 +483,6 @@ DURANGO CENTRO
 /anunciantes
 /proveedores/buscar-por/country/61?value=M%C3%A9xico
 /component/mtree/buscar-por/city?value=COPILCO EL 
-BAJO
 /proveedores/70-publycom-s-a-de-c-v
 /proveedores/television/casas-productoras/1672-productoras-the-lift
 /component/mtree/impresion-y-artes-graficas/pagina4
@@ -510,7 +501,6 @@ BAJO
 /proveedores/agencias/agencias-de-publicidad/1001-agencia-de-publicidad-arroyo-publicidad
 /proveedores/marketing-digital/1225-agencia-digital-ada-mexico
 /component/mtree/buscar-por/city?value=RICARDO 
-FLORES MAGON
 /component/mtree/television/estudios-de-grabacion
 /proveedores/diseno/1414-despacho-de-diseno-scientika
 /proveedores/buscar-por/country/3?value=M
@@ -673,7 +663,6 @@ FLORES MAGON
 /proveedores/buscar-por/city?value=OBRERA
 /proveedores/marketing-digital/1256-agencia-digital-toro-digital
 /component/mtree/buscar-por/city/40?value=Ciudad de 
-Mexico
 /proveedores/pagina6
 /directorio
 /proveedores/agencias/todo/pagina9
@@ -689,7 +678,6 @@ Mexico
 /listing/productoras-vdm-casa-productora/
 /proveedores/197-guias-exclusivas-s-a-de-c-v
 /component/mtree/buscar-por/city?value=CUMBRES 
-PROVIDENCIA
 /proveedores/diseno/todo/pagina2
 /proveedores/agencias/agencias-de-diseno/777-agencia-de-diseno-industrial-traktor-lab
 /proveedores/60-liselot-s-a-de-c-v
@@ -697,7 +685,6 @@ PROVIDENCIA
 /proveedores/marketing-digital/836-agencia-de-marketing-digital-crossmedia
 /proveedores/agencias/agencias-de-publicidad/1018-agencia-de-publicidad-crecere-quorum
 /proveedores/buscar-por/city?value=PASEOS DE 
-CHIHUAHUA
 /proveedores/agencias/agencias-de-modelos/910-agencia-de-modelos-captura-models
 /listing/grupo-creativos/
 /proveedores/agencias/agencias-de-mercadotecnia/1284-agencias-de-marketing-campus-marketing
@@ -739,7 +726,6 @@ CHIHUAHUA
 /proveedores/promocionales/pagina1
 /proveedores/agencias/rp-s/1194-agencia-de-relaciones-publicas-grupo-public
 /proveedores/buscar-por/city?value=NUEVO LAREDO 
-CENTRO
 /component/mtree/estaciones-de-radio/musica/23-mix-106.5-df
 /proveedores/convenciones/aerolineas/41-volaris
 /5408-equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz
@@ -749,7 +735,6 @@ CENTRO
 /component/mtree/agencias/agencias-de-mercadotecnia/todo
 /proveedores/agencias/agencias-de-publicidad/367-maxima-publicidad
 /proveedores/buscar-por/city/7?value=Ciudad de 
-M%C3%A9xico
 /proveedores/buscar-por/city?value=EL INGUAMBO
 /proveedores/agencias/agencias-de-promocion/957-agencia-de-promocion-pauta-creativa
 /proveedores/agencias/rp-s
@@ -761,7 +746,6 @@ M%C3%A9xico
 /proveedores/agencias/agencias-de-mercadotecnia/1318-agencias-de-marketing-keep-in-touch-marketing-mexico
 /proveedores/impresion-y-artes-graficas/imprentas-digital/1563-impresion-digital-geformas
 /proveedores/buscar-por/city?value=PLAYA DEL CARMEN 
-CENTRO
 /proveedores/marketing-digital/840-agencia-de-marketing-digital-dm-playbook
 /proveedores/promocionales/articulos-promocionales/todo
 /proveedores/impresion-y-artes-graficas
@@ -770,11 +754,9 @@ CENTRO
 /proveedores/marketing-digital/822-agencia-de-marketing-digital-antevenio-mexico
 /5412-amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico
 /component/mtree/buscar-por/state?value=SAN LUIS 
-POTOSI
 /proveedores/diseno/diseno-y-desarrollo-web/1501-diseno-y-desarrollo-web-weblex/contactar
 /amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico/
 /proveedores/buscar-por/city/15?value=Ciudad de 
-M%C3%A9xico
 /proveedores/agencias/agencias-de-mercadotecnia
 /canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico/
 /proveedores/diseno/1395-despacho-de-diseno-kolazh-diseno-grafico
@@ -790,11 +772,9 @@ M%C3%A9xico
 /noticias/4988-ecwid-la-solucion-1-de-comercio-electronico-lanza-un-sitio-web-enfocado-en-mexico
 /proveedores/promocionales/articulos-promocionales/127-publicitarios-del-norte-de-mexico-s-a-de-c-v
 /proveedores/buscar-por/city?value=PARQUE INDUSTRIAL 
-AEROJUAREZ
 /component/mtree/buscar-por/country/59?value=M%C3%A9xico
 /proveedores/marketing-digital/855-agencia-de-marketing-digital-jetclic
 /proveedores/buscar-por/city?value=SANTIAGO DE 
-QUERETARO CENTRO
 /proveedores/medios-alternos
 /proveedores/impresion-y-artes-graficas/imprentas-digital/1560-impresion-digital-argoga-soluciones-avanzadas-en-sistemas
 /component/mtree/television/casas-productoras/pagina2
@@ -803,10 +783,8 @@ QUERETARO CENTRO
 /proveedores/485-rapicolor
 /proveedores/radio/doblaje-y-locucion/816-agencia-de-locutores-ronin-locutores
 /proveedores/buscar-por/city/23?value=Ciudad de 
-M%C3%A9xico
 /proveedores/agencias/agencias-de-promocion/922-agencia-de-promocion-advertising-and-promotion
 /component/mtree/buscar-por/city?value=JARDINES DEL 
-ESTADIO
 /1711-una-gran-vision-sin-gente-sobresaliente-es-irrelevante
 /proveedores/321-otero-27
 /proveedores/diseno/diseno-multimedia/1261-agencia-interactiva-ingenia-group
@@ -831,7 +809,6 @@ ESTADIO
 /proveedores/agencias/agencias-de-publicidad/1036-agencia-de-publicidad-grey-global-group-mexico
 /afluenta-la-red-lider-de-financiamiento-entre-personas-de-america-latina-recibe-us-8-millones-de-dolares-de-ifc-y-elevar-equity-para-expandirse-en-la-region/
 /component/mtree/buscar-por/city?value=PRADOS AGUA 
-AZUL
 /proveedores/promocionales/articulos-promocionales/630-servicios-publicitarios-publiram
 /component/mtree/buscar-por/city?value=TORREON CENTRO
 /proveedores/buscar-por/city?value=SALTILLO CENTRO
@@ -844,7 +821,6 @@ AZUL
 /proveedores/television/casas-productoras/1623-productoras-bit-produccion-de-medios-digitales
 /proveedores/investigacion-de-mercados/1575-investigacion-de-mercados-gyd-investigacion-de-mercados
 /proveedores/buscar-por/city?value=CIUDAD OBREGON 
-CENTRO (FUNDO LEGAL)
 /proveedores/publicidad-exterior/1143-agencia-de-publicidad-exterior-vanguardia-publicitaria
 /proveedores/television/casas-productoras/todo/pagina2
 /proveedores/impresion-y-artes-graficas/357-artigraf
@@ -888,12 +864,10 @@ CENTRO (FUNDO LEGAL)
 /proveedores/agencias/agencias-de-publicidad/232-mr-publicidad-s-a-de-c-v/contactar
 /proveedores/impresion-y-artes-graficas/480-noved-arte
 /proveedores/buscar-por/city?value=LAS HADAS MUNDIAL 
-86
 /proveedores/television/1508-doblaje-y-subtitulaje-digifilm
 /proveedores/publicidad-exterior/374-clarol-publicidad-exterior-s-c
 /proveedores/buscar-por/state?value=NUEVO LEON
 /proveedores/buscar-por/city/42?value=Ciudad de 
-Mexico
 /proveedores/diseno/fotografia/1556-fotografia-shaktiprod
 /proveedores/87-licon-y-asociados-s-a-de-c-v/contactar
 /proveedores/agencias/rp-s/1183-agencia-de-relaciones-publicas-audacia-comunicacion
@@ -907,7 +881,6 @@ Mexico
 /component/mtree/agencias/agencias-de-publicidad/pagina10
 /proveedores/agencias/agencias-de-promocion/943-agencia-de-promocion-glow-y-grow
 /proveedores/buscar-por/city?value=CABO SAN LUCAS 
-CENTRO
 /5016-lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no
 /proveedores/agencias/agencias-de-medios/906-agencia-de-medios-zenithoptimedia
 /proveedores/agencias/agencias-de-publicidad/1074-agencia-de-publicidad-pgiovascom
@@ -933,9 +906,7 @@ CENTRO
 /proveedores/agencias/rp-s/1205-agencia-de-relaciones-publicas-massideas
 /proveedores/agencias/agencias-de-mercadotecnia/todo/pagina3
 /component/mtree/buscar-por/city?value=PARQUE 
-INDUSTRIAL AEROJUAREZ
 /component/mtree/buscar-por/city?value=JARDINES DE 
-IRAPUATO
 /proveedores/agencias/todo/pagina17
 /proveedores/444-grupo-hiperformas-del-bajio-s-a-de-c-v/recomendar
 /proveedores/diseno/diseno-y-desarrollo-web/1481-diseno-y-desarrollo-web-meximex
@@ -953,7 +924,6 @@ IRAPUATO
 /proveedores/pagina4
 /proveedores/agencias/agencias-de-promocion/970-agencia-de-promocion-red-promex
 /proveedores/buscar-por/city?value=CIUDAD DELICIAS 
-CENTRO
 /proveedores/marketing-digital/823-agencia-de-marketing-digital-arena-media
 /proveedores/buscar-por/city/5?value=MEXICO
 /proveedores/agencias/agencias-de-mercadotecnia/765-agencia-de-comunicacion-y-marketing-llorente-y-cuenca
@@ -979,9 +949,7 @@ CENTRO
 /proveedores/diseno/diseno-multimedia/17-retro-studio-df
 /proveedores/marketing-digital/1253-agencia-digital-render-farm-studios
 /proveedores/buscar-por/state/53?value=DISTRITO 
-FEDERAL
 /component/mtree/buscar-por/state?value=Estado de 
-M%C3%A9xico
 /proveedores/diseno/pagina3
 /proveedores/agencias/agencias-de-mercadotecnia/38-emkt-mx
 /proveedores/agencias/agencias-de-promocion/934-agencia-de-promocion-grupo-ctp
@@ -992,7 +960,6 @@ M%C3%A9xico
 /proveedores/todo/pagina25?lang=es
 /proveedores/todo/pagina76?sort=-link_created
 /component/mtree/buscar-por/state?value=Nuevo 
-Le%C3%B3n
 /proveedores/agencias/agencias-de-promocion/966-agencia-de-promocion-proprom
 /proveedores/agencias/agencias-de-mercadotecnia/1343-agencias-de-marketing-revolver-radical
 /proveedores/agencias/agencias-de-publicidad/91-publicidad-de-aguinaga-s-a-de-c-v
@@ -1017,15 +984,12 @@ Le%C3%B3n
 /proveedores/television/casas-productoras/1613-productoras-arbol-cine
 /equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz/
 /component/mtree/buscar-por/city?value=ALTAMIRA 
-SECTOR III
 /proveedores/278-grupo-integra
 /proveedores/buscar-por/city?value=LOMAS DE 
-CIRCUNVALACION
 /noticias/5407-qs-world-university-rankings-by-subject-2017
 /proveedores/stands-y-display/1725-stands-y-displays-instintos-creativos
 /noticias/4786-asahi-kasei-chemicals-celebra-la-apertura-de-asahi-kasei-plastics-mexico-sa-de-cv
 /component/mtree/buscar-por/state/54?value=DISTRITO 
-FEDERAL
 /component/mtree/buscar-por/state?value=MICHOACAN
 /proveedores/marketing-digital/850-agencia-de-marketing-digital-icrossing
 /proveedores/agencias/agencias-de-mercadotecnia/773-agencia-de-comunicacion-y-marketing-teorus
