@@ -1,0 +1,45 @@
+name: Buscar videos de YouTube
+
+# Se ejecuta al cambiar docs/busquedas-video.txt (una búsqueda por línea).
+# Primero lista el canal oficial @Publi20 y luego busca cada término en YouTube.
+# Resultado: registro/videos.log (id, título, canal, duración, URL).
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/busquedas-video.txt", ".github/workflows/videos.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: pip install -q yt-dlp
+      - name: Buscar
+        run: |
+          mkdir -p registro
+          OUT=registro/videos.log
+          echo "fecha: $(date -u +%Y-%m-%dT%H:%M:%SZ)" > $OUT
+          echo "== Canal @Publi20 ==" >> $OUT
+          yt-dlp --flat-playlist --print "%(id)s | %(title)s | %(duration_string)s" \
+            "https://www.youtube.com/@Publi20/videos" >> $OUT 2>&1 || echo "(error al listar el canal)" >> $OUT
+          while IFS= read -r q; do
+            [ -z "$q" ] && continue
+            case "$q" in \#*) continue;; esac
+            echo "" >> $OUT
+            echo "== $q ==" >> $OUT
+            yt-dlp --flat-playlist --print "%(id)s | %(title)s | %(channel)s | %(duration_string)s" \
+              "ytsearch8:$q" >> $OUT 2>&1 || echo "(error en la búsqueda)" >> $OUT
+          done < docs/busquedas-video.txt
+          cat $OUT
+      - name: Guardar en el repo
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          git add registro/videos.log
+          git commit -m "Resultados de búsqueda de videos [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
