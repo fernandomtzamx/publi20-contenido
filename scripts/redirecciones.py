@@ -167,15 +167,24 @@ def conflictos():
     desactivar = []
     for i in previas:
         destino = i.get("action_data", {}).get("url", "") if isinstance(i.get("action_data"), dict) else str(i.get("action_data"))
-        lines.append(f"{i['id']}\t{i.get('status')}\tregex={i.get('regex')}\t{grupos.get(i.get('group_id'))}\t{i['url']}\t->\t{destino}")
-        if i.get("status") == "enabled" and re.match(r"^\^?/noticias", i["url"]):
+        activa = i.get("enabled", i.get("status") == "enabled")
+        lines.append(f"{i['id']}\t{'activa' if activa else 'inactiva'}\tregex={i.get('regex')}\t{grupos.get(i.get('group_id'))}\t{i['url']}\t->\t{destino}")
+        if activa and re.match(r"^\^?/noticias/", i["url"]):
             desactivar.append(i["id"])
     if desactivar:
-        try:
-            red(wp, "POST", "bulk/redirect/disable", json={"items": ",".join(map(str, desactivar))})
-            lines.append(f"Desactivadas: {desactivar}")
-        except Exception as e:  # noqa: BLE001
-            lines.append(f"ERROR al desactivar {desactivar}: {e}")
+        hechas = 0
+        for k in range(0, len(desactivar), 100):
+            lote = desactivar[k:k + 100]
+            try:
+                red(wp, "POST", "bulk/redirect/disable", json={"items": lote})
+                hechas += len(lote)
+            except Exception as e:  # noqa: BLE001
+                try:
+                    red(wp, "POST", "bulk/redirect/disable", params={"items": ",".join(map(str, lote))})
+                    hechas += len(lote)
+                except Exception as e2:  # noqa: BLE001
+                    lines.append(f"ERROR al desactivar lote {lote[:3]}...: {e} | {e2}")
+        lines.append(f"Desactivadas {hechas} de {len(desactivar)} reglas previas que empiezan con /noticias/")
     (ROOT / "registro" / "redirecciones-previas.log").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines[:5] + lines[-2:]))
 
