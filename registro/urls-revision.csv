@@ -1381,3 +1381,8 @@ FEDERAL,error,error,"HTTPSConnectionPool(host='www.publi20.comfederal', port=443
 /noticias/,200,200,/noticias/,0
 /category/publicidad/creatividad/,301,200,/listing/creatividad-y-dise%c3%b1o-de-hidalgo-s-a-de-c-v/,1
 /rankings/,200,200,/rankings/,0
+/mercadotecnia/,200,200,/mercadotecnia/,0
+/negocios/,200,200,/negocios/,0
+/emprendimiento/,200,200,/emprendimiento/,0
+/publicidad/creatividad/,301,200,/listing/creatividad-y-dise%c3%b1o-de-hidalgo-s-a-de-c-v/,1
+/emprendimiento/liderazgo/,404,404,/emprendimiento/liderazgo/,0
