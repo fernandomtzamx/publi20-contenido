@@ -55,6 +55,21 @@ def revisar():
         w = csv.writer(f)
         w.writerow(["ruta", "codigo_inicial", "codigo_final", "url_final", "saltos"])
         w.writerows(filas)
+    dbg = ROOT / "docs" / "debug-urls.txt"
+    if dbg.exists():
+        lines = []
+        for ruta in [l.strip() for l in dbg.read_text(encoding="utf-8").splitlines() if l.strip().startswith("/")]:
+            url = BASE + ruta + ("&" if "?" in ruta else "?") + f"nc={random.randint(1, 10**9)}"
+            lines.append(f"== {ruta}")
+            for _ in range(6):
+                r = s.get(url, timeout=25, allow_redirects=False)
+                lines.append(f"  {r.status_code} {url.replace(BASE, '')} -> {r.headers.get('location', '')} "
+                             f"| x-redirect-by: {r.headers.get('x-redirect-by', '-')}")
+                if r.status_code not in (301, 302, 307, 308):
+                    break
+                loc = r.headers.get("location", "")
+                url = loc if loc.startswith("http") else BASE + loc
+        (ROOT / "registro" / "cadenas.log").write_text("\n".join(lines) + "\n", encoding="utf-8")
     malos = sum(1 for f in filas if f[2] != 200)
     print(f"Revisadas {len(filas)} rutas; {malos} no terminan en 200")
 

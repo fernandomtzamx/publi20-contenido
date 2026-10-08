@@ -5,7 +5,7 @@ name: Redirecciones
 on:
   push:
     branches: [main]
-    paths: ["docs/urls-a-revisar.txt", "docs/redirecciones.csv", "scripts/redirecciones.py", ".github/workflows/redirecciones.yml"]
+    paths: ["docs/urls-a-revisar.txt", "docs/debug-urls.txt", "docs/redirecciones.csv", "scripts/redirecciones.py", ".github/workflows/redirecciones.yml"]
   workflow_dispatch:
 
 permissions:
@@ -40,6 +40,6 @@ jobs:
         run: |
           git config user.name "publi20-bot"
           git config user.email "publi20-bot@users.noreply.github.com"
-          for f in registro/urls-revision.csv registro/redirecciones.log; do [ -f "$f" ] && git add "$f"; done
+          for f in registro/urls-revision.csv registro/redirecciones.log registro/cadenas.log; do [ -f "$f" ] && git add "$f"; done
           git commit -q -m "Revisión de URLs y redirecciones [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main
