@@ -5,6 +5,7 @@ slug: autofintech-mexico
 type: post
 status: publish
 legado: true
+patrocinado: true
 excerpt: "Qué es autofintech y cuáles son las 10 herramientas que ayudan a una concesionaria a vender más: financiamiento digital, valuación, leads, seguros y firma electrónica."
 categories: [automotriz]
 tags: [autofintech, concesionarias, marketing automotriz, financiamiento automotriz, transformación digital]

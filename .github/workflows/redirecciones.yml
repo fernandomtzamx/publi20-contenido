@@ -1,0 +1,45 @@
+name: Redirecciones
+
+# docs/urls-a-revisar.txt cambia -> revisa el estado de cada ruta (registro/urls-revision.csv)
+# docs/redirecciones.csv cambia  -> crea las redirecciones 301 en el plugin Redirection
+on:
+  push:
+    branches: [main]
+    paths: ["docs/urls-a-revisar.txt", "docs/redirecciones.csv", "scripts/redirecciones.py", ".github/workflows/redirecciones.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: redirecciones
+  cancel-in-progress: false
+
+jobs:
+  redirecciones:
+    runs-on: ubuntu-latest
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Ejecutar
+        run: |
+          BEFORE="${{ github.event.before }}"
+          CAMBIOS=$(git diff --name-only "$BEFORE" "${{ github.sha }}" 2>/dev/null || true)
+          if echo "$CAMBIOS" | grep -q "docs/redirecciones.csv"; then python scripts/redirecciones.py --aplicar --revisar; else python scripts/redirecciones.py --revisar; fi
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          git add registro/urls-revision.csv registro/redirecciones.log 2>/dev/null || true
+          git commit -q -m "Revisión de URLs y redirecciones [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main

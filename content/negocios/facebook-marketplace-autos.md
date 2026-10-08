@@ -5,6 +5,7 @@ slug: que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-auto
 type: post
 status: publish
 legado: true
+patrocinado: "Go Virtual"
 excerpt: "Cuando Facebook Marketplace abrió la venta de vehículos en México, las distribuidoras ganaron un escaparate gratuito. Cómo funcionaba y qué considerar hoy."
 categories: [automotriz]
 tags: [Facebook Marketplace, distribuidores automotrices, autos seminuevos, marketing automotriz]

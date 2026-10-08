@@ -164,6 +164,17 @@ INTERNAL_HOSTS = ("publi20.com", "www.publi20.com")
 _A_TAG = re.compile(r"<a\s[^>]*>", re.I)
 
 
+def sponsored_external(html):
+    """Contenido patrocinado: los enlaces externos llevan además rel="sponsored" (indicación de Google)."""
+    def fix(m):
+        tag = m.group(0)
+        rel = re.search(r'rel=["\']([^"\']*)["\']', tag, re.I)
+        if not rel or "nofollow" not in rel.group(1) or "sponsored" in rel.group(1):
+            return tag
+        return tag[:rel.start()] + f'rel="sponsored {rel.group(1)}"' + tag[rel.end():]
+    return _A_TAG.sub(fix, html)
+
+
 def nofollow_external(html):
     """Regla del sitio: todo enlace externo lleva rel="nofollow noopener". Los internos (/ruta/ o publi20.com) no."""
     def fix(m):
@@ -246,7 +257,20 @@ def parse(path):
         css = (ROOT / "scripts" / "article.css").read_text(encoding="utf-8")
         footer = ""
         html = f'<style>\n{css}</style>\n<div class="p20-article">\n{html}\n{footer}\n</div>'
-    return meta, nofollow_external(html)
+    html = nofollow_external(html)
+    if meta.get("patrocinado"):
+        quien = meta["patrocinado"] if isinstance(meta["patrocinado"], str) else ""
+        aviso = ('<p class="p20-patrocinado"><strong>Contenido patrocinado.</strong> '
+                 + (f"Nota publicada en colaboración con {quien}." if quien else "Nota publicada en colaboración con una marca.")
+                 + "</p>")
+        html = html.replace('<div class="p20-article">', '<div class="p20-article">\n' + aviso, 1)
+        if aviso not in html:
+            html = aviso + html
+        html = sponsored_external(html)
+        tags = list(meta.get("tags") or [])
+        if "contenido patrocinado" not in tags:
+            meta["tags"] = tags + ["contenido patrocinado"]
+    return meta, html
 
 
 def site_config():

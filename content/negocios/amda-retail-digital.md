@@ -5,6 +5,7 @@ slug: amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-m
 type: post
 status: publish
 legado: true
+patrocinado: "AMDA Retail Digital"
 excerpt: "AMDA Retail Digital es la plataforma de la Asociación Mexicana de Distribuidores de Automotores para vender seminuevos con más transparencia. Qué es y qué resuelve."
 categories: [automotriz]
 tags: [AMDA Retail Digital, autos seminuevos, AMDA, autofintech, distribuidores automotrices]

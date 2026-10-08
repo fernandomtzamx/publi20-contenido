@@ -5,6 +5,7 @@ slug: canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico
 type: post
 status: publish
 legado: true
+patrocinado: "Canela Media"
 excerpt: "Canela.TV, la plataforma de streaming gratuito de Canela Media, llegó a México con un modelo AVoD financiado por publicidad. Qué es y qué significa para los anunciantes."
 categories: [medios]
 tags: [Canela.TV, streaming, AVoD, publicidad en video, medios digitales]

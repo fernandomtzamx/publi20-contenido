@@ -19,3 +19,5 @@
 .p20-archivo strong{color:#ea3322}
 .p20-archivo-fuente{font-size:.88em;color:#404040;border-top:1px solid #ccc;padding-top:.8em;margin-top:2em}
 .p20-credito{font-size:.92em;color:#404040;border-left:3px solid #ea3322;padding-left:.8em;margin-top:2em}
+.p20-patrocinado{background:#fff;border:2px solid #ea3322;border-radius:4px;padding:.7em 1em;font-size:.92em;margin:0 0 1.6em}
+.p20-patrocinado strong{color:#ea3322;text-transform:uppercase;letter-spacing:.04em}

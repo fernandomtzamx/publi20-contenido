@@ -5,6 +5,7 @@ slug: equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-s
 type: post
 status: publish
 legado: true
+patrocinado: "Go Virtual"
 excerpt: "¿Equipo interno de marketing digital o agencia externa? La experiencia del sector automotriz en México, con ventajas, costos y el modelo mixto que mejor funciona."
 categories: [automotriz]
 tags: [marketing automotriz, agencias de publicidad, distribuidores automotrices, marketing digital, sector automotriz]
