@@ -1,38 +1,16 @@
-fecha: 2026-10-08T20:48:21Z
-commit: 5d4d342153acb94d00981f933cd85df8ddd74f03
+fecha: 2026-10-08T20:49:23Z
+commit: abdafc4f188a14eba7f3f8ac6a2297bef76a1229
 evento: push
-resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37842119534
+resultado: failure
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37842284554
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Conectado como Fernando Martínez (roles: administrator)
-Perfil del usuario conectado: nombre público 'Fernando Martínez'
-Categoría actualizada: publicidad -> Publicidad
-Categoría actualizada: creatividad -> Creatividad
-Categoría actualizada: medios -> Medios
-Categoría actualizada: guias -> Guías
-Categoría actualizada: mercadotecnia -> Mercadotecnia
-Categoría actualizada: marketing-digital -> Marketing digital
-Categoría actualizada: investigacion-de-mercados -> Investigación de mercados
-Categoría actualizada: negocios -> Negocios
-Categoría actualizada: automotriz -> Automotriz
-Categoría actualizada: comercio-electronico -> Comercio electrónico
-Categoría actualizada: emprendimiento -> Emprendimiento
-Categoría actualizada: productividad -> Productividad
-Categoría actualizada: liderazgo -> Liderazgo
-Categoría actualizada: pymes -> Pymes
-Categoría actualizada: ventas -> Ventas
-Categoría actualizada: rankings -> Rankings
-Categoría actualizada: noticias -> Noticias
-Comentarios cerrados en 0 entradas o páginas
-Ajustes del sitio: comentarios y pingbacks desactivados por defecto
-Argumentos: --check
+Argumentos: content/publicidad/comerciales-prohibidos-censurados.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-Autor de las publicaciones: id 1
+ERROR content/publicidad/comerciales-prohibidos-censurados.md: No module named 'PIL'
+1 archivo(s) con error
