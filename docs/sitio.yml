@@ -1,0 +1,32 @@
+# Configuración de publi20.com que aplica scripts/site_setup.py.
+# Se aplica con: Actions > Publicar en WordPress > Run workflow > setup
+# (menús, portada, enlaces permanentes y redirecciones del directorio se hacen en wp-admin).
+
+# Todas las entradas se publican a nombre de Fernando Martínez.
+# Si el usuario de la API no es Fernando, pon aquí su id de usuario de WordPress.
+autor:
+  nombre: "Fernando Martínez"
+  # id: 1
+
+# Cierra comentarios y pingbacks en todo el contenido existente y en los ajustes del sitio.
+cerrar_comentarios: true
+
+# Pilares y subsecciones. El padre va antes que sus hijas.
+categorias:
+  - {slug: publicidad, name: Publicidad, description: "Agencias, creatividad, medios y campañas en México, explicados sin jerga y con fuentes."}
+  - {slug: creatividad, name: Creatividad, parent: publicidad}
+  - {slug: medios, name: Medios, parent: publicidad}
+  - {slug: guias, name: Guías, parent: publicidad}
+  - {slug: mercadotecnia, name: Mercadotecnia, description: "Marketing digital, inbound, investigación de mercados y marca. Lo que funciona y lo que es humo."}
+  - {slug: marketing-digital, name: Marketing digital, parent: mercadotecnia}
+  - {slug: investigacion-de-mercados, name: Investigación de mercados, parent: mercadotecnia}
+  - {slug: negocios, name: Negocios, description: "Empresas, sectores y decisiones de negocio en México, con datos verificables."}
+  - {slug: automotriz, name: Automotriz, parent: negocios}
+  - {slug: comercio-electronico, name: Comercio electrónico, parent: negocios}
+  - {slug: emprendimiento, name: Emprendimiento, description: "Productividad, liderazgo, ventas y pymes para quien está construyendo su propio negocio."}
+  - {slug: productividad, name: Productividad, parent: emprendimiento}
+  - {slug: liderazgo, name: Liderazgo, parent: emprendimiento}
+  - {slug: pymes, name: Pymes, parent: emprendimiento}
+  - {slug: ventas, name: Ventas, parent: emprendimiento}
+  - {slug: rankings, name: Rankings, description: "Rankings con metodología pública. Nadie paga por aparecer."}
+  - {slug: noticias, name: Noticias, description: "Lo que pasó en publicidad, marketing y negocios, cada semana."}
