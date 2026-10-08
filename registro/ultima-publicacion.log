@@ -1,8 +1,8 @@
-fecha: 2026-10-08T20:35:01Z
-commit: b68bce0b75a711f4c73fe682a61ea66f40000b1f
+fecha: 2026-10-08T20:40:13Z
+commit: 99eee9886715d7deffd37de7cc6bd8c669c422f4
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37840496847
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37841127600
 ---
 WP_URL: presente
 WP_USER: presente
@@ -11,5 +11,5 @@ Argumentos: content/publicidad/comerciales-prohibidos-censurados.md
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + imagen subida: comerciales-prohibidos-censurados-portada.png (id 8372)
-content/publicidad/comerciales-prohibidos-censurados.md: post actualizada (draft) id=8371 https://www.publi20.com/?p=8371
+  = imagen reutilizada: comerciales-prohibidos-censurados-portada (id 8372)
+content/publicidad/comerciales-prohibidos-censurados.md: post actualizada (publish) id=8371 https://www.publi20.com/publicidad/creatividad/comerciales-prohibidos-censurados/
