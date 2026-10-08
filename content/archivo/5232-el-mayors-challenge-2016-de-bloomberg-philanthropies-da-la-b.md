@@ -3,7 +3,7 @@ id: 5232
 title: El Mayors Challenge 2016 de Bloomberg Philanthropies da la bienvenida a 363 ciudades de América Latina y el Caribe; con 30 ciudades de Argentina representadas
 slug: el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-bienvenida-a-363-ciudades-de-america-latina-y-el-caribe-con-30-ciudades-de-argentina-representadas
 type: post
-status: publish
+status: draft
 formato: html
 legado: true
 portada: ninguna

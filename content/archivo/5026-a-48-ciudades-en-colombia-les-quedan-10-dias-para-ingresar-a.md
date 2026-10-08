@@ -3,7 +3,7 @@ id: 5026
 title: A 48 ciudades en Colombia les quedan 10 días para ingresar al Mayors Challenge 2016 de Bloomberg Philanthropies y competir por $9 millones de dólares estadounidenses para fondos de innovación
 slug: a-48-ciudades-en-colombia-les-quedan-10-dias-para-ingresar-al-mayors-challenge-2016-de-bloomberg-philanthropies-y-competir-por-9-millones-de-dolares-estadounidenses-para-fondos-de-innovacion
 type: post
-status: publish
+status: draft
 formato: html
 legado: true
 portada: ninguna

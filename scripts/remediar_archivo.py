@@ -28,6 +28,9 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto
 EDITORIALES = {4973, 5016, 5057, 5072, 5090, 5257, 5278, 5299, 5300, 5301, 5342, 5343, 5344, 5365,
                5386, 5387, 5408, 5409, 5410, 5411, 5412, 5413, 8371}
 
+# Duplicados consolidados: quedan en borrador y su URL redirige a la versión de México (5227 y 5025).
+DUPLICADOS = {5226, 5228, 5229, 5230, 5231, 5232, 5026, 5017}
+
 REGLAS = [  # (patrón sobre el título, subsección); la primera que coincide gana
     (r"emprend|startup|jóvenes empresarios|joven emprendedor|franquici|pymes|premios verde|young talent|"
      r"women's forum|silicon valley", "pymes"),
@@ -144,7 +147,7 @@ def main():
                   + ".</p>")
         meta = {
             "id": d["id"], "title": d["titulo"].strip(), "slug": d["slug"], "type": "post",
-            "status": "publish", "formato": "html", "legado": True, "portada": "ninguna",
+            "status": "draft" if d["id"] in DUPLICADOS else "publish", "formato": "html", "legado": True, "portada": "ninguna",
             "excerpt": extracto(cuerpo, d["titulo"]),
             "categories": ["noticias"] + ([sub] if sub != "negocios" else ["negocios"]),
             "tags": ["comunicados de prensa", f"archivo {d['fecha'][:4]}"],

@@ -1381,3 +1381,8 @@ FEDERAL
 /noticias/
 /category/publicidad/creatividad/
 /rankings/
+/mercadotecnia/
+/negocios/
+/emprendimiento/
+/publicidad/creatividad/
+/emprendimiento/liderazgo/
