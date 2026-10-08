@@ -1,151 +1,25 @@
-fecha: 2026-10-08T21:20:06Z
-commit: 791dc8aa41f4f9ba7501d91b7f2f5a9079104d3d
+fecha: 2026-10-08T21:57:02Z
+commit: 0b03d7b93489f00b358c20d4ba453c4788e171bb
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37844980918
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37850240366
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/emprendimiento/claves-marca-personal.md content/emprendimiento/despedir-a-un-cliente.md content/emprendimiento/en-la-vida-y-los-negocios.md content/emprendimiento/marca-personal-se-tu-mismo.md content/emprendimiento/pymes-y-sus-marcas.md content/mercadotecnia/cuando-importa-la-marca.md content/mercadotecnia/el-consumidor-no-quiere-mas-opciones.md content/mercadotecnia/los-numeros-no-importan-la-influencia-si.md content/mercadotecnia/redes-sociales-atencion-a-clientes.md content/mercadotecnia/snapchat-marketing-digital.md content/negocios/amda-retail-digital.md content/negocios/autofintech-mexico.md content/negocios/equipo-interno-o-agencia-automotriz.md content/negocios/facebook-marketplace-autos.md content/publicidad/aliados-o-charlatanes.md content/publicidad/canela-tv-mexico.md content/publicidad/converse-brain-dead.md content/publicidad/etica-agencias-de-publicidad.md content/publicidad/lo-que-todo-anunciante-debe-saber.md content/publicidad/ortografia-en-la-publicidad.md content/publicidad/personalidad-de-marca-todo-depende.md content/publicidad/premios-effie.md 
+Argumentos: content/negocios/amda-retail-digital.md content/negocios/autofintech-mexico.md content/negocios/equipo-interno-o-agencia-automotriz.md content/negocios/facebook-marketplace-autos.md content/publicidad/canela-tv-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: marca personal
-  + etiqueta creada: infografía
-  + etiqueta creada: liderazgo
-  + etiqueta creada: carrera profesional
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/infografia-claves-para-edificar-tu-marca-personal-portada.jpg
-  + imagen subida: infografia-claves-para-edificar-tu-marca-personal-portada.jpg (id 8701)
-content/emprendimiento/claves-marca-personal.md: post actualizada (publish) id=5387 https://www.publi20.com/emprendimiento/liderazgo/infografia-claves-para-edificar-tu-marca-personal/
-  + etiqueta creada: clientes
-  + etiqueta creada: agencias
-  + etiqueta creada: emprendimiento
-  + etiqueta creada: relaciones comerciales
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/si-tu-puedes-despedir-a-un-cliente-portada.jpg
-  + imagen subida: si-tu-puedes-despedir-a-un-cliente-portada.jpg (id 8703)
-content/emprendimiento/despedir-a-un-cliente.md: post actualizada (publish) id=5386 https://www.publi20.com/emprendimiento/liderazgo/si-tu-puedes-despedir-a-un-cliente/
-  + etiqueta creada: confianza
-  + etiqueta creada: cultura de trabajo
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/en-la-vida-y-los-negocios-portada.jpg
-  + imagen subida: en-la-vida-y-los-negocios-portada.jpg (id 8705)
-content/emprendimiento/en-la-vida-y-los-negocios.md: post actualizada (publish) id=5278 https://www.publi20.com/emprendimiento/liderazgo/en-la-vida-y-los-negocios/
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/regla-de-oro-para-tu-marca-personal-contra-la-homogeneidad-se-tu-mismo-portada.jpg
-  + imagen subida: regla-de-oro-para-tu-marca-personal-contra-la-homogeneidad-se-tu-mismo-portada.jpg (id 8707)
-content/emprendimiento/marca-personal-se-tu-mismo.md: post actualizada (publish) id=5299 https://www.publi20.com/emprendimiento/liderazgo/regla-de-oro-para-tu-marca-personal-contra-la-homogeneidad-se-tu-mismo/
-  + etiqueta creada: pymes
-  + etiqueta creada: marca
-  + etiqueta creada: ventas
-  + etiqueta creada: estudio
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/pymes-y-sus-marcas-la-mente-y-corazon-de-los-empresarios-portada.jpg
-  + imagen subida: pymes-y-sus-marcas-la-mente-y-corazon-de-los-empresarios-portada.jpg (id 8709)
-content/emprendimiento/pymes-y-sus-marcas.md: post actualizada (publish) id=5090 https://www.publi20.com/emprendimiento/pymes/pymes-y-sus-marcas-la-mente-y-corazon-de-los-empresarios/
-  + etiqueta creada: posicionamiento
-  + etiqueta creada: branding
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/en-un-mundo-perfecto-la-marca-es-irrelevante-portada.jpg
-  + imagen subida: en-un-mundo-perfecto-la-marca-es-irrelevante-portada.jpg (id 8711)
-content/mercadotecnia/cuando-importa-la-marca.md: post actualizada (publish) id=5057 https://www.publi20.com/mercadotecnia/en-un-mundo-perfecto-la-marca-es-irrelevante/
-  + etiqueta creada: comportamiento del consumidor
-  + etiqueta creada: paradoja de la elección
-  + etiqueta creada: portafolio de productos
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/el-consumidor-no-quiere-mas-opciones-portada.jpg
-  + imagen subida: el-consumidor-no-quiere-mas-opciones-portada.jpg (id 8713)
-content/mercadotecnia/el-consumidor-no-quiere-mas-opciones.md: post actualizada (publish) id=5257 https://www.publi20.com/mercadotecnia/el-consumidor-no-quiere-mas-opciones/
-  + etiqueta creada: métricas de marketing
-  + etiqueta creada: impresiones
-  + etiqueta creada: engagement
-  + etiqueta creada: marketing digital
-  + etiqueta creada: influencia
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/los-numeros-no-importan-la-influencia-si-portada.jpg
-  + imagen subida: los-numeros-no-importan-la-influencia-si-portada.jpg (id 8715)
-content/mercadotecnia/los-numeros-no-importan-la-influencia-si.md: post actualizada (publish) id=5343 https://www.publi20.com/mercadotecnia/marketing-digital/los-numeros-no-importan-la-influencia-si/
-  + etiqueta creada: redes sociales
-  + etiqueta creada: atención a clientes
-  + etiqueta creada: servicio al cliente
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/las-redes-sociales-como-canal-de-atencion-a-clientes-portada.jpg
-  + imagen subida: las-redes-sociales-como-canal-de-atencion-a-clientes-portada.jpg (id 8717)
-content/mercadotecnia/redes-sociales-atencion-a-clientes.md: post actualizada (publish) id=5300 https://www.publi20.com/mercadotecnia/marketing-digital/las-redes-sociales-como-canal-de-atencion-a-clientes/
-  + etiqueta creada: Snapchat
-  + etiqueta creada: video vertical
-  + etiqueta creada: marketing de influencers
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/por-que-snapchat-se-ha-convertido-en-una-interesante-herramienta-para-el-marketing-digital-portada.jpg
-  + imagen subida: por-que-snapchat-se-ha-convertido-en-una-interesante-herramienta-para-el-marketing-digital-portada.jpg (id 8719)
-content/mercadotecnia/snapchat-marketing-digital.md: post actualizada (publish) id=5344 https://www.publi20.com/mercadotecnia/marketing-digital/por-que-snapchat-se-ha-convertido-en-una-interesante-herramienta-para-el-marketing-digital/
-  + etiqueta creada: AMDA Retail Digital
-  + etiqueta creada: autos seminuevos
-  + etiqueta creada: AMDA
-  + etiqueta creada: autofintech
-  + etiqueta creada: distribuidores automotrices
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico-portada.jpg
-  + imagen subida: amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico-portada.jpg (id 8721)
+  + etiqueta creada: contenido patrocinado
+  = imagen reutilizada: amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico-portada (id 8721)
 content/negocios/amda-retail-digital.md: post actualizada (publish) id=5412 https://www.publi20.com/negocios/automotriz/amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico/
-  + etiqueta creada: concesionarias
-  + etiqueta creada: marketing automotriz
-  + etiqueta creada: financiamiento automotriz
-  + etiqueta creada: transformación digital
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/autofintech-mexico-portada.jpg
-  + imagen subida: autofintech-mexico-portada.jpg (id 8723)
+  = imagen reutilizada: autofintech-mexico-portada (id 8723)
 content/negocios/autofintech-mexico.md: post actualizada (publish) id=5411 https://www.publi20.com/negocios/automotriz/autofintech-mexico/
-  + etiqueta creada: agencias de publicidad
-  + etiqueta creada: sector automotriz
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz-portada.jpg
-  + imagen subida: equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz-portada.jpg (id 8725)
+  = imagen reutilizada: equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz-portada (id 8725)
 content/negocios/equipo-interno-o-agencia-automotriz.md: post actualizada (publish) id=5408 https://www.publi20.com/negocios/automotriz/equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz/
-  + etiqueta creada: Facebook Marketplace
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos-portada.jpg
-  + imagen subida: que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos-portada.jpg (id 8727)
+  = imagen reutilizada: que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos-portada (id 8727)
 content/negocios/facebook-marketplace-autos.md: post actualizada (publish) id=5409 https://www.publi20.com/negocios/automotriz/que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos/
-  + etiqueta creada: asesoría publicitaria
-  + etiqueta creada: consultoría de publicidad
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/aliados-o-charlatanes-donde-te-ves-portada.jpg
-  + imagen subida: aliados-o-charlatanes-donde-te-ves-portada.jpg (id 8729)
-content/publicidad/aliados-o-charlatanes.md: post actualizada (publish) id=5072 https://www.publi20.com/publicidad/aliados-o-charlatanes-donde-te-ves/
-  + etiqueta creada: Canela.TV
-  + etiqueta creada: streaming
-  + etiqueta creada: AVoD
-  + etiqueta creada: publicidad en video
-  + etiqueta creada: medios digitales
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico-portada.jpg
-  + imagen subida: canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico-portada.jpg (id 8731)
+  = imagen reutilizada: canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico-portada (id 8731)
 content/publicidad/canela-tv-mexico.md: post actualizada (publish) id=5410 https://www.publi20.com/publicidad/medios/canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico/
-  + etiqueta creada: Converse
-  + etiqueta creada: Brain Dead
-  + etiqueta creada: colaboraciones de marca
-  + etiqueta creada: co-branding
-  + etiqueta creada: moda
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/converse-x-brain-dead-portada.jpg
-  + imagen subida: converse-x-brain-dead-portada.jpg (id 8733)
-content/publicidad/converse-brain-dead.md: post actualizada (publish) id=5413 https://www.publi20.com/publicidad/creatividad/converse-x-brain-dead/
-  + etiqueta creada: ética publicitaria
-  + etiqueta creada: pitch de agencias
-  + etiqueta creada: CONAR
-  + etiqueta creada: AMAP
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/etica-en-las-agencias-de-publicidad-y-anarquia-en-los-negocios-portada.jpg
-  + imagen subida: etica-en-las-agencias-de-publicidad-y-anarquia-en-los-negocios-portada.jpg (id 8735)
-content/publicidad/etica-agencias-de-publicidad.md: post actualizada (publish) id=5342 https://www.publi20.com/publicidad/etica-en-las-agencias-de-publicidad-y-anarquia-en-los-negocios/
-  + etiqueta creada: anunciantes
-  + etiqueta creada: publicidad en México
-  + etiqueta creada: publicidad rentable
-  + etiqueta creada: estrategia de marca
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no-portada.jpg
-  + imagen subida: lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no-portada.jpg (id 8737)
-content/publicidad/lo-que-todo-anunciante-debe-saber.md: post actualizada (publish) id=5016 https://www.publi20.com/publicidad/guias/lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no/
-  + etiqueta creada: ortografía
-  + etiqueta creada: redacción publicitaria
-  + etiqueta creada: copywriting
-  + etiqueta creada: errores en publicidad
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/puedes-haber-sido-victima-de-un-fraude-informate-portada.jpg
-  + imagen subida: puedes-haber-sido-victima-de-un-fraude-informate-portada.jpg (id 8739)
-content/publicidad/ortografia-en-la-publicidad.md: post actualizada (publish) id=4973 https://www.publi20.com/publicidad/creatividad/puedes-haber-sido-victima-de-un-fraude-informate/
-  + etiqueta creada: personalidad de marca
-  + etiqueta creada: comunicación efectiva
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/como-la-ves-verdad-que-todo-depende-portada.jpg
-  + imagen subida: como-la-ves-verdad-que-todo-depende-portada.jpg (id 8741)
-content/publicidad/personalidad-de-marca-todo-depende.md: post actualizada (publish) id=5301 https://www.publi20.com/publicidad/creatividad/como-la-ves-verdad-que-todo-depende/
-  + etiqueta creada: premios Effie
-  + etiqueta creada: efectividad publicitaria
-  + etiqueta creada: festivales de publicidad
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/ya-vienen-los-effies-portada.jpg
-  + imagen subida: ya-vienen-los-effies-portada.jpg (id 8743)
-content/publicidad/premios-effie.md: post actualizada (publish) id=5365 https://www.publi20.com/publicidad/creatividad/ya-vienen-los-effies/
