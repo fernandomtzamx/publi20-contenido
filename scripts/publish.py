@@ -224,11 +224,31 @@ def author_id(wp):
     if cfg.get("id"):
         wp._author = int(cfg["id"])
     else:
+        nombre = str(cfg.get("nombre", "Fernando Martínez"))
         me = wp.req("GET", "users/me", params={"context": "edit"})
-        if me.get("name", "").strip().lower() != str(cfg.get("nombre", "Fernando Martínez")).lower():
-            raise RuntimeError(f"el usuario conectado es '{me.get('name')}', no Fernando Martínez; "
-                               "define autor.id en docs/sitio.yml o usa la contraseña de aplicación de Fernando")
-        wp._author = me["id"]
+        if me.get("name", "").strip().lower() == nombre.lower():
+            wp._author = me["id"]
+            return wp._author
+        # El usuario conectado no es Fernando: buscarlo por nombre (requiere rol que pueda listar usuarios).
+        import unicodedata
+
+        def norm(t):
+            t = unicodedata.normalize("NFKD", str(t).lower())
+            return "".join(c for c in t if not unicodedata.combining(c)).strip()
+        candidatos = []
+        for q in ("Fernando", "Martinez", "Martínez"):
+            for u in wp.req("GET", "users", params={"search": q, "context": "edit", "per_page": 100}):
+                if u["id"] not in [c["id"] for c in candidatos]:
+                    candidatos.append(u)
+        for u in candidatos:
+            print(f"  usuario encontrado: id={u['id']} nombre='{u.get('name')}' usuario='{u.get('username')}' "
+                  f"roles={','.join(u.get('roles', []))}")
+        exactos = [u for u in candidatos if norm(u.get("name", "")) == norm(nombre)
+                   or norm(f"{u.get('first_name', '')} {u.get('last_name', '')}") == norm(nombre)]
+        if len(exactos) != 1:
+            raise RuntimeError(f"no encontré un único usuario llamado '{nombre}' ({len(exactos)} coincidencias); "
+                               "define autor.id en docs/sitio.yml")
+        wp._author = exactos[0]["id"]
     return wp._author
 
 
