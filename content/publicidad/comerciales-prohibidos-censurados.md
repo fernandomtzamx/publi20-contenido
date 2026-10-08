@@ -5,8 +5,9 @@ type: post
 status: publish
 date: 2026-10-08 14:40
 excerpt: "Cinco comerciales que se retiraron o se prohibieron por polémica: qué mostraban, por qué se cayeron y qué revisar antes de lanzar tu próxima campaña."
-featured_image: images/comerciales-prohibidos-censurados-portada.png
-featured_alt: "Portada de Publi2.0: Comerciales prohibidos y censurados, 5 casos y lo que enseñan. Pepsi, Coca-Cola, Dove, Heineken y Volkswagen"
+featured_image: images/comerciales-prohibidos-censurados-foto.jpg
+image_prompt: "A dim television broadcast control room at night, a wall of dark monitors with one screen glowing red, an empty producer chair, a single red on-air light glowing, moody and tense atmosphere"
+featured_alt: "Sala de control de televisión a oscuras con una pantalla encendida en rojo y una luz de al aire"
 categories: [creatividad]
 tags: [comerciales prohibidos, comerciales censurados, crisis de marca, creatividad, regulación publicitaria]
 ---
