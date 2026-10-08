@@ -1,0 +1,39 @@
+name: Portadas del archivo con Gemini
+
+# Genera portadas para los comunicados del archivo hasta que Gemini devuelva límite.
+# Se retoma solo cada día a las 03:10 (hora de Ciudad de México) hasta terminar.
+on:
+  push:
+    branches: [main]
+    paths: ["docs/portadas-archivo.txt", ".github/workflows/portadas-archivo.yml", "scripts/portadas_archivo.py"]
+  schedule:
+    - cron: "10 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portadas-archivo
+  cancel-in-progress: false
+
+jobs:
+  portadas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Generar portadas
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          python scripts/portadas_archivo.py --max 400 --lote 10
