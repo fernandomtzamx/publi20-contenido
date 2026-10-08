@@ -1,8 +1,8 @@
-fecha: 2026-10-08T20:49:23Z
-commit: abdafc4f188a14eba7f3f8ac6a2297bef76a1229
+fecha: 2026-10-08T20:52:01Z
+commit: c949187fe993ac26e654a8e2d5b7c020b1cfbbfd
 evento: push
-resultado: failure
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37842284554
+resultado: success
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37842555114
 ---
 WP_URL: presente
 WP_USER: presente
@@ -12,5 +12,6 @@ Argumentos: content/publicidad/comerciales-prohibidos-censurados.md
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-ERROR content/publicidad/comerciales-prohibidos-censurados.md: No module named 'PIL'
-1 archivo(s) con error
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/comerciales-prohibidos-censurados-foto.jpg
+  + imagen subida: comerciales-prohibidos-censurados-foto.jpg (id 8374)
+content/publicidad/comerciales-prohibidos-censurados.md: post actualizada (publish) id=8371 https://www.publi20.com/publicidad/creatividad/comerciales-prohibidos-censurados/
