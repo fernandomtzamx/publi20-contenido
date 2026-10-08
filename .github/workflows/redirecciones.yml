@@ -34,7 +34,7 @@ jobs:
         run: |
           BEFORE="${{ github.event.before }}"
           CAMBIOS=$(git diff --name-only "$BEFORE" "${{ github.sha }}" 2>/dev/null || true)
-          if echo "$CAMBIOS" | grep -q "docs/redirecciones.csv"; then python scripts/redirecciones.py --aplicar --revisar; else python scripts/redirecciones.py --revisar; fi
+          if echo "$CAMBIOS" | grep -q "docs/redirecciones.csv\|scripts/redirecciones.py"; then python scripts/redirecciones.py --aplicar --revisar; else python scripts/redirecciones.py --revisar; fi
       - name: Guardar en el repo
         if: always()
         run: |

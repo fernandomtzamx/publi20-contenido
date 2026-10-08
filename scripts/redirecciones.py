@@ -92,7 +92,7 @@ def aplicar():
         grupos = red(wp, "GET", "group", params={"per_page": 200}).get("items", [])
         g = next((x for x in grupos if x["name"] == GRUPO), None)
         if not g:
-            res = red(wp, "POST", "group", json={"name": GRUPO, "moduleID": 1, "enabled": True})
+            res = red(wp, "POST", "group", json={"name": GRUPO, "moduleId": 1, "enabled": True})
             g = next(x for x in res.get("items", []) if x["name"] == GRUPO)
             log(f"Grupo creado: {GRUPO} (id {g['id']})")
         existentes = set()
