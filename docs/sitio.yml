@@ -7,6 +7,12 @@
 autor:
   nombre: "Fernando Martínez"
   # id: 1
+  # La cuenta de la API ("soporte", id 1) es de Fernando: se muestra con su nombre.
+  perfil:
+    first_name: "Fernando"
+    last_name: "Martínez"
+    name: "Fernando Martínez"
+    nickname: "Fernando Martínez"
 
 # Cierra comentarios y pingbacks en todo el contenido existente y en los ajustes del sitio.
 cerrar_comentarios: true

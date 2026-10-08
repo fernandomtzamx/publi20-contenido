@@ -2,6 +2,7 @@
 """Aplica docs/sitio.yml en publi20.com: categorías (con jerarquía), cierre de comentarios y ajustes.
 
 Qué hace, en orden:
+  0. Si docs/sitio.yml trae autor.perfil, actualiza el nombre público del usuario conectado.
   1. Crea o actualiza las categorías de los pilares y sus subsecciones.
   2. Cierra comentarios y pingbacks en todas las entradas y páginas que los tengan abiertos.
   3. Si el usuario conectado es administrador, desactiva los comentarios por defecto del sitio.
@@ -90,7 +91,16 @@ def main():
     wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
     me = wp.whoami()
     print(f"Conectado como {me.get('name')} (roles: {', '.join(me.get('roles', []))})")
-    errors = categorias(wp, cfg.get("categorias") or [])
+    errors = 0
+    perfil = (cfg.get("autor") or {}).get("perfil")
+    if perfil:
+        try:
+            me = wp.req("POST", "users/me", json=perfil)
+            print(f"Perfil del usuario conectado: nombre público '{me.get('name')}'")
+        except Exception as e:  # noqa: BLE001
+            errors += 1
+            print(f"ERROR perfil: {e}")
+    errors += categorias(wp, cfg.get("categorias") or [])
     if cfg.get("cerrar_comentarios", True):
         errors += cerrar_comentarios(wp)
         errors += ajustes(wp)
