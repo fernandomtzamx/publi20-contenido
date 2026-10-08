@@ -34,12 +34,12 @@ jobs:
         run: |
           BEFORE="${{ github.event.before }}"
           CAMBIOS=$(git diff --name-only "$BEFORE" "${{ github.sha }}" 2>/dev/null || true)
-          if echo "$CAMBIOS" | grep -q "docs/redirecciones.csv"; then python scripts/redirecciones.py --aplicar --revisar; else python scripts/redirecciones.py --revisar; fi
+          if echo "$CAMBIOS" | grep -q "docs/redirecciones.csv"; then python scripts/redirecciones.py --aplicar --revisar; else python scripts/redirecciones.py --conflictos --revisar; fi
       - name: Guardar en el repo
         if: always()
         run: |
           git config user.name "publi20-bot"
           git config user.email "publi20-bot@users.noreply.github.com"
-          for f in registro/urls-revision.csv registro/redirecciones.log registro/cadenas.log; do [ -f "$f" ] && git add "$f"; done
+          for f in registro/urls-revision.csv registro/redirecciones.log registro/cadenas.log registro/redirecciones-previas.log; do [ -f "$f" ] && git add "$f"; done
           git commit -q -m "Revisión de URLs y redirecciones [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main

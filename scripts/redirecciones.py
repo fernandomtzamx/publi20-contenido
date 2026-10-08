@@ -151,11 +151,43 @@ def aplicar():
         sys.exit(1)
 
 
+def conflictos():
+    """Registra las redirecciones previas (fuera del grupo de remediación) y desactiva las que mandan
+    /noticias/<slug>/ a /<slug>/, porque chocan con la estructura nueva y generan bucles."""
+    wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
+    grupos = {g["id"]: g["name"] for g in red(wp, "GET", "group", params={"per_page": 200}).get("items", [])}
+    previas, page = [], 0
+    while True:
+        items = red(wp, "GET", "redirect", params={"per_page": 200, "page": page}).get("items", [])
+        previas += [i for i in items if grupos.get(i.get("group_id")) != GRUPO]
+        if len(items) < 200:
+            break
+        page += 1
+    lines = [f"Redirecciones previas: {len(previas)}"]
+    desactivar = []
+    for i in previas:
+        destino = i.get("action_data", {}).get("url", "") if isinstance(i.get("action_data"), dict) else str(i.get("action_data"))
+        lines.append(f"{i['id']}\t{i.get('status')}\tregex={i.get('regex')}\t{grupos.get(i.get('group_id'))}\t{i['url']}\t->\t{destino}")
+        if i.get("status") == "enabled" and re.match(r"^\^?/noticias", i["url"]):
+            desactivar.append(i["id"])
+    if desactivar:
+        try:
+            red(wp, "POST", "bulk/redirect/disable", json={"items": ",".join(map(str, desactivar))})
+            lines.append(f"Desactivadas: {desactivar}")
+        except Exception as e:  # noqa: BLE001
+            lines.append(f"ERROR al desactivar {desactivar}: {e}")
+    (ROOT / "registro" / "redirecciones-previas.log").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("\n".join(lines[:5] + lines[-2:]))
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--revisar", action="store_true")
     ap.add_argument("--aplicar", action="store_true")
+    ap.add_argument("--conflictos", action="store_true")
     a = ap.parse_args()
+    if a.conflictos:
+        conflictos()
     if a.revisar:
         revisar()
     if a.aplicar:
