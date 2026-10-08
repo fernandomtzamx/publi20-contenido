@@ -2,8 +2,8 @@
 title: "Comerciales prohibidos y censurados: 5 casos y lo que enseñan"
 slug: comerciales-prohibidos-censurados
 type: post
-status: draft
-date: 2026-10-27 08:00
+status: publish
+date: 2026-10-08 14:40
 excerpt: "Cinco comerciales que se retiraron o se prohibieron por polémica: qué mostraban, por qué se cayeron y qué revisar antes de lanzar tu próxima campaña."
 featured_image: images/comerciales-prohibidos-censurados-portada.png
 featured_alt: "Portada de Publi2.0: Comerciales prohibidos y censurados, 5 casos y lo que enseñan. Pepsi, Coca-Cola, Dove, Heineken y Volkswagen"
