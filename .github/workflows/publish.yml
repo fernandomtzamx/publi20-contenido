@@ -9,6 +9,7 @@ on:
       - "docs/sitio.yml"
       - "scripts/publish.py"
       - "scripts/gemini_image.py"
+      - "requirements.txt"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
     inputs:
