@@ -1,25 +1,22 @@
-fecha: 2026-10-08T21:57:02Z
-commit: 0b03d7b93489f00b358c20d4ba453c4788e171bb
+fecha: 2026-10-08T22:18:55Z
+commit: 4cd707892a7e00b33c38d8c4f60706307fd51174
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37850240366
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37852644197
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/negocios/amda-retail-digital.md content/negocios/autofintech-mexico.md content/negocios/equipo-interno-o-agencia-automotriz.md content/negocios/facebook-marketplace-autos.md content/publicidad/canela-tv-mexico.md 
+Argumentos: content/archivo/5017-a-57-ciudades-en-argentina-les-quedan-10-dias-para-ingresar-.md content/archivo/5026-a-48-ciudades-en-colombia-les-quedan-10-dias-para-ingresar-a.md content/archivo/5226-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md content/archivo/5228-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md content/archivo/5229-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md content/archivo/5230-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md content/archivo/5231-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md content/archivo/5232-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: contenido patrocinado
-  = imagen reutilizada: amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico-portada (id 8721)
-content/negocios/amda-retail-digital.md: post actualizada (publish) id=5412 https://www.publi20.com/negocios/automotriz/amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico/
-  = imagen reutilizada: autofintech-mexico-portada (id 8723)
-content/negocios/autofintech-mexico.md: post actualizada (publish) id=5411 https://www.publi20.com/negocios/automotriz/autofintech-mexico/
-  = imagen reutilizada: equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz-portada (id 8725)
-content/negocios/equipo-interno-o-agencia-automotriz.md: post actualizada (publish) id=5408 https://www.publi20.com/negocios/automotriz/equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz/
-  = imagen reutilizada: que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos-portada (id 8727)
-content/negocios/facebook-marketplace-autos.md: post actualizada (publish) id=5409 https://www.publi20.com/negocios/automotriz/que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos/
-  = imagen reutilizada: canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico-portada (id 8731)
-content/publicidad/canela-tv-mexico.md: post actualizada (publish) id=5410 https://www.publi20.com/publicidad/medios/canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico/
+content/archivo/5017-a-57-ciudades-en-argentina-les-quedan-10-dias-para-ingresar-.md: post actualizada (draft) id=5017 https://www.publi20.com/?p=5017
+content/archivo/5026-a-48-ciudades-en-colombia-les-quedan-10-dias-para-ingresar-a.md: post actualizada (draft) id=5026 https://www.publi20.com/?p=5026
+content/archivo/5226-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md: post actualizada (draft) id=5226 https://www.publi20.com/?p=5226
+content/archivo/5228-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md: post actualizada (draft) id=5228 https://www.publi20.com/?p=5228
+content/archivo/5229-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md: post actualizada (draft) id=5229 https://www.publi20.com/?p=5229
+content/archivo/5230-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md: post actualizada (draft) id=5230 https://www.publi20.com/?p=5230
+content/archivo/5231-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md: post actualizada (draft) id=5231 https://www.publi20.com/?p=5231
+content/archivo/5232-el-mayors-challenge-2016-de-bloomberg-philanthropies-da-la-b.md: post actualizada (draft) id=5232 https://www.publi20.com/?p=5232
