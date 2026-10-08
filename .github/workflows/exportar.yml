@@ -1,0 +1,35 @@
+name: Exportar contenido publicado
+
+# Se ejecuta al cambiar docs/exportar.txt. Guarda legacy/ en el repo.
+on:
+  push:
+    branches: [main]
+    paths: ["docs/exportar.txt", ".github/workflows/exportar.yml", "scripts/exportar.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - run: python scripts/exportar.py 2>&1 | tee legacy-export.log
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          mkdir -p registro && cp legacy-export.log registro/exportacion.log || true
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          git add legacy registro/exportacion.log
+          git commit -q -m "Exportación del contenido publicado [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
