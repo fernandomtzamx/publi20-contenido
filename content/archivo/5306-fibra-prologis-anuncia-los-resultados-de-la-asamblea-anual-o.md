@@ -1,0 +1,30 @@
+---
+id: 5306
+title: FIBRA Prologis Anuncia los Resultados de la Asamblea Anual Ordinaria de Tenedores
+slug: fibra-prologis-anuncia-los-resultados-de-la-asamblea-anual-ordinaria-de-tenedores
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: 'FIBRA Prologis (BMV: FIBRAPL 14), el fideicomiso de inversión en bienes raíces líder en inversión y administración de inmuebles industriales clase A en…'
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de FIBRA Prologis publicado originalmente el 28 de abril de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>CIUDAD DE MÉXICO, 29 de abril de 2016  FIBRA Prologis (BMV: FIBRAPL 14), el fideicomiso de inversión en bienes raíces líder en inversión y administración de inmuebles industriales clase A en México, anuncia la aprobación de las cinco propuestas presentadas ante la asamblea anual ordinaria de tenedores.</p>
+
+<p>Aproximadamente 67 por ciento de los Certificados Bursátiles Fiduciarios Inmobiliarios (CBFIs) fueron representados en la asamblea.</p>
+<p>Las cinco resoluciones aprobadas por mayoría fueron las siguientes:</p><ul type="disc"><li>Ratificación del nombramiento de los Miembros Independientes (propietarios y suplentes) del Comité Técnico y calificación de su independencia de conformidad con la ley aplicable; </li><li>Ratificación de la remuneración de los Miembros Independientes (propietarios y suplentes) del Comité Técnico; </li><li>Estados Financieros anuales auditados de 2015; </li><li>Reporte Anual de 2015; </li><li>Designación de delegados especiales que den cumplimiento a las resoluciones.</li></ul><p>No sé logró el quorum requerido para la asamblea Extraordinaria de tenedores (por lo menos el 75%), por lo tanto el Representante Común realizará una segunda convocatoria el 11 de mayo de 2016, qué de conformidad con el Fideicomiso, dicha asamblea quedará válidamente instalada con cualesquiera tenedores con derecho a voto que se encuentren presentes en dicha asamblea y sus decisiones serán adoptadas válidamente por mayoría simple de votos de los tenedores con derecho a voto presentes, cualquiera que sea el número o porcentaje de CBFIs en ella representados.</p>
+<p><b>PERFIL DE FIBRA PROLOGIS </b></p>
+<p>FIBRA Prologis es el fideicomiso de inversión en bienes raíces líder en inversión y administración de inmuebles industriales clase A en México. Al 31 de marzo de 2016 FIBRA Prologis consistía de 188 inmuebles destinados a logística y manufactura en México, en seis mercados industriales del país, con una Área Rentable Bruta total de 32.6 millones de pies cuadrados (3.0 millones de metros cuadrados). </p>
+<p><b>DECLARACIONES DE PROYECCIONES FUTURAS</b></p>
+<p>Este comunicado contiene algunas declaraciones sobre hechos futuros. Dichas declaraciones están basadas en expectativas actuales, estimaciones y proyecciones de la industria y los mercados en los cuales FIBRA Prologis opera, así como en creencias y suposiciones derivadas del Administrador de FIBRA Prologis. Dichas declaraciones implican incertidumbres que pudieren llegar afectar significativamente los resultados financieros de FIBRA Prologis. Palabras como "espera", "anticipa", "intenta", "planea", "cree", "busca", "estima" o variaciones de las mismas y expresiones similares tienen la intención de identificar dichas declaraciones sobre hechos futuros, que por lo general no son de naturaleza histórica. Todas las declaraciones en relación con el rendimiento operacional, eventos o desarrollos que esperamos o anticipamos que ocurran en el futuro, incluyendo, declaraciones relacionadas con renta y crecimiento ocupacional, actividades de desarrollo y cambios en las ventas o en el volumen de propiedades a ser aportadas, enajenaciones, condiciones generales en las áreas geográficas en las que operamos, y nuestra deuda y posición financiera, serán consideradas declaraciones sobre hechos futuros. Estas declaraciones no garantizan un rendimiento futuro e implican ciertos riesgos, incertidumbres y supuestos que son difíciles de predecir. No obstante que creemos que las estimaciones contenidas en cualquier declaración sobre hechos futuros están basadas en suposiciones razonables, no podemos asegurar que nuestras expectativas se cumplirán y por lo tanto los resultados reales podrían diferir materialmente de lo expresado o previsto en dicha declaración. Algunos de los factores que pudieren llegar afectar dichas resultados incluyen, pero no se limitan, a: (i) la situación económica internacional, regional y local, (ii) los cambios en los mercados financieros, tasas de interés y tipos de cambio de moneda extranjera, (iii) aumento en, o surgimiento de, competencia respecto de nuestras propiedades, (iv) los riesgos asociados con adquisiciones, enajenación y desarrollo de propiedades, (v) el mantenimiento del régimen y estructura fiscal de un fideicomiso de inversión en bienes raíces, (vi) la disponibilidad de financiamiento y capital, los niveles de endeudamiento que mantengamos y nuestras calificaciones, (vii) los riesgos relacionados con nuestras inversiones, (viii) incertidumbres ambientales, incluyendo los riesgos de desastres naturales, y (ix) los factores de riesgo adicionales discutidos en los comunicados, informes, reportes, prospectos y suplementos presentados ante la Comisión Nacional Bancaria y de Valores y la Bolsa Mexicana de Valores, S.A.B. de C.V., por FIBRA Prologis, bajo el rubro "Factores de Riesgo". Ni Prologis ni FIBRA Prologis asumen obligación alguna de actualizar las declaraciones sobre hechos futuros que aparecen en este comunicado. </p>
+
+<p class="p20-archivo-fuente">Fuente: FIBRA Prologis.</p>

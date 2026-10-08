@@ -1,0 +1,36 @@
+---
+id: 5223
+title: Datos y sesiones relevantes en la reunión de la SAGES 2016 prueban la seguridad y la eficacia de la terapia Stretta para la ERGE
+slug: datos-y-sesiones-relevantes-en-la-reunion-de-la-sages-2016-prueban-la-seguridad-y-la-eficacia-de-la-terapia-stretta-para-la-erge
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: NORWALK, Connecticut, 30 de marzo de 2016 Mederi Therapeutics, Inc. ha informado de la presentación de nuevos datos sobre Stretta y de la participación de…
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Mederi Therapeutics Inc. publicado originalmente el 29 de marzo de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>NORWALK, Connecticut, 30 de marzo de 2016  Mederi Therapeutics, Inc. ha informado de la presentación de nuevos datos sobre Stretta y de la participación de Stretta en diversas sesiones educativas en la reunión de la Sociedad Estadounidense de Cirujanos Gastrointestinales y Endoscopistas (<a href="http://www.sages.org/" rel="nofollow">SAGES</a>) en Boston.</p>
+ Estas actividades que tuvieron lugar en la SAGES han confirmado la viabilidad y la seguridad de la <a href="http://www.stretta-therapy.com/" rel="nofollow">Terapia Stretta</a> a la hora de tratar la enfermedad por reflujo gastroesofágico (ERGE) en numerosas poblaciones de pacientes.
+
+<p>Stretta consiste en una intervención por vía oral no quirúrgica que emplea la energía de radiofrecuencia de baja potencia (RF) para remodelar el músculo entre el estómago y el esófago. Existen estudios que demuestran que el tratamiento Stretta resuelve los síntomas del reflujo, mejora la calidad de vida, reduce o elimina los medicamentos, y disminuye la exposición a ácidos en los pacientes con ERGE crónica. </p>
+<p>Durante las sesiones posteriores de la SAGES se presentaron nuevos datos sobre Stretta procedentes del Reino Unido. "A Prospective Study of Endoscopic RF Application (Stretta) for GERD: Early UK Experience" (Un estudio prospectivo sobre la aplicación endoscópica de radiofrecuencias Stretta para la ERGE: una experiencia anticipada en Reino Unido), mostró cómo el tratamiento Stretta produce un alivio sintomático en la mayoría de los pacientes. El Sr. Viswanath YKS y los coautores concluyeron que, en los pacientes seleccionados con una respuesta baja a la medicación, Stretta es una alternativa segura y eficaz a la cirugía. </p>
+<p>Stretta se mostró en un panel de expertos en el que se debatió el problema de la ERGE en pacientes tras la cirugía bariátrica. En el panel titulado, "What Every Surgeon Should Know about Reflux in the Bariatric Patient" (Lo que todo cirujano debería saber sobre el reflujo en el paciente bariátrico) Dana Portenier, doctor y responsable de cirugía general del Hospital Regional de Duke y profesor asistente de la Escuela de Medicina de la Universidad de Duke, destacó que Stretta podría ser una opción ideal para los pacientes con ERGE tras cirugía bariátrica. Indicando que la cirugía de revisión para estos pacientes podría presentar complicaciones importantes, Portenier y otros miembros del panel destacaron que Stretta era una opción menos invasiva que puede ayudar a evitar la cirugía de revisión al tiempo que mantiene abiertas las opciones de tratamiento futuras.</p>
+<p>"Los tratamientos para la ERGE fueron un tema destacado en la reunión de este año de la SAGES, en la que Stretta estuvo presente en múltiples sesiones además de en el curso práctico", explicó el director ejecutivo de Mederi, Bob Knarr. Y añadió: "Está claro que este es un momento crucial para los tratamientos como Stretta. La ERGE está aumentando, por lo que si se deja sin tratar puede causar cáncer de esófago. Al mismo tiempo existe una concienciación cada vez mayor de los peligros del uso de PPI a largo plazo. Stretta cubre la necesidad de una opción no farmacéutica y no quirúrgica. Los pacientes quieren disponer de más opciones y gracias a Stretta los médicos son capaces de proporcionar un tratamiento versátil que se ha estudiado de forma amplia, y que ha demostrado su eficacia a largo plazo".</p>
+<p><b>ACERCA DE MEDERI<sup>®</sup></b><b>Y STRETTA<sup>®</sup></b></p>
+<p>Mederi fabrica dispositivos innovadores que usan la energía no ablativa de radiofrecuencia (RF) para tratar las enfermedades digestivas. La terapia Stretta ha demostrado ser segura y eficaz para el tratamiento de la ERGE en 37 estudios realizados en cinco continentes. Los estudios de Stretta han demostrado un alivio duradero de los síntomas hasta 10 años. Se han realizado en todo el mundo más de 20.000 procedimientos Stretta. </p>
+<p>Para obtener más información, visite: <a href="http://www.stretta-therapy.com/" rel="nofollow">www.stretta-therapy.com</a>.</p>
+<p>Contacto de medios: 
+<br/>Amy Phillips
+<br/>+1.412.327.9499 
+<br/><a href="mailto:amy@pascalecommunications.com" rel="nofollow">amy@pascalecommunications.com</a></p>
+
+<p class="p20-archivo-fuente">Fuente: Mederi Therapeutics Inc..</p>

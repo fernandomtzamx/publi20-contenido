@@ -1,0 +1,47 @@
+---
+id: 5188
+title: La alianza con Rainforest Alliance añade una capa más de placer al comer una paleta Magnum®
+slug: la-alianza-con-rainforest-alliance-anade-una-capa-mas-de-placer-al-comer-una-paleta-magnum
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: Magnum® se une a Rainforest Alliance, una organización sin fines de lucro, reconocida como autoridad en temas de certificación de productos sustentables…
+categories:
+- noticias
+- creatividad
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Magnum publicado originalmente el 17 de marzo de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>CIUDAD DE MÉXICO, 18 de marzo de 2016  Magnum® se une a Rainforest Alliance, una organización sin fines de lucro, reconocida como autoridad en temas de certificación de productos sustentables, para que los granos de cacao que utiliza para la producción de su chocolate sean, no sólo seleccionados con los más altos estándares de calidad, sino que contribuyen beneficiando comunidades enteras y la protección del ambiente.</p>
+
+<p>Los aproximadamente 1.2 billones de buscadores de placer alrededor del mundo que disfrutan las paletas Magnum® ahora podrán disfrutar el irresistible sabor del chocolate sabiendo que el cacao que contiene es certificado por Rainforest Alliance.</p>
+<p>El resultado: placer desde el cacao hasta la mordida</p>
+<p>Este compromiso se ve reflejado en que globalmente Magnum® para 2016 habrá comprado 40 mil toneladas de cacao sustentable suministradas por las fincas certificadas por Rainforest Alliance. La marca está trabajando arduamente para que todos los mercados internacionales puedan tener en su totalidad el cacao proveniente de estas fincas a partir del 2016.</p>
+<p>Desde el 2011 al iniciar esta alianza, más de 26,800 productores de cacao han sido capacitados en fincas certificadas por Rainforest Alliance. El proceso que permite llegar a la certificación inicia con entrenamiento a los agricultores para que integren nuevas y mejores técnicas para enriquecer sus campos de cultivo, se les apoya para que puedan invertir en tecnología al mismo tiempo integran proyectos de salud y educación en la comunidad ayudando a lograr que sus familias prosperen junto con sus comunidades alineando esta filosofía con los objetivos que también persigue Unilever con su Plan de Vida Sustentable y al mismo tiempo se impacte positivamente al equilibrio del planeta en el que todos habitamos.</p>
+<p>Posteriormente las fincas pasan por un proceso de auditoría a cargo de organismos independientes y aquellas que cumplen con el estándar de la Red de Agricultura Sustentable, obtienen el sello de certificación Rainforest Alliance una etiqueta de prestigio que puede ser usada para vender productos agrícolas. Al proveerse de cacao certificado por Rainforest Alliance, Magnum® tiene plena seguridad que la producción de su cacao ha sido adquirido en granjas certificadas y así los procesos de producción se han visto favorecidos y optimizados para ofrecer un producto de acuerdo a las exigencias y necesidades de los buscadores de placer.</p>
+<p>"Estamos comprometidos en promover mejores prácticas en la industria, y mediante nuestro trabajo en conjunto con Rainforest Alliance, estamos obteniendo cacao de la más alta calidad. Para nosotros esto marca la diferencia, ayudando a los agricultores y productores de cacao a mejorar su calidad de vida, desarrollo personal y bienestar, como lo hacemos cuando nuestros buscadores de placer muerden una Magnum®." Comenta Ernesto Miramontes Director de Mercadotecnia de la división de helados holanda.</p>
+<p>"Si el consumidor prefiere y exige productos y servicios responsables, el mercado responde como lo hace hoy Magnum® creando una alianza con Rainforest Alliance. Nosotros sabemos que pocas acciones tienen tanta influencia en la forma en que las empresas y los productores actúan como lo es la elección del consumidor." Sostuvo Sabrina Vigilante Directora de Iniciativas Estratégicas y Transformación de Mercados de Rainforest Alliance.</p>
+<p>Ahora los consumidores de Magnum® pueden estar seguros que el chocolate que tanto les gusta proviene de fincas manejadas bajo los rigurosos estándares y forman parte de la Red de Agricultura Sustentable en las cuales los trabajadores y sus familias gozan de condiciones dignas y seguras, en donde se protege la vida silvestre y su hábitat. </p>
+<p>Nuestros buscadores de placer podrán ver el sello en cada empaque de la paleta Magnum® para que "sigan a la rana" e identifiquen sus productos contienen cacao sustentable.</p>
+<p>Para mayor información sobre Magnum® y Rainforest Alliance: <a href="http://www.mimagnum.com.mx/" rel="nofollow">http://www.mimagnum.com.mx/</a></p>
+<p><a href="http://www.rainforest-alliance.org/es" rel="nofollow">http://www.rainforest-alliance.org/es</a></p>
+<p><b><i>Acerca de Magnum® </i></b></p>
+<p><i>Lanzado en 1989, Magnum® es hoy en día una de las principales marcas de paletas heladas en el mundo, con una venta de 1 billón de unidades anuales en todo el mundo y es la marca de helados más importante de Unilever®. Magnum®, busca ser un icono del helado placentero y sofisticado ofreciendo una experiencia de chocolate real. Magnum® cree que un día sin placer es un día perdido</i></p>
+<p><b><i>Acerca de RainForest Allinace® </i></b></p>
+<p><i>Rainforest Alliance es una organización no gubernamental que le preocupa, no sólo un país, sino todos los países del mundo donde haya árboles, bosques y plantaciones que cuidar.</i></p>
+<p><i>Han podido certificar el doble de zonas forestales en los últimos tres años, lo que ha abierto la posibilidad para que más productos, como la madera, el cacao o el papel ahora tengan esta certificación y logren el apoyo de la organización para desarrollar comunidades.</i></p>
+<p><b><i>Acerca de Unilever</i></b></p>
+<p><i>Con más de 120 años de operaciones, Unilever es uno de los proveedores líderes mundiales de productos de consumo con operaciones en más de 100 países y ventas en 190. Tenemos más de 171,000 empleados y en el 2011 generamos ventas anuales de €46.5 mil millones de euros. Para más información sobre Unilever y sus marcas, visite <a href="http://www.unilever.com" rel="nofollow">www.unilever.com</a>.</i></p>
+<p><i>En México está presente desde hace los años 60s y es generadora de más de 5,000 empleos. Algunas de sus marcas más reconocidas en el mercado mexicano son Axe®, Rexona®, Dove®, Sedal®, Pond's®, Knorr®, AdeS®, Hellmann's®, Lipton®, Primavera®, Helados Holanda®, Magnum®, Cornetto®, Mordisko®, Solero®, TRESemmé®, Folicuré®, St. Ives® y Alberto VO5®. Para más información sobre Unilever y sus marcas en México, visite <a href="http://www.unilever.com.mx" rel="nofollow">www.unilever.com.mx</a></i></p>
+<p>Para Mayor información contacte a:
+<br/>Alex Villatoro
+<br/><a href="mailto:alex@lithiumpr.mx" rel="nofollow">alex@lithiumpr.mx</a>
+<br/>T. 4434 5965</p>
+
+<p class="p20-archivo-fuente">Fuente: Magnum.</p>

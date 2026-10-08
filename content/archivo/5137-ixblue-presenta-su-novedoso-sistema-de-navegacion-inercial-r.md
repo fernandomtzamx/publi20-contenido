@@ -1,0 +1,32 @@
+---
+id: 5137
+title: iXBlue presenta su novedoso sistema de navegación inercial ROVINS NANO y revoluciona la navegación de ROV
+slug: ixblue-presenta-su-novedoso-sistema-de-navegacion-inercial-rovins-nano-y-revoluciona-la-navegacion-de-rov
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: 'La industria offshore lo esperaba con ansias: específicamente diseñado para navegaciones de ROV, ROVINS NANO ofrece un posicionamiento de alta precisión para…'
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de iXBlue publicado originalmente el 14 de marzo de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p><i>La industria offshore lo esperaba con ansias: específicamente diseñado para navegaciones de ROV, ROVINS NANO ofrece un posicionamiento de alta precisión para todas las profundidades, incluso Estaciones de Mantenimiento de Media Agua.</i></p>
+<i> Ahora con un rango completo de sistemas de navegación submarina inercial, desde navegación de ROV a sondeos marinos, iXBlue puede ayudarlo donde usted lo necesite debajo del mar.</i>
+<p>LONDRES, 15 de marzo de 2016  iXBlue, un líder global en soluciones de navegación, posicionamiento y toma de imágenes, presenta ROVINS NANO, un sistema de navegación inercial de última tecnología para navegación de ROV. Anunciado en la feria comercial Oceanology International, el producto era esperado con muchas ansias por la industria offshore.</p>
+
+<p>A partir de la mejor tecnología de giroscopio de fibra óptica, ROVINS NANO ha sido diseñado para pilotos de ROV que realizan operaciones de mantenimiento y de construcción. Ofrece la estabilidad inigualable y la exactitud de la posición inercial, revelando el norte verdadero, cifras de circulación, ángulo y rotación. Paul Wysocki, Gerente de Producto de ROVINS NANO de iXBlue, comenta: "ROVINS NANO puede transmitir en forma directa la posición del ROV con una precisión extrema gracias al algoritmo INS integrado que obtiene datos acústicos. Esto ahora es posible sin importar la profundidad a la que se encuentre: no se trata sólo de una evolución, sino de una revolución para las Estaciones de Mantenimiento de Media Agua".</p>
+<p>ROVINS NANO ahora garantiza la seguridad óptima de navegación: incluso en campos LVL de "despliegue disperso", la combinación entre ROVINS NANO y el sistema acústico RAMSES de iXBlue permite obtener datos de posicionamiento extremadamente precisos.</p>
+<p>Además de su alto nivel de rendimiento, ROVINS NANO se adapta al usuario: el uso de la configuración, la instalación y el producto se han simplificado considerablemente, incorporando al mismo tiempo un sistemo tan complejo como el INS. Además, gracias a su compacidad y arquitectura abierta con todos los sensores de terceras partes, ROVINS NANO es extremadamente fácil de integrar. Todo esto a un precio asequible: el producto ofrece un mejor retorno de la inversión y un costo total de propiedad menor.</p>
+<p>Paul Wysocki celebra: "Estamos muy contentos de ofrecer este sistema único en el mercado de navegación offshore. Satisface las necesidades actuales y aborda a la perfección los requisitos del operador en términos de confiabilidad, simplicidad de uso y precio".</p>
+<p>iXBlue ahora ofrece un rango expandido de sistemas probados de navegación marina, desde navegación de ROV a aplicaciones de sondeo. Hoy, donde sea que lo necesite debajo del agua, iXBlue está ahí para ayudarlo con el mejor rendimiento en equipamiento inercial.</p>
+<p>CONTACTO: Claire André, 1-331-30088078, <a href="mailto:pr@ixblue.com" rel="nofollow">pr@ixblue.com</a></p>
+
+<p class="p20-archivo-fuente">Fuente: iXBlue.</p>

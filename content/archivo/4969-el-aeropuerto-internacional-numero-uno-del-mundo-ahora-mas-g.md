@@ -1,0 +1,36 @@
+---
+id: 4969
+title: El aeropuerto internacional número uno del mundo, ahora más grande y mejor
+slug: el-aeropuerto-internacional-numero-uno-del-mundo-ahora-mas-grande-y-mejor
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: DUBÁI, Emiratos Árabes Unidos, 24 de febrero de 2016 Dubai International, el aeropuerto número uno del mundo por tráfico de pasajeros internacionales…
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Dubai Airports publicado originalmente el 23 de febrero de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>DUBÁI, Emiratos Árabes Unidos, 24 de febrero de 2016  Dubai International, el aeropuerto número uno del mundo por tráfico de pasajeros internacionales, incrementó su capacidad al pasar de 75 millones a 90 millones el día de hoy con la inauguración de la Explanada D, resultado de una inversión de US$1.200 millones a fin de mejorar sus servicios y ampliar su capacidad para las más de 70 aerolíneas internacionales que ahora consideran el aeropuerto como su casa.</p>
+
+<p>Aquí puede ver la versión multimedia de este comunicado de prensa:
+<br/><a href="http://www.multivu.com/players/uk/7768951-dubai-international-airport-bigger-better/" rel="nofollow">http://www.multivu.com/players/uk/7768951-dubai-international-airport-bigger-better/</a></p>
+<p>"Seguimos invirtiendo en el desarrollo de infraestructura aeronáutica de primera a fin de incrementar los niveles de servicio para nuestras aerolíneas internacionales y sus clientes, al tiempo que brindamos la capacidad necesaria para satisfacer la creciente demanda", dijo Su Alteza el Jeque Ahmed bin Saeed Al Maktoum, presidente de Dubai Airports; presidente de la Autoridad de Aviación Civil de Dubái; presidente y CEO de Emirates Group. "La Explanada D fue diseñada pensando en el usuario. Las distancias para caminar son más cortas, hay más áreas cómodas para sentarse, más opciones de esparcimiento y tiendas y establecimientos de alimentos y bebidas de clase mundial que sin duda impresionarán y deleitarán a nuestros pasajeros y aerolíneas asociadas".</p>
+<p>El primer vuelo que llegó hoy a las instalaciones fue el 105 de British Airways. La histórica operación inaugural se dio después de meses de intensas pruebas y un exitoso ensayo operativo con 2.000 personas del público a inicios de este mes. Los voluntarios del ensayo asumieron el papel de pasajeros que llegaban, salían y transitaban por la Explanada D, probaron los letreros de orientación, los alimentos y las tiendas, y el flujo del tráfico de pasajeros dentro del nuevo edificio. Dos aerolíneas operarán desde la Explanada D el primer día (British Airways, Royal Jordanian), mientras que las demás se integrarán paulatinamente a las operaciones en las próximas semanas.</p>
+<p>"Además de sus muchas características pensadas para el usuario, la Explanada D da continuidad a nuestro legado al aumentar oportunamente las capacidades", dijo Paul Griffiths, CEO de Dubai Airports. "Hoy también anunciamos nuestro pronóstico 2016, que proyecta la visita de 85 millones de pasajeros a Dubai International este año. Al sumar la Explanada D, Dubai International no solo crece, también mejora".</p>
+<p>La explanada se enlaza con la recientemente remodelada Terminal 1 gracias a un tren exclusivo del aeropuerto capaz de transportar a 300 pasajeros en cada viaje. Diseñada en torno a un atrio central, la Explanada D ofrece breves caminatas a las puertas abiertas que permiten a los viajeros abordar directamente desde la sala de espera, gozando así de más libertad y tiempo para disfrutar toda la gama de opciones de alimentos y bebidas.</p>
+<p>Se introducirán varias marcas de renombre internacional a Dubái y la región por primera vez, entre ellas el concepto de consumo casual de alimentos The Kitchen, que ofrecerá a los pasajeros creaciones del famoso chef convertido en celebridad Wolfgang Puck. Además, Dubai Airports introducirá el primer Pret a Manger en un aeropuerto de Medio Oriente. Otros establecimientos que harán de DXB un aeropuerto pionero son Butlers Chocolate Café y Camden Food Company, que aportarán opciones saludables y sabrosas gracias a su oferta de productos orgánicos y naturales. Quienes disfrutan algo de teatro con su comida encontrarán en YO! Sushi un popular complemento al aeropuerto, en tanto que CNN News Café será un favorito de los amantes de las noticias que desean mantenerse al tanto de los acontecimientos internacionales mientras disfrutan de un café. Otros establecimientos nuevos son el favorito libanés Sharwarmanji y Taqado Mexican Kitchen, dos populares ejemplos de la comida callejera local, además de un segundo Masale by Taste of India, pero en mayor escala. La Explanada D tendrá también favoritos bien establecidos en el gusto del viajero, como Giraffe (que abrirá su segundo local en Dubai International), Starbucks, KFC, Krispy Kreme, McDonald's, Brioche Doree, The Noodle House, Cavier House &amp; Prunier, Draft House sports bar y Costa Coffee.</p>
+<p>La nueva explanada ofrecerá numerosos y confortables asientos y conceptos de bienestar como Be Relax y los muy populares 'SnoozeCubes', que brindan una forma cómoda de descansar entre vuelos. De igual manera, contará con un total de nueve salones dispuestos en 6.926m<sup>2</sup>entre ellos cinco de aerolíneas, un nuevo Al Majlis, dos de Dubai International Hotel y un Marhaba VIP.</p>
+<p>JC Decaux tendrá en exclusiva la concesión publicitaria de la Explanada D e introducirá la mayor cantidad de estructuras digitales y de otras modalidades publicitarias de Dubai International a la fecha. Además, las actuales sociedades exitosas con JTI verán tres salones más para fumar en la Explanada D.</p>
+<p>Dubai Duty Free cuenta con 175 puntos de venta en la Explanada D en una superficie de 7.000m<sup>2</sup>haciendo del espacio total de operaciones minoristas en DXB un total de 33.000m<sup>2</sup>. La oferta de moda se extiende 1.000m<sup>2</sup> divididos en dos zonas, perfumería y cosméticos cubre una superficie de 1.500m<sup>2</sup>mientras que licores y alimentos abarca casi 1.000m<sup>2</sup>.</p>
+<p>En términos de plataforma, la Explanada D ofrece 21 puentes de embarque, cuatro de ellos listos para ubicar aviones Airbus A380 o Boeing 747 y 11 remotos con una capacidad de diseño para atender a 18 millones de pasajeros.</p>
+<p><b>Notas para los redactores:</b></p><ul type="disc"><li>Dubai Airports posee y administra el funcionamiento de ambos aeropuertos en Dubái: Dubai International y Dubai World Central. </li><li>Dubai International es el aeropuerto número uno del mundo por tráfico de pasajeros internacionales y ocupa el número tres por tráfico de carga. </li><li>En nuestra <a href="http://www.dubaiairport.com/en/media-centre/Pages/ImageLibraryAlbums_New.aspx" rel="nofollow">biblioteca de imágenes</a> encontrará imágenes en alta resolución. </li></ul>
+
+<p class="p20-archivo-fuente">Fuente: Dubai Airports. <a href="http://www.prnewswire.com/news-releases/el-aeropuerto-internacional-numero-uno-del-mundo-ahora-mas-grande-y-mejor-300225412.html">Versión original del comunicado</a>.</p>

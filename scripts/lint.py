@@ -44,19 +44,21 @@ def check(path):
     words = len(plain.split())  # mismo criterio que el texto visible publicado
     sources = len(re.findall(r"\]\(https?://", body))
     if meta.get("type", "post") == "post":
-        if not meta.get("date") and meta.get("layout") != "raw":
+        if not meta.get("date") and meta.get("layout") != "raw" and not meta.get("legado"):
             warns.append("sin fecha programada")
         cats = [str(c) for c in meta.get("categories") or []]
         portada = meta.get("portada", "plantilla" if "rankings" in cats else "gemini")
         img = meta.get("featured_image")
-        if portada == "gemini":
+        if portada == "ninguna":
+            pass
+        elif portada == "gemini":
             if not meta.get("image_prompt"):
                 errs.append("falta image_prompt para la portada de Gemini")
             elif not img or not (ROOT / img).exists():
                 warns.append("la portada se generará con Gemini al publicar")
         elif not img or not (ROOT / img).exists():
             errs.append("falta la portada de plantilla (scripts/cover.py)")
-        if words < 900:
+        if words < (0 if meta.get("legado") else 900):
             errs.append(f"muy corto ({words} palabras)")
         if sources < 2:
             warns.append(f"pocas fuentes enlazadas ({sources})")

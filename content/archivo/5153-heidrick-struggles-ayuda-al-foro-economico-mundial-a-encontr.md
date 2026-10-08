@@ -1,0 +1,42 @@
+---
+id: 5153
+title: Heidrick & Struggles ayuda al Foro Económico Mundial a encontrar a los Young Global Leaders de 2016
+slug: heidrick-struggles-ayuda-al-foro-economico-mundial-a-encontrar-a-los-young-global-leaders-de-2016
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: '- Se escogieron 121 jóvenes líderes de 50 países por su capacidad de liderazgo y su contribución a la sociedad; 64 de ellos son mujeres - La mayor parte de…'
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Heidrick & Struggles publicado originalmente el 15 de marzo de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>- <i>Se escogieron 121 jóvenes líderes de 50 países por su capacidad de liderazgo y su contribución a la sociedad; 64 de ellos son mujeres</i></p>
+<p>- <i>La mayor parte de los integrantes de los YGL (jóvenes líderes globales) de 2016 procede de las economías emergentes</i></p>
+<p>GÉNOVA, 16 de marzo de 2016  Hacerse un hueco entre los jóvenes líderes con más talento e impacto en la sociedad de todo el mundo no es tarea fácil. <a href="http://www.heidrick.com/" rel="nofollow">Heidrick &amp; Struggles</a> (Nasdaq: HSII), el proveedor de primera categoría de <a href="http://www.heidrick.com/What-We-Do/Executive-Search" rel="nofollow">búsqueda de ejecutivos</a><a href="http://www.heidrick.com/What-We-Do/Leadership-Consulting" rel="nofollow">consultoría de liderazgo</a> y <a href="http://www.heidrick.com/What-We-Do/Leadership-Consulting/Service/Culture-Shaping" rel="nofollow">cultura corporativa</a> en todo el mundo se ha asociado con el <a href="http://www.weforum.org/" rel="nofollow">Foro Económico Mundial</a> por noveno año consecutivo para ayudar a evaluar a los nominados internacionales a los <a href="http://www.weforum.org/community/forum-young-global-leaders" rel="nofollow">Young Global Leaders (jóvenes líderes globales) de 2016</a>. </p>
+<p>Para ver la lista completa de los YGL seleccionados en 2016 visite <a href="http://wef.ch/ygl16" rel="nofollow">http://wef.ch/ygl16</a>.</p>
+
+<p>Heidrick &amp; Struggles ha aprovechado de nuevo su experiencia internacional en la búsqueda de talentos para ayudar al Foro Económico Mundial a evaluar a individuos con talento de todo el mundo para que se unan a la selección de la comunidad internacional de Young Global Leaders. </p>
+<p>Este año se escogieron 121 Young Global Leaders, todos ellos con menos de 40 años y entre más de 50 países. </p>
+<p>"Estos jóvenes creativos y con talento ya están realizando grandes contribuciones a nuestra comunidad internacional", afirmó Tracy Wolstencroft, presidente y director ejecutivo de Heidrick &amp; Struggles. "A medida que se vayan relacionando con la red de YGL del Foro Económico Mundial, esperamos que el impacto colectivo de estos dinámicos líderes sea todavía mayor".</p>
+<p>Los esfuerzos de los YGL hasta la fecha han dado lugar a iniciativas y negocios enfocados a <a href="http://www.thirstforwater.org/" rel="nofollow">combatir la escasez de agua a nivel internacional</a><a href="http://www.theguardian.com/sustainable-business/supply-chain-tau-investment-management-regulations-cheap-labor-clothing" rel="nofollow">mejorar las condiciones de trabajo en las fábricas de los países pobres</a><a href="https://thecirculars.org/" rel="nofollow">crear un mundo libre de desperdicios</a><a href="http://www.evidenceaction.org/#about" rel="nofollow">mejorar la salud y la educación de los niños en las escuelas </a>y <a href="http://uk.businessinsider.com/mark-pollock-walks-with-bionic-suit-2015-9?r=US&amp;IR=T" rel="nofollow">tratar las lesiones de médula espinal</a>. Podrá encontrar una lista exhaustiva de las eminentes iniciativas de los YGL en <a href="http://widgets.weforum.org/ygl-2015/03.html" rel="nofollow">este enlace</a>.</p>
+<p><b>Entre los nominados previamente a los YGL se encuentran:</b></p><ul type="disc"><li><i>David Cameron, Primer Ministro de Reino Unido</i></li><li><i>Jack Ma, director ejecutivo del grupo Alibaba</i></li><li><i>Marissa Mayer, directora ejecutiva de Yahoo</i></li><li><i>Larry Page, cofundador y director ejecutivo de Google</i></li><li><i>Matteo Renzi, Primer Ministro de Italia</i></li><li><i>Naoko Yamazaki, Astronauta</i></li></ul><p>Entre los YGL seleccionados de 2016 se incluyen individuos de Norteamérica, Europa, Eurasia, Medio Oriente, Norte de África, Asia Oriental, África Subsahariana y Latinoamérica. </p>
+<p>El Foro de Young Global Leaders dispone de un proceso integral de selección para identificar y seleccionar a los líderes más excepcionales de la próxima generación. Cada año se proponen miles de candidatos de todo el mundo a través de un proceso de nominación por calificación y se escogen de acuerdo a un riguroso criterio de selección. Con el propósito de crear un organismo realmente representativo, el equipo del Foro de Young Global Leaders evalúa en primera instancia a los candidatos, seguidamente lo hace Heidrick &amp; Struggles y, finalmente, pasan por el filtro de un comité de selección. </p>
+<p>En total, más de 50 especialistas y asociados internacionales están implicados en la evaluación. Los candidatos se seleccionan según el seguimiento de sus logros profesionales demostrados, conjunto de conocimientos expertos, su compromiso con la sociedad y su capacidad de sobreponerse a las adversidades, entre otros criterios. </p>
+<p><b>Acerca de Young Global Leaders</b><b>
+<br/></b>El Foro de Young Global Leaders tiene tres objetivos: </p><ul type="disc"><li><b>Transformar la próxima generación de líderes:</b> a través de experiencias personales con las que intercambiar conocimientos, lograr un mejor entendimiento y definir los principales retos internacionales. </li><li><b>Construir una comunidad internacional de iguales:</b> integrando a los Young Global Leaders en redes y procesos que busquen soluciones innovadoras de cara al futuro para la humanidad. </li><li><b>Tener un efecto positivo en los retos internacionales:</b> integrando a los Young Global Leaders en acciones colaborativas que aprovechen las contribuciones individuales transformándolas en acciones colectivas y grupos de trabajo. </li></ul><p><b>Acerca de Heidrick &amp; Struggles </b><b>
+<br/></b>Heidrick &amp; Struggles (Nasdaq: HSII) surte las necesidades de liderazgo y de talentos ejecutivos de las principales organizaciones del mundo como principal proveedor de servicios de consultoría de liderazgo, cultura corporativa y búsqueda de ejecutivos de nivel sénior. Heidrick &amp; Struggles comenzó a ser una empresa pionera en el ámbito de la búsqueda de ejecutivos hace más de 60 años. En la actualidad, la empresa sirve como consultora de confianza ofreciendo soluciones de liderazgo integradas y ayudando a sus clientes a cambiar el mundo, creando paso a paso un equipo de liderazgo. <a href="http://www.heidrick.com/" rel="nofollow">www.heidrick.com</a></p>
+<p><b>Acerca del Foro para Young Global Leaders</b><b>
+<br/></b>Puesto en marcha por el catedrático Klaus Schwab en 2004, el Foro de Young Global Leaders integra a una comunidad exclusiva y heterogénea con más de 900 líderes jóvenes excepcionales. Audaces, valientes y orientados a la acción y al emprendimiento, estas personas emplean tanto su tiempo como su talento para hacer del mundo un lugar mejor. Cada año, el Foro selecciona entre 100 y 150 jóvenes líderes destacados de todo el mundo por sus logros profesionales, su compromiso con la sociedad y su potencial para ayudar a determinar el futuro del mundo. El Foro Económico Mundial es una organización internacional independiente comprometida con mejorar el estado del mundo favoreciendo asociaciones de líderes con las que crear agendas a nivel global, regional y por industria. Incorporada como una fundación en 1971 y con su sede en Génova, Suiza, el Foro Económico Mundial es una organización imparcial y sin ánimo de lucro, por lo que no está ligada a ningún interés político, partidista o nacional. <a href="http://www.weforum.org/" rel="nofollow">www.weforum.org</a></p>
+<p><b>Contacto de medios de H&amp; S:</b><b>
+<br/></b>Lia Randazzo +1 312.731.4003
+<br/><a href="mailto:lrandazzo@heidrick.com" rel="nofollow">lrandazzo@heidrick.com</a></p>
+
+<p class="p20-archivo-fuente">Fuente: Heidrick & Struggles.</p>

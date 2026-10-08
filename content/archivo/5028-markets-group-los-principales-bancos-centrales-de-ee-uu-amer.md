@@ -1,0 +1,28 @@
+---
+id: 5028
+title: 'Markets Group: Los principales bancos centrales de EE. UU., América Latina y el Caribe se reunirán en Ciudad de Panamá con el propósito de discutir estrategias de inversión'
+slug: markets-group-los-principales-bancos-centrales-de-ee-uu-america-latina-y-el-caribe-se-reuniran-en-ciudad-de-panama-con-el-proposito-de-discutir-estrategias-de-inversion
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: NUEVA YORK, 3de marzo de 2016 El Markets Group prepara su Segundo Foro Anual de Inversores en Valores de Renta Fija de América Latina y el Caribe que se…
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Markets Group publicado originalmente el 2 de marzo de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>NUEVA YORK, 3de marzo de 2016  El Markets Group prepara su <b>Segundo Foro Anual de Inversores en Valores de Renta Fija de América Latina y el Caribe</b>que se celebrará el 26 de abril en Ciudad de Panamá.</p>
+ El Foro es el canal líder en la región para el relacionamiento profesional con los principales bancos centrales, fondos de riqueza soberana y fondos de pensión. Más de 200 asistentes se reunirán en el Hotel Riu para este evento que cubrirá los temás más acuciantes que enfrentan los inversores locales y globales y los asignadores que operan en la región.
+<p>Para solicitar la agenda, haga clic aquí: <a href="http://www.marketsgroup.org/forums/latin-america-fixed-income-investors-forum-2016?utm_source=latam-institutional_-latin-america-the-caribbean-fixed-income-investors-forum_03.03.2016_partner_website_pr-newswire-&amp;utm_medium=website&amp;utm_campaign=latam-institutional_-latin-america-the-caribbean-fixed-income-investors-forum_03.03.2016_partner_website_pr-newswire-" rel="nofollow">Foro de Inversores en Valores de Renta Fija de América Latina y el Caribe</a>.</p>
+<p>Los temas del panel incluyen:</p><ul type="disc"><li>Asignación de activos: La renta fija en un mundo de crecimiento lento </li><li>Oportunidades de inversión en los actuales mercados de valores de renta fija </li><li>Mesa redonda de inversores de América Central y el Caribe </li><li>Los bancos centrales en América Latina</li></ul><p>Los más de 30 oradores incluyen a:</p><ul type="disc"><li>Oscar Cabrera Melgar, Presidente del <b>Banco Central de Reserva de El Salvador</b> (Salvador) </li><li>Alberto Graña, Director de Economía Política y Mercados del <b>Banco Central del Uruguay</b> (Uruguay) </li><li>Abdiel Santiago, Secretario del <b>Fondo de riqueza soberana de la República de Panamá</b> (Panamá) </li><li>Gustavo Alexis Martínez, Director de Inversiones de <b>AFP Atlántida</b> (Honduras) </li><li>Marco Ruiz, Director de Inversiones Internacionales del <b>Banco Central de Colombia</b> (Colombia) </li><li>Sergio Recinos, Vicepresidente del <b>Banco Central de Guatemala</b> (Guatemala) </li><li>Martín Rodríguez, Director de Inversiones de <b>Integración AFAP</b> (Uruguay) </li><li>Roberto Brenes Pérez, Director Ejecutivo de la <b>Bolsa de Valores de Panamá</b> (Panamá) </li><li>Robert Abad, Especialista de Producto, Créditos Multiactivos y Estrategias Globales de <b>Western Asset - A Legg Mason Company</b> (EE. UU.) </li><li>Eduardo Parra Ruiz, Director Ejecutivo de <b>Afore Azteca</b> (México) </li><li>Luiz Claudio Levy Cardoso, Director de Inversiones de <b>Nucleos Instituto de Seguridade Social</b> (Brasil) </li></ul><p>Si su empresa está interesada en participar, comuníquese con Andrés Ortiz enviando un correo electrónico a <a href="mailto:andres.ortiz@marketsgroup.org" rel="nofollow">andres.ortiz@marketsgroup.org</a> o llamando al +1 646-568-1999.</p>
+<p>Acerca del Markets Group:</p>
+<p>El Markets Group es un organizador de foros ejecutivos con un historial de más de 150 conferencias en más de 20 países. Fundado en 2009 en Nueva York, NY, el Markets Group ha crecido hasta convertirse en uno de los mayores y más exitosos organizadores de conferencias en las Américas, con más de 65 profesionales operando fuera de nuestra sede central en Midtown Manhattan. Hemos organizado eventos exitosos en América del Norte, América del Sur, Europa, Medio Oriente y Asia. Asimismo, el Markets Group acaba de ser nominado por parte de la Inc. Magazine como una de las 5000 empresas privadas de más rápido crecimiento en Estados Unidos, a la vez que ha sido distinguido como el organizador de conferencias número 1 y la empresa de servicios financieros número 1 con sede en NYC.</p>
+
+<p class="p20-archivo-fuente">Fuente: Markets Group. <a href="http://www.prnewswire.com/news-releases/markets-group-los-principales-bancos-centrales-de-ee-uu-america-latina-y-el-caribe-se-reuniran-en-ciudad-de-panama-con-el-proposito-de-discutir-estrategias-de-inversion-300230873.html">Versión original del comunicado</a>.</p>

@@ -1,0 +1,36 @@
+---
+id: 5105
+title: Trax designa a Steve Hornyak para dirigir su expansión por el continente americano
+slug: trax-designa-a-steve-hornyak-para-dirigir-su-expansion-por-el-continente-americano
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: ATLANTA, Georgia, 14 de marzo de 2016 Trax, el líder en inteligencia de mercado para bienes de consumo a través del reconocimiento de imágenes ha anunciado…
+categories:
+- noticias
+- negocios
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Trax publicado originalmente el 13 de marzo de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>ATLANTA, Georgia, 14 de marzo de 2016  Trax, el líder en inteligencia de mercado para bienes de consumo a través del reconocimiento de imágenes ha anunciado hoy el nombramiento de Steve Hornyak como director ejecutivo en América ya que la compañía está acelerando su crecimiento y sus inversiones en el continente.</p>
+
+<p>Trax ha sido un pionero en el uso de reconocimiento de imágenes en la industria de bienes de consumo. En un panorama de ventas minoristas altamente competitivo y fragmentado, las principales compañías de bienes de consumo han acogido esta tecnología para lograr una visibilidad mayor de los comercios minoristas, mejorar sus resultados y conseguir una mayor cuota de mercado. Desde su fundación en 2010, la compañía se ha expandido rápidamente en 52 mercados. En la actualidad cuenta con 175 clientes, incluidos Coca-Cola, AB InBev, Nestlé, Henkel y PepsiCo.</p>
+<p>Como parte de esta estrategia de expansión internacional, Trax está acelerando su crecimiento y sus inversiones en el continente americano. El nombramiento de Steve Hornyak, quien brinda una amplia experiencia en software, software como servicio (SaaS) y negocios de tecnología para minoristas, supone para Trax el liderazgo experto que necesita para adaptarse a la velocidad de crecimiento sin poner en entredicho la provisión de sus servicios. </p>
+<p>"Trax cuenta con una tecnología revolucionaria capaz de conectar las ventas en línea con los negocios de ventas tradicionales", comenta Steve Hornyak como director ejecutivo en el continente americano. "La tecnología se puede implementar al instante y ha demostrado aumentar los beneficios a la vez que reduce los costos operativos para las compañías de bienes de consumo y para las cadenas de comercio minorista con las que opera. Solo Trax proporciona una visión en tiempo real del rendimiento de los bienes de consumo en la tienda de la manera más coherente y precisa".</p>
+<p>La anterior posición ocupada por Steve Hornyak fue la de vicepresidente ejecutivo de ventas y marketing en NOMi (anteriormente Brickstream Corporation), donde impulsó el crecimiento de la compañía desde su inicio hasta el momento en el que se convirtió en una entidad con una dominante cuota de mercado en el área de las analíticas sobre el comportamiento de los clientes minoristas. Su trayectoria profesional de 27 años también incluye la gestión ejecutiva y de altos cargos en PriceWaterhouseCoopers, Oracle, SQL Financials y Clarus.</p>
+<p>"Ya hemos visto un gran interés por parte de las marcas minoristas y otras de talla internacional en el continente americano, pero esto apenas es la punta del iceberg si tenemos en cuenta la enorme oportunidad que nos espera aquí", comenta Joel Bar-El, director ejecutivo de Trax Image Recognition. Steve encabezará nuestros esfuerzos en el momento en el que nos adentremos en el dinamismo de la próxima fase de crecimiento". </p>
+<p><b>Acerca de Trax Image Recognition</b></p>
+<p>Trax Image Recognition es el líder mundial en reconocimiento de imágenes para vendedores minoristas. La compañía facilita un control del rendimiento más preciso para comercios y aprovecha datos sobre la competencia con los que abrir nuevas oportunidades de ingresos en todos los puntos de venta. Trax brinda sus soluciones desde teléfonos inteligentes y tabletas con iOS, Android y Windows para así ofrecer analíticas de ventas minoristas procesables y en tiempo real. </p>
+<p>Aparte de contar con más de 175 clientes en 52 países, entre los que se cuentan marcas líderes como Coca-Cola, AB InBev, Nestlé, Henkel, PepsiCo y muchas otras, las compañías que trabajan con Trax aprovechan sus servicios internacionales para la gestión del rendimiento en sus tiendas y así aumentar los beneficios de sus expositores. Trax tiene su sede en Singapur y oficinas en la región de Asia-Pacífico, Europa, Medio Oriente, Norteamérica y Sudamérica. Para saber más sobre Trax, visite <a href="http://www.traxretail.com/" rel="nofollow">www.TraxRetail.com</a>.</p>
+<p>Contacto: 
+<br/>Fei Fei Ho, VP, marketing y comunicaciones
+<br/>Número de teléfono: +65-6224-9145
+<br/>Correo electrónico: <a href="mailto:feifei@traxretail.com" rel="nofollow">feifei@traxretail.com</a></p>
+
+<p class="p20-archivo-fuente">Fuente: Trax.</p>

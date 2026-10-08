@@ -1,0 +1,40 @@
+---
+id: 5007
+title: Rackspace, líder en nube gestionada, colabora con Impartner para fortalecer la experiencia de socios de canales
+slug: rackspace-lider-en-nube-gestionada-colabora-con-impartner-para-fortalecer-la-experiencia-de-socios-de-canales
+type: post
+status: publish
+formato: html
+legado: true
+portada: ninguna
+excerpt: SILICON SLOPES, Utah, 29 de febrero de 2016 Impartner, líder tecnológico de Gestión Global de Relaciones con los Socios (PRM) basada en SaaS, anunció hoy la…
+categories:
+- noticias
+- marketing-digital
+tags:
+- comunicados de prensa
+- archivo 2016
+---
+
+<p class="p20-archivo"><strong>Archivo Publi2.0.</strong> Comunicado de prensa de Impartner publicado originalmente el 28 de febrero de 2016. Lo conservamos como referencia; las cifras y los cargos corresponden a esa fecha.</p>
+
+<p>SILICON SLOPES, Utah, 29 de febrero de 2016  Impartner, líder tecnológico de Gestión Global de Relaciones con los Socios (PRM) basada en SaaS, anunció hoy la disponibilidad de su último webinar a demanda, <a href="http://go.pardot.com/l/138891/2016-02-26/t89b" rel="nofollow">"Why Not to BYOP (Build Your Own Portal); Key Learnings From Real World Customer Experience"</a> (<i>Por qué no construir su propio portal; enseñanzas claves de la experiencia de los clientes del mundo real</i>), presentado por el Director de Estrategia y Programas de Socios Globales de Rackspace, Chris Rallo, y el Director de Marketing de Impartner, Dave R Taylor.</p>
+ En el webinar, Rallo cuenta el viaje de Rackspace desde la construcción de su propio Portal para Socios hasta el uso de la plataforma CRM de Salesforce para diseñar una solución PRM y, en última instancia, recurrir a la tecnología PRM de Impartner para ofrecer un Portal para Socios de primer nivel e innovador para su red de más de 3.000 socios en todo el mundo.
+
+<p>"Como parte de nuestro esfuerzo continuo por mejorar la experiencia de nuestros socios y seguir impulsando nuestro crecimiento de canal, primero recurrimos a nuestro equipo informático interno para desarrollar un nuevo portal, con la idea de que tendríamos más control sobre nuestra marca", comentó Rallo en el webinar. "Enseguida nos dimos cuenta de que los Portales para Socios no son nuestra competencia principal, sino que esta es el ofrecimiento de servicios gestionados en la nube. Y a pesar de que ahora recurrimos a la plataforma Salesforce, no es una PRM innovadora y requiere un integrador de sistemas para su instalación. Finalmente recurrimos a la solución llave en mano PRM de Impartner. El proceso de implementación fue perfecto y, en apenas unos meses, en vez de años, estábamos listos y funcionando sin afectar nuestro ecosistema de socios".</p>
+<p>El recorrido de Rackspace es habitual. De hecho, en una conclusión clave de un informe de noviembre de 2015 (<i>Predicts 2016: CRM Sales</i>) (<i>Predicciones para 2016: Ventas de CRM</i>), Gartner prevé que "las organizaciones de canal se centrarán en mejorar el rendimiento de ingresos de canales a través de los socios mediante la implementación de aplicaciones de gestión de relaciones con los socios disponibles comercialmente".</p>
+<p>En el informe, Gartner añadió: "A pesar de que las aplicaciones PRM disponibles comercialmente han estado en el mercado por casi 20 años, muchas organizaciones han construido sus propios juegos de herramientas durante este tiempo para complementar su abordaje de los canales de ventas. Estos juegos de herramientas están fragmentados y se encuentran en diferentes roles y funciones dentro de la organización de canal de una marca sin apoyar la estrategia de 'una fuente para todo'".</p>
+<p>"Sentimos que la experiencia de Rackspace y las estructuras fragmentadas que Gartner traza en este informe son factores clave que explican el impresionante crecimiento que vemos en el sector PRM", expresó Taylor. "Tanto Rackspace como Impartner comparten una pasión profunda por la atención al cliente de nivel superior, y nos resulta muy gratificante ver que nuestra tecnología de PRM ayuda a las compañías como Rackspace a seguir mejorando la experiencia que pueden ofrecer a sus socios".</p>
+<p>Para ver el webinar de Rackspace sobre el uso de la tecnología de Impartner para transformar su Portal para Socios, haga clic <a href="http://go.pardot.com/l/138891/2016-02-26/t89b" rel="nofollow">aquí</a>.</p>
+<p><b>Aviso de Gartner</b></p>
+<p><i>Gartner no promociona a ningún proveedor, producto o servicio de los incluidos en sus publicaciones de investigación, ni recomienda a los usuarios de tecnología elegir únicamente a los proveedores con las calificaciones más altas u otras designaciones. Las publicaciones de investigación de Gartner son las opiniones de su organización de investigación y no deben interpretarse como afirmaciones de hecho. Gartner niega toda garantía, expresa o tácita, respecto de esta investigación, incluidas las garantías de comerciabilidad o de aptitud para un fin específico.</i></p>
+<p><b>Acerca de Impartner</b></p>
+<p>Impartner brinda la solución de gestión de relaciones con socios basada en SaaS más avanzada del mercado, que ayuda a las empresas de todo el mundo a gestionar las relaciones con sus socios y acelerar los ingresos y la rentabilidad a través de canales de venta indirectos. Impartner PRM es la única solución llave en mano del mercado que puede ayudar a implementar un Portal para Socios de primer nivel en 30 días, usando el proceso de incorporación de la empresa con Velocity™ con un alto diseño y de tres pasos. Para obtener más información sobre Impartner, con sede en el semillero tecnológico de Utah, Silicon Slopes, visite <a href="http://www.impartner.com/" rel="nofollow">www.impartner.com</a>o, en los EE. UU., llame al +1 801 501 7000; en Europa, Oriente Medio y África, llame al +33 1 40 90 31 20; en Londres, llame al +44 0 20 3283 4465; y en Latinoamérica, llame al +1 954 364 7883.</p>
+<p>Siga a Impartner en <a href="https://www.linkedin.com/company/impartnersoftware" rel="nofollow">LinkedIn</a><a href="https://twitter.com/ImpartnerPRM" rel="nofollow">Twitter</a> y <a href="https://www.facebook.com/impartnersoftware" rel="nofollow">Facebook</a>.</p>
+<p><b>Contacto:
+<br/></b>Kerry Desberg
+<br/>Impartner
+<br/>425-231-9529
+<br/><a href="mailto:kerry.desberg@impartner.com" rel="nofollow">kerry.desberg@impartner.com</a></p>
+
+<p class="p20-archivo-fuente">Fuente: Impartner.</p>

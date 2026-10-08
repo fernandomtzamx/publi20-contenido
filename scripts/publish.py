@@ -230,11 +230,15 @@ def parse(path):
     if status not in VALID_STATUS:
         raise ValueError(f"{path}: status inválido '{status}'")
     body, videos = expand_videos(body)
-    html = markdown.markdown(
-        body.strip(),
-        extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
-        extension_configs={"toc": {"toc_depth": "2-3", "title": "Índice de contenidos"}},
-    )
+    if meta.get("formato") == "html":
+        # Contenido heredado ya en HTML (archivo): se publica tal cual, sin pasar por Markdown.
+        html = body.strip()
+    else:
+        html = markdown.markdown(
+            body.strip(),
+            extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
+            extension_configs={"toc": {"toc_depth": "2-3", "title": "Índice de contenidos"}},
+        )
     for i, block in enumerate(videos):
         html = re.sub(rf"<p>\s*P20VIDEO{i}X\s*</p>", lambda _m, b=block: b, html)
         html = html.replace(f"P20VIDEO{i}X", block)
@@ -323,6 +327,11 @@ def publish(wp, path):
             payload["parent"] = parent["id"]
     if kind == "post":
         # Regla del sitio: portadas de Gemini (fotografía editorial); los rankings usan la plantilla de Publi2.0.
+        cats = [str(c) for c in meta.get("categories") or []]
+        portada = meta.get("portada", "plantilla" if "rankings" in cats else "gemini")
+        if portada == "ninguna":
+            meta.pop("featured_image", None)
+    if kind == "post" and meta.get("portada") != "ninguna":
         cats = [str(c) for c in meta.get("categories") or []]
         portada = meta.get("portada", "plantilla" if "rankings" in cats else "gemini")
         img_rel = meta.get("featured_image") or f"images/{meta['slug']}-portada.{'jpg' if portada == 'gemini' else 'png'}"

@@ -15,3 +15,7 @@
 .p20-video{margin:1.6em 0}
 .p20-video .wp-block-embed__wrapper{position:relative}
 .p20-video figcaption{font-size:.88em;color:#404040;margin-top:.5em;border-left:3px solid #ea3322;padding-left:.7em}
+.p20-archivo{background:#eee;border-left:6px solid #000;padding:.8em 1.1em;font-size:.92em;color:#2f2f2f;margin:0 0 1.6em}
+.p20-archivo strong{color:#ea3322}
+.p20-archivo-fuente{font-size:.88em;color:#404040;border-top:1px solid #ccc;padding-top:.8em;margin-top:2em}
+.p20-credito{font-size:.92em;color:#404040;border-left:3px solid #ea3322;padding-left:.8em;margin-top:2em}
