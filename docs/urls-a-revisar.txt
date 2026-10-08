@@ -1,4 +1,4 @@
-# Rutas viejas a revisar (GSC 16 meses + permalinks anteriores /slug/)
+# Rutas viejas a revisar (GSC 16 meses + permalinks anteriores /slug/) v2
 /proveedores/publicidad-exterior/234-vendor-publicidad-exterior-s-de-r-l-de-cv
 /proveedores/television/casas-productoras/pagina3
 /proveedores/120-grupo-alparied-s-a-de-c-v
