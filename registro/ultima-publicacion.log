@@ -1,8 +1,8 @@
-fecha: 2026-10-08T20:16:30Z
-commit: 86dffd940cef118cc7bdd1cfe1599aaa54b08437
+fecha: 2026-10-08T20:17:37Z
+commit: eb2093dfa19a8de0d4798145472513429a89458a
 evento: push
 resultado: failure
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37838187792
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37838321487
 ---
 WP_URL: presente
 WP_USER: presente
@@ -11,4 +11,5 @@ Argumentos: --check
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-ERROR autor: el usuario conectado es 'soporte', no Fernando Martínez; define autor.id en docs/sitio.yml o usa la contraseña de aplicación de Fernando
+  usuario encontrado: id=1 nombre='soporte' usuario='soporte' roles=administrator
+ERROR autor: no encontré un único usuario llamado 'Fernando Martínez' (0 coincidencias); define autor.id en docs/sitio.yml
