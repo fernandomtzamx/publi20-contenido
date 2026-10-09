@@ -1,0 +1,24 @@
+# Destino de cada ficha del directorio viejo cuando se retire (solo después de aprobar los rankings).
+# Las fichas no tienen categoría en WordPress: se clasifican por su slug y nombre, y las URLs viejas
+# /proveedores/<categoría>/... por la categoría de la ruta. La primera regla que coincide gana.
+reglas:
+  - [ "doblaje|subtitul|locuci|locutor|grabacion|dubb", /rankings/estudios-doblaje-locucion-mexico/ ]
+  - [ "modelo|edecan|talento|casting", /rankings/productoras-de-eventos-mexico/ ]
+  - [ "radio|estaciones-de-radio|\\d{2,3}\\.\\d\\b|\\bfm\\b", /rankings/grupos-radiofonicos-mexico/ ]
+  - [ "productora|producciones|films|film\\b|cine|television|video|animacion|postproduc|fotografia", /rankings/casas-productoras-mexico/ ]
+  - [ "investigacion|mercados|research|encuesta|opinion|estudios-de-mercado|focus", /rankings/agencias-investigacion-de-mercados-mexico/ ]
+  - [ "relaciones-publicas|\\brp\\b|\\bpr\\b|prensa", /rankings/agencias-relaciones-publicas-mexico/ ]
+  - [ "medios|media|central", /rankings/agencias-de-medios-mexico/ ]
+  - [ "exterior|espectacular|carteleras|vallas|parabus|outdoor|anuncios|medios-alternos|camiones|pantallas", /rankings/empresas-publicidad-exterior-mexico/ ]
+  - [ "inbound|seo|digital|web|online|redes|social|e-?mail|buscadores|hosting|marketing-digital", /rankings/agencias-inbound-marketing-mexico/ ]
+  - [ "btl|promocion|promotoria|promotion|activacion|trade|promo\\b", /rankings/agencias-btl-promotoria-mexico/ ]
+  - [ "impres|imprenta|grafic|pop|display|promocional|serigraf|litograf|etiqueta|empaque|bolsas|senal|signal|lona|banners|offset|stands-y-display", /rankings/proveedores-pop-promocionales-mexico/ ]
+  - [ "evento|expo|stand|convencion|banquete|carpa|photobooth|cabina|feria|congreso", /rankings/productoras-de-eventos-mexico/ ]
+  - [ "diseno|dise%c3%b1o|design|branding|marca|identidad|creativ", /rankings/estudios-diseno-branding-mexico/ ]
+  - [ "comunicacion|marketing|mercadotecnia|consultor|estrateg|integral|360", /rankings/agencias-de-marketing-mexico/ ]
+  - [ "monterrey|nuevo-leon|san-pedro", /rankings/agencias-de-publicidad-monterrey/ ]
+  - [ "queretaro", /rankings/agencias-de-publicidad-queretaro/ ]
+por_defecto: /rankings/agencias-de-publicidad-mexico/
+
+# Excepciones por slug de ficha (slug: destino), para corregir a mano lo que las reglas clasifiquen mal.
+fichas: {}
