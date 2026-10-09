@@ -51,6 +51,10 @@ def texto(s):
 
 
 def corta(s, n):
+    # Extractos heredados de comunicados: sin la línea de agencia y sin guiones largos ni medios.
+    s = re.sub(r"/\s*PR\s?Newswire[^/]*/", " ", s, flags=re.I)
+    s = re.sub(r"^\s*[\u2013\u2014-]+\s*", "", s)
+    s = re.sub(r"\s*[\u2013\u2014]+\s*", ", ", s).strip(" ,")
     if len(s) <= n:
         return s
     s = s[:n]
