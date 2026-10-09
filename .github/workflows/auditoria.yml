@@ -1,0 +1,41 @@
+name: Auditoría del sitio
+
+# Cambiar docs/auditoria.txt lanza la auditoría. Si contiene "corregir", aplica las correcciones.
+on:
+  push:
+    branches: [main]
+    paths: ["docs/auditoria.txt", "scripts/auditoria.py", ".github/workflows/auditoria.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auditoria
+  cancel-in-progress: false
+
+jobs:
+  auditoria:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Auditar
+        run: |
+          if grep -q "corregir" docs/auditoria.txt; then python scripts/auditoria.py --corregir; else python scripts/auditoria.py; fi
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          for f in registro/auditoria.log registro/auditoria-redirecciones.csv registro/auditoria-entradas.csv; do [ -f "$f" ] && git add "$f"; done
+          git commit -q -m "Auditoría del sitio [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
