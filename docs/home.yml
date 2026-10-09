@@ -1,0 +1,37 @@
+# Portada de publi20.com. La arma scripts/home.py con las notas publicadas del sitio
+# y se regenera sola después de cada publicación. Cambiar este archivo la vuelve a generar.
+
+titulo: "Publi2.0"
+lema: "Publicidad, mercadotecnia, negocios y emprendimiento en México"
+h1: "Publicidad, mercadotecnia, negocios y emprendimiento en México"
+entradilla: "Análisis, guías y rankings para quien decide cómo crecer una marca o un negocio. Sin jerga, con fuentes y con postura."
+
+# Slug de la nota principal. Vacío = la nota editorial más reciente que no sea patrocinada.
+destacada: "comerciales-prohibidos-censurados"
+
+pilares:
+  - slug: publicidad
+    bajada: "Agencias, creatividad, medios y campañas, explicados sin jerga y con fuentes."
+  - slug: mercadotecnia
+    bajada: "Marketing digital, investigación de mercados y marca. Lo que funciona y lo que es humo."
+  - slug: negocios
+    bajada: "Empresas, sectores y decisiones de negocio en México, con datos verificables."
+  - slug: emprendimiento
+    bajada: "Productividad, liderazgo, ventas y pymes para quien construye su propio negocio."
+
+video:
+  canal: "https://www.youtube.com/@Publi20"
+  titulo: "Publi2.0 en video"
+  texto: "Comerciales, campañas y entrevistas comentadas. Suscríbete al canal para ver cada análisis en movimiento."
+
+sobre:
+  titulo: "Qué es Publi2.0"
+  texto: >-
+    Publi2.0 es un medio editorial independiente sobre publicidad, mercadotecnia, negocios y emprendimiento
+    en México. Lo edita Fernando Martínez. Cada dato lleva su fuente, el contenido patrocinado se señala
+    como tal y nadie paga por aparecer en un ranking.
+
+# Página que se usa como portada (slug). El script la crea si no existe.
+pagina_slug: "portada"
+# La portada anterior (página de Elementor del directorio) pasa a borrador; queda guardada en wp-admin.
+retirar_portada_anterior: true

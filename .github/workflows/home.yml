@@ -1,0 +1,77 @@
+name: Portada del sitio
+
+# Arma y aplica la portada de publi20.com (scripts/home.py + docs/home.yml).
+# - Cambiar docs/home.yml, scripts/home.py o scripts/home.css la regenera.
+# - Si docs/home.txt contiene "inspeccionar", solo inspecciona el tema, menús y plantillas.
+# - Después de cada publicación se regenera sola para mostrar las notas nuevas.
+on:
+  push:
+    branches: [main]
+    paths: ["docs/home.yml", "docs/home.txt", "scripts/home.py", "scripts/home.css", ".github/workflows/home.yml"]
+  workflow_run:
+    workflows: ["Publicar en WordPress"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portada
+  cancel-in-progress: false
+
+jobs:
+  portada:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Portada
+        id: portada
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && grep -q "inspeccionar" docs/home.txt 2>/dev/null; then
+            python scripts/home.py --inspeccionar
+            echo "capturas=no" >> "$GITHUB_OUTPUT"
+          else
+            python scripts/home.py
+            echo "capturas=si" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Capturas de la portada
+        if: steps.portada.outputs.capturas == 'si' && github.event_name != 'workflow_run'
+        continue-on-error: true
+        run: |
+          pip install -q playwright==1.55.0
+          python -m playwright install --with-deps chromium > /dev/null
+          python - <<'PY'
+          import random, time
+          from playwright.sync_api import sync_playwright
+          time.sleep(20)
+          url = f"https://www.publi20.com/?nc={random.randint(1, 10**9)}"
+          with sync_playwright() as p:
+              b = p.chromium.launch()
+              for nombre, vp in (("escritorio", {"width": 1440, "height": 900}), ("movil", {"width": 390, "height": 844})):
+                  pg = b.new_page(viewport=vp, device_scale_factor=1)
+                  pg.goto(url, wait_until="networkidle", timeout=90000)
+                  pg.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                  pg.wait_for_timeout(2500)
+                  pg.evaluate("window.scrollTo(0, 0)")
+                  pg.screenshot(path=f"registro/home-{nombre}.png", full_page=True)
+                  print(nombre, pg.title())
+              b.close()
+          PY
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          for f in registro/home.log registro/home-inspeccion.log registro/home-contenido.html registro/home-escritorio.png registro/home-movil.png; do [ -f "$f" ] && git add "$f"; done
+          git commit -q -m "Portada del sitio [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
