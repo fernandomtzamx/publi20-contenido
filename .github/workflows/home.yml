@@ -64,7 +64,15 @@ jobs:
                   pg.wait_for_timeout(2500)
                   pg.evaluate("window.scrollTo(0, 0)")
                   pg.screenshot(path=f"registro/home-{nombre}.png", full_page=True)
-                  print(nombre, pg.title())
+                  # Verifica que los enlaces reciban el clic (ninguna capa del tema encima).
+                  res = pg.evaluate("""() => [...document.querySelectorAll('.p20-home a[href]')].map(a => {
+                      a.scrollIntoView({block: 'center'}); const r = a.getBoundingClientRect();
+                      const el = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+                      return a.contains(el) || el === a ? null : (a.getAttribute('href') + ' tapado por ' + (el ? (el.id || el.tagName) : 'nada'));
+                  }).filter(Boolean)""")
+                  with open("registro/home.log", "a", encoding="utf-8") as f:
+                      f.write(f"Clic en enlaces ({nombre}): {'todos responden' if not res else str(len(res)) + ' tapados, ej. ' + res[0]}\n")
+                  print(nombre, pg.title(), len(res))
               b.close()
           PY
       - name: Guardar en el repo
