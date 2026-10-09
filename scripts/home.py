@@ -276,24 +276,24 @@ def plantilla(wp):
         if pref in enum:
             return pref
     full = [t for t in enum if t and re.search(r"full|ancho|wide", t, re.I)]
-    return full[0] if full else ""
+    # Rehub no publica la lista de plantillas en la API; Elementor registra elementor_header_footer
+    # (ancho completo con el encabezado y pie del tema, sin título de página).
+    return full[0] if full else "elementor_header_footer"
 
 
 def menu(wp, por_slug, hay_rankings):
     locs = wp.req("GET", "menu-locations")
-    principal = next((k for k in locs if re.search(r"primary|main|header|principal|top", k, re.I) and "mobile" not in k), None)
-    destino = [k for k in locs if k == principal or re.search(r"mobile|movil", k, re.I)]
+    principal = next((k for k in locs if re.search(r"primary|main|principal", k, re.I)), None)
     if not principal:
         log(f"Menú: no encontré ubicación principal entre {list(locs)}; no se cambió")
         return
-    menus = wp.req("GET", "menus", params={"context": "edit"})
-    m = next((x for x in menus if x["name"] == "Publi2.0 principal"), None)
-    if not m:
-        m = wp.req("POST", "menus", json={"name": "Publi2.0 principal"})
-    for it in wp.req("GET", "menu-items", params={"menus": m["id"], "per_page": 100, "context": "edit"}):
+    mid = locs[principal].get("menu")
+    if not mid:
+        mid = wp.req("POST", "menus", json={"name": "Principal", "locations": [principal]})["id"]
+    for it in wp.req("GET", "menu-items", params={"menus": mid, "per_page": 100, "context": "edit"}):
         wp.req("DELETE", f"menu-items/{it['id']}", params={"force": "true"})
     orden = 1
-    wp.req("POST", "menu-items", json={"menus": m["id"], "title": "Inicio", "type": "custom",
+    wp.req("POST", "menu-items", json={"menus": mid, "title": "Inicio", "type": "custom",
                                        "url": wp.api.split("/wp-json")[0] + "/", "status": "publish", "menu_order": orden})
     slugs = [x["slug"] for x in CFG["pilares"]] + (["rankings"] if hay_rankings else []) + ["noticias"]
     for sl in slugs:
@@ -301,11 +301,10 @@ def menu(wp, por_slug, hay_rankings):
         if not c:
             continue
         orden += 1
-        wp.req("POST", "menu-items", json={"menus": m["id"], "title": c["name"] if sl != "noticias" else "Noticias",
-                                           "type": "taxonomy", "object": "category", "object_id": c["id"],
-                                           "status": "publish", "menu_order": orden})
-    wp.req("POST", f"menus/{m['id']}", json={"locations": destino})
-    log(f"Menú 'Publi2.0 principal' (id {m['id']}) con {orden} elementos asignado a {destino}")
+        wp.req("POST", "menu-items", json={"menus": mid, "title": c["name"], "type": "taxonomy", "object": "category",
+                                           "object_id": c["id"], "status": "publish", "menu_order": orden})
+    usadas = [k for k, v in locs.items() if v.get("menu") == mid] or [principal]
+    log(f"Menú {mid} con {orden} elementos ({', '.join(['Inicio'] + slugs)}) en {usadas}")
 
 
 def aplicar(wp):
@@ -321,19 +320,21 @@ def aplicar(wp):
                "comment_status": "closed", "ping_status": "closed", "author": pub.author_id(wp),
                "excerpt": CFG["entradilla"], "template": tpl}
     existente = wp.find_by_slug("pages", CFG["pagina_slug"])
+    if not existente:
+        existente = wp.find_by_slug("pages", CFG["pagina_slug"] + "-publi20")
     if existente and MARCA not in existente["content"]["raw"] and existente["id"] == anterior:
         existente = None  # no sobrescribir la portada anterior si casualmente usa el mismo slug
-    if existente:
-        pag = wp.req("POST", f"pages/{existente['id']}", json=payload)
-    else:
-        try:
-            pag = wp.req("POST", "pages", json=payload)
-        except RuntimeError:
-            payload["slug"] = CFG["pagina_slug"] + "-publi20"
-            pag = wp.req("POST", "pages", json=payload)
+    ruta = f"pages/{existente['id']}" if existente else "pages"
+    try:
+        pag = wp.req("POST", ruta, json=payload)
+    except RuntimeError as ex:
+        log(f"Aviso al guardar con plantilla '{tpl}': {str(ex)[:160]}; reintento con la plantilla del tema")
+        payload["template"] = ""
+        pag = wp.req("POST", ruta, json=payload)
     log(f"Página de portada: id {pag['id']} plantilla='{tpl}' {pag['link']}")
-    wp.req("POST", "settings", json={"show_on_front": "page", "page_on_front": pag["id"], "description": CFG["lema"]})
-    log(f"Portada estática = página {pag['id']}; lema = {CFG['lema']}")
+    wp.req("POST", "settings", json={"show_on_front": "page", "page_on_front": pag["id"],
+                                     "title": CFG["titulo"], "description": CFG["lema"]})
+    log(f"Portada estática = página {pag['id']}; título del sitio = {CFG['titulo']}; lema = {CFG['lema']}")
     if anterior and anterior != pag["id"] and CFG.get("retirar_portada_anterior"):
         old = wp.req("POST", f"pages/{anterior}", json={"status": "draft"})
         log(f"Portada anterior (id {anterior}, {old['slug']}) pasada a borrador")
@@ -346,7 +347,6 @@ def aplicar(wp):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--inspeccionar", action="store_true")
-    ap.add_argument("--sin-menu", action="store_true")
     a = ap.parse_args()
     wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
     wp.whoami()
