@@ -96,3 +96,11 @@ Gancho (2 a 4 párrafos cortos)
 | emprendimiento | productividad, liderazgo, pymes, ventas |
 | rankings | (sin subsecciones) |
 | noticias | (sin subsecciones) |
+
+## SEO (Rank Math)
+
+- Cada nota lleva su palabra clave principal en `palabra_clave` del frontmatter (o en `docs/seo.yml` > `palabras_clave`). El publicador la registra en Rank Math junto con el título SEO, la descripción (el `excerpt`, máximo 160 caracteres), la categoría principal y `index`.
+- El `excerpt` es la meta descripción: entre 120 y 160 caracteres, con la palabra clave y sin repetir el título.
+- Si el título pasa de 48 caracteres, en Google se muestra sin " | Publi2.0" para que no se corte.
+- `noindex: true` en el frontmatter saca una nota de Google sin despublicarla.
+- Los ajustes globales, las categorías y la portada se aplican con `scripts/seo.py` (cambiar `docs/seo.txt` a "aplicar").

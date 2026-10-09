@@ -134,6 +134,8 @@ def plano(s):
 
 def corta(s, n=158):
     s = re.sub(r"/\s*PR\s?Newswire[^/]*/", " ", s, flags=re.I)
+    # Línea de agencia de los comunicados: "AUSTIN, Texas, 9 de marzo de 2017 ..."
+    s = re.sub(r"^[A-ZÁÉÍÓÚÑ][^,]{1,40},(?:\s*[^,]{1,30},)?\s*\d{1,2}\s+de\s+\w+\s+de\s+\d{4}\s*[,.:\-]?\s*", "", s)
     s = re.sub(r"\s*[\u2013\u2014]+\s*", ", ", s).strip(" ,")
     if len(s) <= n:
         return s
@@ -151,7 +153,7 @@ def exportar(wp):
 def guardar_panel(wp, panel, cambios):
     actual = exportar(wp)[panel]
     nuevo = {**actual, **cambios}
-    pendientes = lambda d: [k for k, v in cambios.items() if d.get(k) != v]  # noqa: E731
+    pendientes = lambda d: [k for k, v in cambios.items() if str(d.get(k)) != str(v)]  # noqa: E731
     if not pendientes(actual):
         log(f"  ajustes {panel}: ya estaban aplicados")
         return True

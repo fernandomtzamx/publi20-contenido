@@ -383,6 +383,41 @@ def publish(wp, path):
         res = wp.req("POST", endpoint, json=payload)
         action = "creada"
     print(f"{path.relative_to(ROOT)}: {kind} {action} ({res['status']}) id={res['id']} {res['link']}")
+    if kind == "post" and res.get("status") in ("publish", "future"):
+        try:
+            seo_rankmath(wp, meta, res)
+        except Exception as e:  # noqa: BLE001
+            print(f"  Aviso SEO Rank Math: {e}")
+
+
+def seo_rankmath(wp, meta, res):
+    """SEO de Rank Math para la entrada recién publicada: palabra clave, título, descripción, robots y
+    categoría principal (la de su URL). La palabra clave sale de `palabra_clave` en el frontmatter o de
+    docs/seo.yml > palabras_clave."""
+    try:
+        cfg = yaml.safe_load((ROOT / "docs" / "seo.yml").read_text(encoding="utf-8")) or {}
+    except FileNotFoundError:
+        cfg = {}
+    kw = meta.get("palabra_clave") or (cfg.get("palabras_clave") or {}).get(meta["slug"])
+    m = {}
+    # El archivo de comunicados conserva el robots que le asignó scripts/seo.py (según clics de Search Console).
+    if not (meta.get("legado") and "noticias" in [str(c) for c in meta.get("categories") or []]):
+        m["rank_math_robots"] = ["noindex"] if meta.get("noindex") else ["index"]
+    if len(meta["title"]) > 48:
+        m["rank_math_title"] = "%title%"
+    if meta.get("excerpt"):
+        m["rank_math_description"] = str(meta["excerpt"])[:160]
+    if kw:
+        m["rank_math_focus_keyword"] = kw
+    seg = re.sub(r"^https?://[^/]+", "", res.get("link", "")).strip("/").split("/")
+    if len(seg) >= 2:
+        try:
+            m["rank_math_primary_category"] = str(wp.term_id("categories", seg[-2]))
+        except Exception:  # noqa: BLE001
+            pass
+    r = wp.s.post(wp.api.replace("/wp/v2", "") + "/rankmath/v1/updateMeta", timeout=60,
+                  json={"objectType": "post", "objectID": res["id"], "meta": m})
+    print(f"  SEO Rank Math: {r.status_code}" + (f" palabra clave: {kw}" if kw else " (sin palabra clave)"))
 
 
 def main():
