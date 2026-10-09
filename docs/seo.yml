@@ -1,0 +1,106 @@
+# SEO de publi20.com con Rank Math. Lo aplica scripts/seo.py (docs/seo.txt con "aplicar").
+
+# Módulos de Rank Math. Las redirecciones se quedan solo en el plugin Redirection (ya auditado),
+# por eso el módulo de redirecciones de Rank Math se apaga.
+modulos:
+  sitemap: "on"
+  rich-snippet: "on"
+  404-monitor: "on"
+  instant-indexing: "on"
+  redirections: "off"
+
+# Cambios sobre los ajustes actuales de Rank Math (el resto se conserva).
+ajustes:
+  general:
+    nofollow_external_links: "on"
+    new_window_external_links: "on"
+    add_img_alt: "on"
+    img_alt_format: "%title%"
+    breadcrumbs: "on"
+    breadcrumbs_separator: "›"
+    breadcrumbs_home_label: "Inicio"
+    breadcrumbs_ancestor_categories: "on"
+    breadcrumbs_archive_format: "%s"
+    breadcrumbs_404_label: "Página no encontrada"
+  titles:
+    title_separator: "|"
+    knowledgegraph_type: "company"
+    knowledgegraph_name: "Publi2.0"
+    website_name: "Publi2.0"
+    website_alternate_name: "Publi 2.0"
+    social_additional_profiles: "https://www.youtube.com/@Publi20"
+    404_title: "Página no encontrada %sep% %sitename%"
+    tax_category_add_meta_box: "on"
+    noindex_empty_taxonomies: "on"
+    disable_date_archives: "on"
+    noindex_search: "on"
+    pt_listing_robots: ["noindex"]
+    pt_listing_custom_robots: "on"
+  sitemap:
+    include_images: "on"
+    include_featured_image: "on"
+    authors_sitemap: "off"
+    pt_post_sitemap: "on"
+    pt_page_sitemap: "on"
+    pt_listing_sitemap: "off"
+    tax_category_sitemap: "on"
+    tax_post_tag_sitemap: "off"
+
+# Logo de la organización y la imagen social por defecto (se suben a la biblioteca).
+logo: brand/logo-publi20.png
+imagen_social: images/og-publi20.png
+
+portada:
+  titulo: "Publi2.0: revista de publicidad, marketing y negocios en México"
+  descripcion: "Análisis, guías y rankings de publicidad, mercadotecnia, negocios y emprendimiento en México. Sin jerga, con fuentes y con postura."
+  palabra_clave: "revista de publicidad"
+
+# Archivo de comunicados: se indexa solo lo que tuvo clics en Search Console (16 meses).
+# Lo demás sigue publicado, con noindex y follow, y sale del sitemap.
+archivo_noindex_sin_clics: true
+
+# Palabra clave principal por nota editorial (slug: palabra clave).
+palabras_clave:
+  comerciales-prohibidos-censurados: "comerciales prohibidos"
+  converse-x-brain-dead: "Converse x Brain Dead"
+  amda-retail-digital-y-la-innovacion-en-el-mercado-de-autos-seminuevos-en-mexico: "AMDA Retail Digital"
+  autofintech-mexico: "autofintech"
+  equipo-interno-de-marketing-digital-o-agencia-externa-la-experiencia-del-sector-automotriz: "agencia de marketing automotriz"
+  que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos: "Facebook Marketplace autos"
+  canela-tv-plataforma-de-streaming-gratuito-llega-a-mexico: "Canela TV"
+  ya-vienen-los-effies: "premios Effie"
+  etica-en-las-agencias-de-publicidad-y-anarquia-en-los-negocios: "ética en las agencias de publicidad"
+  aliados-o-charlatanes-donde-te-ves: "cómo elegir una agencia de publicidad"
+  como-la-ves-verdad-que-todo-depende: "personalidad de marca"
+  puedes-haber-sido-victima-de-un-fraude-informate: "ortografía en la publicidad"
+  lo-que-todo-anunciante-debe-saber-la-mitad-de-la-publicidad-sirve-la-otra-mitad-no: "la mitad de la publicidad sirve"
+  los-numeros-no-importan-la-influencia-si: "impresiones vs influencia"
+  en-un-mundo-perfecto-la-marca-es-irrelevante: "importancia de la marca"
+  las-redes-sociales-como-canal-de-atencion-a-clientes: "redes sociales para atención a clientes"
+  por-que-snapchat-se-ha-convertido-en-una-interesante-herramienta-para-el-marketing-digital: "Snapchat marketing digital"
+  el-consumidor-no-quiere-mas-opciones: "paradoja de la elección"
+  si-tu-puedes-despedir-a-un-cliente: "despedir a un cliente"
+  infografia-claves-para-edificar-tu-marca-personal: "infografía marca personal"
+  pymes-y-sus-marcas-la-mente-y-corazon-de-los-empresarios: "marca para pymes"
+  regla-de-oro-para-tu-marca-personal-contra-la-homogeneidad-se-tu-mismo: "marca personal"
+  en-la-vida-y-los-negocios: "lecciones de negocios"
+
+# SEO de las categorías (slug: título SEO, descripción, palabra clave, descripción visible si la categoría no tiene).
+categorias:
+  publicidad: {titulo: "Publicidad en México: agencias, creatividad y medios", palabra_clave: "publicidad en México"}
+  creatividad: {titulo: "Creatividad publicitaria: campañas y comerciales", palabra_clave: "creatividad publicitaria", descripcion: "Campañas, comerciales y piezas que vale la pena estudiar: qué hicieron, por qué funcionaron o por qué se cayeron."}
+  medios: {titulo: "Medios publicitarios en México: TV, streaming, radio y digital", palabra_clave: "medios publicitarios", descripcion: "Televisión, streaming, radio, revistas y digital: cómo se mueven los medios donde se invierte la publicidad en México."}
+  guias: {titulo: "Guías de publicidad para anunciantes", palabra_clave: "guía de publicidad", descripcion: "Guías prácticas para anunciantes: cómo contratar, medir y aprovechar mejor cada peso invertido en publicidad."}
+  mercadotecnia: {titulo: "Mercadotecnia: marketing digital, marca e investigación", palabra_clave: "mercadotecnia"}
+  marketing-digital: {titulo: "Marketing digital: redes sociales, métricas y contenido", palabra_clave: "marketing digital", descripcion: "Redes sociales, métricas, contenido y plataformas: lo que funciona en marketing digital y lo que es humo."}
+  investigacion-de-mercados: {titulo: "Investigación de mercados en México: estudios y consumidor", palabra_clave: "investigación de mercados", descripcion: "Estudios, encuestas y datos sobre el consumidor mexicano, explicados para tomar decisiones de marca."}
+  negocios: {titulo: "Negocios en México: empresas, sectores y decisiones", palabra_clave: "negocios en México"}
+  automotriz: {titulo: "Marketing automotriz y negocios de autos en México", palabra_clave: "marketing automotriz", descripcion: "Concesionarias, seminuevos, financiamiento y marketing automotriz en México."}
+  comercio-electronico: {titulo: "Comercio electrónico en México: tiendas, pagos y apps", palabra_clave: "comercio electrónico en México", descripcion: "Tiendas en línea, pagos digitales y aplicaciones: cómo compran y venden los mexicanos en internet."}
+  emprendimiento: {titulo: "Emprendimiento: productividad, liderazgo, ventas y pymes", palabra_clave: "emprendimiento"}
+  productividad: {titulo: "Productividad para emprendedores", palabra_clave: "productividad", descripcion: "Hábitos, herramientas y decisiones para rendir más en tu negocio sin quemarte."}
+  liderazgo: {titulo: "Liderazgo y marca personal para emprendedores", palabra_clave: "liderazgo", descripcion: "Marca personal, clientes y equipos: lecciones de liderazgo para quien dirige su propio negocio."}
+  pymes: {titulo: "Pymes en México: marca, crecimiento y casos", palabra_clave: "pymes en México", descripcion: "Marca, crecimiento, financiamiento y casos de pequeñas y medianas empresas en México."}
+  ventas: {titulo: "Ventas para pymes y emprendedores", palabra_clave: "ventas", descripcion: "Prospección, cierre y seguimiento de ventas para pymes y emprendedores."}
+  rankings: {titulo: "Rankings de publicidad y marketing en México", palabra_clave: "ranking agencias de publicidad"}
+  noticias: {titulo: "Noticias de publicidad, marketing y negocios", palabra_clave: "noticias de publicidad"}

@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """SEO de publi20.com con Rank Math.
 
-  python scripts/seo.py --inspeccionar   rutas de Rank Math en la API, metadatos expuestos, <head> de muestras,
-                                         sitemap y robots.txt -> registro/seo-inspeccion.log
+  python scripts/seo.py --inspeccionar   rutas y ajustes de Rank Math -> registro/seo-inspeccion.log
+  python scripts/seo.py --aplicar        aplica docs/seo.yml: módulos, ajustes globales (organización, logo, imagen
+                                         social, migas, sitemap, robots), SEO de portada, categorías y de cada entrada
+                                         publicada (palabra clave, título, descripción, robots, categoría principal).
+                                         Verifica el resultado -> registro/seo.log, seo-entradas.csv, seo-verificacion.log
 """
 import argparse
+import concurrent.futures as cf
+import csv
+import html
 import importlib.util
 import json
 import pathlib
@@ -13,6 +19,7 @@ import re
 import sys
 
 import requests
+import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 spec = importlib.util.spec_from_file_location("publish", ROOT / "scripts" / "publish.py")
@@ -62,6 +69,20 @@ def tapar(o):
     return o
 
 
+def paginar(wp, endpoint, params):
+    out, page = [], 1
+    while True:
+        r = wp.s.get(f"{wp.api}/{endpoint}", params={**params, "per_page": 100, "page": page}, timeout=60)
+        if r.status_code == 400:
+            break
+        r.raise_for_status()
+        out += r.json()
+        if page >= int(r.headers.get("X-WP-TotalPages", 1)):
+            break
+        page += 1
+    return out
+
+
 def inspeccionar2(wp):
     for path in ("updateSettings", "updateMeta", "updateMetaBulk", "saveModule", "toolsAction", "status/exportSettings",
                  "setupWizard/updateStepData", "setupWizard/getStepData", "updateSchemas"):
@@ -102,9 +123,195 @@ def inspeccionar(wp):
         log(f"== {path} -> {r.status_code}\n{r.text[:1500]}")
 
 
+# ---------------------------------------------------------------- aplicar
+
+CFG = yaml.safe_load((ROOT / "docs" / "seo.yml").read_text(encoding="utf-8"))
+
+
+def plano(s):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+
+
+def corta(s, n=158):
+    s = re.sub(r"/\s*PR\s?Newswire[^/]*/", " ", s, flags=re.I)
+    s = re.sub(r"\s*[\u2013\u2014]+\s*", ", ", s).strip(" ,")
+    if len(s) <= n:
+        return s
+    s = s[:n]
+    return s[:s.rfind(" ")].rstrip(",;:.") + "…"
+
+
+def exportar(wp):
+    code, data = rm(wp, "POST", "status/exportSettings", json={"panels": ["general", "titles", "sitemap"]})
+    if code != 200:
+        raise RuntimeError(f"exportSettings -> {code}: {str(data)[:200]}")
+    return json.loads(data) if isinstance(data, str) else data
+
+
+def guardar_panel(wp, panel, cambios):
+    actual = exportar(wp)[panel]
+    nuevo = {**actual, **cambios}
+    pendientes = lambda d: [k for k, v in cambios.items() if d.get(k) != v]  # noqa: E731
+    if not pendientes(actual):
+        log(f"  ajustes {panel}: ya estaban aplicados")
+        return True
+    intentos = [
+        ("updateSettings", {"type": panel, "settings": nuevo, "updated": list(cambios), "isReset": False}),
+        ("updateSettings", {"type": panel, "settings": json.dumps(nuevo)}),
+        ("status/importSettings", {"data": json.dumps({panel: nuevo})}),
+    ]
+    for ruta, body in intentos:
+        code, res = rm(wp, "POST", ruta, json=body)
+        despues = exportar(wp)[panel]
+        if len(despues) < len(actual) * 0.8:
+            log(f"  AVISO {panel}: {ruta} dejó {len(despues)} de {len(actual)} claves; restauro")
+            rm(wp, "POST", ruta, json={**body, "settings": actual} if "settings" in body else {"data": json.dumps({panel: actual})})
+            continue
+        faltan = pendientes(despues)
+        log(f"  ajustes {panel} vía {ruta} -> {code}; sin aplicar: {faltan or 'ninguno'}")
+        if not faltan:
+            return True
+    return False
+
+
+def gsc():
+    out = {}
+    for f in csv.DictReader((ROOT / "docs" / "gsc-paginas.csv").open(encoding="utf-8")):
+        r = f["ruta"].rstrip("/") or "/"
+        c, i = out.get(r, (0, 0))
+        out[r] = (c + int(float(f["clics"] or 0)), i + int(float(f["impresiones"] or 0)))
+    return out
+
+
+def ruta(u):
+    u = re.sub(r"^https?://(www\.)?publi20\.com", "", u or "")
+    return (u.split("?")[0].rstrip("/") or "/")
+
+
+def aplicar(wp):
+    log("== Módulos")
+    for m, st in CFG["modulos"].items():
+        code, res = rm(wp, "POST", "saveModule", json={"module": m, "state": st})
+        log(f"  {m}: {st} -> {code} {str(res)[:80]}")
+
+    log("== Logo e imagen social")
+    cambios = {k: dict(v) for k, v in CFG["ajustes"].items()}
+    lid = wp.media_id(ROOT / CFG["logo"], "Publi2.0")
+    oid = wp.media_id(ROOT / CFG["imagen_social"], "Publi2.0: publicidad, mercadotecnia, negocios y emprendimiento")
+    lurl = wp.req("GET", f"media/{lid}")["source_url"]
+    ourl = wp.req("GET", f"media/{oid}")["source_url"]
+    cambios["titles"].update({"knowledgegraph_logo": lurl, "knowledgegraph_logo_id": lid,
+                              "open_graph_image": ourl, "open_graph_image_id": oid})
+    log(f"  logo {lurl}\n  imagen social {ourl}")
+
+    log("== Ajustes globales")
+    for panel, c in cambios.items():
+        if not guardar_panel(wp, panel, c):
+            log(f"  ERROR: no pude guardar los ajustes de {panel}")
+
+    log("== Entradas")
+    cats = {c["id"]: c for c in paginar(wp, "categories", {"_fields": "id,slug,name,count,parent,description"})}
+    por_slug = {c["slug"]: c for c in cats.values()}
+    noticias = por_slug.get("noticias", {}).get("id")
+    posts = paginar(wp, "posts", {"status": "publish", "_fields": "id,slug,title,link,categories,excerpt"})
+    antes = {p["id"]: p["link"] for p in posts}
+    datos = gsc()
+    legado = {}
+    inv = ROOT / "legacy" / "inventario.csv"
+    if inv.exists():
+        legado = {int(f["id"]): ruta(f["link"]) for f in csv.DictReader(inv.open(encoding="utf-8"))}
+    origenes = {}
+    for f in csv.DictReader((ROOT / "docs" / "redirecciones.csv").open(encoding="utf-8")):
+        origenes.setdefault(ruta(f["destino"]), set()).add(ruta(f["origen"]))
+    kws = CFG.get("palabras_clave") or {}
+
+    def una(p):
+        titulo = plano(p["title"]["rendered"])
+        rutas = {ruta(p["link"]), legado.get(p["id"], "")} - {""}
+        for r in list(rutas):
+            rutas |= origenes.get(r, set())
+        clics = sum(datos.get(r, (0, 0))[0] for r in rutas)
+        impr = sum(datos.get(r, (0, 0))[1] for r in rutas)
+        es_archivo = noticias in p["categories"] and p["slug"] not in kws
+        indexar = not (es_archivo and CFG.get("archivo_noindex_sin_clics") and clics == 0)
+        meta = {"rank_math_robots": ["index"] if indexar else ["noindex"]}
+        if len(titulo) > 48:
+            meta["rank_math_title"] = "%title%"
+        ex = corta(plano(p["excerpt"]["rendered"]))
+        if ex:
+            meta["rank_math_description"] = ex
+        if p["slug"] in kws:
+            meta["rank_math_focus_keyword"] = kws[p["slug"]]
+        seg = ruta(p["link"]).strip("/").split("/")
+        if len(seg) >= 2 and seg[-2] in por_slug and por_slug[seg[-2]]["id"] in p["categories"]:
+            meta["rank_math_primary_category"] = str(por_slug[seg[-2]]["id"])
+        code, res = rm(wp, "POST", "updateMeta", json={"objectType": "post", "objectID": p["id"], "meta": meta})
+        return [p["id"], p["link"], "archivo" if es_archivo else "editorial", "index" if indexar else "noindex",
+                clics, impr, meta.get("rank_math_focus_keyword", ""), len(titulo), len(ex), code,
+                "" if code == 200 else str(res)[:120]]
+
+    with cf.ThreadPoolExecutor(4) as ex:
+        filas = list(ex.map(una, posts))
+    with (ROOT / "registro" / "seo-entradas.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "url", "tipo", "robots", "clics_gsc", "impresiones_gsc", "palabra_clave", "largo_titulo",
+                    "largo_descripcion", "codigo", "error"])
+        w.writerows(filas)
+    from collections import Counter
+    log(f"  {len(filas)} entradas: " + ", ".join(f"{k}={v}" for k, v in Counter((x[2], x[3]) for x in filas).items()))
+    log(f"  errores: {sum(1 for x in filas if x[9] != 200)}" + (f" (ej. {next(x[10] for x in filas if x[9] != 200)})"
+                                                               if any(x[9] != 200 for x in filas) else ""))
+
+    log("== Portada")
+    st = wp.req("GET", "settings")
+    pc = CFG["portada"]
+    code, res = rm(wp, "POST", "updateMeta", json={"objectType": "post", "objectID": st["page_on_front"], "meta": {
+        "rank_math_title": pc["titulo"], "rank_math_description": pc["descripcion"],
+        "rank_math_focus_keyword": pc["palabra_clave"], "rank_math_robots": ["index"]}})
+    log(f"  página {st['page_on_front']} -> {code}")
+
+    log("== Categorías")
+    for sl, c in (CFG.get("categorias") or {}).items():
+        t = por_slug.get(sl)
+        if not t:
+            continue
+        desc = plano(t.get("description")) or c.get("descripcion", "")
+        if not plano(t.get("description")) and c.get("descripcion"):
+            wp.req("POST", f"categories/{t['id']}", json={"description": c["descripcion"]})
+        titulo = c["titulo"] if len(c["titulo"]) > 48 else c["titulo"] + " %sep% %sitename%"
+        meta = {"rank_math_title": titulo, "rank_math_focus_keyword": c["palabra_clave"]}
+        if desc:
+            meta["rank_math_description"] = corta(desc)
+        code, res = rm(wp, "POST", "updateMeta", json={"objectType": "term", "objectID": t["id"], "meta": meta})
+        log(f"  {sl} -> {code}")
+
+    verificar(wp, antes)
+
+
+def verificar(wp, antes):
+    v = []
+    despues = {p["id"]: p["link"] for p in paginar(wp, "posts", {"status": "publish", "_fields": "id,link"})}
+    cambiadas = [(i, antes[i], despues.get(i)) for i in antes if despues.get(i) != antes[i]]
+    v.append(f"URLs de entradas que cambiaron: {len(cambiadas)} {cambiadas[:5]}")
+    for path in ("/sitemap_index.xml", "/post-sitemap.xml", "/category-sitemap.xml", "/robots.txt"):
+        r = requests.get(BASE + path + f"?nc={random.randint(1, 10**9)}", timeout=40, headers={"User-Agent": "publi20-seo/1.0"})
+        cuerpo = r.text if path == "/robots.txt" else f"{r.text.count('<loc>')} URLs"
+        v.append(f"== {path} -> {r.status_code} {cuerpo[:600]}")
+    muestras = ["/", "/publicidad/creatividad/comerciales-prohibidos-censurados/", "/categoria/publicidad/",
+                "/negocios/automotriz/autofintech-mexico/"]
+    filas = list(csv.reader((ROOT / "registro" / "seo-entradas.csv").open(encoding="utf-8")))[1:]
+    muestras += [ruta(x[1]) + "/" for x in filas if x[3] == "noindex"][:1] + [ruta(x[1]) + "/" for x in filas if x[2] == "archivo" and x[3] == "index"][:1]
+    for m in muestras:
+        v.append(cabeza(BASE + m))
+    (ROOT / "registro" / "seo-verificacion.log").write_text("\n".join(v) + "\n", encoding="utf-8")
+    log("\n".join(v[:6]))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--inspeccionar", action="store_true")
+    ap.add_argument("--aplicar", action="store_true")
+    ap.add_argument("--verificar", action="store_true")
     a = ap.parse_args()
     wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
     wp.whoami()
@@ -112,6 +319,8 @@ def main():
     try:
         if a.inspeccionar:
             inspeccionar2(wp)
+        elif a.aplicar:
+            aplicar(wp)
     except Exception as ex:  # noqa: BLE001
         log(f"ERROR: {ex}")
     (ROOT / "registro" / ("seo-inspeccion.log" if a.inspeccionar else "seo.log")).write_text("\n".join(LOG) + "\n", encoding="utf-8")
