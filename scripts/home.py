@@ -258,7 +258,7 @@ def armar(cats, por_slug, patro, posts, media):
 
     if archivo:
         items = "".join(f'<li><span class="p20-h-anio">{p["date"][:4]}</span>'
-                        f'<a href="{e(p["link"])}">{e(texto(p["title"]["rendered"]))}</a></li>' for p in archivo[:8])
+                        f'<a href="{e(p["link"])}">{e(texto(p["title"]["rendered"]))}</a></li>' for p in [x for x in archivo if x["id"] not in usados][:8])
         h.append('<section class="p20-h-archivo" aria-labelledby="p20-archivo"><div class="p20-h-cab"><div>'
                  '<h2 id="p20-archivo"><a href="' + e(por_slug["noticias"]["link"]) + '">Archivo de noticias</a></h2>'
                  '<p>Comunicados y lanzamientos de la industria que conservamos como referencia.</p></div>'
