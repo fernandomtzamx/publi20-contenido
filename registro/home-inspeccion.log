@@ -1,0 +1,21 @@
+Tema activo: rehub-theme (Rehub theme) plantilla=rehub-theme bloques=False
+Ajustes: {"title": "Publi2.0 | Sitios Web y Publicidad Digital para Franquicias", "description": "Conoce nuestras soluciones de sitios web, tecnología y publicidad digital para Franquicias.", "show_on_front": "page", "page_on_front": 139, "page_for_posts": 0, "posts_per_page": 10}
+Plantillas de página: None
+Portada actual: id 139 slug=home estado=publish plantilla=elementor_theme título=Home elementor=True
+  página 139 publish home [elementor_theme] Home https://www.publi20.com/
+  plugin active: a2-optimized-wp/a2-optimized 3.0.13
+  plugin active: better-search-replace/better-search-replace 1.4.10
+  plugin active: classic-editor/classic-editor 1.7.0
+  plugin active: content-egg/content-egg 11.2.0
+  plugin active: elementor/elementor 4.1.4
+  plugin active: envato-market/envato-market 2.0.12
+  plugin active: jetpack/jetpack 16.3
+  plugin active: mt2wp-importer-helper/mt2wp-importer-helper 1.0.0
+  plugin active: one-click-demo-import/one-click-demo-import 3.4.1
+  plugin active: redirection/redirection 5.8.0
+  plugin active: rehub-framework/rehub-framework 19.9.9.7
+  plugin active: wordpress-importer/wordpress-importer 0.9.5
+Ubicaciones de menú: {"primary-menu": ["Menú principal", 151], "top-menu": ["Menú superior", 151], "user_logged_in_menu": ["Menú de usuario registrado", 0]}
+  menú 151 Principal ubicaciones=['primary-menu', 'top-menu']
+    - 8010 Inicio post_type https://www.publi20.com/ padre=0
+Categorías: automotriz(18), comercio-electronico(9), creatividad(23), guias(1), investigacion-de-mercados(5), liderazgo(4), marketing-digital(14), medios(15), mercadotecnia(2), negocios(235), noticias(318), publicidad(2), pymes(13)
