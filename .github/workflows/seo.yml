@@ -1,0 +1,41 @@
+name: SEO del sitio
+
+# Cambiar docs/seo.txt lanza el flujo. Si contiene "inspeccionar", solo inspecciona; si contiene "aplicar", aplica.
+on:
+  push:
+    branches: [main]
+    paths: ["docs/seo.txt", "docs/seo.yml", "scripts/seo.py", ".github/workflows/seo.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo
+  cancel-in-progress: false
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: SEO
+        run: |
+          if grep -q "aplicar" docs/seo.txt; then python scripts/seo.py --aplicar; else python scripts/seo.py --inspeccionar; fi
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          for f in registro/seo.log registro/seo-inspeccion.log registro/seo-entradas.csv registro/seo-verificacion.log; do [ -f "$f" ] && git add "$f"; done
+          git commit -q -m "SEO del sitio [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
