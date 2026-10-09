@@ -1,15 +1,51 @@
-fecha: 2026-10-09T21:12:17Z
-commit: 1cc2cbe7ca3d8a60bfac702f9d20c25bbe2711c1
+fecha: 2026-10-09T22:50:53Z
+commit: 40946171c9a582029d5b29ba50d5d599529e0b64
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/37991964244
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38001341842
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: --check
+Argumentos: content/rankings/agencias-de-publicidad-cdmx.md content/rankings/agencias-de-publicidad-mexico.md content/rankings/agencias-de-publicidad-monterrey.md content/rankings/agencias-inbound-marketing-mexico.md content/rankings/empresas-publicidad-exterior-mexico.md content/rankings/productoras-de-eventos-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-Autor de las publicaciones: id 1
+  + etiqueta creada: cdmx
+  + etiqueta creada: ciudad de méxico
+  + etiqueta creada: agencias creativas
+  + imagen subida: agencias-de-publicidad-cdmx-portada.png (id 9140)
+content/rankings/agencias-de-publicidad-cdmx.md: post creada (draft) id=9141 https://www.publi20.com/?p=9141
+  + etiqueta creada: effie méxico
+  + etiqueta creada: cannes lions
+  + etiqueta creada: círculo de oro
+  + etiqueta creada: pitch
+  + imagen subida: agencias-de-publicidad-mexico-portada.png (id 9142)
+content/rankings/agencias-de-publicidad-mexico.md: post creada (draft) id=9143 https://www.publi20.com/?p=9143
+  + etiqueta creada: Monterrey
+  + etiqueta creada: Nuevo León
+  + etiqueta creada: rankings 2026
+  + imagen subida: agencias-de-publicidad-monterrey-portada.png (id 9144)
+content/rankings/agencias-de-publicidad-monterrey.md: post creada (draft) id=9145 https://www.publi20.com/?p=9145
+  + etiqueta creada: inbound marketing
+  + etiqueta creada: hubspot
+  + etiqueta creada: agencias de marketing digital
+  + etiqueta creada: marketing b2b
+  + etiqueta creada: automatización de marketing
+  + imagen subida: agencias-inbound-marketing-mexico-portada.png (id 9146)
+content/rankings/agencias-inbound-marketing-mexico.md: post creada (draft) id=9147 https://www.publi20.com/?p=9147
+  + etiqueta creada: publicidad exterior
+  + etiqueta creada: espectaculares
+  + etiqueta creada: mobiliario urbano
+  + etiqueta creada: DOOH
+  + etiqueta creada: medios
+  + imagen subida: empresas-publicidad-exterior-mexico-portada.png (id 9148)
+content/rankings/empresas-publicidad-exterior-mexico.md: post creada (draft) id=9149 https://www.publi20.com/?p=9149
+  + etiqueta creada: agencias de modelos
+  + etiqueta creada: productoras de eventos
+  + etiqueta creada: stands
+  + etiqueta creada: expos
+  + etiqueta creada: photobooth
+  + imagen subida: productoras-de-eventos-mexico-portada.png (id 9150)
+content/rankings/productoras-de-eventos-mexico.md: post creada (draft) id=9151 https://www.publi20.com/?p=9151
