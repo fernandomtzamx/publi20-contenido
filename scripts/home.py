@@ -182,6 +182,17 @@ def armar(cats, por_slug, patro, posts, media):
         return (f'<article class="p20-h-card">{foto(p, tam, "p20-h-img")}{kicker(p)}'
                 f'<h3 class="p20-h-t"><a href="{e(p["link"])}">{e(t)}</a></h3>{ex}</article>')
 
+    def elegir(cands, n):
+        """Hasta n notas por fecha, priorizando las editoriales: como máximo una patrocinada por bloque."""
+        propias = [p for p in cands if not es_patro(p)]
+        patros = [p for p in cands if es_patro(p)]
+        sel = propias[:n]
+        if len(sel) < n:
+            sel += patros[: max(1, n - len(sel))][: n - len(sel)]
+        elif patros and n >= 3:
+            sel = propias[: n - 1] + patros[:1]
+        return sorted(sel, key=lambda p: p["date"], reverse=True)
+
     usados = set()
     dest = next((p for p in editoriales if p["slug"] == (CFG.get("destacada") or "")), None)
     if not dest:
@@ -189,7 +200,7 @@ def armar(cats, por_slug, patro, posts, media):
     if not dest:
         raise RuntimeError("No hay notas editoriales publicadas para armar la portada")
     usados.add(dest["id"])
-    laterales = [p for p in editoriales if p["id"] not in usados][:4]
+    laterales = elegir([p for p in editoriales if p["id"] not in usados], 4)
     usados |= {p["id"] for p in laterales}
 
     h = []
@@ -219,7 +230,7 @@ def armar(cats, por_slug, patro, posts, media):
             continue
         familia = {c["id"]} | {k for k, v in cats.items() if raiz(cats, k) and raiz(cats, k)["id"] == c["id"]}
         propias = [p for p in editoriales if familia & set(p["categories"])]
-        lista = [p for p in propias if p["id"] not in usados][:3]
+        lista = elegir([p for p in propias if p["id"] not in usados], 3)
         if len(lista) < 3:
             lista += [p for p in propias if p not in lista][: 3 - len(lista)]
         if len(lista) < 3:
