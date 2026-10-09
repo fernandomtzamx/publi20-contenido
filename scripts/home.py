@@ -183,14 +183,12 @@ def armar(cats, por_slug, patro, posts, media):
                 f'<h3 class="p20-h-t"><a href="{e(p["link"])}">{e(t)}</a></h3>{ex}</article>')
 
     def elegir(cands, n):
-        """Hasta n notas por fecha, priorizando las editoriales: como máximo una patrocinada por bloque."""
+        """Hasta n notas por fecha, con una patrocinada como máximo por bloque (puede devolver menos)."""
         propias = [p for p in cands if not es_patro(p)]
-        patros = [p for p in cands if es_patro(p)]
-        sel = propias[:n]
+        patros = [p for p in cands if es_patro(p)][:1]
+        sel = propias[: n - 1] + patros if patros else propias[:n]
         if len(sel) < n:
-            sel += patros[: max(1, n - len(sel))][: n - len(sel)]
-        elif patros and n >= 3:
-            sel = propias[: n - 1] + patros[:1]
+            sel += [p for p in propias if p not in sel][: n - len(sel)]
         return sorted(sel, key=lambda p: p["date"], reverse=True)
 
     usados = set()
@@ -232,9 +230,9 @@ def armar(cats, por_slug, patro, posts, media):
         propias = [p for p in editoriales if familia & set(p["categories"])]
         lista = elegir([p for p in propias if p["id"] not in usados], 3)
         if len(lista) < 3:
-            lista += [p for p in propias if p not in lista][: 3 - len(lista)]
-        if len(lista) < 3:
             lista += [p for p in archivo if familia & set(p["categories"]) and p not in lista][: 3 - len(lista)]
+        if len(lista) < 3:
+            lista += [p for p in propias if p not in lista][: 3 - len(lista)]
         if not lista:
             continue
         usados |= {p["id"] for p in lista}
