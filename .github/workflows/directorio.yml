@@ -1,0 +1,43 @@
+name: Directorio hacia rankings
+
+# docs/directorio.txt: "inventario" lee fichas y categorías; "mapa" arma el mapa (no cambia el sitio).
+on:
+  push:
+    branches: [main]
+    paths: ["docs/directorio.txt", "docs/directorio-rankings.yml", "scripts/directorio.py", ".github/workflows/directorio.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: directorio
+  cancel-in-progress: false
+
+jobs:
+  directorio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Directorio
+        run: |
+          set -o pipefail
+          if grep -q "inventario" docs/directorio.txt; then python scripts/directorio.py --inventario 2>&1 | tee registro/directorio.log; fi
+          if grep -q "mapa" docs/directorio.txt; then python scripts/directorio.py --mapa 2>&1 | tee -a registro/directorio.log; fi
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          git config user.name "publi20-bot"
+          git config user.email "publi20-bot@users.noreply.github.com"
+          for f in registro/directorio.log registro/directorio-fichas.csv registro/directorio-categorias.csv registro/mapa-directorio-rankings.csv; do [ -f "$f" ] && git add "$f"; done
+          git commit -q -m "Directorio hacia rankings [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
