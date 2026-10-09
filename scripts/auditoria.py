@@ -92,6 +92,10 @@ def todas(wp):
 
 
 def pilar(path):
+    if path.startswith("/publicidad-negocios-mexico/"):
+        return "/emprendimiento/"
+    if path.startswith("/uncategorised/"):
+        return "/"
     if re.search(r"investigacion-de-mercados|marketing-digital|inbound|mercadotecnia|desarrollo-web", path):
         return "/mercadotecnia/"
     return "/publicidad/"
@@ -101,8 +105,8 @@ def actualizar(wp, it, destino):
     body = {"url": it["url"], "match_type": it.get("match_type", "url"), "action_type": it.get("action_type", "url"),
             "action_code": it.get("action_code", 301), "action_data": {"url": destino}, "group_id": it["group_id"],
             "regex": it.get("regex", False), "title": it.get("title", ""), "position": it.get("position", 0),
-            "match_data": it.get("match_data") or {"source": {"flag_query": "ignore", "flag_case": True,
-                                                              "flag_trailing": True, "flag_regex": False}}}
+            "match_data": {"source": {"flag_query": "ignore", "flag_case": True,
+                                      "flag_trailing": True, "flag_regex": bool(it.get("regex"))}}}
     red(wp, "POST", f"redirect/{it['id']}", json=body)
 
 
@@ -179,6 +183,18 @@ def main():
         if norm(src).rstrip("/") + "/" in vivas or norm(src) in vivas:
             return it, "secuestro", [], "", dest
         saltos, final, url = cadena(src)
+        if not saltos and final != 200:
+            # La regla no se dispara con el parámetro anti-caché (compara la query exacta).
+            # Se evalúa su destino: a dónde llegaría un visitante.
+            d = norm(dest)
+            if not d.startswith("/"):
+                return it, "basura", [], "", dest
+            s2, f2, u2 = cadena(d)
+            if f2 == 200 and not s2:
+                return it, "ok_query", [], d, dest
+            if f2 == 200:
+                return it, "cadena", s2, u2, dest
+            return it, "destino_mal", s2, f"{f2} {u2}", dest
         if final == "bucle":
             return it, "bucle", saltos, url, dest
         if not saltos:
@@ -203,12 +219,15 @@ def main():
         elif estado == "destino_mal":
             nuevo = pilar(it["url"])
             plan_update.append((it, nuevo))
+        elif estado == "ok_query":
+            plan_update.append((it, info))
     with (out / "auditoria-redirecciones.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["id", "grupo", "estado", "origen", "destino_regla", "saltos", "detalle", "accion"])
         for it, estado, saltos, info, dest in res:
             accion = {"bucle": "desactivar", "basura": "desactivar", "secuestro": "desactivar",
-                      "cadena": f"reapuntar a {info}", "destino_mal": f"reapuntar a {pilar(it['url'])}"}.get(estado, "")
+                      "cadena": f"reapuntar a {info}", "destino_mal": f"reapuntar a {pilar(it['url'])}",
+                      "ok_query": "ignorar parámetros de la URL"}.get(estado, "")
             w.writerow([it["id"], grupos.get(it["group_id"], it["group_id"]), estado, it["url"], dest,
                         " > ".join(f"{c}:{u}" for c, u, _ in saltos), info, accion])
 
