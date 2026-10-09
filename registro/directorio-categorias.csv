@@ -1,0 +1,142 @@
+id,slug,nombre,fichas,padre
+9,activaciones,Activaciones,0,proveedores
+56,aerolineas,Aerolíneas,0,convenciones
+10,agencias,Agencias,0,proveedores
+39,agencias-de-convenciones,Agencias de Convenciones,0,agencias
+40,agencias-de-diseno,Agencias de Diseño,0,agencias
+41,agencias-de-medios,Agencias de Medios,0,agencias
+42,agencias-de-mercadotecnia,Agencias de Mercadotecnia,0,agencias
+43,agencias-de-modelos,Agencias de Modelos,0,agencias
+44,agencias-de-promocion,Agencias de Promoción,0,agencias
+45,agencias-de-publicidad,Agencias de Publicidad,0,agencias
+49,agencias-de-recursos-humanos,Agencias de Recursos Humanos,0,agencias
+50,agencias-de-tecnologia,Agencias de Tecnología,0,agencias
+46,agencias-de-viajes,Agencias de Viajes,0,agencias
+90,alimentos-y-bebidas,Alimentos y Bebidas,0,exposiciones-calendario-y-por-rubro
+116,articulos-promocionales,Articulos Promocionales,0,promocionales
+47,atl,ATL,0,agencias
+77,audio,Audio,0,eventos
+131,automotriz,Automotriz,0,revistas-media-kit
+99,banners,Banners,0,marketing-digital
+78,banquetes,Banquetes,0,eventos
+100,bases-de-datos,Bases de Datos,0,marketing-digital
+33,btl,BTL,0,activaciones
+101,buscadores,Buscadores,0,marketing-digital
+118,camiones,Camiones,0,publicidad-exterior
+11,campanas-politicas,Campañas Políticas,0,proveedores
+146,canales,Canales,0,television
+12,capacitacion-y-cursos,Capacitación y Cursos,0,proveedores
+79,carpas-y-tarimas,Carpas y Tarimas,0,eventos
+119,carteleras,Carteleras,0,publicidad-exterior
+127,casas-productoras,Casas Productoras,0,radio
+105,centros-comerciales,Centros Comerciales,0,medios-alternos
+57,centros-de-convenciones,Centros de Convenciones,0,convenciones
+91,centros-de-exposiciones,Centros de Exposiciones,0,exposiciones-calendario-y-por-rubro
+106,cines-y-teatros,Cines y Teatros,0,medios-alternos
+58,ciudades-y-gobiernos,Ciudades y Gobiernos,0,convenciones
+52,coaching,Coaching,0,capacitacion-y-cursos
+53,consultoras-de-marketing,Consultoras de Marketing,0,capacitacion-y-cursos
+13,convenciones,Convenciones,0,proveedores
+80,decoracion,Decoración,0,eventos
+132,deportes,Deportes,0,revistas-media-kit
+14,diseno,Diseño,0,proveedores
+62,diseno-editorial,Diseño Editorial,0,diseno
+63,diseno-grafico,Diseño Gráfico,0,diseno
+64,diseno-industrial,Diseño Industrial,0,diseno
+65,diseno-multimedia,Diseño Multimedia,0,diseno
+66,diseno-publicitario,Diseño Publicitario,0,diseno
+67,diseno-textil,Diseño Textil,0,diseno
+70,diseno-y-desarrollo-web,Diseño y Desarrollo Web,0,diseno
+114,displays,Displays,0,pop
+128,doblaje-y-locucion,Doblaje y Locución,0,radio
+102,dominios-y-hosting,Dominios y Hosting,0,marketing-digital
+103,e-mailing,E-Mailing,0,marketing-digital
+34,edecanes,Edecanes,0,activaciones
+93,editoriales,Editoriales,0,impresion-y-artes-graficas
+15,empaque-y-embotellamiento,Empaque y Embotellamiento,0,proveedores
+133,entretenimiento,Entretenimiento,0,revistas-media-kit
+147,equipo-de-produccion,Equipo de Producción,0,television
+126,espectaculares-mexico,Espectaculares,0,publicidad-exterior
+16,estaciones-de-radio,Estaciones de Radio,0,proveedores
+107,estadios-y-foros,Estadios y Foros,0,medios-alternos
+129,estudios-de-grabacion,Estudios de Grabación,0,radio
+17,eventos,Eventos,0,proveedores
+18,exposiciones-calendario-y-por-rubro,"Exposiciones, Calendario y por Rubro",0,proveedores
+140,fabricacion-renta-y-venta-de-banners,"Fabricación, Renta y Venta de Banners",0,stands-y-display
+141,fabricacion-renta-y-venta-de-stands,"Fabricación, Renta y Venta de Stands",0,stands-y-display
+72,fabricantes-de-bolsas,Fabricantes de Bolsas,0,empaque-y-embotellamiento
+73,fabricantes-de-empaques,Fabricantes de Empaques,0,empaque-y-embotellamiento
+74,fabricantes-de-etiquetas,Fabricantes de Etiquetas,0,empaque-y-embotellamiento
+134,femenina,Femenina,0,revistas-media-kit
+71,fotografia,Fotografía,0,diseno
+81,fotografias,Fotografías,0,eventos
+59,hoteles,Hoteles,0,convenciones
+19,ideas-originales,Ideas Originales,0,proveedores
+68,identidad-corporativa,Identidad Corporativa,0,diseno
+54,identidad-de-marca,Identidad de Marca,0,capacitacion-y-cursos
+82,iluminacion,Iluminación,0,eventos
+69,ilustracion,Ilustración,0,diseno
+94,imprentas-digital,Imprentas Digital,0,impresion-y-artes-graficas
+95,impresion-a-gran-formato,Impresión a Gran Formato,0,impresion-y-artes-graficas
+96,impresion-en-offset,Impresión en Offset,0,impresion-y-artes-graficas
+20,impresion-y-artes-graficas,Impresión y Artes Gráficas,0,proveedores
+31,inbound-marketing-mexico,Inbound Marketing,0,proveedores
+35,inflables,Inflables,0,activaciones
+135,interes-especifico,Interes Especifico,0,revistas-media-kit
+32,investigacion-de-mercados,Investigación de Mercados,0,proveedores
+136,juvenil,Juvenil,0,revistas-media-kit
+36,lugares-para-promocion,Lugares para Promoción,0,activaciones
+21,marketing-digital,Marketing Digital,0,proveedores
+137,masculina,Masculina,0,revistas-media-kit
+22,medios-alternos,Medios Alternos,0,proveedores
+120,metro,Metro,0,publicidad-exterior
+121,metrobus,Metrobus,0,publicidad-exterior
+122,mexibus,Mexibus,0,publicidad-exterior
+83,mobiliario-lounge,Mobiliario Lounge,0,eventos
+84,museos-y-otros,Museos y Otros,0,eventos
+75,musica,Musica,0,estaciones-de-radio
+138,negocios,Negocios,0,revistas-media-kit
+76,noticias,Noticias,0,estaciones-de-radio
+108,oficinas,Oficinas,0,medios-alternos
+123,parabuses,Parabuses,0,publicidad-exterior
+37,performance,Performance,0,activaciones
+23,periodicos,Periodicos,0,proveedores
+110,periodicos-gratuitos,Periodicos Gratuitos,0,periodicos
+111,periodicos-locales,Periodicos Locales,0,periodicos
+112,periodicos-masivos,Periodicos Masivos,0,periodicos
+113,periodicos-online,Periodicos Online,0,periodicos
+24,pop,POP,0,proveedores
+148,post-produccion,Post-Producción,0,television
+115,posters,Posters,0,pop
+25,promocionales,Promocionales,0,proveedores
+51,propaganda,Propaganda,0,campanas-politicas
+26,publicidad-exterior,Publicidad Exterior,0,proveedores
+92,publicidad-y-mercadotecnia,Publicidad y Mercadotecnia,0,exposiciones-calendario-y-por-rubro
+27,radio,Radio,0,proveedores
+130,radiodifusoras,Radiodifusoras,0,radio
+142,renta-de-alfombras,Renta de Alfombras,0,stands-y-display
+143,renta-de-decoracion,Renta de Decoración,0,stands-y-display
+144,renta-de-equipo-audiovisual,Renta de Equipo Audiovisual,0,stands-y-display
+38,renta-de-equipos,Renta de Equipos,0,activaciones
+145,renta-de-mobiliario,Renta de Mobiliario,0,stands-y-display
+85,representantes-de-artistas,Representantes de Artistas,0,eventos
+28,revistas-media-kit,Revistas / Media Kit,0,proveedores
+48,rp-s,RP'S,0,agencias
+86,salones-y-jardines,Salones y Jardines,0,eventos
+97,serigrafia,Serigrafía,0,impresion-y-artes-graficas
+87,shows-y-conciertos,Shows y Conciertos,0,eventos
+104,sistemas-de-intranet,Sistemas de Intranet,0,marketing-digital
+55,speakers,Speakers,0,capacitacion-y-cursos
+29,stands-y-display,Stands y Display,0,proveedores
+30,television,Televisión,0,proveedores
+117,textil,Textil,0,promocionales
+8,proveedores,Todos los Proveedores,0,
+60,tours,Tours,0,convenciones
+61,transporte,Transporte,0,convenciones
+109,universidades,Universidades,0,medios-alternos
+139,universitarias,Universitarias,0,revistas-media-kit
+124,vallas,Vallas,0,publicidad-exterior
+125,vallas-moviles,Vallas Moviles,0,publicidad-exterior
+98,venta-de-maquinas,Venta de Maquinas,0,impresion-y-artes-graficas
+88,videos,Videos,0,eventos
+89,vinos-y-licores,Vinos y Licores,0,eventos
