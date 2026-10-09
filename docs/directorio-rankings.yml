@@ -18,7 +18,14 @@ reglas:
   - [ "comunicacion|marketing|mercadotecnia|consultor|estrateg|integral|360", /rankings/agencias-de-marketing-mexico/ ]
   - [ "monterrey|nuevo-leon|san-pedro", /rankings/agencias-de-publicidad-monterrey/ ]
   - [ "queretaro", /rankings/agencias-de-publicidad-queretaro/ ]
+# Agencias genéricas ("servicios de publicidad") se mandan al ranking de su ciudad o estado.
+estados:
+  - [ "nuevo le[oó]n", /rankings/agencias-de-publicidad-monterrey/ ]
+  - [ "quer[eé]taro", /rankings/agencias-de-publicidad-queretaro/ ]
+  - [ "distrito federal|ciudad de m[eé]xico|cdmx", /rankings/agencias-de-publicidad-cdmx/ ]
+  - [ ".", /rankings/agencias-de-publicidad-por-estado/ ]
 por_defecto: /rankings/agencias-de-publicidad-mexico/
 
 # Excepciones por slug de ficha (slug: destino), para corregir a mano lo que las reglas clasifiquen mal.
-fichas: {}
+fichas:
+  augusto-elias: /rankings/agencias-de-publicidad-mexico/

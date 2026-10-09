@@ -81,6 +81,23 @@ def clasificar(texto, reglas, defecto):
     return defecto
 
 
+def limpio(t):
+    """Quita la plantilla de contacto de la ficha (sitio, correo, teléfono, dirección) para no confundir reglas."""
+    t = re.split(r"Sitio web:|Tel[eé]fono:|Email:|Direcci[oó]n:", t)[0]
+    return re.sub(r"forma parte de la red de negocios de publicidad de \S+|es un proveedor del giro de la publicidad en mexico"
+                  r"|ofrece servicios de publicidad", " ", t, flags=re.I)
+
+
+def por_estado(texto, cfg):
+    t = texto.lower()
+    m = re.search(r"originario de ([a-záéíóúñ ]+?)\.", t) or re.search(r"direcci[oó]n:.*?,\s*([a-záéíóúñ ]+),\s*\d{5}", t)
+    estado = (m.group(1).strip() if m else "")
+    for rx, dest in cfg.get("estados", []):
+        if estado and re.search(rx, estado):
+            return dest
+    return None
+
+
 def mapa():
     cfg = yaml.safe_load((ROOT / "docs" / "directorio-rankings.yml").read_text(encoding="utf-8"))
     reglas, defecto = cfg["reglas"], cfg["por_defecto"]
@@ -88,7 +105,7 @@ def mapa():
     destino, filas = {}, []
     for f in csv.DictReader((OUT / "directorio-fichas.csv").open(encoding="utf-8")):
         d = marcas.get(f["slug"].lower()) or clasificar(f"{f['slug']} {f['nombre']}", reglas, None) \
-            or clasificar(f.get("texto", ""), reglas, defecto)
+            or clasificar(limpio(f.get("texto", "")), reglas, None) or por_estado(f.get("texto", ""), cfg) or defecto
         destino[ruta(f["url"])] = d
         filas.append([ruta(f["url"]), d, "ficha del directorio", f["nombre"]])
     # Reglas viejas que hoy mandan a una ficha: se reapuntan directo al ranking (sin cadenas)
