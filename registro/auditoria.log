@@ -5,4 +5,5 @@ Entradas publicadas: 341
   comentarios o pings abiertos: 0
   autores distintos: [1]
 Redirecciones activas: 2891
-Resultado: no_aplica=1623, ok=1266, basura=2
+Resultado: ok_query=1576, ok=1266, destino_mal=46, basura=2, cadena=1
+Correcciones: 2 desactivadas, 1623 reapuntadas; errores: 0
