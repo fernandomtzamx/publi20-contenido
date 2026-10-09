@@ -249,6 +249,20 @@ def main():
                 if errores < 5:
                     log(f"ERROR al actualizar {it['id']}: {str(e)[:200]}")
         log(f"Correcciones: {len(plan_desact)} desactivadas, {len(plan_update)} reapuntadas; errores: {errores}")
+    ajustes = ROOT / "docs" / "ajustes-redirecciones.csv"
+    if a.corregir and ajustes.exists():
+        por_url = {i["url"]: i for i in items}
+        n = 0
+        for f in csv.DictReader(ajustes.open(encoding="utf-8")):
+            o = f["origen"].strip()
+            cand = [i for u, i in por_url.items() if u == o or u.startswith(o)]
+            for it in cand:
+                try:
+                    actualizar(wp, it, f["destino"].strip())
+                    n += 1
+                except Exception as e:  # noqa: BLE001
+                    log(f"ERROR ajuste {o}: {str(e)[:150]}")
+        log(f"Ajustes manuales de destino: {n}")
     (out / "auditoria.log").write_text("\n".join(LOG) + "\n", encoding="utf-8")
 
 
