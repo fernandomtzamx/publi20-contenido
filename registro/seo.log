@@ -8,12 +8,9 @@
   logo https://www.publi20.com/wp-content/uploads/2026/10/logo-publi20.png
   imagen social https://www.publi20.com/wp-content/uploads/2026/10/og-publi20.png
 == Ajustes globales
-  ajustes general vía updateSettings -> 200; sin aplicar: ninguno
-  ajustes titles vía updateSettings -> 200; sin aplicar: ['knowledgegraph_logo_id', 'open_graph_image_id']
-  ajustes titles vía updateSettings -> 500; sin aplicar: ['knowledgegraph_logo_id', 'open_graph_image_id']
-  ajustes titles vía status/importSettings -> 500; sin aplicar: ['knowledgegraph_logo_id', 'open_graph_image_id']
-  ERROR: no pude guardar los ajustes de titles
-  ajustes sitemap vía updateSettings -> 200; sin aplicar: ninguno
+  ajustes general: ya estaban aplicados
+  ajustes titles: ya estaban aplicados
+  ajustes sitemap: ya estaban aplicados
 == Entradas
   341 entradas: ('editorial', 'index')=23, ('archivo', 'noindex')=310, ('archivo', 'index')=8
   errores: 0
