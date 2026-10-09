@@ -1,0 +1,62 @@
+== Módulos
+  sitemap: on -> 200 True
+  rich-snippet: on -> 200 True
+  404-monitor: on -> 200 True
+  instant-indexing: on -> 200 True
+  redirections: off -> 200 True
+== Logo e imagen social
+  logo https://www.publi20.com/wp-content/uploads/2026/10/logo-publi20.png
+  imagen social https://www.publi20.com/wp-content/uploads/2026/10/og-publi20.png
+== Ajustes globales
+  ajustes general vía updateSettings -> 200; sin aplicar: ninguno
+  ajustes titles vía updateSettings -> 200; sin aplicar: ['knowledgegraph_logo_id', 'open_graph_image_id']
+  ajustes titles vía updateSettings -> 500; sin aplicar: ['knowledgegraph_logo_id', 'open_graph_image_id']
+  ajustes titles vía status/importSettings -> 500; sin aplicar: ['knowledgegraph_logo_id', 'open_graph_image_id']
+  ERROR: no pude guardar los ajustes de titles
+  ajustes sitemap vía updateSettings -> 200; sin aplicar: ninguno
+== Entradas
+  341 entradas: ('editorial', 'index')=23, ('archivo', 'noindex')=310, ('archivo', 'index')=8
+  errores: 0
+== Portada
+  página 9084 -> 200
+== Categorías
+  publicidad -> 200
+  creatividad -> 200
+  medios -> 200
+  guias -> 200
+  mercadotecnia -> 200
+  marketing-digital -> 200
+  investigacion-de-mercados -> 200
+  negocios -> 200
+  automotriz -> 200
+  comercio-electronico -> 200
+  emprendimiento -> 200
+  productividad -> 200
+  liderazgo -> 200
+  pymes -> 200
+  ventas -> 200
+  rankings -> 200
+  noticias -> 200
+URLs de entradas que cambiaron: 0 []
+== /sitemap_index.xml -> 200 3 URLs
+== /post-sitemap.xml -> 200 31 URLs
+== /category-sitemap.xml -> 200 13 URLs
+== /robots.txt -> 200 User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.publi20.com/sitemap_index.xml
+
+== https://www.publi20.com/ -> 200
+<title>Publi2.0: revista de publicidad, marketing y negocios en México</title>
+<meta name="description" content="Análisis, guías y rankings de publicidad, mercadotecnia, negocios y emprendimiento en México. Sin jerga, con fuentes y con postura."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.publi20.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Publi2.0: revista de publicidad, marketing y negocios en México" />
+<meta property="og:description" content="Análisis, guías y rankings de publicidad, mercadotecnia, negocios y emprendimiento en México. Sin jerga, con fuentes y con postura." />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/og-publi20.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'ImageObject', 'WebPage', 'Person', 'Article']

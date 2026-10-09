@@ -1,0 +1,87 @@
+URLs de entradas que cambiaron: 0 []
+== /sitemap_index.xml -> 200 3 URLs
+== /post-sitemap.xml -> 200 31 URLs
+== /category-sitemap.xml -> 200 13 URLs
+== /robots.txt -> 200 User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.publi20.com/sitemap_index.xml
+
+== https://www.publi20.com/ -> 200
+<title>Publi2.0: revista de publicidad, marketing y negocios en México</title>
+<meta name="description" content="Análisis, guías y rankings de publicidad, mercadotecnia, negocios y emprendimiento en México. Sin jerga, con fuentes y con postura."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.publi20.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Publi2.0: revista de publicidad, marketing y negocios en México" />
+<meta property="og:description" content="Análisis, guías y rankings de publicidad, mercadotecnia, negocios y emprendimiento en México. Sin jerga, con fuentes y con postura." />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/og-publi20.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'ImageObject', 'WebPage', 'Person', 'Article']
+== https://www.publi20.com/publicidad/creatividad/comerciales-prohibidos-censurados/ -> 200
+<title>Comerciales prohibidos y censurados: 5 casos y lo que enseñan</title>
+<meta name="description" content="Cinco comerciales que se retiraron o se prohibieron por polémica: qué mostraban, por qué se cayeron y qué revisar antes de lanzar tu próxima campaña."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.publi20.com/publicidad/creatividad/comerciales-prohibidos-censurados/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Comerciales prohibidos y censurados: 5 casos y lo que enseñan" />
+<meta property="og:description" content="Cinco comerciales que se retiraron o se prohibieron por polémica: qué mostraban, por qué se cayeron y qué revisar antes de lanzar tu próxima campaña." />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/comerciales-prohibidos-censurados-foto.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'ImageObject', 'BreadcrumbList', 'WebPage', 'Person', 'BlogPosting']
+== https://www.publi20.com/categoria/publicidad/ -> 200
+<title>Publicidad en México: agencias, creatividad y medios</title>
+<meta name="description" content="Agencias, creatividad, medios y campañas en México, explicados sin jerga y con fuentes."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.publi20.com/categoria/publicidad/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Publicidad en México: agencias, creatividad y medios" />
+<meta property="og:description" content="Agencias, creatividad, medios y campañas en México, explicados sin jerga y con fuentes." />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/og-publi20.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'BreadcrumbList', 'CollectionPage']
+== https://www.publi20.com/negocios/automotriz/autofintech-mexico/ -> 200
+<title>Autofintech en México: 10 herramientas para vender más autos en tu concesionaria</title>
+<meta name="description" content="Qué es autofintech y cuáles son las 10 herramientas que ayudan a una concesionaria a vender más: financiamiento digital, valuación, leads, seguros y firma…"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.publi20.com/negocios/automotriz/autofintech-mexico/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Autofintech en México: 10 herramientas para vender más autos en tu concesionaria" />
+<meta property="og:description" content="Qué es autofintech y cuáles son las 10 herramientas que ayudan a una concesionaria a vender más: financiamiento digital, valuación, leads, seguros y firma…" />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/autofintech-mexico-portada.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'ImageObject', 'BreadcrumbList', 'WebPage', 'Person', 'BlogPosting']
+== https://www.publi20.com/noticias/genius-plaza-lanza-sammie-seal-un-juego-de-lenguaje-educativo-bilinge-y-gratuito/ -> 200
+<title>Genius Plaza lanza Sammie Seal, un Juego de Lenguaje, Educativo, Bilingüe y Gratuito</title>
+<meta name="description" content="AUSTIN, Texas, 9 de marzo de 2017 Hoy en SXSWEdu, Genius Plaza, una empresa de impacto social que trabaja para encender el genio de cada niño, anunció el…"/>
+<meta name="robots" content="follow, noindex"/>
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Genius Plaza lanza Sammie Seal, un Juego de Lenguaje, Educativo, Bilingüe y Gratuito" />
+<meta property="og:description" content="AUSTIN, Texas, 9 de marzo de 2017 Hoy en SXSWEdu, Genius Plaza, una empresa de impacto social que trabaja para encender el genio de cada niño, anunció el…" />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/archivo-5388.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'ImageObject', 'BreadcrumbList', 'WebPage', 'Person', 'BlogPosting']
+== https://www.publi20.com/noticias/la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica/ -> 200
+<title>La compañía de búsqueda de ejecutivos Kincannon &amp; Reed expande su presencia en Latinoamérica</title>
+<meta name="description" content="SANTIAGO, Chile, 12 de mayo de 2016 Kincannon &amp; Reed, la compañía global líder en búsquedas para la contratación de ejecutivos que atiende a los sectores de…"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.publi20.com/noticias/la-compania-de-busqueda-de-ejecutivos-kincannon-reed-expande-su-presencia-en-latinoamerica/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="La compañía de búsqueda de ejecutivos Kincannon &amp; Reed expande su presencia en Latinoamérica" />
+<meta property="og:description" content="SANTIAGO, Chile, 12 de mayo de 2016 Kincannon &amp; Reed, la compañía global líder en búsquedas para la contratación de ejecutivos que atiende a los sectores de…" />
+<meta property="og:image" content="https://www.publi20.com/wp-content/uploads/2026/10/archivo-5323.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- Optimización para motores de búsqueda de Rank Math -  https://rankmath.com/ -->
+<!-- /Plugin Rank Math WordPress SEO -->
+  schema: ['Organization', 'WebSite', 'ImageObject', 'BreadcrumbList', 'WebPage', 'Person', 'BlogPosting']
