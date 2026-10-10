@@ -2,7 +2,7 @@
 title: "Casas productoras en México 2026: las 13 más importantes del país"
 slug: casas-productoras-mexico
 type: post
-status: draft
+status: publish
 excerpt: "Casas productoras en México para comerciales y para cine, series y animación, con premios y títulos verificados, y qué preguntar antes de cotizar."
 categories: [rankings]
 tags: [casas productoras, producción audiovisual, cine mexicano, comerciales, círculo de oro, productoras de cine]

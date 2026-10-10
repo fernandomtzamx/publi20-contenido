@@ -2,7 +2,7 @@
 title: "Publicidad exterior en México: las 10 empresas más importantes de 2026"
 slug: empresas-publicidad-exterior-mexico
 type: post
-status: draft
+status: publish
 excerpt: "Empresas de publicidad exterior en México verificadas: espectaculares, mobiliario urbano, transporte y pantallas DOOH. Quién es quién y qué pedir al cotizar."
 categories: [rankings]
 tags: [publicidad exterior, espectaculares, mobiliario urbano, DOOH, medios]

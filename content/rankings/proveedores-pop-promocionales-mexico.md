@@ -2,7 +2,7 @@
 title: "Agencias de promocionales, material POP e impresión en México 2026"
 slug: proveedores-pop-promocionales-mexico
 type: post
-status: draft
+status: publish
 excerpt: "Agencias de promocionales, mayoristas, impresores y fabricantes de material POP en México, verificados con AMPPRO, Expo Publicitas y su sitio oficial."
 categories: [rankings]
 tags: [artículos promocionales, material pop, exhibidores, impresión, amppro, expo publicitas]

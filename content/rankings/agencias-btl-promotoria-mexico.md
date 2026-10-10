@@ -2,7 +2,7 @@
 title: "Agencia de promotoría y BTL en México: 11 opciones verificadas en 2026"
 slug: agencias-btl-promotoria-mexico
 type: post
-status: draft
+status: publish
 excerpt: "¿Buscas agencia de promotoría, activaciones o trade marketing? 11 agencias BTL que operan en México, con fuentes, y qué pedir en la cotización antes de firmar."
 categories: [rankings]
 tags: [agencias btl, promotoría, trade marketing, activaciones de marca, marketing promocional]

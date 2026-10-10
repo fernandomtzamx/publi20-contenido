@@ -2,7 +2,7 @@
 title: "Agencia de publicidad en México: las 13 más importantes de 2026"
 slug: agencias-de-publicidad-mexico
 type: post
-status: draft
+status: publish
 excerpt: "¿Buscas agencia de publicidad? Grandes redes, independientes y especialistas que operan en México, con premios verificados y qué preguntar antes del pitch."
 categories: [rankings]
 tags: [agencias de publicidad, publicidad en méxico, effie méxico, cannes lions, círculo de oro, pitch]

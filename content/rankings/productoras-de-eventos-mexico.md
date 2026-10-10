@@ -2,7 +2,7 @@
 title: "Agencias de modelos, productoras de eventos y stands en México 2026"
 slug: productoras-de-eventos-mexico
 type: post
-status: draft
+status: publish
 excerpt: "Agencias de modelos, productoras de eventos, constructores de stands y cabinas de fotos en México: 16 proveedores verificados y cómo contratar sin sustos."
 categories: [rankings]
 tags: [agencias de modelos, productoras de eventos, stands, expos, photobooth]

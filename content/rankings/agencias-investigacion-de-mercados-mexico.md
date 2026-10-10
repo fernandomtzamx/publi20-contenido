@@ -2,7 +2,7 @@
 title: "Agencia de investigación de mercado en México: 13 opciones para 2026"
 slug: agencias-investigacion-de-mercados-mexico
 type: post
-status: draft
+status: publish
 excerpt: "¿Buscas agencia de investigación de mercado? 13 firmas verificadas en México por tipo: paneles, estudios cuantitativos y cualitativos, con fuentes y criterios."
 categories: [rankings]
 tags: [investigación de mercados, agencias de investigación, amai, estudios de mercado, paneles de consumo, focus groups]

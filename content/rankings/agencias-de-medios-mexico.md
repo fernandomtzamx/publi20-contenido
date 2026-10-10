@@ -2,7 +2,7 @@
 title: "Empresa de medios en México: las 10 agencias y centrales clave de 2026"
 slug: agencias-de-medios-mexico
 type: post
-status: draft
+status: publish
 excerpt: "¿Buscas una empresa de medios? Holdings y centrales independientes que operan en México, con nombres actualizados, fuentes y qué preguntar antes de firmar."
 categories: [rankings]
 tags: [agencias de medios, central de medios, planeación de medios, compra de medios, omd méxico, wpp media]

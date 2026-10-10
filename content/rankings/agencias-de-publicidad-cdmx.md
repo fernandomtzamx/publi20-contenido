@@ -2,7 +2,7 @@
 title: "Agencias de publicidad en la Ciudad de México: 10 opciones por zona 2026"
 slug: agencias-de-publicidad-cdmx
 type: post
-status: draft
+status: publish
 excerpt: "Agencias de publicidad en la Ciudad de México por colonia: grandes redes, independientes y digitales verificadas, con dirección y especialidad de cada una."
 categories: [rankings]
 tags: [agencias de publicidad, cdmx, ciudad de méxico, marketing digital, agencias creativas]
