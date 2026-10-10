@@ -1,1 +1,1 @@
-aplicar 2026-10-10T15:43:06 correcciones de clasificación y URLs de Joomla
+aplicar 2026-10-10T15:48:15 fichas por nombre

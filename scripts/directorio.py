@@ -123,11 +123,26 @@ def mapa():
         if "buscar-por" in segs:
             return "/rankings/agencias-de-publicidad-por-estado/" if re.search(r"state|city", ruta_vieja) else "/categoria/rankings/"
         for seg in reversed(segs):
+            if seg in ("proveedores", "directorio", "component", "mtree"):
+                continue  # raíces del directorio viejo: no dicen el giro
             if seg in cats:
                 return cats[seg]
         return None
 
     destino, filas = {}, []
+    slugs_ficha = {}
+
+    def por_ficha(origen):
+        """/proveedores/<id>-<nombre>: misma ficha del directorio nuevo, si existe con ese nombre."""
+        m = re.search(r"/\d+-([a-z0-9-]+?)(?:/contactar)?/?$", origen.split("?")[0])
+        if not m:
+            return None
+        nombre = m.group(1)
+        if f"/listing/{nombre}/" in destino:
+            return destino[f"/listing/{nombre}/"]
+        cand = [u for u in destino if u.startswith(f"/listing/{nombre}")]
+        return destino[cand[0]] if len(cand) == 1 else None
+
     for f in csv.DictReader((OUT / "directorio-fichas.csv").open(encoding="utf-8")):
         d = a_mano(f["slug"]) or marcas.get(f["slug"].lower()) or clasificar(f"{f['slug']} {f['nombre']}", reglas, None) \
             or clasificar(limpio(f.get("texto", "")), reglas, None) or por_estado(f.get("texto", ""), cfg) or defecto
@@ -154,7 +169,9 @@ def mapa():
         if origen in vistos:
             continue
         vistos.add(origen)
-        d = a_mano(origen) or por_ruta(origen) or clasificar(origen, reglas, None) or "/categoria/rankings/"
+        d = a_mano(origen) or por_ruta(origen) or por_ficha(origen) or clasificar(origen, reglas, None)
+        if not d:
+            d = "/categoria/rankings/" if re.search(r"/component/mtree/?(\?|$)|buscar-por|^/directorio/?$|^/proveedores/?$", origen) else defecto
         filas.append([origen, d, "URL vieja del directorio", ""])
     with (OUT / "mapa-directorio-rankings.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
