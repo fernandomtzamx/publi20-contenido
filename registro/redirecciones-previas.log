@@ -316,7 +316,7 @@ Redirecciones previas: 4098
 7278	activa	regex=False	Directorio a rankings	/listing/brain-firma-creativa/	->	/rankings/estudios-diseno-branding-mexico/
 7277	activa	regex=False	Directorio a rankings	/listing/fdfoco/	->	/rankings/productoras-de-eventos-mexico/
 7276	activa	regex=False	Directorio a rankings	/listing/creaciones-artisticas-publicitarias-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
-7275	activa	regex=False	Directorio a rankings	/listing/flexo-print-s-a-de-c-v/	->	/rankings/empresas-publicidad-exterior-mexico/
+7275	activa	regex=False	Directorio a rankings	/listing/flexo-print-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
 7274	activa	regex=False	Directorio a rankings	/listing/impresos-proppim-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/
 7273	activa	regex=False	Directorio a rankings	/listing/cap-servicios-empresariales-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
 7272	activa	regex=False	Directorio a rankings	/listing/monsadria-s-a/	->	/rankings/agencias-de-publicidad-cdmx/
@@ -333,7 +333,7 @@ Redirecciones previas: 4098
 7261	activa	regex=False	Directorio a rankings	/listing/digital-audio-2000/	->	/rankings/agencias-inbound-marketing-mexico/
 7260	activa	regex=False	Directorio a rankings	/listing/abyp-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
 7259	activa	regex=False	Directorio a rankings	/listing/vea-de-occidente-s-a-de-c-v/	->	/rankings/empresas-publicidad-exterior-mexico/
-7258	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-s-a-de-c-v/	->	/rankings/empresas-publicidad-exterior-mexico/
+7258	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-s-a-de-c-v/	->	/rankings/agencias-de-medios-mexico/
 7257	activa	regex=False	Directorio a rankings	/listing/enfiestate-com/	->	/rankings/agencias-de-publicidad-por-estado/
 7256	activa	regex=False	Directorio a rankings	/listing/publycom-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7255	activa	regex=False	Directorio a rankings	/listing/veloga-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
@@ -344,7 +344,7 @@ Redirecciones previas: 4098
 7250	activa	regex=False	Directorio a rankings	/listing/qbsoluciones-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
 7249	activa	regex=False	Directorio a rankings	/listing/new-image-comercial-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
 7248	activa	regex=False	Directorio a rankings	/listing/publicidad-y-diseño/	->	/rankings/estudios-diseno-branding-mexico/
-7247	activa	regex=False	Directorio a rankings	/listing/carteleras-y-neon-espectaculares-sa-cv/	->	/rankings/empresas-publicidad-exterior-mexico/
+7247	activa	regex=False	Directorio a rankings	/listing/carteleras-y-neon-espectaculares-sa-cv/	->	/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
 7246	activa	regex=False	Directorio a rankings	/listing/rotulaciones-de-chihuahua-sa-de-cv/	->	/rankings/agencias-de-publicidad-por-estado/
 7245	activa	regex=False	Directorio a rankings	/listing/promopad/	->	/rankings/agencias-de-publicidad-por-estado/
 7244	activa	regex=False	Directorio a rankings	/listing/bni-mexico-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
@@ -375,13 +375,13 @@ Redirecciones previas: 4098
 7219	activa	regex=False	Directorio a rankings	/listing/publicidad-osorio/	->	/rankings/proveedores-pop-promocionales-mexico/
 7218	activa	regex=False	Directorio a rankings	/listing/promo-mer/	->	/rankings/agencias-btl-promotoria-mexico/
 7217	activa	regex=False	Directorio a rankings	/listing/publicum-consultores-s-a-de-c-v/	->	/rankings/agencias-de-marketing-mexico/
-7216	activa	regex=False	Directorio a rankings	/listing/amfar-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
+7216	activa	regex=False	Directorio a rankings	/listing/amfar-sa-de-cv/	->	/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles
 7215	activa	regex=False	Directorio a rankings	/listing/706-design/	->	/rankings/estudios-diseno-branding-mexico/
 7214	activa	regex=False	Directorio a rankings	/listing/kubica/	->	/rankings/agencias-de-publicidad-queretaro/
 7213	activa	regex=False	Directorio a rankings	/listing/grupo-ublicitario-del-golfo-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7212	activa	regex=False	Directorio a rankings	/listing/protarget-estrategia-profesional-s-a-de-c-v/	->	/rankings/agencias-de-marketing-mexico/
 7211	activa	regex=False	Directorio a rankings	/listing/impresion-digital-azuara/	->	/rankings/agencias-inbound-marketing-mexico/
-7210	activa	regex=False	Directorio a rankings	/listing/grupo-alparied-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
+7210	activa	regex=False	Directorio a rankings	/listing/grupo-alparied-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop
 7209	activa	regex=False	Directorio a rankings	/listing/comercializadora-vocafys-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7208	activa	regex=False	Directorio a rankings	/listing/la-voz-de-michoacan-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7207	activa	regex=False	Directorio a rankings	/listing/intersexion-queretaro-s-c/	->	/rankings/agencias-de-publicidad-queretaro/
@@ -402,7 +402,7 @@ Redirecciones previas: 4098
 7192	activa	regex=False	Directorio a rankings	/listing/questa-publicidad/	->	/rankings/agencias-de-publicidad-queretaro/
 7191	activa	regex=False	Directorio a rankings	/listing/grupo-stiletto-s-a-de-c-v/	->	/rankings/agencias-de-marketing-mexico/
 7190	activa	regex=False	Directorio a rankings	/listing/imaginacion-promocional-s-a-de-c-v/	->	/rankings/agencias-btl-promotoria-mexico/
-7189	activa	regex=False	Directorio a rankings	/listing/corporacion-interpublic-mexicana-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
+7189	activa	regex=False	Directorio a rankings	/listing/corporacion-interpublic-mexicana-sa-de-cv/	->	/rankings/agencias-de-medios-mexico/
 7188	activa	regex=False	Directorio a rankings	/listing/jcm-publicidad/	->	/rankings/agencias-de-publicidad-por-estado/
 7187	activa	regex=False	Directorio a rankings	/listing/santa-rosalia-imagen-creativa-s-a-de-c-v/	->	/rankings/estudios-diseno-branding-mexico/
 7186	activa	regex=False	Directorio a rankings	/listing/camaleon-films-sa-de-cv/	->	/rankings/casas-productoras-mexico/
@@ -461,7 +461,7 @@ Redirecciones previas: 4098
 7133	activa	regex=False	Directorio a rankings	/listing/corporativo-mi-livdad-s-a-de-c-v/	->	/rankings/agencias-de-medios-mexico/
 7132	activa	regex=False	Directorio a rankings	/listing/bordados-publicidad-javar/	->	/rankings/agencias-de-publicidad-queretaro/
 7131	activa	regex=False	Directorio a rankings	/listing/trazo-vinil-publicidad-sa-de-cv/	->	/rankings/empresas-publicidad-exterior-mexico/
-7130	activa	regex=False	Directorio a rankings	/listing/eficolor/	->	/rankings/agencias-de-publicidad-queretaro/
+7130	activa	regex=False	Directorio a rankings	/listing/eficolor/	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
 7129	activa	regex=False	Directorio a rankings	/listing/sign-solutions-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/
 7128	activa	regex=False	Directorio a rankings	/listing/yahoo-de-mexico-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-cdmx/
 7127	activa	regex=False	Directorio a rankings	/listing/publi-express/	->	/rankings/agencias-de-publicidad-por-estado/
@@ -490,7 +490,7 @@ Redirecciones previas: 4098
 7104	activa	regex=False	Directorio a rankings	/listing/5w-mexico-sa-cv/	->	/rankings/agencias-de-publicidad-cdmx/
 7103	activa	regex=False	Directorio a rankings	/listing/publiex-pressions-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7102	activa	regex=False	Directorio a rankings	/listing/grupo-publicitario-cerle-s-de-rl-de-cv/	->	/rankings/agencias-de-publicidad-por-estado/
-7101	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-sa-de-cv/	->	/rankings/empresas-publicidad-exterior-mexico/
+7101	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-sa-de-cv/	->	/rankings/agencias-de-medios-mexico/
 7100	activa	regex=False	Directorio a rankings	/listing/publi-pac/	->	/rankings/agencias-de-publicidad-por-estado/
 7099	activa	regex=False	Directorio a rankings	/listing/in-marketing/	->	/rankings/agencias-de-marketing-mexico/
 7098	activa	regex=False	Directorio a rankings	/listing/hyc-trade-business-s-a-de-c-v/	->	/rankings/agencias-btl-promotoria-mexico/
@@ -508,7 +508,7 @@ Redirecciones previas: 4098
 7086	activa	regex=False	Directorio a rankings	/listing/paes-publicidad/	->	/rankings/agencias-de-publicidad-por-estado/
 7085	activa	regex=False	Directorio a rankings	/listing/pix-color-publicidad/	->	/rankings/proveedores-pop-promocionales-mexico/
 7084	activa	regex=False	Directorio a rankings	/listing/extra-publicidad/	->	/rankings/proveedores-pop-promocionales-mexico/
-7083	activa	regex=False	Directorio a rankings	/listing/soltar-impresores-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/
+7083	activa	regex=False	Directorio a rankings	/listing/soltar-impresores-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
 7082	activa	regex=False	Directorio a rankings	/listing/multi-signos-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7081	activa	regex=False	Directorio a rankings	/listing/aram-y-asociados-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7080	activa	regex=False	Directorio a rankings	/listing/lira/	->	/rankings/agencias-de-publicidad-por-estado/
@@ -550,7 +550,7 @@ Redirecciones previas: 4098
 7044	activa	regex=False	Directorio a rankings	/listing/grafia-publicidad/	->	/rankings/proveedores-pop-promocionales-mexico/
 7043	activa	regex=False	Directorio a rankings	/listing/promoser-grupo-publicitario-s-de-r-l-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7042	activa	regex=False	Directorio a rankings	/listing/marketing-and-promotion-s-a-de-c-v/	->	/rankings/agencias-btl-promotoria-mexico/
-7041	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-sa-de-cv-2/	->	/rankings/empresas-publicidad-exterior-mexico/
+7041	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-sa-de-cv-2/	->	/rankings/agencias-de-medios-mexico/
 7040	activa	regex=False	Directorio a rankings	/listing/editora-tiempo-nuevo/	->	/rankings/agencias-de-publicidad-por-estado/
 7039	activa	regex=False	Directorio a rankings	/listing/firecol/	->	/rankings/proveedores-pop-promocionales-mexico/
 7038	activa	regex=False	Directorio a rankings	/listing/promo-rigba-internacional-s-de-rl-de-cv/	->	/rankings/agencias-btl-promotoria-mexico/
@@ -580,7 +580,7 @@ Redirecciones previas: 4098
 7014	activa	regex=False	Directorio a rankings	/listing/creaciones-artisticas-publicitrias-sa/	->	/rankings/agencias-de-publicidad-cdmx/
 7013	activa	regex=False	Directorio a rankings	/listing/sistemas-interactivos-de-juarez-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 7012	activa	regex=False	Directorio a rankings	/listing/publicaciones-metropolitanas-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
-7011	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorioss-a-de-c-v/	->	/rankings/empresas-publicidad-exterior-mexico/
+7011	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorioss-a-de-c-v/	->	/rankings/agencias-de-medios-mexico/
 7010	activa	regex=False	Directorio a rankings	/listing/isi-publicidad/	->	/rankings/agencias-de-publicidad-por-estado/
 7009	activa	regex=False	Directorio a rankings	/listing/oh-publicidad-y-negocios/	->	/rankings/agencias-de-publicidad-por-estado/
 7008	activa	regex=False	Directorio a rankings	/listing/esperanza-astrid-castañeda-ruiz/	->	/rankings/agencias-de-marketing-mexico/
@@ -589,7 +589,7 @@ Redirecciones previas: 4098
 7005	activa	regex=False	Directorio a rankings	/listing/guia-conurbada/	->	/rankings/agencias-inbound-marketing-mexico/
 7004	activa	regex=False	Directorio a rankings	/listing/creatimex-publicidad-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
 7003	activa	regex=False	Directorio a rankings	/listing/mazpubliman/	->	/rankings/agencias-de-publicidad-por-estado/
-7002	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-s-a-de-c-v-2/	->	/rankings/empresas-publicidad-exterior-mexico/
+7002	activa	regex=False	Directorio a rankings	/listing/anuncios-en-directorios-s-a-de-c-v-2/	->	/rankings/agencias-de-medios-mexico/
 7001	activa	regex=False	Directorio a rankings	/listing/digital-multimedios/	->	/rankings/agencias-de-medios-mexico/
 7000	activa	regex=False	Directorio a rankings	/listing/publicidad-y-rotulacion-por-computadora/	->	/rankings/agencias-de-publicidad-por-estado/
 6999	activa	regex=False	Directorio a rankings	/listing/memetica-diseño-e-impresion/	->	/rankings/proveedores-pop-promocionales-mexico/
@@ -614,7 +614,7 @@ Redirecciones previas: 4098
 6980	activa	regex=False	Directorio a rankings	/listing/arclad-de-mexico-sa-de-cv-oficinas/	->	/rankings/agencias-de-publicidad-cdmx/
 6979	activa	regex=False	Directorio a rankings	/listing/miltibordados/	->	/rankings/agencias-de-publicidad-por-estado/
 6978	activa	regex=False	Directorio a rankings	/listing/cajeme-flash/	->	/rankings/agencias-de-publicidad-por-estado/
-6977	activa	regex=False	Directorio a rankings	/listing/empresas-isal-s-de-rl-de-cv/	->	/rankings/empresas-publicidad-exterior-mexico/
+6977	activa	regex=False	Directorio a rankings	/listing/empresas-isal-s-de-rl-de-cv/	->	/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
 6976	activa	regex=False	Directorio a rankings	/listing/grupo-signos-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 6975	activa	regex=False	Directorio a rankings	/listing/promoshape-s-de-rl-de-cv/	->	/rankings/agencias-de-publicidad-por-estado/
 6974	activa	regex=False	Directorio a rankings	/listing/grupo-intermedios/	->	/rankings/agencias-de-medios-mexico/
@@ -702,14 +702,14 @@ Redirecciones previas: 4098
 6892	activa	regex=False	Directorio a rankings	/listing/distribuidora-bratley-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 6891	activa	regex=False	Directorio a rankings	/listing/pluvilivl/	->	/rankings/agencias-de-publicidad-por-estado/
 6890	activa	regex=False	Directorio a rankings	/listing/servicios-letonia-s-de-rl-de-cv/	->	/rankings/agencias-de-publicidad-por-estado/
-6889	activa	regex=False	Directorio a rankings	/listing/publicaciones-del-chuviscar-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
+6889	activa	regex=False	Directorio a rankings	/listing/publicaciones-del-chuviscar-s-a-de-c-v/	->	/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales
 6888	activa	regex=False	Directorio a rankings	/listing/duranyork/	->	/rankings/agencias-de-publicidad-por-estado/
 6887	activa	regex=False	Directorio a rankings	/listing/out-world-media-systems-s-a-de-cv/	->	/rankings/agencias-de-medios-mexico/
 6886	activa	regex=False	Directorio a rankings	/listing/paralelo-20-comunicacion-y-medios-s-a-de-c-v/	->	/rankings/agencias-de-medios-mexico/
 6885	activa	regex=False	Directorio a rankings	/listing/marketing-y-diseño-dob-sa-de-cv/	->	/rankings/estudios-diseno-branding-mexico/
 6884	activa	regex=False	Directorio a rankings	/listing/grupo-herlezq-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 6883	activa	regex=False	Directorio a rankings	/listing/lym/	->	/rankings/agencias-de-publicidad-por-estado/
-6882	activa	regex=False	Directorio a rankings	/listing/producciones-signaleticas-mexicanas-s-a-de-c-v/	->	/rankings/casas-productoras-mexico/
+6882	activa	regex=False	Directorio a rankings	/listing/producciones-signaleticas-mexicanas-s-a-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
 6881	activa	regex=False	Directorio a rankings	/listing/ponme-imagen-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 6880	activa	regex=False	Directorio a rankings	/listing/north-american-mailing-services-s-de-r-l-de-c-v/	->	/rankings/proveedores-pop-promocionales-mexico/
 6879	activa	regex=False	Directorio a rankings	/listing/mass-pub-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
@@ -802,7 +802,7 @@ Redirecciones previas: 4098
 6792	activa	regex=False	Directorio a rankings	/listing/todo-es-politica-noticias-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
 6791	activa	regex=False	Directorio a rankings	/listing/sonido-digital-cotzver/	->	/rankings/agencias-inbound-marketing-mexico/
 6790	activa	regex=False	Directorio a rankings	/listing/onilix-s-a-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
-6789	activa	regex=False	Directorio a rankings	/listing/capaco-sa-de-cv/	->	/rankings/agencias-de-publicidad-cdmx/
+6789	activa	regex=False	Directorio a rankings	/listing/capaco-sa-de-cv/	->	/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
 6788	activa	regex=False	Directorio a rankings	/listing/el-horno-de-las-noticias/	->	/rankings/agencias-de-publicidad-por-estado/
 6787	activa	regex=False	Directorio a rankings	/listing/casa-publicidad-y-asociados-s-a-de-c-v/	->	/rankings/empresas-publicidad-exterior-mexico/
 6786	activa	regex=False	Directorio a rankings	/listing/inovacion-de-fabricas-de-rl-de-c-v/	->	/rankings/agencias-de-publicidad-por-estado/
@@ -3545,7 +3545,7 @@ Redirecciones previas: 4098
 2801	activa	regex=False	Redirecciones	/directorio/proveedores/inovacion-de-fabricas-de-rl-de-c-v-676	->	/rankings/agencias-de-publicidad-por-estado/
 2800	activa	regex=False	Redirecciones	/directorio/proveedores/el-horno-de-las-noticias-675	->	/rankings/agencias-de-publicidad-por-estado/
 2799	activa	regex=False	Redirecciones	/directorio/proveedores/onilix-s-a-de-c-v-674	->	/rankings/agencias-de-publicidad-por-estado/
-2798	activa	regex=False	Redirecciones	/directorio/proveedores/capaco-sa-de-cv-673	->	/rankings/agencias-de-publicidad-cdmx/
+2798	activa	regex=False	Redirecciones	/directorio/proveedores/capaco-sa-de-cv-673	->	/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
 2797	activa	regex=False	Redirecciones	/directorio/proveedores/sonido-digital-cotzver-672	->	/rankings/agencias-inbound-marketing-mexico/
 2796	activa	regex=False	Redirecciones	/directorio/proveedores/todo-es-politica-noticias-s-a-de-c-v-671	->	/rankings/agencias-de-publicidad-por-estado/
 2795	activa	regex=False	Redirecciones	/directorio/proveedores/ideas-publicidad-670	->	/rankings/agencias-de-publicidad-por-estado/
@@ -3641,13 +3641,13 @@ Redirecciones previas: 4098
 2705	activa	regex=False	Redirecciones	/directorio/proveedores/comercializadora-megaprint-s-de-r-l-de-c-v-561	->	/rankings/proveedores-pop-promocionales-mexico/
 2704	activa	regex=False	Redirecciones	/directorio/proveedores/ponme-imagen-s-a-de-c-v-560	->	/rankings/agencias-de-publicidad-por-estado/
 2703	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-herlezq-s-a-de-c-v-559	->	/rankings/agencias-de-publicidad-por-estado/
-2702	activa	regex=False	Redirecciones	/directorio/proveedores/producciones-signaleticas-mexicanas-s-a-de-c-v-557	->	/rankings/casas-productoras-mexico/
+2702	activa	regex=False	Redirecciones	/directorio/proveedores/producciones-signaleticas-mexicanas-s-a-de-c-v-557	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
 2701	activa	regex=False	Redirecciones	/directorio/proveedores/north-american-mailing-services-s-de-r-l-de-c-v-556	->	/rankings/proveedores-pop-promocionales-mexico/
 2700	activa	regex=False	Redirecciones	/directorio/proveedores/mass-pub-sa-de-cv-555	->	/rankings/agencias-de-publicidad-cdmx/
 2699	activa	regex=False	Redirecciones	/directorio/proveedores/lym-554	->	/rankings/agencias-de-publicidad-por-estado/
 2698	activa	regex=False	Redirecciones	/directorio/proveedores/marketing-y-diseño-dob-sa-de-cv-553	->	/rankings/estudios-diseno-branding-mexico/
 2697	activa	regex=False	Redirecciones	/directorio/proveedores/duranyork-552	->	/rankings/agencias-de-publicidad-por-estado/
-2696	activa	regex=False	Redirecciones	/directorio/proveedores/publicaciones-del-chuviscar-s-a-de-c-v-551	->	/rankings/agencias-de-publicidad-por-estado/
+2696	activa	regex=False	Redirecciones	/directorio/proveedores/publicaciones-del-chuviscar-s-a-de-c-v-551	->	/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales
 2695	activa	regex=False	Redirecciones	/directorio/proveedores/paralelo-20-comunicacion-y-medios-s-a-de-c-v-549	->	/rankings/agencias-de-medios-mexico/
 2694	activa	regex=False	Redirecciones	/directorio/proveedores/out-world-media-systems-s-a-de-cv-547	->	/rankings/agencias-de-medios-mexico/
 2693	activa	regex=False	Redirecciones	/directorio/proveedores/servicios-letonia-s-de-rl-de-cv-546	->	/rankings/agencias-de-publicidad-por-estado/
@@ -3686,7 +3686,7 @@ Redirecciones previas: 4098
 2660	activa	regex=False	Redirecciones	/directorio/proveedores/directo-agencia-s-a-de-c-v-502	->	/rankings/agencias-de-publicidad-por-estado/
 2659	activa	regex=False	Redirecciones	/directorio/proveedores/innovaciones-tecnologicas-para-impresion-y-pulicidad-s-a-de-c-v-501	->	/rankings/proveedores-pop-promocionales-mexico/
 2658	activa	regex=False	Redirecciones	/directorio/proveedores/kromaxima-publicidad-s-a-de-c-v-500	->	/rankings/agencias-de-publicidad-por-estado/
-2657	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-sa-de-cv-499	->	/rankings/empresas-publicidad-exterior-mexico/
+2657	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-sa-de-cv-499	->	/rankings/agencias-de-medios-mexico/
 2656	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-comercial-coagsa-digital-sa-de-cv-498	->	/rankings/agencias-inbound-marketing-mexico/
 2655	activa	regex=False	Redirecciones	/directorio/proveedores/computadoras-y-publicidad-s-a-de-c-v-497	->	/rankings/agencias-de-publicidad-por-estado/
 2654	activa	regex=False	Redirecciones	/directorio/proveedores/agencia-de-comunicacion-nivel-ocho-sa-de-cv-496	->	/rankings/agencias-de-marketing-mexico/
@@ -3742,10 +3742,10 @@ Redirecciones previas: 4098
 2604	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-intermedios-432	->	/rankings/agencias-de-medios-mexico/
 2603	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-signos-s-a-de-c-v-431	->	/rankings/agencias-de-publicidad-por-estado/
 2602	activa	regex=False	Redirecciones	/directorio/proveedores/promoshape-s-de-rl-de-cv-430	->	/rankings/agencias-de-publicidad-por-estado/
-2601	activa	regex=False	Redirecciones	/directorio/proveedores/empresas-isal-s-de-rl-de-cv-429	->	/rankings/empresas-publicidad-exterior-mexico/
+2601	activa	regex=False	Redirecciones	/directorio/proveedores/empresas-isal-s-de-rl-de-cv-429	->	/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
 2600	activa	regex=False	Redirecciones	/directorio/proveedores/miltibordados-428	->	/rankings/agencias-de-publicidad-por-estado/
 2599	activa	regex=False	Redirecciones	/directorio/proveedores/cajeme-flash-427	->	/rankings/agencias-de-publicidad-por-estado/
-2598	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-s-a-de-c-v-425	->	/rankings/empresas-publicidad-exterior-mexico/
+2598	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-s-a-de-c-v-425	->	/rankings/agencias-de-medios-mexico/
 2597	activa	regex=False	Redirecciones	/directorio/proveedores/arclad-de-mexico-sa-de-cv-oficinas-422	->	/rankings/agencias-de-publicidad-cdmx/
 2596	activa	regex=False	Redirecciones	/directorio/proveedores/soluciones-creyt-sa-de-cv-421	->	/rankings/agencias-de-publicidad-cdmx/
 2595	activa	regex=False	Redirecciones	/directorio/proveedores/impresiones-san-luis-420	->	/rankings/proveedores-pop-promocionales-mexico/
@@ -3769,7 +3769,7 @@ Redirecciones previas: 4098
 2577	activa	regex=False	Redirecciones	/directorio/proveedores/publicidad-y-rotulacion-por-computadora-398	->	/rankings/agencias-de-publicidad-por-estado/
 2576	activa	regex=False	Redirecciones	/directorio/proveedores/digital-multimedios-397	->	/rankings/agencias-de-medios-mexico/
 2575	activa	regex=False	Redirecciones	/directorio/proveedores/mazpubliman-396	->	/rankings/agencias-de-publicidad-por-estado/
-2574	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-s-a-de-c-v-394	->	/rankings/empresas-publicidad-exterior-mexico/
+2574	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-s-a-de-c-v-394	->	/rankings/agencias-de-medios-mexico/
 2573	activa	regex=False	Redirecciones	/directorio/proveedores/creatimex-publicidad-sa-de-cv-390	->	/rankings/agencias-de-publicidad-cdmx/
 2572	activa	regex=False	Redirecciones	/directorio/proveedores/publimar-389	->	/rankings/agencias-de-publicidad-por-estado/
 2571	activa	regex=False	Redirecciones	/directorio/proveedores/guia-conurbada-388	->	/rankings/agencias-inbound-marketing-mexico/
@@ -3777,7 +3777,7 @@ Redirecciones previas: 4098
 2569	activa	regex=False	Redirecciones	/directorio/proveedores/oh-publicidad-y-negocios-384	->	/rankings/agencias-de-publicidad-por-estado/
 2568	activa	regex=False	Redirecciones	/directorio/proveedores/esperanza-astrid-castañeda-ruiz-383	->	/rankings/agencias-de-marketing-mexico/
 2567	activa	regex=False	Redirecciones	/directorio/proveedores/isi-publicidad-380	->	/rankings/agencias-de-publicidad-por-estado/
-2566	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorioss-a-de-c-v-378	->	/rankings/empresas-publicidad-exterior-mexico/
+2566	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorioss-a-de-c-v-378	->	/rankings/agencias-de-medios-mexico/
 2565	activa	regex=False	Redirecciones	/directorio/proveedores/publicaciones-metropolitanas-s-a-de-c-v-377	->	/rankings/agencias-de-publicidad-por-estado/
 2564	activa	regex=False	Redirecciones	/directorio/proveedores/creaciones-artisticas-publicitrias-sa-376	->	/rankings/agencias-de-publicidad-cdmx/
 2563	activa	regex=False	Redirecciones	/directorio/proveedores/sistemas-interactivos-de-juarez-s-a-de-c-v-375	->	/rankings/agencias-de-publicidad-por-estado/
@@ -3807,7 +3807,7 @@ Redirecciones previas: 4098
 2539	activa	regex=False	Redirecciones	/directorio/proveedores/promo-rigba-internacional-s-de-rl-de-cv-347	->	/rankings/agencias-btl-promotoria-mexico/
 2538	activa	regex=False	Redirecciones	/directorio/proveedores/promo-rigba-internacional-s-de-rl-de-cv-346	->	/rankings/agencias-btl-promotoria-mexico/
 2537	activa	regex=False	Redirecciones	/directorio/proveedores/firecol-345	->	/rankings/proveedores-pop-promocionales-mexico/
-2536	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-sa-de-cv-341	->	/rankings/empresas-publicidad-exterior-mexico/
+2536	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-sa-de-cv-341	->	/rankings/agencias-de-medios-mexico/
 2535	activa	regex=False	Redirecciones	/directorio/proveedores/marketing-and-promotion-s-a-de-c-v-340	->	/rankings/agencias-btl-promotoria-mexico/
 2534	activa	regex=False	Redirecciones	/directorio/proveedores/editora-tiempo-nuevo-339	->	/rankings/agencias-de-publicidad-por-estado/
 2533	activa	regex=False	Redirecciones	/directorio/proveedores/promoser-grupo-publicitario-s-de-r-l-de-c-v-338	->	/rankings/agencias-de-publicidad-por-estado/
@@ -3850,7 +3850,7 @@ Redirecciones previas: 4098
 2496	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-sandoval-295	->	/rankings/agencias-de-publicidad-por-estado/
 2495	activa	regex=False	Redirecciones	/directorio/proveedores/lira-294	->	/rankings/agencias-de-publicidad-por-estado/
 2494	activa	regex=False	Redirecciones	/directorio/proveedores/aram-y-asociados-s-a-de-c-v-293	->	/rankings/agencias-de-publicidad-por-estado/
-2493	activa	regex=False	Redirecciones	/directorio/proveedores/soltar-impresores-s-a-de-c-v-292	->	/rankings/proveedores-pop-promocionales-mexico/
+2493	activa	regex=False	Redirecciones	/directorio/proveedores/soltar-impresores-s-a-de-c-v-292	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
 2492	activa	regex=False	Redirecciones	/directorio/proveedores/multi-signos-s-a-de-c-v-291	->	/rankings/agencias-de-publicidad-por-estado/
 2491	activa	regex=False	Redirecciones	/directorio/proveedores/extra-publicidad-290	->	/rankings/proveedores-pop-promocionales-mexico/
 2490	activa	regex=False	Redirecciones	/directorio/proveedores/pix-color-publicidad-289	->	/rankings/proveedores-pop-promocionales-mexico/
@@ -3874,7 +3874,7 @@ Redirecciones previas: 4098
 2472	activa	regex=False	Redirecciones	/directorio/proveedores/hidaltur-tips-264	->	/rankings/agencias-de-publicidad-por-estado/
 2471	activa	regex=False	Redirecciones	/directorio/proveedores/comercializadora-publishuttle-sa-de-cv-262	->	/rankings/agencias-de-publicidad-por-estado/
 2470	activa	regex=False	Redirecciones	/directorio/proveedores/viniletras-s-a-de-c-v-261	->	/rankings/agencias-de-publicidad-por-estado/
-2469	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-sa-de-cv-260	->	/rankings/empresas-publicidad-exterior-mexico/
+2469	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-sa-de-cv-260	->	/rankings/agencias-de-medios-mexico/
 2468	activa	regex=False	Redirecciones	/directorio/proveedores/publiex-pressions-s-a-de-c-v-259	->	/rankings/agencias-de-publicidad-por-estado/
 2467	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-publicitario-cerle-s-de-rl-de-cv-257	->	/rankings/agencias-de-publicidad-por-estado/
 2466	activa	regex=False	Redirecciones	/directorio/proveedores/5w-mexico-sa-cv-256	->	/rankings/agencias-de-publicidad-cdmx/
@@ -3907,7 +3907,7 @@ Redirecciones previas: 4098
 2439	activa	regex=False	Redirecciones	/directorio/proveedores/trazo-vinil-publicidad-sa-de-cv-225	->	/rankings/empresas-publicidad-exterior-mexico/
 2438	activa	regex=False	Redirecciones	/directorio/proveedores/sign-solutions-s-a-de-c-v-223	->	/rankings/proveedores-pop-promocionales-mexico/
 2437	activa	regex=False	Redirecciones	/directorio/proveedores/publicidad-osorio-222	->	/rankings/proveedores-pop-promocionales-mexico/
-2436	activa	regex=False	Redirecciones	/directorio/proveedores/eficolor-221	->	/rankings/agencias-de-publicidad-queretaro/
+2436	activa	regex=False	Redirecciones	/directorio/proveedores/eficolor-221	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
 2435	activa	regex=False	Redirecciones	/directorio/proveedores/calcom-de-mexico-220	->	/rankings/agencias-de-publicidad-por-estado/
 2434	activa	regex=False	Redirecciones	/directorio/proveedores/intermediacion-publicitaria-s-a-de-c-v-219	->	/rankings/agencias-de-medios-mexico/
 2433	activa	regex=False	Redirecciones	/directorio/proveedores/se-habla-nobabels-s-c-217	->	/rankings/agencias-de-marketing-mexico/
@@ -3963,7 +3963,7 @@ Redirecciones previas: 4098
 2383	activa	regex=False	Redirecciones	/directorio/proveedores/exfera-mexico-sa-de-cv-153	->	/rankings/agencias-de-publicidad-cdmx/
 2382	activa	regex=False	Redirecciones	/directorio/proveedores/camaleon-films-sa-de-cv-152	->	/rankings/casas-productoras-mexico/
 2381	activa	regex=False	Redirecciones	/directorio/proveedores/santa-rosalia-imagen-creativa-s-a-de-c-v-151	->	/rankings/estudios-diseno-branding-mexico/
-2380	activa	regex=False	Redirecciones	/directorio/proveedores/corporacion-interpublic-mexicana-sa-de-cv-150	->	/rankings/agencias-de-publicidad-cdmx/
+2380	activa	regex=False	Redirecciones	/directorio/proveedores/corporacion-interpublic-mexicana-sa-de-cv-150	->	/rankings/agencias-de-medios-mexico/
 2379	activa	regex=False	Redirecciones	/directorio/proveedores/jcm-publicidad-148	->	/rankings/agencias-de-publicidad-por-estado/
 2378	activa	regex=False	Redirecciones	/directorio/proveedores/imaginacion-promocional-s-a-de-c-v-146	->	/rankings/agencias-btl-promotoria-mexico/
 2377	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-stiletto-s-a-de-c-v-145	->	/rankings/agencias-de-marketing-mexico/
@@ -3988,13 +3988,13 @@ Redirecciones previas: 4098
 2358	activa	regex=False	Redirecciones	/directorio/proveedores/comercializadora-vocafys-s-a-de-c-v-123	->	/rankings/agencias-de-publicidad-por-estado/
 2357	activa	regex=False	Redirecciones	/directorio/proveedores/la-voz-de-michoacan-s-a-de-c-v-122	->	/rankings/agencias-de-publicidad-por-estado/
 2356	activa	regex=False	Redirecciones	/directorio/proveedores/csd-publicidad-121	->	/rankings/agencias-inbound-marketing-mexico/
-2355	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-alparied-s-a-de-c-v-120	->	/rankings/agencias-de-publicidad-por-estado/
+2355	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-alparied-s-a-de-c-v-120	->	/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop
 2354	activa	regex=False	Redirecciones	/directorio/proveedores/kubica-119	->	/rankings/agencias-de-publicidad-queretaro/
 2353	activa	regex=False	Redirecciones	/directorio/proveedores/impresion-digital-azuara-118	->	/rankings/agencias-inbound-marketing-mexico/
 2352	activa	regex=False	Redirecciones	/directorio/proveedores/protarget-estrategia-profesional-s-a-de-c-v-117	->	/rankings/agencias-de-marketing-mexico/
 2351	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-ublicitario-del-golfo-s-a-de-c-v-116	->	/rankings/agencias-de-publicidad-por-estado/
 2350	activa	regex=False	Redirecciones	/directorio/proveedores/706-design-115	->	/rankings/estudios-diseno-branding-mexico/
-2349	activa	regex=False	Redirecciones	/directorio/proveedores/amfar-sa-de-cv-114	->	/rankings/agencias-de-publicidad-cdmx/
+2349	activa	regex=False	Redirecciones	/directorio/proveedores/amfar-sa-de-cv-114	->	/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles
 2348	activa	regex=False	Redirecciones	/directorio/proveedores/publicum-consultores-s-a-de-c-v-112	->	/rankings/agencias-de-marketing-mexico/
 2347	activa	regex=False	Redirecciones	/directorio/proveedores/promo-mer-111	->	/rankings/agencias-btl-promotoria-mexico/
 2346	activa	regex=False	Redirecciones	/directorio/proveedores/publicidad-osorio-110	->	/rankings/proveedores-pop-promocionales-mexico/
@@ -4027,7 +4027,7 @@ Redirecciones previas: 4098
 2319	activa	regex=False	Redirecciones	/directorio/proveedores/promopad-81	->	/rankings/agencias-de-publicidad-por-estado/
 2318	activa	regex=False	Redirecciones	/directorio/proveedores/rotulen-de-mexico-s-a-de-c-v-80	->	/rankings/agencias-de-publicidad-por-estado/
 2317	activa	regex=False	Redirecciones	/directorio/proveedores/rotulaciones-de-chihuahua-sa-de-cv-79	->	/rankings/agencias-de-publicidad-por-estado/
-2316	activa	regex=False	Redirecciones	/directorio/proveedores/carteleras-y-neon-espectaculares-sa-cv-78	->	/rankings/empresas-publicidad-exterior-mexico/
+2316	activa	regex=False	Redirecciones	/directorio/proveedores/carteleras-y-neon-espectaculares-sa-cv-78	->	/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
 2315	activa	regex=False	Redirecciones	/directorio/proveedores/publicidad-y-diseño-77	->	/rankings/estudios-diseno-branding-mexico/
 2314	activa	regex=False	Redirecciones	/directorio/proveedores/new-image-comercial-sa-de-cv-76	->	/rankings/agencias-de-publicidad-cdmx/
 2313	activa	regex=False	Redirecciones	/directorio/proveedores/qbsoluciones-sa-de-cv-75	->	/rankings/agencias-de-publicidad-cdmx/
@@ -4038,7 +4038,7 @@ Redirecciones previas: 4098
 2308	activa	regex=False	Redirecciones	/directorio/proveedores/veloga-sa-de-cv-69	->	/rankings/agencias-de-publicidad-cdmx/
 2307	activa	regex=False	Redirecciones	/directorio/proveedores/cortina-tagle-isoard-y-cia-sc-68	->	/rankings/agencias-de-marketing-mexico/
 2306	activa	regex=False	Redirecciones	/directorio/proveedores/enfiestate-com-67	->	/rankings/agencias-de-publicidad-por-estado/
-2305	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-s-a-de-c-v-66	->	/rankings/empresas-publicidad-exterior-mexico/
+2305	activa	regex=False	Redirecciones	/directorio/proveedores/anuncios-en-directorios-s-a-de-c-v-66	->	/rankings/agencias-de-medios-mexico/
 2304	activa	regex=False	Redirecciones	/directorio/proveedores/vea-de-occidente-s-a-de-c-v-64	->	/rankings/empresas-publicidad-exterior-mexico/
 2303	activa	regex=False	Redirecciones	/directorio/proveedores/abyp-sa-de-cv-63	->	/rankings/agencias-de-publicidad-cdmx/
 2302	activa	regex=False	Redirecciones	/directorio/proveedores/instituto-de-mercadotecnia-y-publicidad-sc-62	->	/rankings/agencias-de-marketing-mexico/
@@ -4054,7 +4054,7 @@ Redirecciones previas: 4098
 2292	activa	regex=False	Redirecciones	/directorio/proveedores/maquilas-artisticas-publicitarias-sa-de-cv-50	->	/rankings/agencias-de-publicidad-cdmx/
 2291	activa	regex=False	Redirecciones	/directorio/proveedores/monsadria-s-a-49	->	/rankings/agencias-de-publicidad-cdmx/
 2290	activa	regex=False	Redirecciones	/directorio/proveedores/impresos-proppim-s-a-de-c-v-48	->	/rankings/proveedores-pop-promocionales-mexico/
-2289	activa	regex=False	Redirecciones	/directorio/proveedores/flexo-print-s-a-de-c-v-47	->	/rankings/empresas-publicidad-exterior-mexico/
+2289	activa	regex=False	Redirecciones	/directorio/proveedores/flexo-print-s-a-de-c-v-47	->	/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
 2288	activa	regex=False	Redirecciones	/directorio/proveedores/cap-servicios-empresariales-sa-de-cv-46	->	/rankings/agencias-de-publicidad-cdmx/
 2287	activa	regex=False	Redirecciones	/directorio/proveedores/creaciones-artisticas-publicitarias-sa-de-cv-45	->	/rankings/agencias-de-publicidad-cdmx/
 2286	activa	regex=False	Redirecciones	/directorio/proveedores/fdfoco-44	->	/rankings/productoras-de-eventos-mexico/
