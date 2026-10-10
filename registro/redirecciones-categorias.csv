@@ -1,283 +1,283 @@
 origen,destino,motivo,accion
-/directorio/,/categoria/rankings/,raíz del directorio,creada
-/directorio/proveedores/,/categoria/rankings/,categoría proveedores,creada
-/directorio/proveedores/agencias/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría agencias,creada
-/directorio/agencias/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría agencias (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-publicidad/,/rankings/agencias-de-publicidad-mexico/,categoría agencias-de-publicidad,creada
-/directorio/agencias-de-publicidad/,/rankings/agencias-de-publicidad-mexico/,categoría agencias-de-publicidad (ruta corta),creada
-/directorio/proveedores/agencias/atl/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría atl,creada
-/directorio/atl/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría atl (ruta corta),creada
-/directorio/proveedores/ideas-originales/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría ideas-originales,creada
-/directorio/ideas-originales/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría ideas-originales (ruta corta),creada
-/directorio/proveedores/campanas-politicas/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría campanas-politicas,creada
-/directorio/campanas-politicas/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría campanas-politicas (ruta corta),creada
-/directorio/proveedores/campanas-politicas/propaganda/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría propaganda,creada
-/directorio/propaganda/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría propaganda (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-recursos-humanos/,/categoria/rankings/,categoría agencias-de-recursos-humanos,creada
-/directorio/agencias-de-recursos-humanos/,/categoria/rankings/,categoría agencias-de-recursos-humanos (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-tecnologia/,/categoria/rankings/,categoría agencias-de-tecnologia,creada
-/directorio/agencias-de-tecnologia/,/categoria/rankings/,categoría agencias-de-tecnologia (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-viajes/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-viajes,creada
-/directorio/agencias-de-viajes/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-viajes (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-mercadotecnia/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría agencias-de-mercadotecnia,creada
-/directorio/agencias-de-mercadotecnia/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría agencias-de-mercadotecnia (ruta corta),creada
-/directorio/proveedores/capacitacion-y-cursos/consultoras-de-marketing/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría consultoras-de-marketing,creada
-/directorio/consultoras-de-marketing/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría consultoras-de-marketing (ruta corta),creada
-/directorio/proveedores/agencias/rp-s/,/rankings/agencias-relaciones-publicas-mexico/,categoría rp-s,creada
-/directorio/rp-s/,/rankings/agencias-relaciones-publicas-mexico/,categoría rp-s (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-medios/,/rankings/agencias-de-medios-mexico/,categoría agencias-de-medios,creada
-/directorio/agencias-de-medios/,/rankings/agencias-de-medios-mexico/,categoría agencias-de-medios (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría revistas-media-kit,creada
-/directorio/revistas-media-kit/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría revistas-media-kit (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/automotriz/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría automotriz,creada
-/directorio/automotriz/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría automotriz (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/deportes/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría deportes,creada
-/directorio/deportes/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría deportes (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/entretenimiento/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría entretenimiento,creada
-/directorio/entretenimiento/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría entretenimiento (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/femenina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría femenina,creada
-/directorio/femenina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría femenina (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/interes-especifico/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría interes-especifico,creada
-/directorio/interes-especifico/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría interes-especifico (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/juvenil/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría juvenil,creada
-/directorio/juvenil/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría juvenil (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/masculina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría masculina,creada
-/directorio/masculina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría masculina (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/negocios/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría negocios,creada
-/directorio/negocios/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría negocios (ruta corta),creada
-/directorio/proveedores/revistas-media-kit/universitarias/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría universitarias,creada
-/directorio/universitarias/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría universitarias (ruta corta),creada
-/directorio/proveedores/periodicos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos,creada
-/directorio/periodicos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos (ruta corta),creada
-/directorio/proveedores/periodicos/periodicos-gratuitos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-gratuitos,creada
-/directorio/periodicos-gratuitos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-gratuitos (ruta corta),creada
-/directorio/proveedores/periodicos/periodicos-locales/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-locales,creada
-/directorio/periodicos-locales/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-locales (ruta corta),creada
-/directorio/proveedores/periodicos/periodicos-masivos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-masivos,creada
-/directorio/periodicos-masivos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-masivos (ruta corta),creada
-/directorio/proveedores/periodicos/periodicos-online/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-online,creada
-/directorio/periodicos-online/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-online (ruta corta),creada
-/directorio/proveedores/television/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría television,creada
-/directorio/television/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría television (ruta corta),creada
-/directorio/proveedores/television/canales/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría canales,creada
-/directorio/canales/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría canales (ruta corta),creada
-/directorio/proveedores/radio/,/rankings/grupos-radiofonicos-mexico/,categoría radio,creada
-/directorio/radio/,/rankings/grupos-radiofonicos-mexico/,categoría radio (ruta corta),creada
-/directorio/proveedores/estaciones-de-radio/,/rankings/grupos-radiofonicos-mexico/,categoría estaciones-de-radio,creada
-/directorio/estaciones-de-radio/,/rankings/grupos-radiofonicos-mexico/,categoría estaciones-de-radio (ruta corta),creada
-/directorio/proveedores/radio/radiodifusoras/,/rankings/grupos-radiofonicos-mexico/,categoría radiodifusoras,creada
-/directorio/radiodifusoras/,/rankings/grupos-radiofonicos-mexico/,categoría radiodifusoras (ruta corta),creada
-/directorio/proveedores/estaciones-de-radio/musica/,/rankings/grupos-radiofonicos-mexico/,categoría musica,creada
-/directorio/musica/,/rankings/grupos-radiofonicos-mexico/,categoría musica (ruta corta),creada
-/directorio/proveedores/estaciones-de-radio/noticias/,/rankings/grupos-radiofonicos-mexico/,categoría noticias,creada
-/directorio/noticias/,/rankings/grupos-radiofonicos-mexico/,categoría noticias (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/,/rankings/empresas-publicidad-exterior-mexico/,categoría publicidad-exterior,creada
-/directorio/publicidad-exterior/,/rankings/empresas-publicidad-exterior-mexico/,categoría publicidad-exterior (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/espectaculares-mexico/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría espectaculares-mexico,creada
-/directorio/espectaculares-mexico/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría espectaculares-mexico (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/carteleras/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría carteleras,creada
-/directorio/carteleras/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría carteleras (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/vallas/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas,creada
-/directorio/vallas/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/vallas-moviles/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas-moviles,creada
-/directorio/vallas-moviles/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas-moviles (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/camiones/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría camiones,creada
-/directorio/camiones/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría camiones (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/metro/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metro,creada
-/directorio/metro/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metro (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/metrobus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metrobus,creada
-/directorio/metrobus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metrobus (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/mexibus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría mexibus,creada
-/directorio/mexibus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría mexibus (ruta corta),creada
-/directorio/proveedores/publicidad-exterior/parabuses/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría parabuses,creada
-/directorio/parabuses/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría parabuses (ruta corta),creada
-/directorio/proveedores/medios-alternos/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría medios-alternos,creada
-/directorio/medios-alternos/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría medios-alternos (ruta corta),creada
-/directorio/proveedores/medios-alternos/centros-comerciales/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría centros-comerciales,creada
-/directorio/centros-comerciales/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría centros-comerciales (ruta corta),creada
-/directorio/proveedores/medios-alternos/cines-y-teatros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría cines-y-teatros,creada
-/directorio/cines-y-teatros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría cines-y-teatros (ruta corta),creada
-/directorio/proveedores/medios-alternos/estadios-y-foros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría estadios-y-foros,creada
-/directorio/estadios-y-foros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría estadios-y-foros (ruta corta),creada
-/directorio/proveedores/medios-alternos/oficinas/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría oficinas,creada
-/directorio/oficinas/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría oficinas (ruta corta),creada
-/directorio/proveedores/medios-alternos/universidades/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría universidades,creada
-/directorio/universidades/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría universidades (ruta corta),creada
-/directorio/proveedores/activaciones/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría activaciones,creada
-/directorio/activaciones/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría activaciones (ruta corta),creada
-/directorio/proveedores/activaciones/btl/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría btl,creada
-/directorio/btl/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría btl (ruta corta),creada
-/directorio/proveedores/activaciones/inflables/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría inflables,creada
-/directorio/inflables/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría inflables (ruta corta),creada
-/directorio/proveedores/activaciones/lugares-para-promocion/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría lugares-para-promocion,creada
-/directorio/lugares-para-promocion/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría lugares-para-promocion (ruta corta),creada
-/directorio/proveedores/activaciones/performance/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría performance,creada
-/directorio/performance/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría performance (ruta corta),creada
-/directorio/proveedores/activaciones/renta-de-equipos/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría renta-de-equipos,creada
-/directorio/renta-de-equipos/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría renta-de-equipos (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-promocion/,/rankings/agencias-btl-promotoria-mexico/,categoría agencias-de-promocion,creada
-/directorio/agencias-de-promocion/,/rankings/agencias-btl-promotoria-mexico/,categoría agencias-de-promocion (ruta corta),creada
-/directorio/proveedores/activaciones/edecanes/,/rankings/productoras-de-eventos-mexico/,categoría edecanes,creada
-/directorio/edecanes/,/rankings/productoras-de-eventos-mexico/,categoría edecanes (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-modelos/,/rankings/productoras-de-eventos-mexico/,categoría agencias-de-modelos,creada
-/directorio/agencias-de-modelos/,/rankings/productoras-de-eventos-mexico/,categoría agencias-de-modelos (ruta corta),creada
-/directorio/proveedores/pop/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría pop,creada
-/directorio/pop/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría pop (ruta corta),creada
-/directorio/proveedores/pop/displays/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría displays,creada
-/directorio/displays/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría displays (ruta corta),creada
-/directorio/proveedores/pop/posters/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría posters,creada
-/directorio/posters/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría posters (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-y-artes-graficas,creada
-/directorio/impresion-y-artes-graficas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-y-artes-graficas (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/editoriales/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría editoriales,creada
-/directorio/editoriales/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría editoriales (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/imprentas-digital/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría imprentas-digital,creada
-/directorio/imprentas-digital/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría imprentas-digital (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/impresion-a-gran-formato/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-a-gran-formato,creada
-/directorio/impresion-a-gran-formato/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-a-gran-formato (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/impresion-en-offset/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-en-offset,creada
-/directorio/impresion-en-offset/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-en-offset (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/serigrafia/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría serigrafia,creada
-/directorio/serigrafia/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría serigrafia (ruta corta),creada
-/directorio/proveedores/impresion-y-artes-graficas/venta-de-maquinas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría venta-de-maquinas,creada
-/directorio/venta-de-maquinas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría venta-de-maquinas (ruta corta),creada
-/directorio/proveedores/promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría promocionales,creada
-/directorio/promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría promocionales (ruta corta),creada
-/directorio/proveedores/promocionales/articulos-promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría articulos-promocionales,creada
-/directorio/articulos-promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría articulos-promocionales (ruta corta),creada
-/directorio/proveedores/promocionales/textil/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría textil,creada
-/directorio/textil/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría textil (ruta corta),creada
-/directorio/proveedores/empaque-y-embotellamiento/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría empaque-y-embotellamiento,creada
-/directorio/empaque-y-embotellamiento/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría empaque-y-embotellamiento (ruta corta),creada
-/directorio/proveedores/empaque-y-embotellamiento/fabricantes-de-bolsas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-bolsas,creada
-/directorio/fabricantes-de-bolsas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-bolsas (ruta corta),creada
-/directorio/proveedores/empaque-y-embotellamiento/fabricantes-de-empaques/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-empaques,creada
-/directorio/fabricantes-de-empaques/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-empaques (ruta corta),creada
-/directorio/proveedores/empaque-y-embotellamiento/fabricantes-de-etiquetas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-etiquetas,creada
-/directorio/fabricantes-de-etiquetas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-etiquetas (ruta corta),creada
-/directorio/proveedores/stands-y-display/fabricacion-renta-y-venta-de-banners/,/rankings/proveedores-pop-promocionales-mexico/#banners-y-lonas-impresas,categoría fabricacion-renta-y-venta-de-banners,creada
-/directorio/fabricacion-renta-y-venta-de-banners/,/rankings/proveedores-pop-promocionales-mexico/#banners-y-lonas-impresas,categoría fabricacion-renta-y-venta-de-banners (ruta corta),creada
-/directorio/proveedores/stands-y-display/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría stands-y-display,creada
-/directorio/stands-y-display/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría stands-y-display (ruta corta),creada
-/directorio/proveedores/stands-y-display/fabricacion-renta-y-venta-de-stands/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría fabricacion-renta-y-venta-de-stands,creada
-/directorio/fabricacion-renta-y-venta-de-stands/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría fabricacion-renta-y-venta-de-stands (ruta corta),creada
-/directorio/proveedores/stands-y-display/renta-de-alfombras/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-alfombras,creada
-/directorio/renta-de-alfombras/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-alfombras (ruta corta),creada
-/directorio/proveedores/stands-y-display/renta-de-decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-decoracion,creada
-/directorio/renta-de-decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-decoracion (ruta corta),creada
-/directorio/proveedores/stands-y-display/renta-de-equipo-audiovisual/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-equipo-audiovisual,creada
-/directorio/renta-de-equipo-audiovisual/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-equipo-audiovisual (ruta corta),creada
-/directorio/proveedores/stands-y-display/renta-de-mobiliario/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-mobiliario,creada
-/directorio/renta-de-mobiliario/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-mobiliario (ruta corta),creada
-/directorio/proveedores/eventos/mobiliario-lounge/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría mobiliario-lounge,creada
-/directorio/mobiliario-lounge/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría mobiliario-lounge (ruta corta),creada
-/directorio/proveedores/eventos/carpas-y-tarimas/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría carpas-y-tarimas,creada
-/directorio/carpas-y-tarimas/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría carpas-y-tarimas (ruta corta),creada
-/directorio/proveedores/eventos/decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría decoracion,creada
-/directorio/decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría decoracion (ruta corta),creada
-/directorio/proveedores/eventos/iluminacion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría iluminacion,creada
-/directorio/iluminacion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría iluminacion (ruta corta),creada
-/directorio/proveedores/eventos/audio/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría audio,creada
-/directorio/audio/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría audio (ruta corta),creada
-/directorio/proveedores/eventos/,/rankings/productoras-de-eventos-mexico/,categoría eventos,creada
-/directorio/eventos/,/rankings/productoras-de-eventos-mexico/,categoría eventos (ruta corta),creada
-/directorio/proveedores/eventos/salones-y-jardines/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría salones-y-jardines,creada
-/directorio/salones-y-jardines/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría salones-y-jardines (ruta corta),creada
-/directorio/proveedores/convenciones/centros-de-convenciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-convenciones,creada
-/directorio/centros-de-convenciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-convenciones (ruta corta),creada
-/directorio/proveedores/exposiciones-calendario-y-por-rubro/centros-de-exposiciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-exposiciones,creada
-/directorio/centros-de-exposiciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-exposiciones (ruta corta),creada
-/directorio/proveedores/eventos/museos-y-otros/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría museos-y-otros,creada
-/directorio/museos-y-otros/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría museos-y-otros (ruta corta),creada
-/directorio/proveedores/eventos/banquetes/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría banquetes,creada
-/directorio/banquetes/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría banquetes (ruta corta),creada
-/directorio/proveedores/eventos/vinos-y-licores/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría vinos-y-licores,creada
-/directorio/vinos-y-licores/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría vinos-y-licores (ruta corta),creada
-/directorio/proveedores/eventos/shows-y-conciertos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría shows-y-conciertos,creada
-/directorio/shows-y-conciertos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría shows-y-conciertos (ruta corta),creada
-/directorio/proveedores/eventos/representantes-de-artistas/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría representantes-de-artistas,creada
-/directorio/representantes-de-artistas/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría representantes-de-artistas (ruta corta),creada
-/directorio/proveedores/capacitacion-y-cursos/speakers/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría speakers,creada
-/directorio/speakers/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría speakers (ruta corta),creada
-/directorio/proveedores/capacitacion-y-cursos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría capacitacion-y-cursos,creada
-/directorio/capacitacion-y-cursos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría capacitacion-y-cursos (ruta corta),creada
-/directorio/proveedores/capacitacion-y-cursos/coaching/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría coaching,creada
-/directorio/coaching/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría coaching (ruta corta),creada
-/directorio/proveedores/convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría convenciones,creada
-/directorio/convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría convenciones (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-convenciones,creada
-/directorio/agencias-de-convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-convenciones (ruta corta),creada
-/directorio/proveedores/convenciones/aerolineas/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría aerolineas,creada
-/directorio/aerolineas/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría aerolineas (ruta corta),creada
-/directorio/proveedores/convenciones/hoteles/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría hoteles,creada
-/directorio/hoteles/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría hoteles (ruta corta),creada
-/directorio/proveedores/convenciones/tours/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría tours,creada
-/directorio/tours/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría tours (ruta corta),creada
-/directorio/proveedores/convenciones/transporte/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría transporte,creada
-/directorio/transporte/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría transporte (ruta corta),creada
-/directorio/proveedores/convenciones/ciudades-y-gobiernos/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría ciudades-y-gobiernos,creada
-/directorio/ciudades-y-gobiernos/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría ciudades-y-gobiernos (ruta corta),creada
-/directorio/proveedores/exposiciones-calendario-y-por-rubro/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría exposiciones-calendario-y-por-rubro,creada
-/directorio/exposiciones-calendario-y-por-rubro/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría exposiciones-calendario-y-por-rubro (ruta corta),creada
-/directorio/proveedores/exposiciones-calendario-y-por-rubro/alimentos-y-bebidas/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría alimentos-y-bebidas,creada
-/directorio/alimentos-y-bebidas/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría alimentos-y-bebidas (ruta corta),creada
-/directorio/proveedores/exposiciones-calendario-y-por-rubro/publicidad-y-mercadotecnia/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría publicidad-y-mercadotecnia,creada
-/directorio/publicidad-y-mercadotecnia/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría publicidad-y-mercadotecnia (ruta corta),creada
-/directorio/proveedores/radio/casas-productoras/,/rankings/casas-productoras-mexico/,categoría casas-productoras,creada
-/directorio/casas-productoras/,/rankings/casas-productoras-mexico/,categoría casas-productoras (ruta corta),creada
-/directorio/proveedores/diseno/fotografia/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografia,creada
-/directorio/fotografia/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografia (ruta corta),creada
-/directorio/proveedores/eventos/fotografias/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografias,creada
-/directorio/fotografias/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografias (ruta corta),creada
-/directorio/proveedores/eventos/videos/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría videos,creada
-/directorio/videos/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría videos (ruta corta),creada
-/directorio/proveedores/television/equipo-de-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría equipo-de-produccion,creada
-/directorio/equipo-de-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría equipo-de-produccion (ruta corta),creada
-/directorio/proveedores/television/post-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría post-produccion,creada
-/directorio/post-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría post-produccion (ruta corta),creada
-/directorio/proveedores/radio/doblaje-y-locucion/,/rankings/estudios-doblaje-locucion-mexico/,categoría doblaje-y-locucion,creada
-/directorio/doblaje-y-locucion/,/rankings/estudios-doblaje-locucion-mexico/,categoría doblaje-y-locucion (ruta corta),creada
-/directorio/proveedores/radio/estudios-de-grabacion/,/rankings/estudios-doblaje-locucion-mexico/,categoría estudios-de-grabacion,creada
-/directorio/estudios-de-grabacion/,/rankings/estudios-doblaje-locucion-mexico/,categoría estudios-de-grabacion (ruta corta),creada
-/directorio/proveedores/diseno/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno,creada
-/directorio/diseno/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno (ruta corta),creada
-/directorio/proveedores/agencias/agencias-de-diseno/,/rankings/estudios-diseno-branding-mexico/,categoría agencias-de-diseno,creada
-/directorio/agencias-de-diseno/,/rankings/estudios-diseno-branding-mexico/,categoría agencias-de-diseno (ruta corta),creada
-/directorio/proveedores/diseno/identidad-corporativa/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-corporativa,creada
-/directorio/identidad-corporativa/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-corporativa (ruta corta),creada
-/directorio/proveedores/capacitacion-y-cursos/identidad-de-marca/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-de-marca,creada
-/directorio/identidad-de-marca/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-de-marca (ruta corta),creada
-/directorio/proveedores/diseno/diseno-grafico/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-grafico,creada
-/directorio/diseno-grafico/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-grafico (ruta corta),creada
-/directorio/proveedores/diseno/diseno-editorial/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-editorial,creada
-/directorio/diseno-editorial/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-editorial (ruta corta),creada
-/directorio/proveedores/diseno/diseno-publicitario/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-publicitario,creada
-/directorio/diseno-publicitario/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-publicitario (ruta corta),creada
-/directorio/proveedores/diseno/diseno-multimedia/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-multimedia,creada
-/directorio/diseno-multimedia/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-multimedia (ruta corta),creada
-/directorio/proveedores/diseno/ilustracion/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría ilustracion,creada
-/directorio/ilustracion/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría ilustracion (ruta corta),creada
-/directorio/proveedores/diseno/diseno-industrial/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-industrial,creada
-/directorio/diseno-industrial/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-industrial (ruta corta),creada
-/directorio/proveedores/diseno/diseno-textil/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-textil,creada
-/directorio/diseno-textil/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-textil (ruta corta),creada
-/directorio/proveedores/marketing-digital/,/rankings/agencias-inbound-marketing-mexico/,categoría marketing-digital,creada
-/directorio/marketing-digital/,/rankings/agencias-inbound-marketing-mexico/,categoría marketing-digital (ruta corta),creada
-/directorio/proveedores/inbound-marketing-mexico/,/rankings/agencias-inbound-marketing-mexico/,categoría inbound-marketing-mexico,creada
-/directorio/inbound-marketing-mexico/,/rankings/agencias-inbound-marketing-mexico/,categoría inbound-marketing-mexico (ruta corta),creada
-/directorio/proveedores/diseno/diseno-y-desarrollo-web/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría diseno-y-desarrollo-web,creada
-/directorio/diseno-y-desarrollo-web/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría diseno-y-desarrollo-web (ruta corta),creada
-/directorio/proveedores/marketing-digital/dominios-y-hosting/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría dominios-y-hosting,creada
-/directorio/dominios-y-hosting/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría dominios-y-hosting (ruta corta),creada
-/directorio/proveedores/marketing-digital/sistemas-de-intranet/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría sistemas-de-intranet,creada
-/directorio/sistemas-de-intranet/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría sistemas-de-intranet (ruta corta),creada
-/directorio/proveedores/marketing-digital/buscadores/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría buscadores,creada
-/directorio/buscadores/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría buscadores (ruta corta),creada
-/directorio/proveedores/marketing-digital/e-mailing/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría e-mailing,creada
-/directorio/e-mailing/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría e-mailing (ruta corta),creada
-/directorio/proveedores/marketing-digital/bases-de-datos/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría bases-de-datos,creada
-/directorio/bases-de-datos/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría bases-de-datos (ruta corta),creada
-/directorio/proveedores/marketing-digital/banners/,/rankings/agencias-inbound-marketing-mexico/#banners-y-publicidad-display,categoría banners,creada
-/directorio/banners/,/rankings/agencias-inbound-marketing-mexico/#banners-y-publicidad-display,categoría banners (ruta corta),creada
-/directorio/proveedores/investigacion-de-mercados/,/rankings/agencias-investigacion-de-mercados-mexico/,categoría investigacion-de-mercados,creada
-/directorio/investigacion-de-mercados/,/rankings/agencias-investigacion-de-mercados-mexico/,categoría investigacion-de-mercados (ruta corta),creada
+/directorio/,/categoria/rankings/,raíz del directorio,sin cambio
+/directorio/proveedores/,/categoria/rankings/,categoría proveedores,sin cambio
+/directorio/proveedores/agencias/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría agencias,sin cambio
+/directorio/agencias/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría agencias (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-publicidad/,/rankings/agencias-de-publicidad-mexico/,categoría agencias-de-publicidad,sin cambio
+/directorio/agencias-de-publicidad/,/rankings/agencias-de-publicidad-mexico/,categoría agencias-de-publicidad (ruta corta),sin cambio
+/directorio/proveedores/agencias/atl/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría atl,sin cambio
+/directorio/atl/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría atl (ruta corta),sin cambio
+/directorio/proveedores/ideas-originales/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría ideas-originales,sin cambio
+/directorio/ideas-originales/,/rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral,categoría ideas-originales (ruta corta),sin cambio
+/directorio/proveedores/campanas-politicas/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría campanas-politicas,sin cambio
+/directorio/campanas-politicas/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría campanas-politicas (ruta corta),sin cambio
+/directorio/proveedores/campanas-politicas/propaganda/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría propaganda,sin cambio
+/directorio/propaganda/,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,categoría propaganda (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-recursos-humanos/,/categoria/rankings/,categoría agencias-de-recursos-humanos,sin cambio
+/directorio/agencias-de-recursos-humanos/,/categoria/rankings/,categoría agencias-de-recursos-humanos (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-tecnologia/,/categoria/rankings/,categoría agencias-de-tecnologia,sin cambio
+/directorio/agencias-de-tecnologia/,/categoria/rankings/,categoría agencias-de-tecnologia (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-viajes/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-viajes,sin cambio
+/directorio/agencias-de-viajes/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-viajes (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-mercadotecnia/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría agencias-de-mercadotecnia,sin cambio
+/directorio/agencias-de-mercadotecnia/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría agencias-de-mercadotecnia (ruta corta),sin cambio
+/directorio/proveedores/capacitacion-y-cursos/consultoras-de-marketing/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría consultoras-de-marketing,sin cambio
+/directorio/consultoras-de-marketing/,/rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia,categoría consultoras-de-marketing (ruta corta),sin cambio
+/directorio/proveedores/agencias/rp-s/,/rankings/agencias-relaciones-publicas-mexico/,categoría rp-s,sin cambio
+/directorio/rp-s/,/rankings/agencias-relaciones-publicas-mexico/,categoría rp-s (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-medios/,/rankings/agencias-de-medios-mexico/,categoría agencias-de-medios,sin cambio
+/directorio/agencias-de-medios/,/rankings/agencias-de-medios-mexico/,categoría agencias-de-medios (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría revistas-media-kit,sin cambio
+/directorio/revistas-media-kit/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría revistas-media-kit (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/automotriz/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría automotriz,sin cambio
+/directorio/automotriz/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría automotriz (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/deportes/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría deportes,sin cambio
+/directorio/deportes/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría deportes (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/entretenimiento/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría entretenimiento,sin cambio
+/directorio/entretenimiento/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría entretenimiento (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/femenina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría femenina,sin cambio
+/directorio/femenina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría femenina (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/interes-especifico/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría interes-especifico,sin cambio
+/directorio/interes-especifico/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría interes-especifico (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/juvenil/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría juvenil,sin cambio
+/directorio/juvenil/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría juvenil (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/masculina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría masculina,sin cambio
+/directorio/masculina/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría masculina (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/negocios/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría negocios,sin cambio
+/directorio/negocios/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría negocios (ruta corta),sin cambio
+/directorio/proveedores/revistas-media-kit/universitarias/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría universitarias,sin cambio
+/directorio/universitarias/,/rankings/agencias-de-medios-mexico/#revistas-y-media-kit,categoría universitarias (ruta corta),sin cambio
+/directorio/proveedores/periodicos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos,sin cambio
+/directorio/periodicos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos (ruta corta),sin cambio
+/directorio/proveedores/periodicos/periodicos-gratuitos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-gratuitos,sin cambio
+/directorio/periodicos-gratuitos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-gratuitos (ruta corta),sin cambio
+/directorio/proveedores/periodicos/periodicos-locales/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-locales,sin cambio
+/directorio/periodicos-locales/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-locales (ruta corta),sin cambio
+/directorio/proveedores/periodicos/periodicos-masivos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-masivos,sin cambio
+/directorio/periodicos-masivos/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-masivos (ruta corta),sin cambio
+/directorio/proveedores/periodicos/periodicos-online/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-online,sin cambio
+/directorio/periodicos-online/,/rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales,categoría periodicos-online (ruta corta),sin cambio
+/directorio/proveedores/television/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría television,sin cambio
+/directorio/television/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría television (ruta corta),sin cambio
+/directorio/proveedores/television/canales/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría canales,sin cambio
+/directorio/canales/,/rankings/agencias-de-medios-mexico/#television-canales-y-espacios,categoría canales (ruta corta),sin cambio
+/directorio/proveedores/radio/,/rankings/grupos-radiofonicos-mexico/,categoría radio,sin cambio
+/directorio/radio/,/rankings/grupos-radiofonicos-mexico/,categoría radio (ruta corta),sin cambio
+/directorio/proveedores/estaciones-de-radio/,/rankings/grupos-radiofonicos-mexico/,categoría estaciones-de-radio,sin cambio
+/directorio/estaciones-de-radio/,/rankings/grupos-radiofonicos-mexico/,categoría estaciones-de-radio (ruta corta),sin cambio
+/directorio/proveedores/radio/radiodifusoras/,/rankings/grupos-radiofonicos-mexico/,categoría radiodifusoras,sin cambio
+/directorio/radiodifusoras/,/rankings/grupos-radiofonicos-mexico/,categoría radiodifusoras (ruta corta),sin cambio
+/directorio/proveedores/estaciones-de-radio/musica/,/rankings/grupos-radiofonicos-mexico/,categoría musica,sin cambio
+/directorio/musica/,/rankings/grupos-radiofonicos-mexico/,categoría musica (ruta corta),sin cambio
+/directorio/proveedores/estaciones-de-radio/noticias/,/rankings/grupos-radiofonicos-mexico/,categoría noticias,sin cambio
+/directorio/noticias/,/rankings/grupos-radiofonicos-mexico/,categoría noticias (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/,/rankings/empresas-publicidad-exterior-mexico/,categoría publicidad-exterior,sin cambio
+/directorio/publicidad-exterior/,/rankings/empresas-publicidad-exterior-mexico/,categoría publicidad-exterior (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/espectaculares-mexico/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría espectaculares-mexico,sin cambio
+/directorio/espectaculares-mexico/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría espectaculares-mexico (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/carteleras/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría carteleras,sin cambio
+/directorio/carteleras/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría carteleras (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/vallas/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas,sin cambio
+/directorio/vallas/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/vallas-moviles/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas-moviles,sin cambio
+/directorio/vallas-moviles/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría vallas-moviles (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/camiones/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría camiones,sin cambio
+/directorio/camiones/,/rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas,categoría camiones (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/metro/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metro,sin cambio
+/directorio/metro/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metro (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/metrobus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metrobus,sin cambio
+/directorio/metrobus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría metrobus (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/mexibus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría mexibus,sin cambio
+/directorio/mexibus/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría mexibus (ruta corta),sin cambio
+/directorio/proveedores/publicidad-exterior/parabuses/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría parabuses,sin cambio
+/directorio/parabuses/,/rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico,categoría parabuses (ruta corta),sin cambio
+/directorio/proveedores/medios-alternos/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría medios-alternos,sin cambio
+/directorio/medios-alternos/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría medios-alternos (ruta corta),sin cambio
+/directorio/proveedores/medios-alternos/centros-comerciales/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría centros-comerciales,sin cambio
+/directorio/centros-comerciales/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría centros-comerciales (ruta corta),sin cambio
+/directorio/proveedores/medios-alternos/cines-y-teatros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría cines-y-teatros,sin cambio
+/directorio/cines-y-teatros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría cines-y-teatros (ruta corta),sin cambio
+/directorio/proveedores/medios-alternos/estadios-y-foros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría estadios-y-foros,sin cambio
+/directorio/estadios-y-foros/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría estadios-y-foros (ruta corta),sin cambio
+/directorio/proveedores/medios-alternos/oficinas/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría oficinas,sin cambio
+/directorio/oficinas/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría oficinas (ruta corta),sin cambio
+/directorio/proveedores/medios-alternos/universidades/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría universidades,sin cambio
+/directorio/universidades/,/rankings/empresas-publicidad-exterior-mexico/#medios-alternos,categoría universidades (ruta corta),sin cambio
+/directorio/proveedores/activaciones/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría activaciones,sin cambio
+/directorio/activaciones/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría activaciones (ruta corta),sin cambio
+/directorio/proveedores/activaciones/btl/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría btl,sin cambio
+/directorio/btl/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría btl (ruta corta),sin cambio
+/directorio/proveedores/activaciones/inflables/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría inflables,sin cambio
+/directorio/inflables/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría inflables (ruta corta),sin cambio
+/directorio/proveedores/activaciones/lugares-para-promocion/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría lugares-para-promocion,sin cambio
+/directorio/lugares-para-promocion/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría lugares-para-promocion (ruta corta),sin cambio
+/directorio/proveedores/activaciones/performance/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría performance,sin cambio
+/directorio/performance/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría performance (ruta corta),sin cambio
+/directorio/proveedores/activaciones/renta-de-equipos/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría renta-de-equipos,sin cambio
+/directorio/renta-de-equipos/,/rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance,categoría renta-de-equipos (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-promocion/,/rankings/agencias-btl-promotoria-mexico/,categoría agencias-de-promocion,sin cambio
+/directorio/agencias-de-promocion/,/rankings/agencias-btl-promotoria-mexico/,categoría agencias-de-promocion (ruta corta),sin cambio
+/directorio/proveedores/activaciones/edecanes/,/rankings/productoras-de-eventos-mexico/,categoría edecanes,sin cambio
+/directorio/edecanes/,/rankings/productoras-de-eventos-mexico/,categoría edecanes (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-modelos/,/rankings/productoras-de-eventos-mexico/,categoría agencias-de-modelos,sin cambio
+/directorio/agencias-de-modelos/,/rankings/productoras-de-eventos-mexico/,categoría agencias-de-modelos (ruta corta),sin cambio
+/directorio/proveedores/pop/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría pop,sin cambio
+/directorio/pop/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría pop (ruta corta),sin cambio
+/directorio/proveedores/pop/displays/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría displays,sin cambio
+/directorio/displays/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría displays (ruta corta),sin cambio
+/directorio/proveedores/pop/posters/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría posters,sin cambio
+/directorio/posters/,/rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop,categoría posters (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-y-artes-graficas,sin cambio
+/directorio/impresion-y-artes-graficas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-y-artes-graficas (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/editoriales/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría editoriales,sin cambio
+/directorio/editoriales/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría editoriales (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/imprentas-digital/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría imprentas-digital,sin cambio
+/directorio/imprentas-digital/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría imprentas-digital (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/impresion-a-gran-formato/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-a-gran-formato,sin cambio
+/directorio/impresion-a-gran-formato/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-a-gran-formato (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/impresion-en-offset/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-en-offset,sin cambio
+/directorio/impresion-en-offset/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría impresion-en-offset (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/serigrafia/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría serigrafia,sin cambio
+/directorio/serigrafia/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría serigrafia (ruta corta),sin cambio
+/directorio/proveedores/impresion-y-artes-graficas/venta-de-maquinas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría venta-de-maquinas,sin cambio
+/directorio/venta-de-maquinas/,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,categoría venta-de-maquinas (ruta corta),sin cambio
+/directorio/proveedores/promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría promocionales,sin cambio
+/directorio/promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría promocionales (ruta corta),sin cambio
+/directorio/proveedores/promocionales/articulos-promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría articulos-promocionales,sin cambio
+/directorio/articulos-promocionales/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría articulos-promocionales (ruta corta),sin cambio
+/directorio/proveedores/promocionales/textil/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría textil,sin cambio
+/directorio/textil/,/rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles,categoría textil (ruta corta),sin cambio
+/directorio/proveedores/empaque-y-embotellamiento/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría empaque-y-embotellamiento,sin cambio
+/directorio/empaque-y-embotellamiento/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría empaque-y-embotellamiento (ruta corta),sin cambio
+/directorio/proveedores/empaque-y-embotellamiento/fabricantes-de-bolsas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-bolsas,sin cambio
+/directorio/fabricantes-de-bolsas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-bolsas (ruta corta),sin cambio
+/directorio/proveedores/empaque-y-embotellamiento/fabricantes-de-empaques/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-empaques,sin cambio
+/directorio/fabricantes-de-empaques/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-empaques (ruta corta),sin cambio
+/directorio/proveedores/empaque-y-embotellamiento/fabricantes-de-etiquetas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-etiquetas,sin cambio
+/directorio/fabricantes-de-etiquetas/,/rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas,categoría fabricantes-de-etiquetas (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/fabricacion-renta-y-venta-de-banners/,/rankings/proveedores-pop-promocionales-mexico/#banners-y-lonas-impresas,categoría fabricacion-renta-y-venta-de-banners,sin cambio
+/directorio/fabricacion-renta-y-venta-de-banners/,/rankings/proveedores-pop-promocionales-mexico/#banners-y-lonas-impresas,categoría fabricacion-renta-y-venta-de-banners (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría stands-y-display,sin cambio
+/directorio/stands-y-display/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría stands-y-display (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/fabricacion-renta-y-venta-de-stands/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría fabricacion-renta-y-venta-de-stands,sin cambio
+/directorio/fabricacion-renta-y-venta-de-stands/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría fabricacion-renta-y-venta-de-stands (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/renta-de-alfombras/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-alfombras,sin cambio
+/directorio/renta-de-alfombras/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-alfombras (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/renta-de-decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-decoracion,sin cambio
+/directorio/renta-de-decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-decoracion (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/renta-de-equipo-audiovisual/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-equipo-audiovisual,sin cambio
+/directorio/renta-de-equipo-audiovisual/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-equipo-audiovisual (ruta corta),sin cambio
+/directorio/proveedores/stands-y-display/renta-de-mobiliario/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-mobiliario,sin cambio
+/directorio/renta-de-mobiliario/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría renta-de-mobiliario (ruta corta),sin cambio
+/directorio/proveedores/eventos/mobiliario-lounge/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría mobiliario-lounge,sin cambio
+/directorio/mobiliario-lounge/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría mobiliario-lounge (ruta corta),sin cambio
+/directorio/proveedores/eventos/carpas-y-tarimas/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría carpas-y-tarimas,sin cambio
+/directorio/carpas-y-tarimas/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría carpas-y-tarimas (ruta corta),sin cambio
+/directorio/proveedores/eventos/decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría decoracion,sin cambio
+/directorio/decoracion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría decoracion (ruta corta),sin cambio
+/directorio/proveedores/eventos/iluminacion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría iluminacion,sin cambio
+/directorio/iluminacion/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría iluminacion (ruta corta),sin cambio
+/directorio/proveedores/eventos/audio/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría audio,sin cambio
+/directorio/audio/,/rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos,categoría audio (ruta corta),sin cambio
+/directorio/proveedores/eventos/,/rankings/productoras-de-eventos-mexico/,categoría eventos,sin cambio
+/directorio/eventos/,/rankings/productoras-de-eventos-mexico/,categoría eventos (ruta corta),sin cambio
+/directorio/proveedores/eventos/salones-y-jardines/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría salones-y-jardines,sin cambio
+/directorio/salones-y-jardines/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría salones-y-jardines (ruta corta),sin cambio
+/directorio/proveedores/convenciones/centros-de-convenciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-convenciones,sin cambio
+/directorio/centros-de-convenciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-convenciones (ruta corta),sin cambio
+/directorio/proveedores/exposiciones-calendario-y-por-rubro/centros-de-exposiciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-exposiciones,sin cambio
+/directorio/centros-de-exposiciones/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría centros-de-exposiciones (ruta corta),sin cambio
+/directorio/proveedores/eventos/museos-y-otros/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría museos-y-otros,sin cambio
+/directorio/museos-y-otros/,/rankings/productoras-de-eventos-mexico/#sedes-salones-jardines-y-centros-de-convenciones,categoría museos-y-otros (ruta corta),sin cambio
+/directorio/proveedores/eventos/banquetes/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría banquetes,sin cambio
+/directorio/banquetes/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría banquetes (ruta corta),sin cambio
+/directorio/proveedores/eventos/vinos-y-licores/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría vinos-y-licores,sin cambio
+/directorio/vinos-y-licores/,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,categoría vinos-y-licores (ruta corta),sin cambio
+/directorio/proveedores/eventos/shows-y-conciertos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría shows-y-conciertos,sin cambio
+/directorio/shows-y-conciertos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría shows-y-conciertos (ruta corta),sin cambio
+/directorio/proveedores/eventos/representantes-de-artistas/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría representantes-de-artistas,sin cambio
+/directorio/representantes-de-artistas/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría representantes-de-artistas (ruta corta),sin cambio
+/directorio/proveedores/capacitacion-y-cursos/speakers/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría speakers,sin cambio
+/directorio/speakers/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría speakers (ruta corta),sin cambio
+/directorio/proveedores/capacitacion-y-cursos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría capacitacion-y-cursos,sin cambio
+/directorio/capacitacion-y-cursos/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría capacitacion-y-cursos (ruta corta),sin cambio
+/directorio/proveedores/capacitacion-y-cursos/coaching/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría coaching,sin cambio
+/directorio/coaching/,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,categoría coaching (ruta corta),sin cambio
+/directorio/proveedores/convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría convenciones,sin cambio
+/directorio/convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría convenciones (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-convenciones,sin cambio
+/directorio/agencias-de-convenciones/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría agencias-de-convenciones (ruta corta),sin cambio
+/directorio/proveedores/convenciones/aerolineas/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría aerolineas,sin cambio
+/directorio/aerolineas/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría aerolineas (ruta corta),sin cambio
+/directorio/proveedores/convenciones/hoteles/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría hoteles,sin cambio
+/directorio/hoteles/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría hoteles (ruta corta),sin cambio
+/directorio/proveedores/convenciones/tours/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría tours,sin cambio
+/directorio/tours/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría tours (ruta corta),sin cambio
+/directorio/proveedores/convenciones/transporte/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría transporte,sin cambio
+/directorio/transporte/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría transporte (ruta corta),sin cambio
+/directorio/proveedores/convenciones/ciudades-y-gobiernos/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría ciudades-y-gobiernos,sin cambio
+/directorio/ciudades-y-gobiernos/,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,categoría ciudades-y-gobiernos (ruta corta),sin cambio
+/directorio/proveedores/exposiciones-calendario-y-por-rubro/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría exposiciones-calendario-y-por-rubro,sin cambio
+/directorio/exposiciones-calendario-y-por-rubro/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría exposiciones-calendario-y-por-rubro (ruta corta),sin cambio
+/directorio/proveedores/exposiciones-calendario-y-por-rubro/alimentos-y-bebidas/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría alimentos-y-bebidas,sin cambio
+/directorio/alimentos-y-bebidas/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría alimentos-y-bebidas (ruta corta),sin cambio
+/directorio/proveedores/exposiciones-calendario-y-por-rubro/publicidad-y-mercadotecnia/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría publicidad-y-mercadotecnia,sin cambio
+/directorio/publicidad-y-mercadotecnia/,/rankings/productoras-de-eventos-mexico/#expos-por-industria,categoría publicidad-y-mercadotecnia (ruta corta),sin cambio
+/directorio/proveedores/radio/casas-productoras/,/rankings/casas-productoras-mexico/,categoría casas-productoras,sin cambio
+/directorio/casas-productoras/,/rankings/casas-productoras-mexico/,categoría casas-productoras (ruta corta),sin cambio
+/directorio/proveedores/diseno/fotografia/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografia,sin cambio
+/directorio/fotografia/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografia (ruta corta),sin cambio
+/directorio/proveedores/eventos/fotografias/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografias,sin cambio
+/directorio/fotografias/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría fotografias (ruta corta),sin cambio
+/directorio/proveedores/eventos/videos/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría videos,sin cambio
+/directorio/videos/,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,categoría videos (ruta corta),sin cambio
+/directorio/proveedores/television/equipo-de-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría equipo-de-produccion,sin cambio
+/directorio/equipo-de-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría equipo-de-produccion (ruta corta),sin cambio
+/directorio/proveedores/television/post-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría post-produccion,sin cambio
+/directorio/post-produccion/,/rankings/casas-productoras-mexico/#equipo-de-produccion-y-postproduccion,categoría post-produccion (ruta corta),sin cambio
+/directorio/proveedores/radio/doblaje-y-locucion/,/rankings/estudios-doblaje-locucion-mexico/,categoría doblaje-y-locucion,sin cambio
+/directorio/doblaje-y-locucion/,/rankings/estudios-doblaje-locucion-mexico/,categoría doblaje-y-locucion (ruta corta),sin cambio
+/directorio/proveedores/radio/estudios-de-grabacion/,/rankings/estudios-doblaje-locucion-mexico/,categoría estudios-de-grabacion,sin cambio
+/directorio/estudios-de-grabacion/,/rankings/estudios-doblaje-locucion-mexico/,categoría estudios-de-grabacion (ruta corta),sin cambio
+/directorio/proveedores/diseno/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno,sin cambio
+/directorio/diseno/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno (ruta corta),sin cambio
+/directorio/proveedores/agencias/agencias-de-diseno/,/rankings/estudios-diseno-branding-mexico/,categoría agencias-de-diseno,sin cambio
+/directorio/agencias-de-diseno/,/rankings/estudios-diseno-branding-mexico/,categoría agencias-de-diseno (ruta corta),sin cambio
+/directorio/proveedores/diseno/identidad-corporativa/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-corporativa,sin cambio
+/directorio/identidad-corporativa/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-corporativa (ruta corta),sin cambio
+/directorio/proveedores/capacitacion-y-cursos/identidad-de-marca/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-de-marca,sin cambio
+/directorio/identidad-de-marca/,/rankings/estudios-diseno-branding-mexico/,categoría identidad-de-marca (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-grafico/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-grafico,sin cambio
+/directorio/diseno-grafico/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-grafico (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-editorial/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-editorial,sin cambio
+/directorio/diseno-editorial/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-editorial (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-publicitario/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-publicitario,sin cambio
+/directorio/diseno-publicitario/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-publicitario (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-multimedia/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-multimedia,sin cambio
+/directorio/diseno-multimedia/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría diseno-multimedia (ruta corta),sin cambio
+/directorio/proveedores/diseno/ilustracion/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría ilustracion,sin cambio
+/directorio/ilustracion/,/rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion,categoría ilustracion (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-industrial/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-industrial,sin cambio
+/directorio/diseno-industrial/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-industrial (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-textil/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-textil,sin cambio
+/directorio/diseno-textil/,/rankings/estudios-diseno-branding-mexico/#diseno-industrial-y-textil,categoría diseno-textil (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/,/rankings/agencias-inbound-marketing-mexico/,categoría marketing-digital,sin cambio
+/directorio/marketing-digital/,/rankings/agencias-inbound-marketing-mexico/,categoría marketing-digital (ruta corta),sin cambio
+/directorio/proveedores/inbound-marketing-mexico/,/rankings/agencias-inbound-marketing-mexico/,categoría inbound-marketing-mexico,sin cambio
+/directorio/inbound-marketing-mexico/,/rankings/agencias-inbound-marketing-mexico/,categoría inbound-marketing-mexico (ruta corta),sin cambio
+/directorio/proveedores/diseno/diseno-y-desarrollo-web/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría diseno-y-desarrollo-web,sin cambio
+/directorio/diseno-y-desarrollo-web/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría diseno-y-desarrollo-web (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/dominios-y-hosting/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría dominios-y-hosting,sin cambio
+/directorio/dominios-y-hosting/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría dominios-y-hosting (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/sistemas-de-intranet/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría sistemas-de-intranet,sin cambio
+/directorio/sistemas-de-intranet/,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,categoría sistemas-de-intranet (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/buscadores/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría buscadores,sin cambio
+/directorio/buscadores/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría buscadores (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/e-mailing/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría e-mailing,sin cambio
+/directorio/e-mailing/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría e-mailing (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/bases-de-datos/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría bases-de-datos,sin cambio
+/directorio/bases-de-datos/,/rankings/agencias-inbound-marketing-mexico/#seo-email-marketing-y-bases-de-datos,categoría bases-de-datos (ruta corta),sin cambio
+/directorio/proveedores/marketing-digital/banners/,/rankings/agencias-inbound-marketing-mexico/#banners-y-publicidad-display,categoría banners,sin cambio
+/directorio/banners/,/rankings/agencias-inbound-marketing-mexico/#banners-y-publicidad-display,categoría banners (ruta corta),sin cambio
+/directorio/proveedores/investigacion-de-mercados/,/rankings/agencias-investigacion-de-mercados-mexico/,categoría investigacion-de-mercados,sin cambio
+/directorio/investigacion-de-mercados/,/rankings/agencias-investigacion-de-mercados-mexico/,categoría investigacion-de-mercados (ruta corta),sin cambio
