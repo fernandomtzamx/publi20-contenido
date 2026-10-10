@@ -12,7 +12,7 @@
   ajustes titles vía updateSettings -> 200; sin aplicar: ninguno
   ajustes sitemap vía updateSettings -> 200; sin aplicar: ninguno
 == Entradas
-  341 entradas: ('editorial', 'index')=23, ('archivo', 'noindex')=310, ('archivo', 'index')=8
+  353 entradas: ('editorial', 'index')=35, ('archivo', 'noindex')=310, ('archivo', 'index')=8
   errores: 0
 == Portada
   página 9084 -> 200
@@ -35,9 +35,9 @@
   rankings -> 200
   noticias -> 200
 URLs de entradas que cambiaron: 0 []
-== /sitemap_index.xml -> 200 11 URLs
-== /post-sitemap.xml -> 200 31 URLs
-== /category-sitemap.xml -> 200 13 URLs
+== /sitemap_index.xml -> 200 3 URLs
+== /post-sitemap.xml -> 200 43 URLs
+== /category-sitemap.xml -> 200 14 URLs
 == /robots.txt -> 200 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
