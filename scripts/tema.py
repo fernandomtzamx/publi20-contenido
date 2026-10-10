@@ -78,13 +78,9 @@ def aplicar(wp):
     log("sidebars: " + ", ".join(f"{b['id']}({b.get('name')}, {len(b.get('widgets', []))})" for b in sidebars))
     widgets = wp.req("GET", "widgets", params={"context": "edit", "per_page": 100})
     previo = next((w for w in widgets if MARCA in json.dumps(w.get("instance", {}))), None)
-    if previo:
-        destino = previo["sidebar"]
-    else:
-        # El pie se pinta en todas las páginas: se usa la barra donde está el widget de entradas recientes.
-        reciente = next((w for w in widgets if w.get("id_base") in ("recent-posts", "block") and w.get("sidebar") != "wp_inactive_widgets"
-                         and "recent" in json.dumps(w).lower()), None)
-        destino = reciente["sidebar"] if reciente else next(b["id"] for b in sidebars if "foot" in b["id"].lower())
+    # El pie (Pie de página 1) se pinta en todas las páginas, incluida la portada.
+    ids = [b["id"] for b in sidebars]
+    destino = "footerfirst" if "footerfirst" in ids else next(i for i in ids if "foot" in i.lower())
     log(f"barra elegida: {destino}")
     body = {"id_base": "custom_html", "sidebar": destino, "instance": {"raw": {"title": "", "content": bloque()}}}
     w = wp.req("POST", f"widgets/{previo['id']}", json=body) if previo else wp.req("POST", "widgets", json=body)
