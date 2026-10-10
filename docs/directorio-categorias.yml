@@ -1,0 +1,327 @@
+# Categorías del directorio viejo (/directorio/...) hacia los rankings.
+# Cada categoría llega a una sección del ranking con su palabra clave (ancla #id) o al inicio del ranking.
+# scripts/categorias.py inserta las secciones en los rankings (entre marcadores) y crea los 301.
+
+secciones:
+  agencias-de-publicidad-mexico:
+    - id: agencias-atl-y-publicidad-integral
+      titulo: "Agencias ATL y de publicidad integral"
+      texto: |
+        Una agencia ATL (above the line) crea y produce campañas para medios masivos: televisión, radio, impresos, exterior y digital. Cuando además coordina BTL, digital y medios, se le llama agencia de publicidad integral.
+
+        Si buscas "ideas originales" para tu marca, este es el tipo de agencia que piensa el concepto creativo. Antes de contratar, pide casos de tu categoría con resultados de negocio y pregunta qué hacen en casa y qué subcontratan.
+    - id: publicidad-politica-y-propaganda
+      titulo: "Publicidad política y propaganda"
+      texto: |
+        La propaganda electoral en México tiene reglas propias: tiempos de campaña, topes de gasto y restricciones para comprar espacios en radio y televisión, que administra la autoridad electoral. Por eso no se contrata igual que una campaña comercial.
+
+        Si vas a trabajar con una agencia en este terreno, pide experiencia comprobable en campañas políticas, revisa los lineamientos vigentes del [INE](https://www.ine.mx/) y asegúrate de que cada gasto quede documentado.
+  agencias-de-marketing-mexico:
+    - id: agencias-y-consultoras-de-mercadotecnia
+      titulo: "Agencias y consultoras de mercadotecnia"
+      texto: |
+        Una agencia de mercadotecnia ejecuta: campañas, contenido, redes y activaciones. Una consultora de marketing diagnostica y diseña la estrategia: posicionamiento, precios, canales y plan comercial, y muchas veces deja la ejecución a otros.
+
+        Si no tienes claro el problema, empieza por la consultoría. Si ya tienes estrategia y te falta capacidad para ejecutarla, busca una agencia con equipo propio para cada entregable.
+  agencias-de-medios-mexico:
+    - id: revistas-y-media-kit
+      titulo: "Revistas y media kit"
+      texto: |
+        Las revistas siguen vendiendo audiencias muy definidas: automotriz, deportes, entretenimiento, femenina, masculina, juvenil, negocios, universitarias y de interés específico. Su herramienta de venta es el media kit: el documento con perfil de lectores, circulación o tráfico, formatos y tarifas.
+
+        Al revisar un media kit, pide que la circulación o las métricas digitales estén auditadas o que digan de dónde salen y de qué fecha son. Una agencia de medios puede negociar paquetes que combinen impreso, sitio web y redes de la revista.
+    - id: periodicos-impresos-y-digitales
+      titulo: "Periódicos impresos y digitales"
+      texto: |
+        En periódicos hay tres familias: los masivos de circulación nacional, los locales que dominan una ciudad o región y los gratuitos que se reparten en transporte o zonas de oficinas. A eso se suman sus ediciones en línea, que venden display, contenido patrocinado y newsletters.
+
+        Para pautar, pregunta por la cobertura real en tu plaza, el perfil del lector y si el espacio se marca como publicidad. En ediciones digitales, pide métricas de tu formato, no del sitio completo.
+    - id: television-canales-y-espacios
+      titulo: "Televisión: canales y espacios publicitarios"
+      texto: |
+        Anunciarte en televisión implica elegir entre televisión abierta nacional, canales locales y televisión de paga, además de las plataformas de streaming con publicidad. Cada una se compra distinto: por spot, por paquete o por audiencia.
+
+        Una agencia de medios planea la mezcla, negocia tarifas y mide si el comercial llegó a quien debía. Si tu presupuesto es chico, la televisión local o el streaming con segmentación suelen ser la puerta de entrada.
+  empresas-publicidad-exterior-mexico:
+    - id: espectaculares-carteleras-y-vallas
+      titulo: "Espectaculares, carteleras y vallas"
+      texto: |
+        Los espectaculares son las estructuras grandes en azoteas o unipolares junto a vialidades; las carteleras y vallas son formatos a nivel de calle, fijos o en bardas. Las vallas móviles y la publicidad en camiones llevan el anuncio a recorrer rutas definidas.
+
+        Antes de contratar, pide la ubicación exacta con fotografía actual, el permiso del sitio ante la autoridad local, el periodo de exhibición y si la impresión y la instalación están incluidas en el precio.
+    - id: publicidad-en-transporte-publico
+      titulo: "Publicidad en transporte: Metro, Metrobús, Mexibús y parabuses"
+      texto: |
+        El transporte público concentra a millones de personas en trayectos diarios. Sus espacios publicitarios incluyen andenes, pasillos y vagones del Metro, estaciones y unidades del Metrobús y del Mexibús, y los parabuses en calle.
+
+        Estos espacios los comercializan concesionarias autorizadas por cada sistema. Pide la ficha de cada estación o ruta con su afluencia y la fuente del dato, y confirma quién tiene la concesión vigente.
+    - id: medios-alternos
+      titulo: "Medios alternos: plazas, cines, estadios, universidades y oficinas"
+      texto: |
+        Los medios alternos llevan tu marca a lugares donde la gente pasa tiempo: centros comerciales, cines y teatros, estadios y foros, universidades y edificios de oficinas. Van de pantallas y muebles a patrocinios y activaciones dentro del recinto.
+
+        Su ventaja es el contexto: llegas a un público con perfil claro y con menos ruido que en la calle. Pide el aforo o tráfico del lugar con su fuente y las reglas del recinto para instalar material.
+  agencias-btl-promotoria-mexico:
+    - id: activaciones-inflables-y-performance
+      titulo: "Activaciones, inflables y performance"
+      texto: |
+        Las activaciones ponen la marca frente al consumidor en un lugar físico: muestreo, degustaciones, juegos, performance en vía pública o inflables gigantes que atraen miradas. Requieren lugares para promoción con permiso y, muchas veces, renta de equipo.
+
+        Pide el plan completo: permisos del espacio, personal, seguros, equipo y cómo se va a medir el resultado. Una activación sin medición es solo un evento bonito.
+  proveedores-pop-promocionales-mexico:
+    - id: displays-posters-y-material-pop
+      titulo: "Displays, pósters y material POP"
+      texto: |
+        El material POP (point of purchase) vive en el punto de venta: displays de piso o mostrador, cabeceras, colgantes, stoppers y pósters. Su trabajo es ganar la decisión en el último metro.
+
+        Pide prototipo antes del tiraje, confirma las medidas y reglas de cada cadena de tiendas y pregunta por materiales reciclables y por quién se encarga de la instalación.
+    - id: impresion-offset-digital-gran-formato-y-serigrafia
+      titulo: "Impresión offset, digital, gran formato y serigrafía"
+      texto: |
+        La impresión offset conviene para tirajes grandes de folletos, revistas y editoriales; la digital, para tirajes cortos y personalizados; la de gran formato, para lonas, vinilos y señalización; y la serigrafía, para textiles y superficies especiales.
+
+        Al cotizar, compara con el mismo papel o sustrato, tiraje y acabados, y pide una prueba de color. Si vas a comprar equipo, pregunta por refacciones y servicio técnico local.
+    - id: articulos-promocionales-y-textiles
+      titulo: "Artículos promocionales y textiles"
+      texto: |
+        Los artículos promocionales son los objetos con tu marca: plumas, termos, mochilas, gorras, playeras y uniformes. Los mayoristas los importan y los distribuyen; los proveedores para empresas los personalizan y entregan.
+
+        Pide muestra física con tu logotipo, tiempos de entrega por escrito y la técnica de marcado de cada pieza: bordado, serigrafía, láser o sublimación.
+    - id: empaques-bolsas-y-etiquetas
+      titulo: "Empaques, bolsas y etiquetas"
+      texto: |
+        Empaques, bolsas y etiquetas son parte de la comunicación de tu producto: lo primero que el cliente ve y toca. Los fabricantes trabajan cartón, plástico, papel y materiales flexibles, y las etiquetas pueden ser autoadheribles, termoencogibles o impresas directo.
+
+        Revisa la normativa de etiquetado que aplica a tu producto, pide pruebas de resistencia y pregunta por opciones de material reciclable o reciclado.
+    - id: banners-y-lonas-impresas
+      titulo: "Banners y lonas impresas"
+      texto: |
+        Los banners impresos (roll up, araña, lonas con estructura) son la pieza básica de cualquier expo, evento o punto de venta. Se fabrican, se rentan o se venden con su estructura.
+
+        Pide la medida del área de impresión, el tipo de lona y si la estructura es reutilizable para cambiar solo la gráfica en el siguiente evento.
+  productoras-de-eventos-mexico:
+    - id: stands-mobiliario-y-renta-para-expos
+      titulo: "Stands, mobiliario y renta para expos y eventos"
+      texto: |
+        Un stand o un evento necesita más que la idea: fabricación o renta del stand, mobiliario y salas lounge, alfombras, decoración, carpas y tarimas, iluminación, audio y equipo audiovisual. Hay proveedores que hacen todo llave en mano y otros que rentan por pieza.
+
+        Pide render y plano con medidas, confirma las reglas técnicas del recinto y deja por escrito qué incluye el montaje, el desmontaje y el almacenaje.
+    - id: sedes-salones-jardines-y-centros-de-convenciones
+      titulo: "Sedes: salones, jardines, centros de convenciones y museos"
+      texto: |
+        La sede define el evento: salones y jardines para eventos sociales y corporativos, centros de convenciones y de exposiciones para congresos y ferias, y museos u otros espacios culturales para lanzamientos con carácter.
+
+        Visita la sede antes de firmar, pide capacidad por montaje (auditorio, banquete, cóctel) y revisa qué proveedores son exclusivos del lugar.
+    - id: banquetes-vinos-y-licores
+      titulo: "Banquetes, vinos y licores"
+      texto: |
+        El servicio de banquetes cubre alimentos, bebidas, meseros y loza; los proveedores de vinos y licores surten la barra o la diseñan completa. En eventos corporativos conviene un solo responsable de alimentos y bebidas.
+
+        Pide degustación, cotización por persona con todo incluido y las políticas de descorche si llevas tus propias bebidas.
+    - id: shows-artistas-y-conferencistas
+      titulo: "Shows, artistas y conferencistas"
+      texto: |
+        Para el contenido del evento hay representantes de artistas, productoras de shows y conciertos, y agencias de conferencistas (speakers) que también ofrecen capacitación, cursos y coaching para equipos.
+
+        Pide contrato con rider técnico, honorarios y viáticos desglosados, y confirma quién tiene los derechos para grabar o transmitir la presentación.
+    - id: turismo-de-reuniones
+      titulo: "Turismo de reuniones: convenciones, hoteles, transporte y destinos"
+      texto: |
+        Los congresos y convenciones mueven aerolíneas, hoteles, transporte terrestre, tours y a las oficinas de turismo de ciudades y gobiernos que compiten por atraer eventos. Las agencias de convenciones coordinan todo ese paquete.
+
+        Pregunta por tarifas de grupo, políticas de cancelación y si el destino ofrece apoyo a organizadores a través de su oficina de convenciones.
+    - id: expos-por-industria
+      titulo: "Expos por industria"
+      texto: |
+        Cada industria tiene sus ferias: alimentos y bebidas, publicidad y mercadotecnia, tecnología, construcción y muchas más. Participar como expositor o como visitante es una forma rápida de conocer proveedores y competencia.
+
+        Revisa el calendario oficial del recinto o del organizador, el perfil de visitantes que reporta y las fechas límite para reservar stand.
+  casas-productoras-mexico:
+    - id: fotografia-y-video-publicitario
+      titulo: "Fotografía y video publicitario"
+      texto: |
+        La fotografía publicitaria y el video para marcas van del catálogo de producto y la foto de evento al comercial y al contenido para redes. Muchas casas productoras tienen división de foto y video corporativo.
+
+        Pide portafolio de tu tipo de producto, define el uso y la vigencia de las imágenes en el contrato y confirma quién se queda con los archivos originales.
+    - id: equipo-de-produccion-y-postproduccion
+      titulo: "Equipo de producción y postproducción"
+      texto: |
+        Además de las casas productoras, hay empresas que rentan equipo de producción (cámaras, iluminación, grip) y estudios de postproducción de imagen: edición, corrección de color, efectos visuales y animación.
+
+        Para el audio del comercial, revisa también nuestra lista de [estudios de doblaje y postproducción de audio](/estudios-doblaje-locucion-mexico/).
+  estudios-diseno-branding-mexico:
+    - id: diseno-grafico-editorial-e-ilustracion
+      titulo: "Diseño gráfico, editorial, publicitario e ilustración"
+      texto: |
+        El diseño gráfico abarca piezas publicitarias, editoriales (revistas, libros, informes), multimedia e ilustración. Un estudio de branding suele hacer todo eso a partir de la identidad que creó para la marca.
+
+        Pide manual o guía de estilo como entregable, archivos editables y la cesión de derechos de las ilustraciones por escrito.
+    - id: diseno-industrial-y-textil
+      titulo: "Diseño industrial y textil"
+      texto: |
+        El diseño industrial resuelve objetos: empaques estructurales, exhibidores, mobiliario y productos. El diseño textil trabaja patrones, estampados y prendas, también para uniformes y artículos de marca.
+
+        Pide prototipos físicos y confirma con quién se va a fabricar, porque el diseño debe ajustarse a lo que el proveedor puede producir.
+  agencias-inbound-marketing-mexico:
+    - id: diseno-web-dominios-y-hosting
+      titulo: "Diseño web, dominios, hosting e intranets"
+      texto: |
+        El sitio web es la base del inbound: sin un sitio rápido, seguro y fácil de editar, el contenido no convierte. El servicio incluye diseño y desarrollo, registro de dominios, hosting y, en empresas, sistemas de intranet.
+
+        Asegúrate de que el dominio quede a nombre de tu empresa, pide accesos de administrador y pregunta qué pasa con el sitio si terminas el contrato.
+    - id: seo-email-marketing-y-bases-de-datos
+      titulo: "SEO, e-mail marketing y bases de datos"
+      texto: |
+        Posicionamiento en buscadores (SEO), campañas de e-mailing y gestión de bases de datos son el corazón del inbound: atraer, convertir y nutrir prospectos con información útil.
+
+        Nunca compres bases de datos: usa solo contactos que aceptaron recibir tus correos y cumple con la protección de datos personales. Pide reportes con métricas de negocio, no solo aperturas.
+    - id: banners-y-publicidad-display
+      titulo: "Banners y publicidad display"
+      texto: |
+        Los banners digitales son los anuncios gráficos en sitios y aplicaciones. Hoy se compran casi siempre de forma programática y se combinan con remarketing para impactar a quien ya visitó tu sitio.
+
+        Pide que te muestren en qué sitios apareció tu anuncio y excluye los que no van con tu marca.
+
+# Categoría (slug) -> [ranking, ancla]. Ancla vacía = inicio del ranking. Ranking "hub" = página de todos los rankings.
+categorias:
+  proveedores: [hub, ""]
+  agencias: [agencias-de-publicidad-mexico, agencias-atl-y-publicidad-integral]
+  agencias-de-publicidad: [agencias-de-publicidad-mexico, ""]
+  atl: [agencias-de-publicidad-mexico, agencias-atl-y-publicidad-integral]
+  ideas-originales: [agencias-de-publicidad-mexico, agencias-atl-y-publicidad-integral]
+  campanas-politicas: [agencias-de-publicidad-mexico, publicidad-politica-y-propaganda]
+  propaganda: [agencias-de-publicidad-mexico, publicidad-politica-y-propaganda]
+  agencias-de-recursos-humanos: [hub, ""]
+  agencias-de-tecnologia: [hub, ""]
+  agencias-de-viajes: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  agencias-de-mercadotecnia: [agencias-de-marketing-mexico, agencias-y-consultoras-de-mercadotecnia]
+  consultoras-de-marketing: [agencias-de-marketing-mexico, agencias-y-consultoras-de-mercadotecnia]
+  rp-s: [agencias-relaciones-publicas-mexico, ""]
+  agencias-de-medios: [agencias-de-medios-mexico, ""]
+  revistas-media-kit: [agencias-de-medios-mexico, revistas-y-media-kit]
+  automotriz: [agencias-de-medios-mexico, revistas-y-media-kit]
+  deportes: [agencias-de-medios-mexico, revistas-y-media-kit]
+  entretenimiento: [agencias-de-medios-mexico, revistas-y-media-kit]
+  femenina: [agencias-de-medios-mexico, revistas-y-media-kit]
+  interes-especifico: [agencias-de-medios-mexico, revistas-y-media-kit]
+  juvenil: [agencias-de-medios-mexico, revistas-y-media-kit]
+  masculina: [agencias-de-medios-mexico, revistas-y-media-kit]
+  negocios: [agencias-de-medios-mexico, revistas-y-media-kit]
+  universitarias: [agencias-de-medios-mexico, revistas-y-media-kit]
+  periodicos: [agencias-de-medios-mexico, periodicos-impresos-y-digitales]
+  periodicos-gratuitos: [agencias-de-medios-mexico, periodicos-impresos-y-digitales]
+  periodicos-locales: [agencias-de-medios-mexico, periodicos-impresos-y-digitales]
+  periodicos-masivos: [agencias-de-medios-mexico, periodicos-impresos-y-digitales]
+  periodicos-online: [agencias-de-medios-mexico, periodicos-impresos-y-digitales]
+  television: [agencias-de-medios-mexico, television-canales-y-espacios]
+  canales: [agencias-de-medios-mexico, television-canales-y-espacios]
+  radio: [grupos-radiofonicos-mexico, ""]
+  estaciones-de-radio: [grupos-radiofonicos-mexico, ""]
+  radiodifusoras: [grupos-radiofonicos-mexico, ""]
+  musica: [grupos-radiofonicos-mexico, ""]
+  noticias: [grupos-radiofonicos-mexico, ""]
+  publicidad-exterior: [empresas-publicidad-exterior-mexico, ""]
+  espectaculares-mexico: [empresas-publicidad-exterior-mexico, espectaculares-carteleras-y-vallas]
+  carteleras: [empresas-publicidad-exterior-mexico, espectaculares-carteleras-y-vallas]
+  vallas: [empresas-publicidad-exterior-mexico, espectaculares-carteleras-y-vallas]
+  vallas-moviles: [empresas-publicidad-exterior-mexico, espectaculares-carteleras-y-vallas]
+  camiones: [empresas-publicidad-exterior-mexico, espectaculares-carteleras-y-vallas]
+  metro: [empresas-publicidad-exterior-mexico, publicidad-en-transporte-publico]
+  metrobus: [empresas-publicidad-exterior-mexico, publicidad-en-transporte-publico]
+  mexibus: [empresas-publicidad-exterior-mexico, publicidad-en-transporte-publico]
+  parabuses: [empresas-publicidad-exterior-mexico, publicidad-en-transporte-publico]
+  medios-alternos: [empresas-publicidad-exterior-mexico, medios-alternos]
+  centros-comerciales: [empresas-publicidad-exterior-mexico, medios-alternos]
+  cines-y-teatros: [empresas-publicidad-exterior-mexico, medios-alternos]
+  estadios-y-foros: [empresas-publicidad-exterior-mexico, medios-alternos]
+  oficinas: [empresas-publicidad-exterior-mexico, medios-alternos]
+  universidades: [empresas-publicidad-exterior-mexico, medios-alternos]
+  activaciones: [agencias-btl-promotoria-mexico, activaciones-inflables-y-performance]
+  btl: [agencias-btl-promotoria-mexico, activaciones-inflables-y-performance]
+  inflables: [agencias-btl-promotoria-mexico, activaciones-inflables-y-performance]
+  lugares-para-promocion: [agencias-btl-promotoria-mexico, activaciones-inflables-y-performance]
+  performance: [agencias-btl-promotoria-mexico, activaciones-inflables-y-performance]
+  renta-de-equipos: [agencias-btl-promotoria-mexico, activaciones-inflables-y-performance]
+  agencias-de-promocion: [agencias-btl-promotoria-mexico, ""]
+  edecanes: [productoras-de-eventos-mexico, ""]
+  agencias-de-modelos: [productoras-de-eventos-mexico, ""]
+  pop: [proveedores-pop-promocionales-mexico, displays-posters-y-material-pop]
+  displays: [proveedores-pop-promocionales-mexico, displays-posters-y-material-pop]
+  posters: [proveedores-pop-promocionales-mexico, displays-posters-y-material-pop]
+  impresion-y-artes-graficas: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  editoriales: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  imprentas-digital: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  impresion-a-gran-formato: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  impresion-en-offset: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  serigrafia: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  venta-de-maquinas: [proveedores-pop-promocionales-mexico, impresion-offset-digital-gran-formato-y-serigrafia]
+  promocionales: [proveedores-pop-promocionales-mexico, articulos-promocionales-y-textiles]
+  articulos-promocionales: [proveedores-pop-promocionales-mexico, articulos-promocionales-y-textiles]
+  textil: [proveedores-pop-promocionales-mexico, articulos-promocionales-y-textiles]
+  empaque-y-embotellamiento: [proveedores-pop-promocionales-mexico, empaques-bolsas-y-etiquetas]
+  fabricantes-de-bolsas: [proveedores-pop-promocionales-mexico, empaques-bolsas-y-etiquetas]
+  fabricantes-de-empaques: [proveedores-pop-promocionales-mexico, empaques-bolsas-y-etiquetas]
+  fabricantes-de-etiquetas: [proveedores-pop-promocionales-mexico, empaques-bolsas-y-etiquetas]
+  fabricacion-renta-y-venta-de-banners: [proveedores-pop-promocionales-mexico, banners-y-lonas-impresas]
+  stands-y-display: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  fabricacion-renta-y-venta-de-stands: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  renta-de-alfombras: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  renta-de-decoracion: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  renta-de-equipo-audiovisual: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  renta-de-mobiliario: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  mobiliario-lounge: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  carpas-y-tarimas: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  decoracion: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  iluminacion: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  audio: [productoras-de-eventos-mexico, stands-mobiliario-y-renta-para-expos]
+  eventos: [productoras-de-eventos-mexico, ""]
+  salones-y-jardines: [productoras-de-eventos-mexico, sedes-salones-jardines-y-centros-de-convenciones]
+  centros-de-convenciones: [productoras-de-eventos-mexico, sedes-salones-jardines-y-centros-de-convenciones]
+  centros-de-exposiciones: [productoras-de-eventos-mexico, sedes-salones-jardines-y-centros-de-convenciones]
+  museos-y-otros: [productoras-de-eventos-mexico, sedes-salones-jardines-y-centros-de-convenciones]
+  banquetes: [productoras-de-eventos-mexico, banquetes-vinos-y-licores]
+  vinos-y-licores: [productoras-de-eventos-mexico, banquetes-vinos-y-licores]
+  shows-y-conciertos: [productoras-de-eventos-mexico, shows-artistas-y-conferencistas]
+  representantes-de-artistas: [productoras-de-eventos-mexico, shows-artistas-y-conferencistas]
+  speakers: [productoras-de-eventos-mexico, shows-artistas-y-conferencistas]
+  capacitacion-y-cursos: [productoras-de-eventos-mexico, shows-artistas-y-conferencistas]
+  coaching: [productoras-de-eventos-mexico, shows-artistas-y-conferencistas]
+  convenciones: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  agencias-de-convenciones: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  aerolineas: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  hoteles: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  tours: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  transporte: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  ciudades-y-gobiernos: [productoras-de-eventos-mexico, turismo-de-reuniones]
+  exposiciones-calendario-y-por-rubro: [productoras-de-eventos-mexico, expos-por-industria]
+  alimentos-y-bebidas: [productoras-de-eventos-mexico, expos-por-industria]
+  publicidad-y-mercadotecnia: [productoras-de-eventos-mexico, expos-por-industria]
+  casas-productoras: [casas-productoras-mexico, ""]
+  fotografia: [casas-productoras-mexico, fotografia-y-video-publicitario]
+  fotografias: [casas-productoras-mexico, fotografia-y-video-publicitario]
+  videos: [casas-productoras-mexico, fotografia-y-video-publicitario]
+  equipo-de-produccion: [casas-productoras-mexico, equipo-de-produccion-y-postproduccion]
+  post-produccion: [casas-productoras-mexico, equipo-de-produccion-y-postproduccion]
+  doblaje-y-locucion: [estudios-doblaje-locucion-mexico, ""]
+  estudios-de-grabacion: [estudios-doblaje-locucion-mexico, ""]
+  diseno: [estudios-diseno-branding-mexico, diseno-grafico-editorial-e-ilustracion]
+  agencias-de-diseno: [estudios-diseno-branding-mexico, ""]
+  identidad-corporativa: [estudios-diseno-branding-mexico, ""]
+  identidad-de-marca: [estudios-diseno-branding-mexico, ""]
+  diseno-grafico: [estudios-diseno-branding-mexico, diseno-grafico-editorial-e-ilustracion]
+  diseno-editorial: [estudios-diseno-branding-mexico, diseno-grafico-editorial-e-ilustracion]
+  diseno-publicitario: [estudios-diseno-branding-mexico, diseno-grafico-editorial-e-ilustracion]
+  diseno-multimedia: [estudios-diseno-branding-mexico, diseno-grafico-editorial-e-ilustracion]
+  ilustracion: [estudios-diseno-branding-mexico, diseno-grafico-editorial-e-ilustracion]
+  diseno-industrial: [estudios-diseno-branding-mexico, diseno-industrial-y-textil]
+  diseno-textil: [estudios-diseno-branding-mexico, diseno-industrial-y-textil]
+  marketing-digital: [agencias-inbound-marketing-mexico, ""]
+  inbound-marketing-mexico: [agencias-inbound-marketing-mexico, ""]
+  diseno-y-desarrollo-web: [agencias-inbound-marketing-mexico, diseno-web-dominios-y-hosting]
+  dominios-y-hosting: [agencias-inbound-marketing-mexico, diseno-web-dominios-y-hosting]
+  sistemas-de-intranet: [agencias-inbound-marketing-mexico, diseno-web-dominios-y-hosting]
+  buscadores: [agencias-inbound-marketing-mexico, seo-email-marketing-y-bases-de-datos]
+  e-mailing: [agencias-inbound-marketing-mexico, seo-email-marketing-y-bases-de-datos]
+  bases-de-datos: [agencias-inbound-marketing-mexico, seo-email-marketing-y-bases-de-datos]
+  banners: [agencias-inbound-marketing-mexico, banners-y-publicidad-display]
+  investigacion-de-mercados: [agencias-investigacion-de-mercados-mexico, ""]

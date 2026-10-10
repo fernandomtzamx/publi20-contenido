@@ -235,6 +235,26 @@ Si todavía no tienes agencia que te acompañe en el proceso, empieza por nuestr
 | Pimienta Films | Cine | CDMX | Cine de autor |
 | Videocine | Cine | CDMX | Producción y distribución |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Fotografía y video publicitario {#fotografia-y-video-publicitario}
+
+La fotografía publicitaria y el video para marcas van del catálogo de producto y la foto de evento al comercial y al contenido para redes. Muchas casas productoras tienen división de foto y video corporativo.
+
+Pide portafolio de tu tipo de producto, define el uso y la vigencia de las imágenes en el contrato y confirma quién se queda con los archivos originales.
+
+### Equipo de producción y postproducción {#equipo-de-produccion-y-postproduccion}
+
+Además de las casas productoras, hay empresas que rentan equipo de producción (cámaras, iluminación, grip) y estudios de postproducción de imagen: edición, corrección de color, efectos visuales y animación.
+
+Para el audio del comercial, revisa también nuestra lista de [estudios de doblaje y postproducción de audio](/estudios-doblaje-locucion-mexico/).
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué hace una casa productora?

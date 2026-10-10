@@ -217,6 +217,20 @@ Desglose por perfil y horas, qué servicios hace el equipo interno y cuáles un 
 | Improve Comunicaciones | Especialista | CDMX | Comunicación de salud |
 | Ingenia | Especialista | Houston y CDMX | Marketing digital B2B industrial |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Agencias y consultoras de mercadotecnia {#agencias-y-consultoras-de-mercadotecnia}
+
+Una agencia de mercadotecnia ejecuta: campañas, contenido, redes y activaciones. Una consultora de marketing diagnostica y diseña la estrategia: posicionamiento, precios, canales y plan comercial, y muchas veces deja la ejecución a otros.
+
+Si no tienes claro el problema, empieza por la consultoría. Si ya tienes estrategia y te falta capacidad para ejecutarla, busca una agencia con equipo propio para cada entregable.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué es una agencia de comunicación integral?

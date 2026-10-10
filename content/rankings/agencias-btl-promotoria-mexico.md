@@ -224,6 +224,20 @@ Si tu proyecto es más de evento que de anaquel, revisa también nuestra lista d
 | Matraka | Experiencias a gran escala | CDMX | Experiencias en vivo y patrocinios |
 | Player Group | Experiencias a gran escala | México | Brand y trade experience |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Activaciones, inflables y performance {#activaciones-inflables-y-performance}
+
+Las activaciones ponen la marca frente al consumidor en un lugar físico: muestreo, degustaciones, juegos, performance en vía pública o inflables gigantes que atraen miradas. Requieren lugares para promoción con permiso y, muchas veces, renta de equipo.
+
+Pide el plan completo: permisos del espacio, personal, seguros, equipo y cómo se va a medir el resultado. Una activación sin medición es solo un evento bonito.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué hace una agencia de promotoría?

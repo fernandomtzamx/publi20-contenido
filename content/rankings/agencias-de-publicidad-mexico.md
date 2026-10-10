@@ -220,6 +220,26 @@ Si ya sabes que tu proyecto es en la capital y quieres ver opciones por zona, re
 | Primitivo | Especialista | CDMX | Experiencias y BTL |
 | Queruva | Especialista | CDMX | Farmacéutica |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Agencias ATL y de publicidad integral {#agencias-atl-y-publicidad-integral}
+
+Una agencia ATL (above the line) crea y produce campañas para medios masivos: televisión, radio, impresos, exterior y digital. Cuando además coordina BTL, digital y medios, se le llama agencia de publicidad integral.
+
+Si buscas "ideas originales" para tu marca, este es el tipo de agencia que piensa el concepto creativo. Antes de contratar, pide casos de tu categoría con resultados de negocio y pregunta qué hacen en casa y qué subcontratan.
+
+### Publicidad política y propaganda {#publicidad-politica-y-propaganda}
+
+La propaganda electoral en México tiene reglas propias: tiempos de campaña, topes de gasto y restricciones para comprar espacios en radio y televisión, que administra la autoridad electoral. Por eso no se contrata igual que una campaña comercial.
+
+Si vas a trabajar con una agencia en este terreno, pide experiencia comprobable en campañas políticas, revisa los lineamientos vigentes del [INE](https://www.ine.mx/) y asegúrate de que cada gasto quede documentado.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué hace una agencia de publicidad?

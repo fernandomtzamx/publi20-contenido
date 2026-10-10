@@ -199,6 +199,26 @@ Si tu proyecto incluye material de punto de venta o impresos en volumen, revisa 
 | Savvy Studio | Editorial y espacios | CDMX y Nueva York | Branding, editorial e interiorismo |
 | Hola Combo | Animación y contenido | CDMX | Animación y motion graphics |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Diseño gráfico, editorial, publicitario e ilustración {#diseno-grafico-editorial-e-ilustracion}
+
+El diseño gráfico abarca piezas publicitarias, editoriales (revistas, libros, informes), multimedia e ilustración. Un estudio de branding suele hacer todo eso a partir de la identidad que creó para la marca.
+
+Pide manual o guía de estilo como entregable, archivos editables y la cesión de derechos de las ilustraciones por escrito.
+
+### Diseño industrial y textil {#diseno-industrial-y-textil}
+
+El diseño industrial resuelve objetos: empaques estructurales, exhibidores, mobiliario y productos. El diseño textil trabaja patrones, estampados y prendas, también para uniformes y artículos de marca.
+
+Pide prototipos físicos y confirma con quién se va a fabricar, porque el diseño debe ajustarse a lo que el proveedor puede producir.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué diferencia hay entre diseño y publicidad?

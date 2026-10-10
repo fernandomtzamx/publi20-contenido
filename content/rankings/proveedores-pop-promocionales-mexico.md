@@ -193,6 +193,44 @@ Si además necesitas espectaculares o lonas de gran formato en vía pública, re
 | Grupo Expomex | Comunicación visual | MTY, CDMX, GDL, Cancún | Displays y señalización |
 | Grupo OM | POP | CDMX (grupo en Madrid) | Señalización en tienda |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Displays, pósters y material POP {#displays-posters-y-material-pop}
+
+El material POP (point of purchase) vive en el punto de venta: displays de piso o mostrador, cabeceras, colgantes, stoppers y pósters. Su trabajo es ganar la decisión en el último metro.
+
+Pide prototipo antes del tiraje, confirma las medidas y reglas de cada cadena de tiendas y pregunta por materiales reciclables y por quién se encarga de la instalación.
+
+### Impresión offset, digital, gran formato y serigrafía {#impresion-offset-digital-gran-formato-y-serigrafia}
+
+La impresión offset conviene para tirajes grandes de folletos, revistas y editoriales; la digital, para tirajes cortos y personalizados; la de gran formato, para lonas, vinilos y señalización; y la serigrafía, para textiles y superficies especiales.
+
+Al cotizar, compara con el mismo papel o sustrato, tiraje y acabados, y pide una prueba de color. Si vas a comprar equipo, pregunta por refacciones y servicio técnico local.
+
+### Artículos promocionales y textiles {#articulos-promocionales-y-textiles}
+
+Los artículos promocionales son los objetos con tu marca: plumas, termos, mochilas, gorras, playeras y uniformes. Los mayoristas los importan y los distribuyen; los proveedores para empresas los personalizan y entregan.
+
+Pide muestra física con tu logotipo, tiempos de entrega por escrito y la técnica de marcado de cada pieza: bordado, serigrafía, láser o sublimación.
+
+### Empaques, bolsas y etiquetas {#empaques-bolsas-y-etiquetas}
+
+Empaques, bolsas y etiquetas son parte de la comunicación de tu producto: lo primero que el cliente ve y toca. Los fabricantes trabajan cartón, plástico, papel y materiales flexibles, y las etiquetas pueden ser autoadheribles, termoencogibles o impresas directo.
+
+Revisa la normativa de etiquetado que aplica a tu producto, pide pruebas de resistencia y pregunta por opciones de material reciclable o reciclado.
+
+### Banners y lonas impresas {#banners-y-lonas-impresas}
+
+Los banners impresos (roll up, araña, lonas con estructura) son la pieza básica de cualquier expo, evento o punto de venta. Se fabrican, se rentan o se venden con su estructura.
+
+Pide la medida del área de impresión, el tipo de lona y si la estructura es reutilizable para cambiar solo la gráfica en el siguiente evento.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué hace una agencia de promocionales?

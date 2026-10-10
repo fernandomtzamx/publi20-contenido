@@ -221,6 +221,32 @@ Comprar exterior es comprar ubicaciones, no promesas. Estas preguntas te ahorran
 | Rentable | Espectaculares y pantallas | CDMX | Espectaculares con implementaciones |
 | Publisitios | Plataforma | Monterrey | Catálogo de espacios en línea |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Espectaculares, carteleras y vallas {#espectaculares-carteleras-y-vallas}
+
+Los espectaculares son las estructuras grandes en azoteas o unipolares junto a vialidades; las carteleras y vallas son formatos a nivel de calle, fijos o en bardas. Las vallas móviles y la publicidad en camiones llevan el anuncio a recorrer rutas definidas.
+
+Antes de contratar, pide la ubicación exacta con fotografía actual, el permiso del sitio ante la autoridad local, el periodo de exhibición y si la impresión y la instalación están incluidas en el precio.
+
+### Publicidad en transporte: Metro, Metrobús, Mexibús y parabuses {#publicidad-en-transporte-publico}
+
+El transporte público concentra a millones de personas en trayectos diarios. Sus espacios publicitarios incluyen andenes, pasillos y vagones del Metro, estaciones y unidades del Metrobús y del Mexibús, y los parabuses en calle.
+
+Estos espacios los comercializan concesionarias autorizadas por cada sistema. Pide la ficha de cada estación o ruta con su afluencia y la fuente del dato, y confirma quién tiene la concesión vigente.
+
+### Medios alternos: plazas, cines, estadios, universidades y oficinas {#medios-alternos}
+
+Los medios alternos llevan tu marca a lugares donde la gente pasa tiempo: centros comerciales, cines y teatros, estadios y foros, universidades y edificios de oficinas. Van de pantallas y muebles a patrocinios y activaciones dentro del recinto.
+
+Su ventaja es el contexto: llegas a un público con perfil claro y con menos ruido que en la calle. Pide el aforo o tráfico del lugar con su fuente y las reglas del recinto para instalar material.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Vendor sigue existiendo?

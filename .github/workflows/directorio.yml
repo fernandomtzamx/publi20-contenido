@@ -33,12 +33,13 @@ jobs:
           set -o pipefail
           if grep -q "inventario" docs/directorio.txt; then python scripts/directorio.py --inventario 2>&1 | tee registro/directorio.log; fi
           if grep -q "mapa" docs/directorio.txt; then python scripts/directorio.py --mapa 2>&1 | tee -a registro/directorio.log; fi
-          if grep -q "aplicar" docs/directorio.txt; then python scripts/directorio.py --aplicar 2>&1 | tee registro/directorio-aplicar.log; fi
+          if grep -q "aplicar" docs/directorio.txt; then python scripts/directorio.py --aplicar 2>&1 | tee registro/directorio-aplicar.log registro/categorias.log registro/redirecciones-categorias.csv; fi
+          if grep -q "categorias" docs/directorio.txt; then python scripts/categorias.py --aplicar 2>&1 | tee registro/categorias.log; fi
       - name: Guardar en el repo
         if: always()
         run: |
           git config user.name "publi20-bot"
           git config user.email "publi20-bot@users.noreply.github.com"
-          for f in registro/directorio.log registro/directorio-fichas.csv registro/directorio-categorias.csv registro/mapa-directorio-rankings.csv registro/redirecciones-directorio.csv registro/directorio-aplicar.log; do [ -f "$f" ] && git add "$f"; done
+          for f in registro/directorio.log registro/directorio-fichas.csv registro/directorio-categorias.csv registro/mapa-directorio-rankings.csv registro/redirecciones-directorio.csv registro/directorio-aplicar.log registro/categorias.log registro/redirecciones-categorias.csv; do [ -f "$f" ] && git add "$f"; done
           git commit -q -m "Directorio hacia rankings [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main

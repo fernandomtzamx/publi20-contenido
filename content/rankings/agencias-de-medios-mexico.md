@@ -195,6 +195,32 @@ Si además de medios necesitas la idea creativa, revisa nuestro ranking de [agen
 | Human Connections Media | Independiente | México y Latam | Medios, datos y performance |
 | Mexa Creativa | Independiente (Grupo UPAX) | México | Creatividad y medios |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Revistas y media kit {#revistas-y-media-kit}
+
+Las revistas siguen vendiendo audiencias muy definidas: automotriz, deportes, entretenimiento, femenina, masculina, juvenil, negocios, universitarias y de interés específico. Su herramienta de venta es el media kit: el documento con perfil de lectores, circulación o tráfico, formatos y tarifas.
+
+Al revisar un media kit, pide que la circulación o las métricas digitales estén auditadas o que digan de dónde salen y de qué fecha son. Una agencia de medios puede negociar paquetes que combinen impreso, sitio web y redes de la revista.
+
+### Periódicos impresos y digitales {#periodicos-impresos-y-digitales}
+
+En periódicos hay tres familias: los masivos de circulación nacional, los locales que dominan una ciudad o región y los gratuitos que se reparten en transporte o zonas de oficinas. A eso se suman sus ediciones en línea, que venden display, contenido patrocinado y newsletters.
+
+Para pautar, pregunta por la cobertura real en tu plaza, el perfil del lector y si el espacio se marca como publicidad. En ediciones digitales, pide métricas de tu formato, no del sitio completo.
+
+### Televisión: canales y espacios publicitarios {#television-canales-y-espacios}
+
+Anunciarte en televisión implica elegir entre televisión abierta nacional, canales locales y televisión de paga, además de las plataformas de streaming con publicidad. Cada una se compra distinto: por spot, por paquete o por audiencia.
+
+Una agencia de medios planea la mezcla, negocia tarifas y mide si el comercial llegó a quien debía. Si tu presupuesto es chico, la televisión local o el streaming con segmentación suelen ser la puerta de entrada.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Qué es una empresa de medios o central de medios?

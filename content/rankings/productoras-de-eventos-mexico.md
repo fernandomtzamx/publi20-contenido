@@ -269,6 +269,50 @@ Desglose por concepto, fechas de entrega del render y de aprobación, penalizaci
 | Toka Modelos y Talentos | Modelos y edecanes | CDMX | Modelos, edecanes e influencers |
 | Agencia Modelos Monterrey | Agencia de modelos | Monterrey | Modelos comerciales y edecanes |
 
+<!-- directorio:inicio -->
+
+## Servicios relacionados con este ranking
+
+Si llegaste buscando alguno de estos servicios, esto es lo que conviene saber antes de contratar.
+
+### Stands, mobiliario y renta para expos y eventos {#stands-mobiliario-y-renta-para-expos}
+
+Un stand o un evento necesita más que la idea: fabricación o renta del stand, mobiliario y salas lounge, alfombras, decoración, carpas y tarimas, iluminación, audio y equipo audiovisual. Hay proveedores que hacen todo llave en mano y otros que rentan por pieza.
+
+Pide render y plano con medidas, confirma las reglas técnicas del recinto y deja por escrito qué incluye el montaje, el desmontaje y el almacenaje.
+
+### Sedes: salones, jardines, centros de convenciones y museos {#sedes-salones-jardines-y-centros-de-convenciones}
+
+La sede define el evento: salones y jardines para eventos sociales y corporativos, centros de convenciones y de exposiciones para congresos y ferias, y museos u otros espacios culturales para lanzamientos con carácter.
+
+Visita la sede antes de firmar, pide capacidad por montaje (auditorio, banquete, cóctel) y revisa qué proveedores son exclusivos del lugar.
+
+### Banquetes, vinos y licores {#banquetes-vinos-y-licores}
+
+El servicio de banquetes cubre alimentos, bebidas, meseros y loza; los proveedores de vinos y licores surten la barra o la diseñan completa. En eventos corporativos conviene un solo responsable de alimentos y bebidas.
+
+Pide degustación, cotización por persona con todo incluido y las políticas de descorche si llevas tus propias bebidas.
+
+### Shows, artistas y conferencistas {#shows-artistas-y-conferencistas}
+
+Para el contenido del evento hay representantes de artistas, productoras de shows y conciertos, y agencias de conferencistas (speakers) que también ofrecen capacitación, cursos y coaching para equipos.
+
+Pide contrato con rider técnico, honorarios y viáticos desglosados, y confirma quién tiene los derechos para grabar o transmitir la presentación.
+
+### Turismo de reuniones: convenciones, hoteles, transporte y destinos {#turismo-de-reuniones}
+
+Los congresos y convenciones mueven aerolíneas, hoteles, transporte terrestre, tours y a las oficinas de turismo de ciudades y gobiernos que compiten por atraer eventos. Las agencias de convenciones coordinan todo ese paquete.
+
+Pregunta por tarifas de grupo, políticas de cancelación y si el destino ofrece apoyo a organizadores a través de su oficina de convenciones.
+
+### Expos por industria {#expos-por-industria}
+
+Cada industria tiene sus ferias: alimentos y bebidas, publicidad y mercadotecnia, tecnología, construcción y muchas más. Participar como expositor o como visitante es una forma rápida de conocer proveedores y competencia.
+
+Revisa el calendario oficial del recinto o del organizador, el perfil de visitantes que reporta y las fechas límite para reservar stand.
+
+<!-- directorio:fin -->
+
 ## Preguntas frecuentes
 
 ### ¿Cuáles son las agencias de modelos en la Ciudad de México?
