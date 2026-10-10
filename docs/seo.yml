@@ -10,7 +10,7 @@ modulos:
   redirections: "off"
 
 # Cambios sobre los ajustes actuales de Rank Math (el resto se conserva).
-# El directorio (/listing/) sigue vivo, indexado y en el sitemap hasta que se aprueben los rankings.
+# El directorio (/listing/) ya redirige a los rankings: sale del sitemap.
 ajustes:
   general:
     nofollow_external_links: "on"
@@ -35,15 +35,15 @@ ajustes:
     noindex_empty_taxonomies: "on"
     disable_date_archives: "on"
     noindex_search: "on"
-    pt_listing_robots: ["index"]
-    pt_listing_custom_robots: "off"
+    pt_listing_robots: ["noindex"]
+    pt_listing_custom_robots: "on"
   sitemap:
     include_images: "on"
     include_featured_image: "on"
     authors_sitemap: "off"
     pt_post_sitemap: "on"
     pt_page_sitemap: "on"
-    pt_listing_sitemap: "on"
+    pt_listing_sitemap: "off"
     tax_category_sitemap: "on"
     tax_post_tag_sitemap: "off"
 
