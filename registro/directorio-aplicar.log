@@ -1,25 +1,45 @@
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Rankings publicados: 18
-Acciones: sin=3955
+Acciones: sin=3480, reapuntada=521
 Por destino:
-    481 /rankings/agencias-inbound-marketing-mexico/
-    469 /rankings/agencias-de-publicidad-por-estado/
-    407 /rankings/agencias-de-publicidad-mexico/
-    375 /rankings/agencias-de-marketing-mexico/
-    365 /rankings/casas-productoras-mexico/
-    323 /rankings/estudios-diseno-branding-mexico/
-    266 /rankings/agencias-btl-promotoria-mexico/
-    239 /rankings/proveedores-pop-promocionales-mexico/
-    212 /rankings/agencias-de-medios-mexico/
-    153 /rankings/empresas-publicidad-exterior-mexico/
-    151 /rankings/productoras-de-eventos-mexico/
-    126 /rankings/estudios-doblaje-locucion-mexico/
-    106 /rankings/agencias-investigacion-de-mercados-mexico/
-     92 /rankings/agencias-relaciones-publicas-mexico/
-     72 /rankings/agencias-de-publicidad-cdmx/
-     56 /rankings/grupos-radiofonicos-mexico/
-     48 /rankings/agencias-de-publicidad-queretaro/
-     13 /rankings/agencias-de-publicidad-monterrey/
-      1 /categoria/rankings/
+    483 /rankings/agencias-de-publicidad-por-estado/
+    468 /rankings/agencias-inbound-marketing-mexico/
+    351 /rankings/casas-productoras-mexico/
+    317 /rankings/agencias-de-marketing-mexico/
+    286 /rankings/estudios-diseno-branding-mexico/
+    268 /rankings/agencias-de-publicidad-mexico/
+    235 /rankings/agencias-btl-promotoria-mexico/
+    206 /rankings/agencias-de-medios-mexico/
+    174 /categoria/rankings/
+    173 /rankings/proveedores-pop-promocionales-mexico/
+    150 /rankings/productoras-de-eventos-mexico/
+    130 /rankings/empresas-publicidad-exterior-mexico/
+    123 /rankings/estudios-doblaje-locucion-mexico/
+    104 /rankings/agencias-investigacion-de-mercados-mexico/
+     91 /rankings/agencias-relaciones-publicas-mexico/
+     66 /rankings/agencias-de-publicidad-cdmx/
+     66 /rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
+     58 /rankings/grupos-radiofonicos-mexico/
+     51 /rankings/agencias-de-marketing-mexico/#agencias-y-consultoras-de-mercadotecnia
+     44 /rankings/agencias-de-publicidad-queretaro/
+     39 /rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles
+     28 /rankings/estudios-diseno-branding-mexico/#diseno-grafico-editorial-e-ilustracion
+     13 /rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
+     12 /rankings/agencias-de-publicidad-monterrey/
+      9 /rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting
+      9 /rankings/productoras-de-eventos-mexico/#stands-mobiliario-y-renta-para-expos
+      8 /rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop
+      7 /rankings/agencias-de-medios-mexico/#television-canales-y-espacios
+      6 /rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
+      5 /rankings/agencias-de-publicidad-mexico/#agencias-atl-y-publicidad-integral
+      4 /rankings/casas-productoras-mexico/#fotografia-y-video-publicitario
+      3 /rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales
+      3 /rankings/empresas-publicidad-exterior-mexico/#medios-alternos
+      3 /rankings/agencias-de-medios-mexico/#revistas-y-media-kit
+      2 /rankings/agencias-btl-promotoria-mexico/#activaciones-inflables-y-performance
+      2 /rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas
+      2 /rankings/productoras-de-eventos-mexico/#turismo-de-reuniones
+      1 /rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda
+      1 /rankings/empresas-publicidad-exterior-mexico/#publicidad-en-transporte-publico
 Verificación: 80 de 80 correctas
