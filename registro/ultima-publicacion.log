@@ -1,8 +1,8 @@
-fecha: 2026-10-10T21:07:47Z
-commit: 77129d59e11e099f3e95c607fc83744de6f4ca0e
+fecha: 2026-10-10T21:46:11Z
+commit: b36337d35fc476593a692f41e8e9c545dced3d25
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38086375131
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38088847634
 ---
 WP_URL: presente
 WP_USER: presente
@@ -10,7 +10,7 @@ WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Conectado como Fernando Martínez (roles: administrator)
+Conectado como Fernando Arturo Martínez Aguilar (roles: administrator)
 Perfil del usuario conectado: nombre público 'Fernando Arturo Martínez Aguilar'
 Categoría actualizada: publicidad -> Publicidad
 Categoría actualizada: creatividad -> Creatividad
