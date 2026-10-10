@@ -159,7 +159,8 @@ def conflictos():
     previas, page = [], 0
     while True:
         items = red(wp, "GET", "redirect", params={"per_page": 200, "page": page}).get("items", [])
-        previas += [i for i in items if grupos.get(i.get("group_id")) != GRUPO]
+        # Solo los grupos heredados: los de la migración (remediación y directorio a rankings) no se tocan.
+        previas += [i for i in items if grupos.get(i.get("group_id")) not in (GRUPO, "Directorio a rankings")]
         if len(items) < 200:
             break
         page += 1
