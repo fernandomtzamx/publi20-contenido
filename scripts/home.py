@@ -270,7 +270,9 @@ def armar(cats, por_slug, patro, posts, media):
                  f'<ol>{items}</ol></section>')
 
     s = CFG["sobre"]
-    h.append(f'<section class="p20-h-about"><h2>{e(s["titulo"])}</h2><p>{e(s["texto"])}</p></section>')
+    contacto = (f'<p class="p20-h-contacto"><strong>Contacto editorial y redacción:</strong> '
+                f'<a href="mailto:{e(s["contacto"])}">{e(s["contacto"])}</a></p>') if s.get("contacto") else ""
+    h.append(f'<section class="p20-h-about"><h2>{e(s["titulo"])}</h2><div><p>{e(s["texto"])}</p>{contacto}</div></section>')
 
     css = (ROOT / "scripts" / "home.css").read_text(encoding="utf-8")
     css = re.sub(r"\s*\n\s*", "", css)

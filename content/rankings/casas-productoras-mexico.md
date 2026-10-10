@@ -259,4 +259,4 @@ Porque no pudimos verificarlas con las reglas de este ranking. De Cantarranas Fi
 
 Antes de pedir cotizaciones, elige tres productoras de esta lista que hayan hecho algo parecido a lo que imaginas y pídeles ese caso. Vas a aprender más en esa llamada que en cualquier reel.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>

@@ -229,4 +229,4 @@ No hay una tarifa pública que podamos citar con fuente. Pide cotización a tres
 
 Antes de abrir un pitch, escribe en una línea qué te quita el sueño: ¿que no te conozcan o que hablen mal de ti? La respuesta te dice si necesitas una agencia de marca o una de reputación, y con eso ya puedes elegir tres nombres de esta lista.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>

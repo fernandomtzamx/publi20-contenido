@@ -73,6 +73,22 @@ def bloque(wid=""):
             "f();document.addEventListener('DOMContentLoaded',f);})();</script>")
 
 
+CONTACTO = "fernando@publi20.com"
+MARCA_CONTACTO = "publi20-contacto-editorial"
+
+
+def contacto(wp, widgets, ids):
+    """Bloque visible en el pie de todas las páginas con el contacto editorial y de redacción."""
+    destino = "footersecond" if "footersecond" in ids else "footerfirst"
+    html = (f'<!-- {MARCA_CONTACTO} --><p style="margin:0 0 6px">Para propuestas de nota, correcciones y datos de rankings:</p>'
+            f'<p style="margin:0"><a href="mailto:{CONTACTO}" style="color:#ea3322;font-weight:700">{CONTACTO}</a></p>')
+    body = {"id_base": "custom_html", "sidebar": destino,
+            "instance": {"raw": {"title": "Contacto editorial y redacción", "content": html}}}
+    previo = next((w for w in widgets if MARCA_CONTACTO in json.dumps(w.get("instance", {}))), None)
+    w = wp.req("POST", f"widgets/{previo['id']}", json=body) if previo else wp.req("POST", "widgets", json=body)
+    log(f"contacto editorial: widget {w['id']} en {w['sidebar']} ({CONTACTO})")
+
+
 def aplicar(wp):
     sidebars = wp.req("GET", "sidebars", params={"context": "edit"})
     log("sidebars: " + ", ".join(f"{b['id']}({b.get('name')}, {len(b.get('widgets', []))})" for b in sidebars))
@@ -87,6 +103,7 @@ def aplicar(wp):
     body["instance"]["raw"]["content"] = bloque(w["id"])
     w = wp.req("POST", f"widgets/{w['id']}", json=body)
     log(f"widget {w['id']} en {w['sidebar']} con el logo {LOGO}")
+    contacto(wp, widgets, ids)
 
 
 if __name__ == "__main__":

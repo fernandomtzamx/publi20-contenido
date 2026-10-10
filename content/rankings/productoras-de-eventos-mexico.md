@@ -293,4 +293,4 @@ Funpix y La Cabina México dan servicio en la capital. Pide tu logo en la tira y
 
 Mañana, antes de pedir cotizaciones, escribe en una hoja qué necesitas producir, construir y a quién vas a poner frente a la cámara. Con eso, cualquiera de esta lista te podrá cotizar en serio.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>

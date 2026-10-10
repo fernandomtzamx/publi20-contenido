@@ -72,3 +72,5 @@
 @media (max-width:960px){.p20-h-portada{grid-template-columns:1fr}.p20-h-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.p20-h-about{grid-template-columns:1fr;gap:12px}}
 @media (max-width:640px){.p20-home{padding:0 16px 40px}.p20-h-masthead{padding-top:24px}.p20-h-grid{grid-template-columns:1fr;gap:26px}.p20-h-cab{flex-direction:column;align-items:flex-start;gap:8px}.p20-h-video{flex-direction:column;align-items:flex-start;padding:26px 22px}.p20-h-archivo ol{grid-template-columns:1fr}.p20-h-side li{grid-template-columns:84px minmax(0,1fr)}}
 @media (prefers-reduced-motion:reduce){.p20-home *{transition:none!important}}
+.p20-home .p20-h-contacto{margin-top:14px;font-size:16px;color:var(--p20-negro)}
+.p20-home .p20-h-contacto a{color:var(--p20-rojo);font-weight:700;text-decoration:underline;text-underline-offset:2px}

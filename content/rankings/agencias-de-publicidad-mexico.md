@@ -244,4 +244,4 @@ No hay tarifa pública ni un estándar que podamos citar con fuente. Pide cotiza
 
 Antes de mandar tu próximo brief, elige tres agencias de esta lista que se parezcan a tu problema y pídeles el caso que más se le acerque. Esa conversación te dice más que cualquier ranking.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>

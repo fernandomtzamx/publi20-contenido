@@ -241,4 +241,4 @@ No hay una tarifa pública que podamos citar con fuente. Pide cotización a tres
 
 Antes de abrir un pitch, escribe en una línea cuál es tu problema principal. Si cabe en una sola disciplina, llama a un especialista; si es de coordinación, llama a dos 360 de esta lista y pregúntales qué subcontratan.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
