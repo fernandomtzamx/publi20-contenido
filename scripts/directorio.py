@@ -98,32 +98,71 @@ def por_estado(texto, cfg):
     return None
 
 
+def cat_destinos():
+    c = yaml.safe_load((ROOT / "docs" / "directorio-categorias.yml").read_text(encoding="utf-8"))
+    out = {}
+    for slug, (r, ancla) in c["categorias"].items():
+        out[slug] = ("/categoria/rankings/" if r == "hub" else f"/rankings/{r}/") + (f"#{ancla}" if ancla else "")
+    return out
+
+
 def mapa():
     cfg = yaml.safe_load((ROOT / "docs" / "directorio-rankings.yml").read_text(encoding="utf-8"))
     reglas, defecto = cfg["reglas"], cfg["por_defecto"]
     marcas = {k.lower(): v for k, v in (cfg.get("fichas") or {}).items()}
+    manual = {k.lower(): v for k, v in (cfg.get("urls") or {}).items()}
+    cats = cat_destinos()
+
+    def a_mano(texto):
+        t = texto.lower()
+        return next((d for k, d in manual.items() if k in t), None)
+
+    def por_ruta(ruta_vieja):
+        """Categoría de la URL vieja (/proveedores/<cat>/<subcat>/<id>-<nombre> o /component/mtree/...)."""
+        segs = [x for x in ruta_vieja.split("?")[0].strip("/").split("/") if x]
+        if "buscar-por" in segs:
+            return "/rankings/agencias-de-publicidad-por-estado/" if re.search(r"state|city", ruta_vieja) else "/categoria/rankings/"
+        for seg in reversed(segs):
+            if seg in cats:
+                return cats[seg]
+        return None
+
     destino, filas = {}, []
     for f in csv.DictReader((OUT / "directorio-fichas.csv").open(encoding="utf-8")):
-        d = marcas.get(f["slug"].lower()) or clasificar(f"{f['slug']} {f['nombre']}", reglas, None) \
+        d = a_mano(f["slug"]) or marcas.get(f["slug"].lower()) or clasificar(f"{f['slug']} {f['nombre']}", reglas, None) \
             or clasificar(limpio(f.get("texto", "")), reglas, None) or por_estado(f.get("texto", ""), cfg) or defecto
         destino[ruta(f["url"])] = d
         filas.append([ruta(f["url"]), d, "ficha del directorio", f["nombre"]])
-    # Reglas viejas que hoy mandan a una ficha: se reapuntan directo al ranking (sin cadenas)
-    for r in csv.DictReader((OUT / "auditoria-redirecciones.csv").open(encoding="utf-8")):
-        dest = ruta(r["detalle"])
-        if dest in destino:
-            filas.append([r["origen"], destino[dest], f"regla {r['id']} reapuntada", ""])
-    # URLs viejas /proveedores/... (hoy van al pilar): por la categoría de su ruta o su nombre
-    for r in csv.DictReader((ROOT / "docs" / "redirecciones.csv").open(encoding="utf-8")):
-        if r["origen"].startswith(("/proveedores/", "/directorio")) and "/listing/" not in r["destino"]:
-            filas.append([r["origen"], clasificar(r["origen"], reglas, defecto), "URL vieja del directorio", ""])
+    vistos = {x[0] for x in filas}
+    # Reglas viejas que mandaban a una ficha (/directorio/proveedores/<slug>-<id>): al mismo destino que su ficha
+    previas = OUT / "redirecciones-directorio.csv"
+    fuente = list(csv.DictReader(previas.open(encoding="utf-8"))) if previas.exists() else []
+    for r in fuente:
+        if not r["motivo"].startswith("regla") or r["origen"] in vistos:
+            continue
+        slug = re.sub(r"-\d+$", "", r["origen"].rstrip("/").split("/")[-1])
+        d = a_mano(r["origen"]) or destino.get(f"/listing/{slug}/") or r["destino_previsto"]
+        filas.append([r["origen"], d, r["motivo"], ""])
+        vistos.add(r["origen"])
+    # URLs viejas del directorio (/proveedores/... y /component/mtree/...): a mano, por su categoría o por su nombre
+    pilares = {"/publicidad/", "/mercadotecnia/", "/negocios/", "/emprendimiento/", "/"}
+    candidatas = [(r["origen"], r["destino"]) for r in csv.DictReader((ROOT / "docs" / "redirecciones.csv").open(encoding="utf-8"))
+                  if r["origen"].startswith(("/proveedores", "/directorio")) and "/listing/" not in r["destino"]]
+    candidatas += [(r["origen"], r["detalle"]) for r in csv.DictReader((OUT / "auditoria-redirecciones.csv").open(encoding="utf-8"))
+                   if r["origen"].startswith(("/component/mtree", "/proveedores")) and ruta(r["detalle"]).rstrip("/") + "/" in pilares]
+    for origen, _ in candidatas:
+        if origen in vistos:
+            continue
+        vistos.add(origen)
+        d = a_mano(origen) or por_ruta(origen) or clasificar(origen, reglas, None) or "/categoria/rankings/"
+        filas.append([origen, d, "URL vieja del directorio", ""])
     with (OUT / "mapa-directorio-rankings.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["origen", "destino", "motivo", "nombre_ficha"])
         w.writerows(filas)
     from collections import Counter
     print(f"{len(filas)} filas")
-    for d, n in Counter(x[1] for x in filas).most_common():
+    for d, n in Counter(x[1].split("#")[0] for x in filas).most_common():
         print(f"  {n:5} {d}")
 
 
@@ -150,11 +189,12 @@ def aplicar(wp):
     sust = cfg.get("sustitutos") or {}
 
     def final(d):
+        base, _, ancla = d.partition("#")
         seen = 0
-        while d not in publicados and seen < 5:
-            d = sust.get(d, cfg["por_defecto"])
+        while base not in publicados and seen < 5:
+            base, ancla = sust.get(base, cfg["por_defecto"]), ""
             seen += 1
-        return d
+        return base + (f"#{ancla}" if ancla else "")
 
     # Todas las reglas existentes, por origen
     items, page = [], 0
@@ -233,10 +273,10 @@ def aplicar(wp):
     for o, d, *_ in muestra:
         r = requests.get(BASE + o + f"?nc={random.randint(1, 10**9)}", allow_redirects=False, timeout=30,
                          headers={"User-Agent": "publi20-directorio/1.0", "Cache-Control": "no-cache"})
-        loc = ruta(r.headers.get("location", ""))
-        ok = r.status_code == 301 and loc.rstrip("/") == d.rstrip("/")
+        loc = ruta(r.headers.get("location", "")).split("#")[0]
+        ok = r.status_code == 301 and loc.rstrip("/") == d.split("#")[0].rstrip("/")
         if ok:
-            ok = requests.get(BASE + d, timeout=30, headers={"User-Agent": "publi20-directorio/1.0"}).status_code == 200
+            ok = requests.get(BASE + d.split("#")[0], timeout=30, headers={"User-Agent": "publi20-directorio/1.0"}).status_code == 200
         if not ok:
             malos += 1
             if malos <= 5:

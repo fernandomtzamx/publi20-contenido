@@ -39,3 +39,22 @@ sustitutos:
   /rankings/grupos-radiofonicos-mexico/: /rankings/agencias-de-medios-mexico/
   /rankings/estudios-doblaje-locucion-mexico/: /rankings/casas-productoras-mexico/
   /rankings/estudios-diseno-branding-mexico/: /rankings/agencias-de-publicidad-mexico/
+
+# Correcciones a mano para las fichas con más tráfico (si el texto aparece en la URL vieja o en el slug de la ficha).
+# Van antes que cualquier otra regla. La categoría de la ruta vieja (/proveedores/<categoría>/...) va en segundo lugar.
+urls:
+  alparied: /rankings/proveedores-pop-promocionales-mexico/#displays-posters-y-material-pop
+  interpublic: /rankings/agencias-de-medios-mexico/
+  empresas-isal: /rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
+  chuviscar: /rankings/agencias-de-medios-mexico/#periodicos-impresos-y-digitales
+  capaco: /rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
+  signaleticas: /rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
+  amfar: /rankings/proveedores-pop-promocionales-mexico/#articulos-promocionales-y-textiles
+  tv-promo: /rankings/agencias-btl-promotoria-mexico/
+  grupo-om: /rankings/proveedores-pop-promocionales-mexico/
+  soltar-impresores: /rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
+  flexo-print: /rankings/proveedores-pop-promocionales-mexico/#empaques-bolsas-y-etiquetas
+  carteleras-y-neon: /rankings/empresas-publicidad-exterior-mexico/#espectaculares-carteleras-y-vallas
+  impactos-frecuencia: /rankings/agencias-de-medios-mexico/
+  anuncios-en-directorios: /rankings/agencias-de-medios-mexico/
+  eficolor: /rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
