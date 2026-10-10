@@ -14,12 +14,12 @@ autor:
     name: "Fernando Arturo Martínez Aguilar"
     nickname: "Fernando Martínez"
     slug: "fernando-martinez"
-    description: >-
-      Fernando Arturo Martínez Aguilar es editor de Publi2.0, el medio editorial sobre publicidad,
-      mercadotecnia, negocios y emprendimiento en México. Escribe y coordina análisis, guías y rankings
-      sobre agencias, medios, marketing digital y la industria automotriz, con una regla que no se negocia:
-      cada dato lleva su fuente y nadie paga por aparecer en un ranking. Contacto editorial:
-      contacto@publi20.com.
+    description: |-
+      Fernando Arturo Martínez Aguilar es emprendedor digital, experto en inbound marketing y editor de Publi2.0, el medio sobre publicidad, mercadotecnia, negocios y emprendimiento en México.
+
+      Trabaja en el cruce entre tecnología, inteligencia artificial y marketing: cómo atraer clientes con contenido útil, automatizar con criterio humano y usar la IA para crear, medir y vender mejor. En Publi2.0 escribe análisis, guías y rankings con una regla que no se negocia: cada dato lleva su fuente y nadie paga por aparecer.
+
+      Contacto editorial: contacto@publi20.com.
 
 # Cierra comentarios y pingbacks en todo el contenido existente y en los ajustes del sitio.
 cerrar_comentarios: true
