@@ -8,7 +8,7 @@ categories: [rankings]
 tags: [diseño gráfico, branding, identidad de marca, diseño de empaque, estudios de diseño, diseño editorial]
 palabra_clave: "diseño y publicidad"
 portada: plantilla
-featured_image: images/estudios-diseno-branding-mexico-portada.png
+featured_image: images/estudios-diseno-branding-mexico-portada-v2.png
 featured_alt: "Ranking 2026 de estudios de diseño gráfico y branding en México"
 portada_kicker: "RANKING 2026"
 portada_stat: "9"
