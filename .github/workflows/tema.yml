@@ -48,7 +48,7 @@ jobs:
               pg.screenshot(path="registro/tema-movil.png", clip={"x": 0, "y": 0, "width": 390, "height": 160})
               info = pg.evaluate("""() => [...document.querySelectorAll('img')].filter(i => i.getBoundingClientRect().top < 120 && i.offsetWidth > 0)
                   .map(i => i.currentSrc + ' | ' + i.offsetWidth + 'x' + i.offsetHeight + ' | ' + (i.closest('[id]') || {}).id)""")
-              open("registro/tema-inspeccion.log", "a").write("\\nImágenes visibles en el encabezado móvil:\\n" + "\\n".join(info) + "\\n")
+              open("registro/tema.log", "a").write("\\nImágenes visibles en el encabezado móvil:\\n" + "\\n".join(info) + "\\n")
               b.close()
           PY
       - name: Guardar en el repo

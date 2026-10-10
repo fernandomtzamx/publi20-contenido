@@ -3,6 +3,12 @@
 
   python scripts/tema.py --inspeccionar   logo de escritorio y de celular, favicon, rutas REST de Rehub
                                           -> registro/tema-inspeccion.log
+  python scripts/tema.py --aplicar        logo de Publi2.0 en la versión móvil
+
+El logo móvil y el del panel móvil son opciones de Rehub (no están en la API) y quedaron apuntando a las
+imágenes del demo del tema (remag.wpsoul.net). Mientras no se cambien en Rehub > Theme Options, un widget
+HTML invisible en el pie (presente en todas las páginas) reemplaza cualquier imagen del demo por el logo
+de Publi2.0: con CSS (content: url) desde el primer pintado y con JS como respaldo.
 """
 import argparse
 import importlib.util
@@ -52,15 +58,51 @@ def inspeccionar(wp):
         log(f"tema: {e}")
 
 
+MARCA = "publi20-logo-movil"
+LOGO = "https://www.publi20.com/wp-content/uploads/2021/07/publi20-1.png"
+
+
+def bloque(wid=""):
+    oculto = f"#{wid}{{display:none!important}}" if wid else ""
+    return (f"<!-- {MARCA} -->\n<style>{oculto}"
+            f'img[src*="remag.wpsoul.net"]{{content:url("{LOGO}");object-fit:contain;width:auto!important;'
+            "max-width:150px;height:32px!important}"
+            "#mobpanelimg{height:40px!important;max-width:170px}</style>\n"
+            "<script>(function(){function f(){document.querySelectorAll('img[src*=\"remag.wpsoul.net\"]')"
+            f".forEach(function(i){{i.src='{LOGO}';i.removeAttribute('srcset');i.alt='Publi2.0';}});}}"
+            "f();document.addEventListener('DOMContentLoaded',f);})();</script>")
+
+
+def aplicar(wp):
+    sidebars = wp.req("GET", "sidebars", params={"context": "edit"})
+    log("sidebars: " + ", ".join(f"{b['id']}({b.get('name')}, {len(b.get('widgets', []))})" for b in sidebars))
+    widgets = wp.req("GET", "widgets", params={"context": "edit", "per_page": 100})
+    previo = next((w for w in widgets if MARCA in json.dumps(w.get("instance", {}))), None)
+    if previo:
+        destino = previo["sidebar"]
+    else:
+        # El pie se pinta en todas las páginas: se usa la barra donde está el widget de entradas recientes.
+        reciente = next((w for w in widgets if w.get("id_base") in ("recent-posts", "block") and w.get("sidebar") != "wp_inactive_widgets"
+                         and "recent" in json.dumps(w).lower()), None)
+        destino = reciente["sidebar"] if reciente else next(b["id"] for b in sidebars if "foot" in b["id"].lower())
+    log(f"barra elegida: {destino}")
+    body = {"id_base": "custom_html", "sidebar": destino, "instance": {"raw": {"title": "", "content": bloque()}}}
+    w = wp.req("POST", f"widgets/{previo['id']}", json=body) if previo else wp.req("POST", "widgets", json=body)
+    body["instance"]["raw"]["content"] = bloque(w["id"])
+    w = wp.req("POST", f"widgets/{w['id']}", json=body)
+    log(f"widget {w['id']} en {w['sidebar']} con el logo {LOGO}")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--inspeccionar", action="store_true")
+    ap.add_argument("--aplicar", action="store_true")
     a = ap.parse_args()
     wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
     wp.whoami()
     try:
-        inspeccionar(wp)
+        aplicar(wp) if a.aplicar else inspeccionar(wp)
     except Exception as e:  # noqa: BLE001
         log(f"ERROR: {e}")
-    (ROOT / "registro" / "tema-inspeccion.log").write_text("\n".join(LOG) + "\n", encoding="utf-8")
+    (ROOT / "registro" / ("tema.log" if a.aplicar else "tema-inspeccion.log")).write_text("\n".join(LOG) + "\n", encoding="utf-8")
     sys.exit(0)
