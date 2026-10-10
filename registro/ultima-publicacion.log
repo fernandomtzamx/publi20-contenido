@@ -1,59 +1,50 @@
-fecha: 2026-10-10T00:45:39Z
-commit: 37e95c41b683cb4616c86eb69a62e15621109491
+fecha: 2026-10-10T03:00:10Z
+commit: 272bfc06b5c790f505b477266e9dfed1d9135f88
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38010346606
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38018960212
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/rankings/agencias-btl-promotoria-mexico.md content/rankings/agencias-de-marketing-mexico.md content/rankings/agencias-de-medios-mexico.md content/rankings/agencias-investigacion-de-mercados-mexico.md content/rankings/casas-productoras-mexico.md content/rankings/proveedores-pop-promocionales-mexico.md 
+Argumentos: content/rankings/agencias-btl-promotoria-mexico.md content/rankings/agencias-de-marketing-mexico.md content/rankings/agencias-de-medios-mexico.md content/rankings/agencias-de-publicidad-cdmx.md content/rankings/agencias-de-publicidad-mexico.md content/rankings/agencias-de-publicidad-monterrey.md content/rankings/agencias-inbound-marketing-mexico.md content/rankings/agencias-investigacion-de-mercados-mexico.md content/rankings/casas-productoras-mexico.md content/rankings/empresas-publicidad-exterior-mexico.md content/rankings/productoras-de-eventos-mexico.md content/rankings/proveedores-pop-promocionales-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: agencias btl
-  + etiqueta creada: promotoría
-  + etiqueta creada: trade marketing
-  + etiqueta creada: activaciones de marca
-  + etiqueta creada: marketing promocional
-  + imagen subida: agencias-btl-promotoria-mexico-portada.png (id 9158)
-content/rankings/agencias-btl-promotoria-mexico.md: post creada (draft) id=9159 https://www.publi20.com/?p=9159
-  + etiqueta creada: agencias de comunicación
-  + etiqueta creada: agencias de marketing
-  + etiqueta creada: relaciones públicas
-  + etiqueta creada: agencia 360
-  + etiqueta creada: comunicación integral
-  + imagen subida: agencias-de-marketing-mexico-portada.png (id 9160)
-content/rankings/agencias-de-marketing-mexico.md: post creada (draft) id=9161 https://www.publi20.com/?p=9161
-  + etiqueta creada: agencias de medios
-  + etiqueta creada: central de medios
-  + etiqueta creada: planeación de medios
-  + etiqueta creada: compra de medios
-  + etiqueta creada: omd méxico
-  + etiqueta creada: wpp media
-  + imagen subida: agencias-de-medios-mexico-portada.png (id 9162)
-content/rankings/agencias-de-medios-mexico.md: post creada (draft) id=9163 https://www.publi20.com/?p=9163
-  + etiqueta creada: investigación de mercados
-  + etiqueta creada: agencias de investigación
-  + etiqueta creada: amai
-  + etiqueta creada: estudios de mercado
-  + etiqueta creada: paneles de consumo
-  + etiqueta creada: focus groups
-  + imagen subida: agencias-investigacion-de-mercados-mexico-portada.png (id 9164)
-content/rankings/agencias-investigacion-de-mercados-mexico.md: post creada (draft) id=9165 https://www.publi20.com/?p=9165
-  + etiqueta creada: casas productoras
-  + etiqueta creada: producción audiovisual
-  + etiqueta creada: cine mexicano
-  + etiqueta creada: comerciales
-  + etiqueta creada: productoras de cine
-  + imagen subida: casas-productoras-mexico-portada.png (id 9166)
-content/rankings/casas-productoras-mexico.md: post creada (draft) id=9167 https://www.publi20.com/?p=9167
-  + etiqueta creada: artículos promocionales
-  + etiqueta creada: material pop
-  + etiqueta creada: exhibidores
-  + etiqueta creada: impresión
-  + etiqueta creada: amppro
-  + etiqueta creada: expo publicitas
-  + imagen subida: proveedores-pop-promocionales-mexico-portada.png (id 9168)
-content/rankings/proveedores-pop-promocionales-mexico.md: post creada (draft) id=9169 https://www.publi20.com/?p=9169
+  = imagen reutilizada: agencias-btl-promotoria-mexico-portada (id 9158)
+content/rankings/agencias-btl-promotoria-mexico.md: post actualizada (publish) id=9159 https://www.publi20.com/rankings/agencias-btl-promotoria-mexico/
+  SEO Rank Math: 200 palabra clave: agencia de promotoria
+  = imagen reutilizada: agencias-de-marketing-mexico-portada (id 9160)
+content/rankings/agencias-de-marketing-mexico.md: post actualizada (publish) id=9161 https://www.publi20.com/rankings/agencias-de-marketing-mexico/
+  SEO Rank Math: 200 palabra clave: agencias de comunicacion en mexico
+  = imagen reutilizada: agencias-de-medios-mexico-portada (id 9162)
+content/rankings/agencias-de-medios-mexico.md: post actualizada (publish) id=9163 https://www.publi20.com/rankings/agencias-de-medios-mexico/
+  SEO Rank Math: 200 palabra clave: empresa de medios
+  = imagen reutilizada: agencias-de-publicidad-cdmx-portada (id 9140)
+content/rankings/agencias-de-publicidad-cdmx.md: post actualizada (publish) id=9141 https://www.publi20.com/rankings/agencias-de-publicidad-cdmx/
+  SEO Rank Math: 200 palabra clave: agencias de publicidad en la ciudad de mexico
+  = imagen reutilizada: agencias-de-publicidad-mexico-portada (id 9142)
+content/rankings/agencias-de-publicidad-mexico.md: post actualizada (publish) id=9143 https://www.publi20.com/rankings/agencias-de-publicidad-mexico/
+  SEO Rank Math: 200 palabra clave: agencia de publicidad
+  = imagen reutilizada: agencias-de-publicidad-monterrey-portada (id 9144)
+content/rankings/agencias-de-publicidad-monterrey.md: post actualizada (publish) id=9145 https://www.publi20.com/rankings/agencias-de-publicidad-monterrey/
+  SEO Rank Math: 200 palabra clave: agencias de publicidad en nuevo leon
+  = imagen reutilizada: agencias-inbound-marketing-mexico-portada (id 9146)
+content/rankings/agencias-inbound-marketing-mexico.md: post actualizada (publish) id=9147 https://www.publi20.com/rankings/agencias-inbound-marketing-mexico/
+  SEO Rank Math: 200 palabra clave: agencia de inbound marketing mexico
+  = imagen reutilizada: agencias-investigacion-de-mercados-mexico-portada (id 9164)
+content/rankings/agencias-investigacion-de-mercados-mexico.md: post actualizada (publish) id=9165 https://www.publi20.com/rankings/agencias-investigacion-de-mercados-mexico/
+  SEO Rank Math: 200 palabra clave: agencia de investigacion de mercado
+  = imagen reutilizada: casas-productoras-mexico-portada (id 9166)
+content/rankings/casas-productoras-mexico.md: post actualizada (publish) id=9167 https://www.publi20.com/rankings/casas-productoras-mexico/
+  SEO Rank Math: 200 palabra clave: casas productoras en mexico
+  = imagen reutilizada: empresas-publicidad-exterior-mexico-portada (id 9148)
+content/rankings/empresas-publicidad-exterior-mexico.md: post actualizada (publish) id=9149 https://www.publi20.com/rankings/empresas-publicidad-exterior-mexico/
+  SEO Rank Math: 200 palabra clave: publicidad exterior
+  = imagen reutilizada: productoras-de-eventos-mexico-portada (id 9150)
+content/rankings/productoras-de-eventos-mexico.md: post actualizada (publish) id=9151 https://www.publi20.com/rankings/productoras-de-eventos-mexico/
+  SEO Rank Math: 200 palabra clave: agencias de modelos
+  = imagen reutilizada: proveedores-pop-promocionales-mexico-portada (id 9168)
+content/rankings/proveedores-pop-promocionales-mexico.md: post actualizada (publish) id=9169 https://www.publi20.com/rankings/proveedores-pop-promocionales-mexico/
+  SEO Rank Math: 200 palabra clave: agencias de promocionales
