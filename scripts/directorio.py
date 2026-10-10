@@ -127,17 +127,123 @@ def mapa():
         print(f"  {n:5} {d}")
 
 
+GRUPO = "Directorio a rankings"
+
+
+def red(wp, method, path, **kw):
+    r = wp.s.request(method, f"{wp.api.replace('/wp/v2', '')}/redirection/v1/{path}", timeout=60, **kw)
+    if r.status_code >= 400:
+        raise RuntimeError(f"{method} {path} -> {r.status_code}: {r.text[:300]}")
+    return r.json()
+
+
+def aplicar(wp):
+    """Crea o reapunta los 301 del mapa hacia los rankings publicados. Un ranking que aún no existe se
+    sustituye por el más cercano (docs/directorio-rankings.yml > sustitutos); al volver a correr, cuando ya
+    esté publicado, sus reglas se reapuntan solas."""
+    import concurrent.futures as cf
+    from collections import Counter
+    cfg = yaml.safe_load((ROOT / "docs" / "directorio-rankings.yml").read_text(encoding="utf-8"))
+    cat = next(c for c in wp.req("GET", "categories", params={"slug": "rankings"}))
+    publicados = {ruta(p["link"]) for p in paginar(wp, "posts", {"status": "publish", "categories": cat["id"], "_fields": "link"})}
+    print(f"Rankings publicados: {len(publicados)}")
+    sust = cfg.get("sustitutos") or {}
+
+    def final(d):
+        seen = 0
+        while d not in publicados and seen < 5:
+            d = sust.get(d, cfg["por_defecto"])
+            seen += 1
+        return d
+
+    # Todas las reglas existentes, por origen
+    items, page = [], 0
+    while True:
+        lote = red(wp, "GET", "redirect", params={"per_page": 200, "page": page}).get("items", [])
+        items += lote
+        if len(lote) < 200:
+            break
+        page += 1
+    por_url = {}
+    for i in items:
+        por_url.setdefault(i["url"].rstrip("/"), i)
+    grupos = red(wp, "GET", "group", params={"per_page": 200}).get("items", [])
+    g = next((x for x in grupos if x["name"] == GRUPO), None)
+    if not g:
+        res = red(wp, "POST", "group", json={"name": GRUPO, "moduleId": 1, "enabled": True})
+        g = next(x for x in res.get("items", []) if x["name"] == GRUPO)
+    filas = list(csv.DictReader((OUT / "mapa-directorio-rankings.csv").open(encoding="utf-8")))
+    filas.append({"origen": "/listing/", "destino": "/categoria/rankings/", "motivo": "archivo del directorio", "nombre_ficha": ""})
+    publicados.add("/categoria/rankings/")
+    hechos = []
+
+    def una(f):
+        origen = f["origen"]
+        destino = final(f["destino"])
+        source = {"flag_query": "ignore", "flag_case": True, "flag_trailing": True, "flag_regex": False}
+        it = por_url.get(origen.rstrip("/"))
+        try:
+            if it:
+                actual = it.get("action_data", {}).get("url", "") if isinstance(it.get("action_data"), dict) else ""
+                if actual == destino and it.get("enabled", True):
+                    return [origen, destino, f["destino"], f["motivo"], "sin cambio"]
+                body = {"url": it["url"], "match_type": "url", "action_type": "url", "action_code": 301,
+                        "action_data": {"url": destino}, "group_id": it["group_id"], "regex": False,
+                        "title": it.get("title", ""), "position": it.get("position", 0), "status": "enabled",
+                        "match_data": {"source": source}}
+                red(wp, "POST", f"redirect/{it['id']}", json=body)
+                if not it.get("enabled", True):
+                    red(wp, "POST", "bulk/redirect/enable", json={"items": [it["id"]]})
+                return [origen, destino, f["destino"], f["motivo"], "reapuntada"]
+            body = {"status": "enabled", "position": 0, "url": origen, "regex": False, "match_type": "url",
+                    "match_data": {"source": source}, "title": (f.get("nombre_ficha") or f["motivo"])[:50],
+                    "group_id": g["id"], "action_type": "url", "action_code": 301, "action_data": {"url": destino}}
+            red(wp, "POST", "redirect", json=body)
+            return [origen, destino, f["destino"], f["motivo"], "creada"]
+        except Exception as e:  # noqa: BLE001
+            return [origen, destino, f["destino"], f["motivo"], f"ERROR {str(e)[:120]}"]
+
+    with cf.ThreadPoolExecutor(6) as ex:
+        hechos = list(ex.map(una, filas))
+    with (OUT / "redirecciones-directorio.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["origen", "destino", "destino_previsto", "motivo", "accion"])
+        w.writerows(hechos)
+    print("Acciones: " + ", ".join(f"{k}={v}" for k, v in Counter(x[4].split(" ")[0] for x in hechos).items()))
+    print("Por destino:")
+    for d, n in Counter(x[1] for x in hechos).most_common():
+        print(f"  {n:5} {d}")
+    # Verificación de una muestra: un salto y destino 200
+    import random
+    muestra = random.sample([x for x in hechos if not x[4].startswith("ERROR")], min(80, len(hechos)))
+    malos = 0
+    for o, d, *_ in muestra:
+        r = requests.get(BASE + o + f"?nc={random.randint(1, 10**9)}", allow_redirects=False, timeout=30,
+                         headers={"User-Agent": "publi20-directorio/1.0", "Cache-Control": "no-cache"})
+        loc = ruta(r.headers.get("location", ""))
+        ok = r.status_code == 301 and loc.rstrip("/") == d.rstrip("/")
+        if ok:
+            ok = requests.get(BASE + d, timeout=30, headers={"User-Agent": "publi20-directorio/1.0"}).status_code == 200
+        if not ok:
+            malos += 1
+            if malos <= 5:
+                print(f"  FALLA {o} -> {r.status_code} {loc} (esperado {d})")
+    print(f"Verificación: {len(muestra) - malos} de {len(muestra)} correctas")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--inventario", action="store_true")
     ap.add_argument("--mapa", action="store_true")
     ap.add_argument("--aplicar", action="store_true")
     a = ap.parse_args()
-    if a.aplicar:
-        sys.exit("Aplicar queda bloqueado hasta que se aprueben los rankings (falta implementar con el mapa final).")
     if a.inventario:
         wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
         wp.whoami()
         inventario(wp)
     if a.mapa:
         mapa()
+    if a.aplicar:
+        wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
+        wp.whoami()
+        aplicar(wp)

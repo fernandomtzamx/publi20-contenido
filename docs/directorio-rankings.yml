@@ -29,3 +29,13 @@ por_defecto: /rankings/agencias-de-publicidad-mexico/
 # Excepciones por slug de ficha (slug: destino), para corregir a mano lo que las reglas clasifiquen mal.
 fichas:
   augusto-elias: /rankings/agencias-de-publicidad-mexico/
+
+# Mientras un ranking no esté publicado, sus fichas van al ranking publicado más cercano.
+# Al publicarlo, basta volver a correr "aplicar" para reapuntarlas.
+sustitutos:
+  /rankings/agencias-de-publicidad-queretaro/: /rankings/agencias-de-publicidad-mexico/
+  /rankings/agencias-de-publicidad-por-estado/: /rankings/agencias-de-publicidad-mexico/
+  /rankings/agencias-relaciones-publicas-mexico/: /rankings/agencias-de-marketing-mexico/
+  /rankings/grupos-radiofonicos-mexico/: /rankings/agencias-de-medios-mexico/
+  /rankings/estudios-doblaje-locucion-mexico/: /rankings/casas-productoras-mexico/
+  /rankings/estudios-diseno-branding-mexico/: /rankings/agencias-de-publicidad-mexico/
