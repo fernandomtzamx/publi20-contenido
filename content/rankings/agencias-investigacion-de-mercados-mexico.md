@@ -255,4 +255,4 @@ No hay una tarifa pública que podamos citar con fuente. Depende del método, el
 
 Antes de llamar a nadie, escribe la decisión que vas a tomar con el estudio y elige el grupo de esta lista que la resuelve. La primera reunión te va a rendir el doble.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

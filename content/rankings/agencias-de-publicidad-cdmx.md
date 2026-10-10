@@ -206,4 +206,4 @@ No encontramos una tarifa pública ni un tabulador del sector que podamos citar 
 
 Haz tu lista corta con tres agencias de zonas que te queden a la mano y pídeles a todas el mismo brief. La que haga mejores preguntas en la primera junta suele ser la buena.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

@@ -179,4 +179,4 @@ La mayoría está en la Ciudad de México, con dos en Coyoacán (VSI y Churubusc
 
 Antes de pedir cotización, manda a dos o tres estudios de esta lista los mismos cinco minutos de material y compara lo que te regresan. Se escucha la diferencia más rápido de lo que crees.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

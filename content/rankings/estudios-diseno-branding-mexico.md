@@ -223,4 +223,4 @@ En esta lista, Brands&People, Cadena + Asociados, Monumento (en San Pedro Garza 
 
 Antes de pedir cotizaciones, elige dos estudios de esta lista cuyo portafolio se parezca a lo que imaginas y pídeles un caso completo, de la primera reunión al archivo final. Esa conversación te va a decir más que cualquier logotipo bonito.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

@@ -219,4 +219,4 @@ Es una búsqueda frecuente, pero la empresa que aparece con ese nombre no es una
 
 Antes de licitar tu cuenta, elige tres agencias de esta lista, mándales el mismo brief y pide que te expliquen cómo cobran y quién se queda con las bonificaciones. Esa respuesta te dice más que cualquier presentación.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

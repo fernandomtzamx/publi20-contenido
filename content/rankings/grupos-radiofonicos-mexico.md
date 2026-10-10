@@ -224,4 +224,4 @@ Porque no pudimos verificar a qué grupo pertenecen o si operan hoy como grupo r
 
 Antes de cerrar tu plan de radio, pide a tres de estos grupos su cobertura por plaza y su tarifario por escrito, y compáralos con la misma medición. Con eso ya negocias en serio.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

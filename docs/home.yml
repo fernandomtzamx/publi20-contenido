@@ -30,7 +30,7 @@ sobre:
     Publi2.0 es un medio editorial independiente sobre publicidad, mercadotecnia, negocios y emprendimiento
     en México. Lo edita Fernando Martínez. Cada dato lleva su fuente, el contenido patrocinado se señala
     como tal y nadie paga por aparecer en un ranking.
-  contacto: "fernando@publi20.com"
+  contacto: "contacto@publi20.com"
 
 # Página que se usa como portada (slug). El script la crea si no existe.
 pagina_slug: "portada"

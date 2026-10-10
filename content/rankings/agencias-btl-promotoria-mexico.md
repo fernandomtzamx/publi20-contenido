@@ -244,4 +244,4 @@ Porque la gente las busca, pero no pudimos abrir un sitio oficial activo para ve
 
 Antes de mandar tu próximo brief, decide qué necesitas de verdad: gente en tienda todos los días o un momento que se recuerde. Con eso eliges el grupo, y con la lista de la cotización eliges la agencia.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

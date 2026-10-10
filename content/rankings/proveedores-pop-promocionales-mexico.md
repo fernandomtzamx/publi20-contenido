@@ -217,4 +217,4 @@ En Expo Publicitas, en el Centro Banamex de la Ciudad de México. Su sitio ya an
 
 Antes de pedir tu próxima cotización, define si eres comprador final o distribuidor y llama a dos proveedores del grupo que te toca. Pide muestra física. Esa taza en la mano te dice más que cualquier catálogo.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

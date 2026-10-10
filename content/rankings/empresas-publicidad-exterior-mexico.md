@@ -245,4 +245,4 @@ Depende de la plaza, la ubicación y la duración, y no hay tarifas públicas co
 
 Mañana, antes de pedir precio, escribe en una línea a quién quieres alcanzar y en qué zona. Con eso, cualquiera de estas empresas te puede cotizar algo útil en lugar de mandarte su catálogo completo.
 
-<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:fernando@publi20.com">fernando@publi20.com</a> con la fuente y lo revisamos.</p>
+<p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>

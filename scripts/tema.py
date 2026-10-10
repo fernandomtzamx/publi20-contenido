@@ -73,7 +73,7 @@ def bloque(wid=""):
             "f();document.addEventListener('DOMContentLoaded',f);})();</script>")
 
 
-CONTACTO = "fernando@publi20.com"
+CONTACTO = "contacto@publi20.com"
 MARCA_CONTACTO = "publi20-contacto-editorial"
 
 
@@ -87,6 +87,41 @@ def contacto(wp, widgets, ids):
     previo = next((w for w in widgets if MARCA_CONTACTO in json.dumps(w.get("instance", {}))), None)
     w = wp.req("POST", f"widgets/{previo['id']}", json=body) if previo else wp.req("POST", "widgets", json=body)
     log(f"contacto editorial: widget {w['id']} en {w['sidebar']} ({CONTACTO})")
+
+
+VIEJO = "fernando@publi20.com"
+
+
+def reemplazar_correo(wp):
+    """Cambia el correo viejo por el de contacto en entradas, páginas, fichas y widgets del sitio."""
+    total = 0
+    for tipo in ("posts", "pages", "listing"):
+        page = 1
+        while True:
+            r = wp.s.get(f"{wp.api}/{tipo}", timeout=60, params={"search": VIEJO, "status": "any", "context": "edit",
+                         "per_page": 100, "page": page, "_fields": "id,content,excerpt"})
+            if r.status_code >= 400:
+                break
+            items = r.json()
+            for it in items:
+                body = {}
+                for campo in ("content", "excerpt"):
+                    raw = (it.get(campo) or {}).get("raw", "")
+                    if VIEJO in raw:
+                        body[campo] = raw.replace(VIEJO, CONTACTO)
+                if body:
+                    wp.req("POST", f"{tipo}/{it['id']}", json=body)
+                    total += 1
+            if page >= int(r.headers.get("X-WP-TotalPages", 1)):
+                break
+            page += 1
+    for w in wp.req("GET", "widgets", params={"context": "edit", "per_page": 100}):
+        raw = w.get("instance", {}).get("raw")
+        if raw and VIEJO in json.dumps(raw):
+            nuevo = json.loads(json.dumps(raw).replace(VIEJO, CONTACTO))
+            wp.req("POST", f"widgets/{w['id']}", json={"instance": {"raw": nuevo}})
+            total += 1
+    log(f"correo {VIEJO} -> {CONTACTO}: {total} elementos actualizados")
 
 
 def aplicar(wp):
@@ -104,6 +139,7 @@ def aplicar(wp):
     w = wp.req("POST", f"widgets/{w['id']}", json=body)
     log(f"widget {w['id']} en {w['sidebar']} con el logo {LOGO}")
     contacto(wp, widgets, ids)
+    reemplazar_correo(wp)
 
 
 if __name__ == "__main__":
