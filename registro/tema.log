@@ -1,4 +1,4 @@
-sidebars: wp_inactive_widgets(Widgets inactivos, 1), rhsidebar(Post Sidebar Area, 1), footerfirst(Pie de página 1, 1), footersecond(Pie de página 2, 0), footerthird(Pie de página 3, 0), footercustom(Bottom Custom Footer Area, 0), rhcustomsidebar(Custom sidebar area, 3), rhcustomsidebarsec(Custom sidebar area 2, 0), dealstore-sidebar(Affiliate store archive sidebar, 0), blog-sidebar(Blog sidebar Area, 0)
-barra elegida: rhsidebar
-widget custom_html-2 en rhsidebar con el logo https://www.publi20.com/wp-content/uploads/2021/07/publi20-1.png
-\nImágenes visibles en el encabezado móvil:\nhttps://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png | 38x35 | dl-menu\n
+sidebars: wp_inactive_widgets(Widgets inactivos, 1), rhsidebar(Post Sidebar Area, 2), footerfirst(Pie de página 1, 1), footersecond(Pie de página 2, 0), footerthird(Pie de página 3, 0), footercustom(Bottom Custom Footer Area, 0), rhcustomsidebar(Custom sidebar area, 3), rhcustomsidebarsec(Custom sidebar area 2, 0), dealstore-sidebar(Affiliate store archive sidebar, 0), blog-sidebar(Blog sidebar Area, 0)
+barra elegida: footerfirst
+widget custom_html-2 en footerfirst con el logo https://www.publi20.com/wp-content/uploads/2021/07/publi20-1.png
+\nImágenes visibles en el encabezado móvil:\nhttps://www.publi20.com/wp-content/uploads/2021/07/publi20-1.png | widget=true | 160x35 | dl-menu\n
