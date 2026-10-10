@@ -164,9 +164,22 @@ def aplicar(wp):
         if len(lote) < 200:
             break
         page += 1
-    por_url = {}
-    for i in items:
-        por_url.setdefault(i["url"].rstrip("/"), i)
+    from urllib.parse import unquote
+
+    def clave(u):
+        return unquote(u).rstrip("/").lower()
+
+    por_url, dup = {}, []
+    for i in sorted(items, key=lambda i: i["id"]):
+        k = clave(i["url"])
+        if k in por_url and i.get("action_data", {}).get("url", "").startswith("/rankings/"):
+            dup.append(i["id"])  # regla repetida (URL con acentos codificados creada dos veces)
+        else:
+            por_url.setdefault(k, i)
+    if dup:
+        for k in range(0, len(dup), 100):
+            red(wp, "POST", "bulk/redirect/delete", json={"items": dup[k:k + 100]})
+        print(f"Reglas duplicadas eliminadas: {len(dup)}")
     grupos = red(wp, "GET", "group", params={"per_page": 200}).get("items", [])
     g = next((x for x in grupos if x["name"] == GRUPO), None)
     if not g:
@@ -181,7 +194,7 @@ def aplicar(wp):
         origen = f["origen"]
         destino = final(f["destino"])
         source = {"flag_query": "ignore", "flag_case": True, "flag_trailing": True, "flag_regex": False}
-        it = por_url.get(origen.rstrip("/"))
+        it = por_url.get(clave(origen))
         try:
             if it:
                 actual = it.get("action_data", {}).get("url", "") if isinstance(it.get("action_data"), dict) else ""
