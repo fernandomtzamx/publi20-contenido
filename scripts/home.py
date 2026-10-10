@@ -223,7 +223,7 @@ def armar(cats, por_slug, patro, posts, media):
              f'<article class="p20-h-lead">{foto(dest, ("large", "full", "medium_large"), "p20-h-img", True)}'
              f'<div class="p20-h-leadtxt">{kicker(dest)}<h2 class="p20-h-t"><a href="{e(dest["link"])}">{e(t)}</a></h2>'
              f'<p class="p20-h-ex">{e(corta(texto(dest["excerpt"]["rendered"]), 220))}</p>'
-             '<p class="p20-h-firma">Por Fernando Martínez</p></div></article>'
+             '<p class="p20-h-firma">Por Fernando Arturo Martínez Aguilar</p></div></article>'
              f'<div class="p20-h-side"><h2 class="p20-h-label">Lo más reciente</h2><ul>{lateral}</ul></div></section>')
 
     for i, x in enumerate(CFG["pilares"]):

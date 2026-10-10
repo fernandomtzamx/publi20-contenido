@@ -5,14 +5,21 @@
 # Todas las entradas se publican a nombre de Fernando Martínez.
 # Si el usuario de la API no es Fernando, pon aquí su id de usuario de WordPress.
 autor:
-  nombre: "Fernando Martínez"
-  # id: 1
-  # La cuenta de la API ("soporte", id 1) es de Fernando: se muestra con su nombre.
+  nombre: "Fernando Arturo Martínez Aguilar"
+  id: 1
+  # La cuenta de la API (id 1) es la de Fernando: su perfil público es /author/fernando-martinez/
   perfil:
-    first_name: "Fernando"
-    last_name: "Martínez"
-    name: "Fernando Martínez"
+    first_name: "Fernando Arturo"
+    last_name: "Martínez Aguilar"
+    name: "Fernando Arturo Martínez Aguilar"
     nickname: "Fernando Martínez"
+    slug: "fernando-martinez"
+    description: >-
+      Fernando Arturo Martínez Aguilar es editor de Publi2.0, el medio editorial sobre publicidad,
+      mercadotecnia, negocios y emprendimiento en México. Escribe y coordina análisis, guías y rankings
+      sobre agencias, medios, marketing digital y la industria automotriz, con una regla que no se negocia:
+      cada dato lleva su fuente y nadie paga por aparecer en un ranking. Contacto editorial:
+      contacto@publi20.com.
 
 # Cierra comentarios y pingbacks en todo el contenido existente y en los ajustes del sitio.
 cerrar_comentarios: true
