@@ -387,7 +387,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/agencias/agencias-de-promocion,301,200,/rankings/agencias-btl-promotoria-mexico/,1
 /proveedores/agencias/agencias-de-promocion/922-agencia-de-promocion-advertising-and-promotion,301,200,/rankings/agencias-btl-promotoria-mexico/,1
 /proveedores/agencias/agencias-de-promocion/925-agencia-de-promocion-grupo-bahlcasa,301,200,/rankings/agencias-btl-promotoria-mexico/,1
-/proveedores/agencias/agencias-de-promocion/926-agencia-de-promocion-business-insight-group,404,404,/proveedores/agencias/agencias-de-promocion/926-agencia-de-promocion-business-insight-group,0
+/proveedores/agencias/agencias-de-promocion/926-agencia-de-promocion-business-insight-group,301,200,/rankings/agencias-btl-promotoria-mexico/,1
 /proveedores/agencias/agencias-de-promocion/928-agencia-de-promocion-biruzz,301,200,/rankings/agencias-btl-promotoria-mexico/,1
 /proveedores/agencias/agencias-de-promocion/931-agencia-de-promocion-circus-marketing,301,200,/rankings/agencias-btl-promotoria-mexico/,1
 /proveedores/agencias/agencias-de-promocion/931-agencia-de-promocion-circus-marketing/contactar,301,200,/rankings/agencias-btl-promotoria-mexico/,1
@@ -446,7 +446,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/agencias/agencias-de-publicidad/1045-agencia-de-publicidad-inmotion-productions,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /proveedores/agencias/agencias-de-publicidad/1046-agencia-de-publicidad-in-situ-publicidad,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /proveedores/agencias/agencias-de-publicidad/1048-agencia-de-publicidad-jwt-mexico,301,200,/rankings/agencias-de-publicidad-mexico/,1
-/proveedores/agencias/agencias-de-publicidad/1048-agencia-de-publicidad-jwt-mexico/contactar,404,404,/proveedores/agencias/agencias-de-publicidad/1048-agencia-de-publicidad-jwt-mexico/contactar,0
+/proveedores/agencias/agencias-de-publicidad/1048-agencia-de-publicidad-jwt-mexico/contactar,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /proveedores/agencias/agencias-de-publicidad/1050-agencia-de-publicidad-la-doble-vida,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /proveedores/agencias/agencias-de-publicidad/1052-agencia-de-publicidad-lagencita,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /proveedores/agencias/agencias-de-publicidad/1053-agencia-de-publicidad-lebrija-rubio-publicidad,301,200,/rankings/agencias-de-publicidad-mexico/,1
@@ -573,7 +573,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/buscar-por/city/23?value=Ciudad de M%C3%A9xico,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/city/26?value=MEXICO,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/city/42?value=Ciudad de Mexico,301,200,/rankings/agencias-de-publicidad-por-estado/,1
-/proveedores/buscar-por/city/44?value=MEXICO,404,404,/proveedores/buscar-por/city/44?value=MEXICO,0
+/proveedores/buscar-por/city/44?value=MEXICO,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/city/5?value=MEXICO,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/city/7?value=Ciudad de M%C3%A9xico,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/city/8?value=MEXICO,301,200,/rankings/agencias-de-publicidad-por-estado/,1
@@ -638,7 +638,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/buscar-por/country/77?value=M,301,200,/categoria/rankings/,1
 /proveedores/buscar-por/country/77?value=M%C3%A9xico,301,200,/categoria/rankings/,1
 /proveedores/buscar-por/country/77?value=Mexico,301,200,/categoria/rankings/,1
-/proveedores/buscar-por/country/8?value=Mexico,404,404,/proveedores/buscar-por/country/8?value=Mexico,0
+/proveedores/buscar-por/country/8?value=Mexico,301,200,/categoria/rankings/,1
 /proveedores/buscar-por/state/10?value=Distrito Federal,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/state/1?value=CHIHUAHUA,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/state/1?value=COAHUILA,301,200,/rankings/agencias-de-publicidad-por-estado/,1
@@ -654,7 +654,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/buscar-por/state?value=TAMAULIPAS,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/buscar-por/state?value=VERACRUZ,301,200,/rankings/agencias-de-publicidad-por-estado/,1
 /proveedores/campanas-politicas,301,200,/rankings/agencias-de-publicidad-mexico/#publicidad-politica-y-propaganda,1
-/proveedores/capacitacion-y-cursos,404,404,/proveedores/capacitacion-y-cursos,0
+/proveedores/capacitacion-y-cursos,301,200,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,1
 /proveedores/capacitacion-y-cursos/741-agencia-de-capacitacion-achieveglobal,301,200,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,1
 /proveedores/capacitacion-y-cursos/742-agencia-de-capacitacion-alef-consultores,301,200,/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas,1
 /proveedores/convenciones/aerolineas/37-aeromexico,301,200,/rankings/productoras-de-eventos-mexico/#turismo-de-reuniones,1
@@ -690,7 +690,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/diseno/diseno-y-desarrollo-web/1465-diseno-y-desarrollo-web-gamol,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
 /proveedores/diseno/diseno-y-desarrollo-web/1470-diseno-y-desarrollo-web-grupo-bfx,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
 /proveedores/diseno/diseno-y-desarrollo-web/1481-diseno-y-desarrollo-web-meximex,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
-/proveedores/diseno/diseno-y-desarrollo-web/1483-diseno-y-desarrollo-web-mxigen,404,404,/proveedores/diseno/diseno-y-desarrollo-web/1483-diseno-y-desarrollo-web-mxigen,0
+/proveedores/diseno/diseno-y-desarrollo-web/1483-diseno-y-desarrollo-web-mxigen,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
 /proveedores/diseno/diseno-y-desarrollo-web/1489-diseno-y-desarrollo-web-pixel--dot,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
 /proveedores/diseno/diseno-y-desarrollo-web/1501-diseno-y-desarrollo-web-weblex,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
 /proveedores/diseno/diseno-y-desarrollo-web/1501-diseno-y-desarrollo-web-weblex/contactar,301,200,/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting,1
@@ -715,7 +715,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/eventos/787-agencia-de-eventos-grupo-nicte,301,200,/rankings/productoras-de-eventos-mexico/,1
 /proveedores/eventos/789-agencia-de-eventos-jyj-eventos,301,200,/rankings/productoras-de-eventos-mexico/,1
 /proveedores/eventos/791-agencia-de-eventos-macllam-producciones/recomendar,301,200,/rankings/productoras-de-eventos-mexico/,1
-/proveedores/eventos/banquetes,301,200,/rankings/productoras-de-eventos-mexico/,2
+/proveedores/eventos/banquetes,301,200,/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores,1
 /proveedores/eventos/fotografias/14-photobooth-mexico-df,301,200,/rankings/casas-productoras-mexico/#fotografia-y-video-publicitario,1
 /proveedores/eventos/todo,301,200,/rankings/productoras-de-eventos-mexico/,1
 /proveedores/impresion-y-artes-graficas,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
@@ -730,7 +730,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/impresion-y-artes-graficas/243-seriart-publicidad,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
 /proveedores/impresion-y-artes-graficas/251-arte-integral-expresion-sa-de-cv,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
 /proveedores/impresion-y-artes-graficas/251-arte-integral-expresion-sa-de-cv/contactar,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
-/proveedores/impresion-y-artes-graficas/251-arte-integral-expresion-sa-de-cv/recomendar,404,404,/proveedores/impresion-y-artes-graficas/251-arte-integral-expresion-sa-de-cv/recomendar,0
+/proveedores/impresion-y-artes-graficas/251-arte-integral-expresion-sa-de-cv/recomendar,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
 /proveedores/impresion-y-artes-graficas/254-maxi-grafica,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
 /proveedores/impresion-y-artes-graficas/261-viniletras-s-a-de-c-v,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
 /proveedores/impresion-y-artes-graficas/292-soltar-impresores-s-a-de-c-v,301,200,/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia,1
@@ -818,7 +818,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/marketing-digital/819-agencia-de-marketing-digital-abaco-digital,301,200,/rankings/agencias-inbound-marketing-mexico/,1
 /proveedores/marketing-digital/822-agencia-de-marketing-digital-antevenio-mexico,301,200,/rankings/agencias-inbound-marketing-mexico/,1
 /proveedores/marketing-digital/823-agencia-de-marketing-digital-arena-media,301,200,/rankings/agencias-inbound-marketing-mexico/,1
-/proveedores/marketing-digital/824-agencia-de-marketing-digital-attaph,404,404,/proveedores/marketing-digital/824-agencia-de-marketing-digital-attaph,0
+/proveedores/marketing-digital/824-agencia-de-marketing-digital-attaph,301,200,/rankings/agencias-inbound-marketing-mexico/,1
 /proveedores/marketing-digital/832-agencia-de-marketing-digital-clicker-360,301,200,/rankings/agencias-inbound-marketing-mexico/,1
 /proveedores/marketing-digital/834-agencia-de-marketing-digital-coco-marketing,301,200,/rankings/agencias-inbound-marketing-mexico/,1
 /proveedores/marketing-digital/836-agencia-de-marketing-digital-crossmedia,301,200,/rankings/agencias-inbound-marketing-mexico/,1
@@ -980,7 +980,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/television/casas-productoras/1638-productoras-chapulte-pictures,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1640-productoras-ciberfilms,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1641-productoras-cineconcepto,301,200,/rankings/casas-productoras-mexico/,1
-/proveedores/television/casas-productoras/1642-productoras-corte-y-queda,404,404,/proveedores/television/casas-productoras/1642-productoras-corte-y-queda,0
+/proveedores/television/casas-productoras/1642-productoras-corte-y-queda,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1644-productoras-dr-comunicacion,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1645-productoras-distrito-films,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1646-productoras-elemento-producciones,301,200,/rankings/casas-productoras-mexico/,1
@@ -1013,7 +1013,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/television/casas-productoras/1706-productoras-vdm-casa-productora,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1709-productoras-whiskey-films,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/1711-productoras-yellow-films,301,200,/rankings/casas-productoras-mexico/,1
-/proveedores/television/casas-productoras/1712-productoras-zombie-tv,404,404,/proveedores/television/casas-productoras/1712-productoras-zombie-tv,0
+/proveedores/television/casas-productoras/1712-productoras-zombie-tv,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/pagina1,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/pagina2,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/pagina3,301,200,/rankings/casas-productoras-mexico/,1
@@ -1022,7 +1022,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/television/casas-productoras/todo/pagina2,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/casas-productoras/todo/pagina3,301,200,/rankings/casas-productoras-mexico/,1
 /proveedores/television/estudios-de-grabacion/1520-estudio-de-grabacion-equis-cosa,301,200,/rankings/estudios-doblaje-locucion-mexico/,1
-/proveedores/television/estudios-de-grabacion/1525-estudio-de-grabacion-carlos-ortega,404,404,/proveedores/television/estudios-de-grabacion/1525-estudio-de-grabacion-carlos-ortega,0
+/proveedores/television/estudios-de-grabacion/1525-estudio-de-grabacion-carlos-ortega,301,200,/rankings/estudios-doblaje-locucion-mexico/,1
 /proveedores/television/estudios-de-grabacion/1526-estudio-de-grabacion-catapulta-studios,301,200,/rankings/estudios-doblaje-locucion-mexico/,1
 /proveedores/television/estudios-de-grabacion/1532-estudio-de-grabacion-jarpa-studio,301,200,/rankings/estudios-doblaje-locucion-mexico/,1
 /proveedores/television/estudios-de-grabacion/1533-estudio-de-grabacion-lado-a-estudios,301,200,/rankings/estudios-doblaje-locucion-mexico/,1
@@ -1037,7 +1037,7 @@ ruta,codigo_inicial,codigo_final,url_final,saltos
 /proveedores/todo/pagina76?sort=-link_created,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /proveedores/todo/pagina79,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos/,301,200,/negocios/automotriz/que-significa-la-llegada-de-facebook-marketplace-para-las-agencias-de-autos/,1
-/revista-publicidad-negocios-mexico/1703-el-sueldo-por-si-solo-ya-no-es-suficiente,404,404,/revista-publicidad-negocios-mexico/1703-el-sueldo-por-si-solo-ya-no-es-suficiente,0
+/revista-publicidad-negocios-mexico/1703-el-sueldo-por-si-solo-ya-no-es-suficiente,301,200,/rankings/agencias-de-publicidad-mexico/,1
 /tane-y-la-iconica-iris-apfel-colaboran-juntos-en-una-coleccion-inolvidable/,301,200,/noticias/tane-y-la-iconica-iris-apfel-colaboran-juntos-en-una-coleccion-inolvidable/,1
 /uol-boacompra-llega-a-chile/,301,200,/noticias/uol-boacompra-llega-a-chile/,1
 /versy-nueva-red-social-basada-en-los-intereses-de-los-usuarios/,301,200,/noticias/versy-nueva-red-social-basada-en-los-intereses-de-los-usuarios/,1

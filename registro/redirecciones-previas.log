@@ -1,4 +1,18 @@
-Redirecciones previas: 4098
+Redirecciones previas: 4112
+7668	activa	regex=False	Directorio a rankings	/revista-publicidad-negocios-mexico/1703-el-sueldo-por-si-solo-ya-no-es-suficiente	->	/rankings/agencias-de-publicidad-mexico/
+7667	activa	regex=False	Directorio a rankings	/proveedores/impresion-y-artes-graficas/251-arte-integral-expresion-sa-de-cv/recomendar	->	/rankings/proveedores-pop-promocionales-mexico/#impresion-offset-digital-gran-formato-y-serigrafia
+7666	activa	regex=False	Directorio a rankings	/proveedores/television/estudios-de-grabacion/1525-estudio-de-grabacion-carlos-ortega	->	/rankings/estudios-doblaje-locucion-mexico/
+7665	activa	regex=False	Directorio a rankings	/proveedores/television/casas-productoras/1712-productoras-zombie-tv	->	/rankings/casas-productoras-mexico/
+7664	activa	regex=False	Directorio a rankings	/proveedores/television/casas-productoras/1642-productoras-corte-y-queda	->	/rankings/casas-productoras-mexico/
+7663	activa	regex=False	Directorio a rankings	/proveedores/eventos/banquetes	->	/rankings/productoras-de-eventos-mexico/#banquetes-vinos-y-licores
+7662	activa	regex=False	Directorio a rankings	/proveedores/marketing-digital/824-agencia-de-marketing-digital-attaph	->	/rankings/agencias-inbound-marketing-mexico/
+7661	activa	regex=False	Directorio a rankings	/proveedores/diseno/diseno-y-desarrollo-web/1483-diseno-y-desarrollo-web-mxigen	->	/rankings/agencias-inbound-marketing-mexico/#diseno-web-dominios-y-hosting
+7660	activa	regex=False	Directorio a rankings	/proveedores/capacitacion-y-cursos	->	/rankings/productoras-de-eventos-mexico/#shows-artistas-y-conferencistas
+7659	activa	regex=False	Directorio a rankings	/proveedores/buscar-por/country/8	->	/categoria/rankings/
+7658	activa	regex=False	Directorio a rankings	/proveedores/buscar-por/city/44	->	/rankings/agencias-de-publicidad-por-estado/
+7657	activa	regex=False	Directorio a rankings	/proveedores/agencias/agencias-de-publicidad/1048-agencia-de-publicidad-jwt-mexico/contactar	->	/rankings/agencias-de-publicidad-mexico/
+7656	activa	regex=False	Directorio a rankings	/proveedores/agencias/agencias-de-promocion/926-agencia-de-promocion-business-insight-group	->	/rankings/agencias-btl-promotoria-mexico/
+7655	activa	regex=False	Directorio a rankings	/noticias/5327-conceden-el-be-open-young-talent-award-a-jovenes-de-chile	->	/rankings/agencias-de-publicidad-mexico/
 7654	activa	regex=False	Directorio a rankings	/directorio/investigacion-de-mercados/	->	/rankings/agencias-investigacion-de-mercados-mexico/
 7653	activa	regex=False	Directorio a rankings	/directorio/proveedores/investigacion-de-mercados/	->	/rankings/agencias-investigacion-de-mercados-mexico/
 7652	activa	regex=False	Directorio a rankings	/directorio/banners/	->	/rankings/agencias-inbound-marketing-mexico/#banners-y-publicidad-display
@@ -4097,3 +4111,4 @@ Redirecciones previas: 4098
 2249	activa	regex=False	Redirecciones	/directorio/proveedores/grupo-acir-df-2	->	/rankings/grupos-radiofonicos-mexico/
 2248	activa	regex=False	Redirecciones	/directorio/proveedores/fama-impresos-df-1	->	/rankings/proveedores-pop-promocionales-mexico/
 2247	inactiva	regex=False	Redirecciones	/old_url	->	new_url
+Desactivadas 1 de 1 reglas previas que empiezan con /noticias/
