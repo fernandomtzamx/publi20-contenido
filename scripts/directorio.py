@@ -173,6 +173,21 @@ def mapa():
         if not d:
             d = "/categoria/rankings/" if re.search(r"/component/mtree/?(\?|$)|buscar-por|^/directorio/?$|^/proveedores/?$", origen) else defecto
         filas.append([origen, d, "URL vieja del directorio", ""])
+    # URLs con impresiones en Search Console que hoy dan 404 (registro/urls-revision.csv)
+    revision = OUT / "urls-revision.csv"
+    if revision.exists():
+        for r in csv.DictReader(revision.open(encoding="utf-8")):
+            o = r["ruta"].split("?")[0]
+            if (r["codigo_final"] != "404" and r["saltos"].strip() not in ("2", "3", "4")) or o in vistos:
+                continue
+            vistos.add(o)
+            if o.startswith(("/proveedores", "/directorio", "/component")):
+                d = a_mano(o) or por_ruta(o) or por_ficha(o) or clasificar(o, reglas, None) or defecto
+            elif o.startswith("/noticias"):
+                d = "/categoria/noticias/"
+            else:
+                d = "/emprendimiento/" if "revista" in o else "/"
+            filas.append([o, d, "URL con impresiones que daba 404 o tenía cadena", ""])
     with (OUT / "mapa-directorio-rankings.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["origen", "destino", "motivo", "nombre_ficha"])
