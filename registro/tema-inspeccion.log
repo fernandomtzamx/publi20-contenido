@@ -1,0 +1,52 @@
+settings: {"site_logo": 3710, "site_icon": 0}
+namespaces: rehub/v2/posts, rehub/v2, elementor-one/v1, elementor/v1/documents, elementor/v1, elementor-ai/v1, elementor/v1/feedback
+  ruta /elementor/v1/kit-elements-defaults ['GET']
+  ruta /elementor/v1/kit-elements-defaults/(?P<type>[\w\-\_]+) ['POST', 'PUT', 'PATCH', 'DELETE']
+  ruta /jetpack/v4/import/global-styles ['POST']
+  ruta /rehub/v2 ['GET']
+  ruta /rehub/v2/ceelement ['POST']
+  ruta /rehub/v2/metaget ['POST']
+  ruta /rehub/v2/offer-data/(?P<id>\d+) ['GET']
+  ruta /rehub/v2/offer-listing ['POST']
+  ruta /rehub/v2/parse-offer ['POST']
+  ruta /rehub/v2/posts ['GET']
+  ruta /rehub/v2/posts/get ['POST']
+  ruta /rehub/v2/product/(?P<id>\d+) ['GET']
+  ruta /rehub/v2/rehubelement ['POST']
+  ruta /rehub/v2/woocomparebars ['POST']
+  ruta /rehub/v2/wooday ['POST']
+  ruta /wp/v2/global-styles/(?P<id>[\/\d+]+) ['GET', 'POST', 'PUT', 'PATCH']
+  ruta /wp/v2/global-styles/(?P<parent>[\d]+)/revisions ['GET']
+  ruta /wp/v2/global-styles/(?P<parent>[\d]+)/revisions/(?P<id>[\d]+) ['GET']
+  ruta /wp/v2/global-styles/themes/(?P<stylesheet>[\/\s%\w\.\(\)\[\]\@_\-]+)/variations ['GET']
+  ruta /wp/v2/global-styles/themes/(?P<stylesheet>[^\/:<>\*\?"\|]+(?:\/[^\/:<>\*\?"\|]+)?) ['GET']
+== escritorio: 130515 bytes
+  <div class="rh-stickme header_five_style logo_section_wrap header_one_row"> <div class="rh-container tabletblockdisplay mb0 disabletabletpadding"> <div class="logo-section rh-flex-center-align tabletblockdisplay disabletabletpadding mb0"> <div class="logo hideontablet"> <a href="https://www.publi20.com" class="logo_image"><img src="https://www.publi20.com/wp-content/uploads/2021/07/publi20-1.png" alt="Publi2.0" height="" width="" /></a> </div> <!-- Main Navigation --> <div class="main-nav mob-logo-enabled rh-flex-right-align white_style"> 
+  <div class="header-actions-logo"> <div class="rh-flex-center-align"> <div class="celldisplay link-add-cell"> <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div> </div> </div> </div> <!-- /Main Navigation --> 
+  <div id="logo_mobile_wrapper"><a href="https://www.publi20.com" class="logo_image_mobile"><img src="https://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png" alt="Publi2.0" width="160" height="50" /></a></div> <div id="rhmobpnlcustom" class="rhhidden"><div id="rhmobtoppnl" style="background-color: #f3f3f3;" class="pr15 pl15 pb15 pt15"><div class="text-center"><a href="https://www.publi20.com"><img id="mobpanelimg" src="https://remag.wpsoul.net/wp-content/uploads/2020/02/remaglogos.png" alt="Logo" width="150" height="45" /></a></div></div></div> <div id="rhslidingMenu"> <div id="slide-m
+  img https://remag.wpsoul.net/wp-content/uploads/2020/02/remaglogos.png
+  img https://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/countdown.js?ver=1.1
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/custom.js?ver=19.9.9.7
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/hoverintent.js?ver=1.9
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/inview.js?ver=1.1
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/jquery.sticky.js?ver=1.0.6
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/pgwmodal.js?ver=2.0
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/unveil.js?ver=5.2.1
+  css  </script> <div id="logo_mobile_wrapper"><a href="https://www.publi20.com" class="logo_image_mobile"><img src="https://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png" alt="Publi2.0" width="160" height="50" /></a></div> <div id="rhmobpnlcustom" class="rhhidden"><div id="rhmobtoppnl" style
+== movil: 130515 bytes
+  <div class="rh-stickme header_five_style logo_section_wrap header_one_row"> <div class="rh-container tabletblockdisplay mb0 disabletabletpadding"> <div class="logo-section rh-flex-center-align tabletblockdisplay disabletabletpadding mb0"> <div class="logo hideontablet"> <a href="https://www.publi20.com" class="logo_image"><img src="https://www.publi20.com/wp-content/uploads/2021/07/publi20-1.png" alt="Publi2.0" height="" width="" /></a> </div> <!-- Main Navigation --> <div class="main-nav mob-logo-enabled rh-flex-right-align white_style"> 
+  <div class="header-actions-logo"> <div class="rh-flex-center-align"> <div class="celldisplay link-add-cell"> <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div> </div> </div> </div> <!-- /Main Navigation --> 
+  <div id="logo_mobile_wrapper"><a href="https://www.publi20.com" class="logo_image_mobile"><img src="https://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png" alt="Publi2.0" width="160" height="50" /></a></div> <div id="rhmobpnlcustom" class="rhhidden"><div id="rhmobtoppnl" style="background-color: #f3f3f3;" class="pr15 pl15 pb15 pt15"><div class="text-center"><a href="https://www.publi20.com"><img id="mobpanelimg" src="https://remag.wpsoul.net/wp-content/uploads/2020/02/remaglogos.png" alt="Logo" width="150" height="45" /></a></div></div></div> <div id="rhslidingMenu"> <div id="slide-m
+  img https://remag.wpsoul.net/wp-content/uploads/2020/02/remaglogos.png
+  img https://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/countdown.js?ver=1.1
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/custom.js?ver=19.9.9.7
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/hoverintent.js?ver=1.9
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/inview.js?ver=1.1
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/jquery.sticky.js?ver=1.0.6
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/pgwmodal.js?ver=2.0
+  img https://www.publi20.com/wp-content/themes/rehub-theme/js/unveil.js?ver=5.2.1
+  css  </script> <div id="logo_mobile_wrapper"><a href="https://www.publi20.com" class="logo_image_mobile"><img src="https://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png" alt="Publi2.0" width="160" height="50" /></a></div> <div id="rhmobpnlcustom" class="rhhidden"><div id="rhmobtoppnl" style
+tema: {"align-wide": true, "automatic-feed-links": true, "block-templates": true, "block-template-parts": true, "custom-background": false, "custom-header": false, "custom-logo": {"width": 160, "height": 50, "flex-width": true, "flex-height": true, "header-text": [], "unlink-homepage-logo": false}, "customize-selective-refresh-widgets": false, "dark-editor-style": false, "disable-custom-colors": false, "disable-custom-font-sizes": false, "disable-custom-gradients": false, "disable-layout-styles": false, "editor-color-palette": false, "editor-font-sizes": false, "editor-gradient-presets": false, "editor-spacing-sizes": false, "editor-styles": true, "html5": ["search-form"], "formats": ["standard"], "post-thumbnails": true, "responsive-embeds": true, "title-tag": true, "wp-block-styles": false}
+\nImágenes visibles en el encabezado móvil:\nhttps://remag.wpsoul.net/wp-content/uploads/2020/02/remagmlogo.png | 38x35 | dl-menu\n
