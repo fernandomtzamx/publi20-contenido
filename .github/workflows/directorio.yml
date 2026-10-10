@@ -33,7 +33,7 @@ jobs:
           set -o pipefail
           if grep -q "inventario" docs/directorio.txt; then python scripts/directorio.py --inventario 2>&1 | tee registro/directorio.log; fi
           if grep -q "mapa" docs/directorio.txt; then python scripts/directorio.py --mapa 2>&1 | tee -a registro/directorio.log; fi
-          if grep -q "aplicar" docs/directorio.txt; then python scripts/directorio.py --aplicar 2>&1 | tee registro/directorio-aplicar.log registro/categorias.log registro/redirecciones-categorias.csv; fi
+          if grep -q "aplicar" docs/directorio.txt; then python scripts/directorio.py --aplicar 2>&1 | tee registro/directorio-aplicar.log; fi
           if grep -q "categorias" docs/directorio.txt; then python scripts/categorias.py --aplicar 2>&1 | tee registro/categorias.log; fi
       - name: Guardar en el repo
         if: always()
