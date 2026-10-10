@@ -1,73 +1,17 @@
-fecha: 2026-10-10T04:45:42Z
-commit: 327614f09828793052feb3947f95d84b0c6b2fab
+fecha: 2026-10-10T04:46:24Z
+commit: 4894e871eb607e54995db131573e4026ea244124
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38025119719
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38025210470
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/rankings/agencias-btl-promotoria-mexico.md content/rankings/agencias-de-marketing-mexico.md content/rankings/agencias-de-medios-mexico.md content/rankings/agencias-de-publicidad-cdmx.md content/rankings/agencias-de-publicidad-mexico.md content/rankings/agencias-de-publicidad-monterrey.md content/rankings/agencias-de-publicidad-por-estado.md content/rankings/agencias-de-publicidad-queretaro.md content/rankings/agencias-inbound-marketing-mexico.md content/rankings/agencias-investigacion-de-mercados-mexico.md content/rankings/agencias-relaciones-publicas-mexico.md content/rankings/casas-productoras-mexico.md content/rankings/empresas-publicidad-exterior-mexico.md content/rankings/estudios-diseno-branding-mexico.md content/rankings/estudios-doblaje-locucion-mexico.md content/rankings/grupos-radiofonicos-mexico.md content/rankings/productoras-de-eventos-mexico.md content/rankings/proveedores-pop-promocionales-mexico.md 
+Argumentos: content/rankings/estudios-diseno-branding-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  = imagen reutilizada: agencias-btl-promotoria-mexico-portada (id 9158)
-content/rankings/agencias-btl-promotoria-mexico.md: post actualizada (publish) id=9159 https://www.publi20.com/rankings/agencias-btl-promotoria-mexico/
-  SEO Rank Math: 200 palabra clave: agencia de promotoria
-  = imagen reutilizada: agencias-de-marketing-mexico-portada (id 9160)
-content/rankings/agencias-de-marketing-mexico.md: post actualizada (publish) id=9161 https://www.publi20.com/rankings/agencias-de-marketing-mexico/
-  SEO Rank Math: 200 palabra clave: agencias de comunicacion en mexico
-  = imagen reutilizada: agencias-de-medios-mexico-portada (id 9162)
-content/rankings/agencias-de-medios-mexico.md: post actualizada (publish) id=9163 https://www.publi20.com/rankings/agencias-de-medios-mexico/
-  SEO Rank Math: 200 palabra clave: empresa de medios
-  = imagen reutilizada: agencias-de-publicidad-cdmx-portada (id 9140)
-content/rankings/agencias-de-publicidad-cdmx.md: post actualizada (publish) id=9141 https://www.publi20.com/rankings/agencias-de-publicidad-cdmx/
-  SEO Rank Math: 200 palabra clave: agencias de publicidad en la ciudad de mexico
-  = imagen reutilizada: agencias-de-publicidad-mexico-portada (id 9142)
-content/rankings/agencias-de-publicidad-mexico.md: post actualizada (publish) id=9143 https://www.publi20.com/rankings/agencias-de-publicidad-mexico/
-  SEO Rank Math: 200 palabra clave: agencia de publicidad
-  = imagen reutilizada: agencias-de-publicidad-monterrey-portada (id 9144)
-content/rankings/agencias-de-publicidad-monterrey.md: post actualizada (publish) id=9145 https://www.publi20.com/rankings/agencias-de-publicidad-monterrey/
-  SEO Rank Math: 200 palabra clave: agencias de publicidad en nuevo leon
-  = imagen reutilizada: agencias-de-publicidad-por-estado-portada (id 9196)
-content/rankings/agencias-de-publicidad-por-estado.md: post actualizada (publish) id=9197 https://www.publi20.com/rankings/agencias-de-publicidad-por-estado/
-  SEO Rank Math: 200 palabra clave: publicidad nuevo laredo
-  = imagen reutilizada: agencias-de-publicidad-queretaro-portada (id 9198)
-content/rankings/agencias-de-publicidad-queretaro.md: post actualizada (publish) id=9199 https://www.publi20.com/rankings/agencias-de-publicidad-queretaro/
-  SEO Rank Math: 200 palabra clave: agencias de publicidad en queretaro
-  = imagen reutilizada: agencias-inbound-marketing-mexico-portada (id 9146)
-content/rankings/agencias-inbound-marketing-mexico.md: post actualizada (publish) id=9147 https://www.publi20.com/rankings/agencias-inbound-marketing-mexico/
-  SEO Rank Math: 200 palabra clave: agencia de inbound marketing mexico
-  = imagen reutilizada: agencias-investigacion-de-mercados-mexico-portada (id 9164)
-content/rankings/agencias-investigacion-de-mercados-mexico.md: post actualizada (publish) id=9165 https://www.publi20.com/rankings/agencias-investigacion-de-mercados-mexico/
-  SEO Rank Math: 200 palabra clave: agencia de investigacion de mercado
-  = imagen reutilizada: agencias-relaciones-publicas-mexico-portada (id 9200)
-content/rankings/agencias-relaciones-publicas-mexico.md: post actualizada (publish) id=9201 https://www.publi20.com/rankings/agencias-relaciones-publicas-mexico/
-  SEO Rank Math: 200 palabra clave: agencia de rp
-  = imagen reutilizada: casas-productoras-mexico-portada (id 9166)
-content/rankings/casas-productoras-mexico.md: post actualizada (publish) id=9167 https://www.publi20.com/rankings/casas-productoras-mexico/
-  SEO Rank Math: 200 palabra clave: casas productoras en mexico
-  = imagen reutilizada: empresas-publicidad-exterior-mexico-portada (id 9148)
-content/rankings/empresas-publicidad-exterior-mexico.md: post actualizada (publish) id=9149 https://www.publi20.com/rankings/empresas-publicidad-exterior-mexico/
-  SEO Rank Math: 200 palabra clave: publicidad exterior
-  = imagen reutilizada: estudios-diseno-branding-mexico-portada (id 9202)
+  + imagen subida: estudios-diseno-branding-mexico-portada-v2.png (id 9249)
 content/rankings/estudios-diseno-branding-mexico.md: post actualizada (publish) id=9203 https://www.publi20.com/rankings/estudios-diseno-branding-mexico/
   SEO Rank Math: 200 palabra clave: diseño y publicidad
-  + etiqueta creada: doblaje
-  + etiqueta creada: estudios de doblaje
-  + etiqueta creada: postproducción de audio
-  + etiqueta creada: locución comercial
-  + etiqueta creada: voice over
-  + imagen subida: estudios-doblaje-locucion-mexico-portada.png (id 9236)
-content/rankings/estudios-doblaje-locucion-mexico.md: post creada (publish) id=9237 https://www.publi20.com/rankings/estudios-doblaje-locucion-mexico/
-  SEO Rank Math: 200 palabra clave: candiani dubbing studios
-  = imagen reutilizada: grupos-radiofonicos-mexico-portada (id 9204)
-content/rankings/grupos-radiofonicos-mexico.md: post actualizada (publish) id=9205 https://www.publi20.com/rankings/grupos-radiofonicos-mexico/
-  SEO Rank Math: 200 palabra clave: grupo acir
-  = imagen reutilizada: productoras-de-eventos-mexico-portada (id 9150)
-content/rankings/productoras-de-eventos-mexico.md: post actualizada (publish) id=9151 https://www.publi20.com/rankings/productoras-de-eventos-mexico/
-  SEO Rank Math: 200 palabra clave: agencias de modelos
-  = imagen reutilizada: proveedores-pop-promocionales-mexico-portada (id 9168)
-content/rankings/proveedores-pop-promocionales-mexico.md: post actualizada (publish) id=9169 https://www.publi20.com/rankings/proveedores-pop-promocionales-mexico/
-  SEO Rank Math: 200 palabra clave: agencias de promocionales
