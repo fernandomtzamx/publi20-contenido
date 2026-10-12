@@ -1,8 +1,8 @@
-fecha: 2026-10-12T20:47:35Z
-commit: f974de26c8318fa000a68d3c8b106580350f1a85
+fecha: 2026-10-12T20:49:05Z
+commit: fa0b45d1392d9f7524a6e0925628072a24ed6a23
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38306471500
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38306624572
 ---
 WP_URL: presente
 WP_USER: presente
@@ -12,6 +12,6 @@ Argumentos: content/rankings/agencias-inbound-marketing-mexico.md
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  = imagen reutilizada: agencias-inbound-marketing-mexico-portada (id 9146)
+  + imagen subida: agencias-inbound-marketing-mexico-portada-14.png (id 9331)
 content/rankings/agencias-inbound-marketing-mexico.md: post actualizada (publish) id=9147 https://www.publi20.com/rankings/agencias-inbound-marketing-mexico/
   SEO Rank Math: 200 palabra clave: agencia de inbound marketing mexico
