@@ -1,9 +1,9 @@
 ---
-title: "Agencia de inbound marketing en México: 13 opciones verificadas 2026"
+title: "Agencia de inbound marketing en México: 14 opciones verificadas 2026"
 slug: agencias-inbound-marketing-mexico
 type: post
 status: publish
-excerpt: "¿Buscas agencia de inbound marketing en México? 13 agencias verificadas en el directorio de HubSpot, qué incluye un retainer y cuándo no te conviene."
+excerpt: "¿Buscas agencia de inbound marketing en México? 14 agencias verificadas, con y sin HubSpot, qué incluye un retainer y cuándo no te conviene."
 categories: [rankings]
 tags: [inbound marketing, hubspot, agencias de marketing digital, marketing b2b, automatización de marketing]
 palabra_clave: "agencia de inbound marketing mexico"
@@ -11,7 +11,7 @@ portada: plantilla
 featured_image: images/agencias-inbound-marketing-mexico-portada.png
 featured_alt: "Ranking 2026 de agencias de inbound marketing en México"
 portada_kicker: "RANKING 2026"
-portada_stat: "13"
+portada_stat: "14"
 portada_stat_label: "agencias verificadas"
 ---
 
@@ -23,7 +23,7 @@ Aquí no te voy a decir cuál es "la mejor". Te voy a decir cuáles existen de v
 
 <div class="p20-tldr" markdown="1">
 **Si solo tienes 30 segundos:**
-- Seleccionamos 13 agencias con operación comprobable en México: 10 partners de HubSpot con perfil activo en su directorio oficial y 2 agencias de marketing digital con oficina en CDMX y área de automatización.
+- Seleccionamos 14 agencias con operación comprobable en México: 11 partners de HubSpot con perfil activo en su directorio oficial, 1 agencia de inbound agnóstica de plataforma y 2 agencias de marketing digital con oficina en CDMX y área de automatización.
 - El nivel de partner (Gold, Platinum, Diamond, Elite) mide ventas y retención de clientes en HubSpot, [según las reglas del propio programa](https://www.hubspot.com/partners/how-tiers-work?cid=482). No mide creatividad ni resultados de tu negocio.
 - Un retainer de inbound tiene sentido si vendes algo con ciclo de compra largo y puedes sostener contenido varios meses. Si necesitas ventas la semana que entra, no es tu herramienta.
 - El orden dentro de cada grupo es alfabético. Nadie pagó por aparecer.
@@ -152,6 +152,19 @@ Agencia con oficinas en Ciudad de México y Salamanca, España, además de Guate
 - **Ideal para:** empresas que quieren inbound con peso fuerte en posicionamiento orgánico
 - **Sitio:** [smartupdigital.com](https://smartupdigital.com/)
 
+## Agencias de inbound agnósticas de plataforma
+
+No todo el inbound se hace en HubSpot. Si ya tienes un CRM o un CMS que funciona (o no quieres amarrarte a una licencia), te conviene una agencia que aplique la metodología sobre las herramientas que ya pagas.
+
+### Inbound México
+
+Agencia mexicana de inbound marketing que trabaja con la metodología inbound sin casarse con una plataforma: según [su sitio](https://www.inbound.com.mx/), opera el CMS y el CRM que el cliente ya tiene o el que mejor le quede, en lugar de venderle una licencia. Publica un blog con más de 900 recursos sobre inbound, SEO y estrategia digital, y ofrece una primera sesión de asesoría gratuita, según su [página de contacto](https://www.inbound.com.mx/contacto/).
+
+- **Sede:** México
+- **Especialidad:** inbound marketing, SEO y contenido, con operación de CMS y CRM agnóstica
+- **Ideal para:** empresas que ya tienen CRM o sitio en otra plataforma (Salesforce, Zoho, WordPress, etc.) y quieren inbound sin migrar a HubSpot
+- **Sitio:** [inbound.com.mx](https://www.inbound.com.mx/)
+
 ## Agencias de marketing digital con área de inbound
 
 No todas las empresas necesitan una agencia "pura" de HubSpot. Estas dos son agencias de marketing digital con oficina en CDMX que incluyen inbound o automatización dentro de un servicio más amplio.
@@ -237,6 +250,7 @@ Primero, entiende qué significa el sello. Según las [reglas de HubSpot](https:
 | Clickplan | Partner Gold | Remota, México | Inbound, CRM y web |
 | Cliento | Solutions Partner | CDMX | Marketing, ventas y servicio |
 | Smartup | Solutions Partner | CDMX y Salamanca | Inbound y SEO |
+| Inbound México | Inbound agnóstica | México | Inbound, SEO y CRM sin licencia atada |
 | Elogia | Marketing digital | Polanco, CDMX | Comercio digital e inbound |
 | t2ó | Marketing digital | Polanco, CDMX | Performance y automatización |
 
@@ -270,7 +284,7 @@ Pide que te muestren en qué sitios apareció tu anuncio y excluye los que no va
 
 ### ¿Qué hace una agencia de inbound marketing?
 
-Diseña y opera un sistema para que los clientes te encuentren: contenido, SEO, páginas de conversión, correos automatizados y un CRM que pasa a ventas los contactos listos para comprar. La mayoría en México trabaja sobre HubSpot.
+Diseña y opera un sistema para que los clientes te encuentren: contenido, SEO, páginas de conversión, correos automatizados y un CRM que pasa a ventas los contactos listos para comprar. La mayoría en México trabaja sobre HubSpot, pero también hay agencias que aplican la metodología sobre el CRM y el CMS que ya tienes.
 
 ### ¿Qué significa que una agencia sea partner Elite o Diamond de HubSpot?
 
