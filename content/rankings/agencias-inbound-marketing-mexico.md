@@ -8,7 +8,7 @@ categories: [rankings]
 tags: [inbound marketing, hubspot, agencias de marketing digital, marketing b2b, automatización de marketing]
 palabra_clave: "agencia de inbound marketing mexico"
 portada: plantilla
-featured_image: images/agencias-inbound-marketing-mexico-portada.png
+featured_image: images/agencias-inbound-marketing-mexico-portada-14.png
 featured_alt: "Ranking 2026 de agencias de inbound marketing en México"
 portada_kicker: "RANKING 2026"
 portada_stat: "14"
