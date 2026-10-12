@@ -1,38 +1,17 @@
-fecha: 2026-10-10T21:46:11Z
-commit: b36337d35fc476593a692f41e8e9c545dced3d25
+fecha: 2026-10-12T20:47:35Z
+commit: f974de26c8318fa000a68d3c8b106580350f1a85
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38088847634
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38306471500
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Conectado como Fernando Arturo Martínez Aguilar (roles: administrator)
-Perfil del usuario conectado: nombre público 'Fernando Arturo Martínez Aguilar'
-Categoría actualizada: publicidad -> Publicidad
-Categoría actualizada: creatividad -> Creatividad
-Categoría actualizada: medios -> Medios
-Categoría actualizada: guias -> Guías
-Categoría actualizada: mercadotecnia -> Mercadotecnia
-Categoría actualizada: marketing-digital -> Marketing digital
-Categoría actualizada: investigacion-de-mercados -> Investigación de mercados
-Categoría actualizada: negocios -> Negocios
-Categoría actualizada: automotriz -> Automotriz
-Categoría actualizada: comercio-electronico -> Comercio electrónico
-Categoría actualizada: emprendimiento -> Emprendimiento
-Categoría actualizada: productividad -> Productividad
-Categoría actualizada: liderazgo -> Liderazgo
-Categoría actualizada: pymes -> Pymes
-Categoría actualizada: ventas -> Ventas
-Categoría actualizada: rankings -> Rankings
-Categoría actualizada: noticias -> Noticias
-Comentarios cerrados en 0 entradas o páginas
-Ajustes del sitio: comentarios y pingbacks desactivados por defecto
-Argumentos: --check
+Argumentos: content/rankings/agencias-inbound-marketing-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-Autor de las publicaciones: id 1
+  = imagen reutilizada: agencias-inbound-marketing-mexico-portada (id 9146)
+content/rankings/agencias-inbound-marketing-mexico.md: post actualizada (publish) id=9147 https://www.publi20.com/rankings/agencias-inbound-marketing-mexico/
+  SEO Rank Math: 200 palabra clave: agencia de inbound marketing mexico
