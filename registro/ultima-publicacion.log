@@ -1,17 +1,23 @@
-fecha: 2026-10-12T20:49:05Z
-commit: fa0b45d1392d9f7524a6e0925628072a24ed6a23
+fecha: 2026-10-22T01:03:50Z
+commit: f76f58560b8084875c1973c643ada549924c8098
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/38306624572
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/39703394850
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/rankings/agencias-inbound-marketing-mexico.md 
+Argumentos: content/publicidad/campana-buen-fin.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + imagen subida: agencias-inbound-marketing-mexico-portada-14.png (id 9331)
-content/rankings/agencias-inbound-marketing-mexico.md: post actualizada (publish) id=9147 https://www.publi20.com/rankings/agencias-inbound-marketing-mexico/
-  SEO Rank Math: 200 palabra clave: agencia de inbound marketing mexico
+  + etiqueta creada: buen fin
+  + etiqueta creada: buen fin 2026
+  + etiqueta creada: campañas de temporada
+  + etiqueta creada: comercio electrónico
+  + etiqueta creada: promociones
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/campana-buen-fin-portada.jpg
+  + imagen subida: campana-buen-fin-portada.jpg (id 9339)
+content/publicidad/campana-buen-fin.md: post creada (publish) id=9340 https://www.publi20.com/publicidad/guias/campana-buen-fin/
+  SEO Rank Math: 200 palabra clave: campaña buen fin
