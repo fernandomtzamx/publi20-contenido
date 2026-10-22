@@ -36,6 +36,27 @@ Guía o análisis de 1,200 a 1,800 palabras con la estructura de `docs/guia-de-e
 3. Atribución obligatoria: el primer párrafo o el segundo dice que la información proviene de un comunicado de la empresa (por ejemplo: "según un comunicado de Palladium Hotel Group enviado a Publi2.0"). Nada de cifras que no vengan del comunicado o de una fuente enlazada.
 4. Portada con Gemini (`image_prompt`): escena relacionada con el tema, sin logos ni texto. No uses las imágenes del comunicado.
 5. Si el comunicado es publicidad disfrazada sin ningún dato de interés, elige otro y anótalo en el calendario.
+6. **Correo a quien envió el comunicado, el mismo viernes y solo después de confirmar que la nota está `publish` en WordPress.** Responde en el hilo original de Gmail (herramienta `reply` del conector de Gmail, para que conserve el asunto y llegue al remitente real, normalmente la agencia de relaciones públicas). Si el comunicado llegó en varios hilos repetidos, responde solo al más reciente. Registra en el calendario `correo: enviado AAAA-MM-DD` en esa línea. Nunca mandes el correo si la nota no está publicada ni lo repitas si ya está registrado.
+
+   Plantilla (ajusta nombre, marca y enlace; sin guiones largos ni medios; firma siempre igual):
+
+   > Asunto: el del hilo (respuesta)
+   >
+   > Hola, [nombre si aparece en el correo; si no, "equipo de prensa"]:
+   >
+   > Gracias por el comunicado sobre [tema o marca]. Ya está publicado en Publi2.0: [URL de la nota].
+   >
+   > Un par de cosas que pueden servirles:
+   >
+   > 1. Si tienen notas exclusivas, datos propios o entrevistas con directivos de [marca], las priorizamos sobre el resto de comunicados. Basta con enviarlas a contacto@publi20.com con "Exclusiva" en el asunto.
+   > 2. Publicamos rankings de proveedores de publicidad y marketing en México con metodología pública (agencias, casas productoras, medios, publicidad exterior y más): https://www.publi20.com/rankings/. Nadie paga por aparecer; si alguno de sus clientes debería estar en uno, escríbannos con la fuente y lo revisamos.
+   >
+   > Si hay alguna corrección a la nota, con gusto la hacemos.
+   >
+   > Saludos,
+   > Fernando Martínez
+   > Editor, Publi2.0
+   > contacto@publi20.com
 
 ## Reglas que nunca se rompen
 
