@@ -1,23 +1,18 @@
-fecha: 2026-10-22T01:03:50Z
-commit: f76f58560b8084875c1973c643ada549924c8098
+fecha: 2026-10-23T12:52:30Z
+commit: dad75b5279b2ed48731bf7bbadd957adcfe59540
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/39703394850
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/39956605163
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/publicidad/campana-buen-fin.md 
+Argumentos: content/rankings/agencias-de-publicidad-guadalajara.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: buen fin
-  + etiqueta creada: buen fin 2026
-  + etiqueta creada: campañas de temporada
-  + etiqueta creada: comercio electrónico
-  + etiqueta creada: promociones
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/campana-buen-fin-portada.jpg
-  + imagen subida: campana-buen-fin-portada.jpg (id 9339)
-content/publicidad/campana-buen-fin.md: post creada (publish) id=9340 https://www.publi20.com/publicidad/guias/campana-buen-fin/
-  SEO Rank Math: 200 palabra clave: campaña buen fin
+  + etiqueta creada: Zapopan
+  + imagen subida: agencias-de-publicidad-guadalajara-portada.png (id 9349)
+content/rankings/agencias-de-publicidad-guadalajara.md: post creada (future) id=9350 https://www.publi20.com/?p=9350
+  SEO Rank Math: 200 palabra clave: agencias de publicidad en guadalajara
