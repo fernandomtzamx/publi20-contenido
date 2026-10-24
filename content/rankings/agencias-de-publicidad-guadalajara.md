@@ -3,7 +3,7 @@ title: "Agencias de publicidad en Guadalajara 2026: 8 verificadas, con fuentes"
 slug: agencias-de-publicidad-guadalajara
 type: post
 status: publish
-date: 2026-10-26 08:00
+date: 2026-10-23 18:20
 excerpt: "Agencias de publicidad en Guadalajara y Zapopan con sede comprobada: marca y campañas, marketing digital y pauta, con fuentes y qué preguntar antes de firmar."
 categories: [rankings]
 tags: [agencias de publicidad, Guadalajara, Zapopan, marketing digital, rankings 2026]

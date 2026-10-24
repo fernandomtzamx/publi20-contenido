@@ -27,7 +27,7 @@ Si está disponible, el agente carga la skill `business-casual-conversion-copy` 
 6. **Nada inventado:** ni testimonios, ni casos, ni porcentajes "de ejemplo" presentados como reales.
 7. **Citas textuales:** máximo una por fuente y de menos de 15 palabras. Lo demás se parafrasea.
 8. **Rankings:** cada uno publica su metodología, sus fuentes y su fecha de corte. Ninguna empresa real aparece con datos que no se puedan verificar en su sitio, en premios o en prensa. Nadie paga por aparecer.
-9. **Revisión humana** antes de cambiar `status` a `publish`. Mientras tanto, todo va como `draft`.
+9. **Publicación directa** (regla del editor desde el 23 de octubre de 2026): toda pieza que pasa el lint sale con `status: publish` y la fecha y hora del momento. Nunca se deja como `draft` ni programada; la revisión del editor se hace sobre la pieza publicada y los cambios se corrigen con una nueva publicación.
 
 ## Identidad visual de Publi2.0
 
@@ -61,8 +61,8 @@ El publicador lo convierte en un bloque de inserción de YouTube de WordPress. E
 title: "..."                # 60 a 75 caracteres, palabra clave al inicio
 slug: palabra-clave-corta
 type: post
-status: draft               # pasa a publish solo después de la revisión humana
-date: 2026-10-27 08:00      # hora de Ciudad de México
+status: publish             # siempre publish; nunca draft ni programada
+date: 2026-10-27 18:20      # fecha y hora de Ciudad de México del momento en que se termina
 excerpt: "..."              # 140 a 160 caracteres, meta descripción
 categories: [creatividad]   # la subsección; su pilar padre define la URL
 image_prompt: "..."         # escena para la portada de Gemini (no aplica en rankings)

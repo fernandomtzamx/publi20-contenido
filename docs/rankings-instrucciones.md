@@ -22,7 +22,8 @@ Un ranking de Publi2.0 es una **selección curada con metodología pública**. N
 title: "..."                 # 60 a 75 caracteres, palabra clave al inicio, con el año 2026 si cabe
 slug: <slug>
 type: post
-status: draft
+status: publish              # siempre publish, con date de la fecha y hora en que se termina
+date: 2026-10-23 18:20
 excerpt: "..."               # 140 a 160 caracteres, con la palabra clave, sin repetir el título
 categories: [rankings]
 tags: [...]                  # 4 a 6
