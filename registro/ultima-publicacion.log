@@ -1,20 +1,25 @@
-fecha: 2026-10-25T23:44:34Z
-commit: bfd742688dc596737c74fa1a4b4aefd22670e1f9
+fecha: 2026-10-26T12:36:10Z
+commit: b68a0772625bf7b66b57b5d4eb332222fa959606
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/40246071739
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/40323677726
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/publicidad/effie-awards-mexico-2026-ganadores.md 
+Argumentos: content/publicidad/campanas-dia-de-muertos-2026.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Effie Awards México 2026
-  + etiqueta creada: AVE
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/effie-awards-mexico-2026-ganadores-portada.jpg
-  + imagen subida: effie-awards-mexico-2026-ganadores-portada.jpg (id 9359)
-content/publicidad/effie-awards-mexico-2026-ganadores.md: post creada (publish) id=9360 https://www.publi20.com/publicidad/creatividad/effie-awards-mexico-2026-ganadores/
-  SEO Rank Math: 200 palabra clave: effie awards mexico 2026
+  + etiqueta creada: Día de Muertos
+  + etiqueta creada: campañas de Día de Muertos
+  + etiqueta creada: Cerveza Victoria
+  + etiqueta creada: Air Wick
+  + etiqueta creada: marketing estacional
+  + etiqueta creada: publicidad emocional
+  + etiqueta creada: Wieden+Kennedy México
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/campanas-dia-de-muertos-2026-portada.jpg
+  + imagen subida: campanas-dia-de-muertos-2026-portada.jpg (id 9369)
+content/publicidad/campanas-dia-de-muertos-2026.md: post creada (publish) id=9370 https://www.publi20.com/publicidad/creatividad/campanas-dia-de-muertos-2026/
+  SEO Rank Math: 200 palabra clave: campañas dia de muertos
