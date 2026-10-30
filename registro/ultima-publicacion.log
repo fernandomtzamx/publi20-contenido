@@ -1,8 +1,8 @@
-fecha: 2026-10-30T12:48:58Z
-commit: 422db557e1178c6ab62f7848d970ff8ec2eca89c
+fecha: 2026-10-30T12:56:16Z
+commit: c34f7aa78f30a34ed8c773800aeec223a5c432d6
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41058156330
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41059111762
 ---
 WP_URL: presente
 WP_USER: presente
@@ -12,8 +12,6 @@ Argumentos: content/rankings/agencias-marketing-digital-mexico.md
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: pauta digital
-  + etiqueta creada: performance marketing
-  + imagen subida: agencias-marketing-digital-mexico-portada.png (id 9389)
-content/rankings/agencias-marketing-digital-mexico.md: post creada (publish) id=9390 https://www.publi20.com/rankings/agencias-marketing-digital-mexico/
+  + imagen subida: agencias-marketing-digital-mexico-portada-v2.png (id 9399)
+content/rankings/agencias-marketing-digital-mexico.md: post actualizada (publish) id=9390 https://www.publi20.com/rankings/agencias-marketing-digital-mexico/
   SEO Rank Math: 200 palabra clave: agencias de marketing digital en mexico
