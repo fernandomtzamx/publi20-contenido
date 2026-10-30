@@ -1,25 +1,19 @@
-fecha: 2026-10-28T12:35:24Z
-commit: 6ec1438c50f1ffb9f0225f44514afab76b60defc
+fecha: 2026-10-30T12:48:58Z
+commit: 422db557e1178c6ab62f7848d970ff8ec2eca89c
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/40688950612
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41058156330
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/noticias/uaemex-hostinger-cienciaton-2026.md 
+Argumentos: content/rankings/agencias-marketing-digital-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Hostinger
-  + etiqueta creada: UAEMéx
-  + etiqueta creada: Cienciatón
-  + etiqueta creada: inteligencia artificial
-  + etiqueta creada: no code
-  + etiqueta creada: universidades
-  + etiqueta creada: Estado de México
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/uaemex-hostinger-cienciaton-2026-portada.jpg
-  + imagen subida: uaemex-hostinger-cienciaton-2026-portada.jpg (id 9379)
-content/noticias/uaemex-hostinger-cienciaton-2026.md: post creada (publish) id=9380 https://www.publi20.com/noticias/uaemex-hostinger-cienciaton-2026/
-  SEO Rank Math: 200 palabra clave: nota de prensa
+  + etiqueta creada: pauta digital
+  + etiqueta creada: performance marketing
+  + imagen subida: agencias-marketing-digital-mexico-portada.png (id 9389)
+content/rankings/agencias-marketing-digital-mexico.md: post creada (publish) id=9390 https://www.publi20.com/rankings/agencias-marketing-digital-mexico/
+  SEO Rank Math: 200 palabra clave: agencias de marketing digital en mexico
