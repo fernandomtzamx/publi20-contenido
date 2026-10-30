@@ -1,5 +1,5 @@
 ---
-title: "Agencias de marketing digital en México 2026: 12 verificadas, con fuentes"
+title: "Agencias de marketing digital en México 2026: 11 verificadas, con fuentes"
 slug: agencias-marketing-digital-mexico
 type: post
 status: publish
@@ -9,10 +9,10 @@ categories: [rankings]
 tags: [agencias de marketing digital, marketing digital, pauta digital, performance marketing, redes sociales, rankings 2026]
 palabra_clave: "agencias de marketing digital en mexico"
 portada: plantilla
-featured_image: images/agencias-marketing-digital-mexico-portada.png
+featured_image: images/agencias-marketing-digital-mexico-portada-v2.png
 featured_alt: "Portada del ranking 2026 de agencias de marketing digital en México de Publi2.0"
 portada_kicker: "RANKING 2026"
-portada_stat: "12"
+portada_stat: "11"
 portada_stat_label: "agencias verificadas"
 ---
 
@@ -20,11 +20,11 @@ Escribes "agencias de marketing digital en México" y Google te devuelve veinte 
 
 Luego pides tres cotizaciones y las tres dicen "estrategia 360, contenido, pauta y analítica". Mismo texto, precios que van del triple al décuplo. Y nadie te explica qué va a hacer el lunes.
 
-Aquí tienes 12 agencias que sí pudimos verificar: sitio activo, oficina en México y al menos una fuente externa (premio, lista de partners de Google o nota de prensa) con enlace. Y, al final, qué incluye un retainer de verdad y cuándo te conviene no contratar ninguna.
+Aquí tienes 11 agencias que sí pudimos verificar: sitio activo, oficina en México y al menos una fuente externa (premio, lista de partners de Google o nota de prensa) con enlace. Y, al final, qué incluye un retainer de verdad y cuándo te conviene no contratar ninguna.
 
 <div class="p20-tldr" markdown="1">
 **Si solo tienes 30 segundos:**
-- Son 12 agencias en tres grupos: unidades digitales de redes globales, independientes mexicanas de digital y contenido, y especialistas en pauta, performance y comercio electrónico.
+- Son 11 agencias en tres grupos: unidades digitales de redes globales, independientes mexicanas de digital y contenido, y especialistas en pauta, performance y comercio electrónico.
 - Si tu problema es vender hoy con pauta medible, empieza por el tercer grupo; si es construir marca en redes y contenido, por el segundo; si tienes varios países y mucho presupuesto, por el primero.
 - Cada dato tiene enlace: sitio oficial, premios IAB Mixx o Effie, lista Google Partner Premier 2026 o prensa con fecha.
 - El orden dentro de cada grupo es alfabético. Nadie pagó por aparecer.
@@ -131,17 +131,6 @@ Su campaña "Sigues Aquí" para Funerarias J. García López ganó dos bronces e
 
 Aquí la pregunta no es "qué tan creativa es la idea" sino "cuánto costó cada venta". Todas tienen la insignia Google Partner Premier 2026 según la lista de Marketing4eCommerce; revisa la vigencia en el directorio de Google antes de firmar.
 
-### ABC Digital (ABCW)
-
-Dice tener más de 15 años como agencia de marcas líderes y, desde 2017, forma parte de ABCW, un grupo con más de 200 personas y matriz en Miami, según [su sitio](https://abcdigital.mx/). Ahí lista SEO técnico y de contenido, pauta en Facebook e Instagram, compra programática, optimización de conversión, inteligencia de datos y tiendas en línea, y menciona a Energizer, EY, Panasonic, Coca-Cola FEMSA, Kavak y Uber Eats entre más de 250 marcas.
-
-Aparece en la [lista Google Partner Premier 2026](https://marketing4ecommerce.mx/google-partner-premier-en-mexico/) y [Marketing4eCommerce](https://marketing4ecommerce.mx/top-las-mejores-agencias-seo-en-mexico/) la incluye entre las agencias SEO de México. Su perfil en [Clutch](https://clutch.co/profile/abc-digital-abcw) registra entre 50 y 249 empleados.
-
-- **Sede:** Jaime Balmes 11, Polanco, Ciudad de México
-- **Especialidad:** SEO, pauta, programática y conversión
-- **Ideal para:** marcas que quieren SEO y pauta en el mismo equipo, con reportes de datos
-- **Sitio:** [abcdigital.mx](https://abcdigital.mx/)
-
 ### Convertia
 
 Agencia de adquisición digital y consultoría con tecnología propia (automatización de marketing, CRM, chatbots y agentes de inteligencia artificial), con más de 500 profesionales en más de diez países, entre ellos México, España, Colombia y Chile, según [su página de historia](https://convertia.com/en/about-us/history), donde muestra a Telefónica, Claro, Gayosso y Megacable. Se declara socio certificado de Google, Meta y Microsoft Advertising con modelos orientados a resultados medibles, según [su página de adquisición digital](https://convertia.com/en/services/smart-digital-acquisition).
@@ -224,7 +213,6 @@ Desglose por disciplina y horas, qué hace el equipo interno y qué se subcontra
 | BNN | Independiente | CDMX | Social, creadores, gaming y datos |
 | Epa Digital | Independiente | CDMX | Performance y medición |
 | Ganem Group | Independiente | CDMX | Campañas integradas, medios y contenido |
-| ABC Digital | Performance | CDMX | SEO, pauta y programática |
 | Convertia | Performance | CDMX y Latinoamérica | Adquisición digital y automatización |
 | Lievant | Performance | León y CDMX | Comercio electrónico y marketplaces |
 | Netcommerce | Performance | Guadalajara | Pauta, SEO y tiendas en línea |
@@ -252,6 +240,6 @@ No hay una tarifa pública que podamos citar con fuente. Pide cotización a tres
 
 Si tu venta es B2B, larga y pasa por un CRM, revisa nuestro ranking de [agencias de inbound marketing](/agencias-inbound-marketing-mexico/). Si vendes a consumidores y necesitas pauta, redes y contenido con resultados rápidos, esta lista es el punto de partida.
 
-Antes de pedir cotizaciones, anota cuánto vas a invertir en medios el próximo trimestre y cuál es la única métrica que te importa. Con esos dos datos, cualquiera de estas 12 agencias te puede decir en la primera llamada si eres su cliente o no.
+Antes de pedir cotizaciones, anota cuánto vas a invertir en medios el próximo trimestre y cuál es la única métrica que te importa. Con esos dos datos, cualquiera de estas 11 agencias te puede decir en la primera llamada si eres su cliente o no.
 
 <p class="p20-credito">Fecha de corte: octubre de 2026. ¿Tu empresa debería estar aquí o cambió un dato? Escríbenos a <a href="mailto:contacto@publi20.com">contacto@publi20.com</a> con la fuente y lo revisamos.</p>
