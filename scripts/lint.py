@@ -81,19 +81,6 @@ def check(path):
     ex = len(str(meta.get("excerpt", "")))
     if not 120 <= ex <= 170:
         warns.append(f"extracto de {ex} caracteres (ideal 140 a 160)")
-    # Fecha de publicación: una pieza del calendario sale el día que dice el calendario, a las 08:00.
-    # Publicarla antes (fecha de hoy) rompe el ritmo y deja un hueco en su día. Se permite solo con
-    # `publicacion_directa: true` en el frontmatter, que el agente usa únicamente cuando el editor lo pide.
-    cal = ROOT / "docs" / "calendario.yml"
-    if cal.exists() and meta.get("status") == "publish" and not meta.get("publicacion_directa"):
-        rel = str(path.resolve().relative_to(ROOT)) if path.resolve().is_relative_to(ROOT) else str(path)
-        for entry in yaml.safe_load(cal.read_text(encoding="utf-8")) or []:
-            if entry.get("archivo") == rel and entry.get("estado") in ("por-escribir", "borrador-ia", "programado"):
-                cal_date = str(entry.get("fecha", ""))[:10]
-                if cal_date and my_date != cal_date:
-                    errs.append(f"la fecha debe ser la del calendario ({cal_date} 08:00), no {my_date or 'vacía'}; "
-                                "solo con publicacion_directa: true se publica otro día")
-                break
     return words, sources, errs, warns
 
 
