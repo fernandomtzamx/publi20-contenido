@@ -1,28 +1,17 @@
-fecha: 2026-10-31T14:02:33Z
-commit: af3aa3019111bdef23332c4be89d785d80cf01ad
+fecha: 2026-10-31T14:03:10Z
+commit: bf4c1818999dc534477c087e56831b4e9fe1ddfe
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41208213330
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41208311998
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/noticias/premio-primera-novela-2026-amazon-sep.md content/noticias/uaemex-hostinger-cienciaton-2026.md content/paginas/noticias.md 
+Argumentos: content/noticias/premio-primera-novela-2026-amazon-sep.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Amazon México
-  + etiqueta creada: SEP
-  + etiqueta creada: Premio Primera Novela
-  + etiqueta creada: patrocinio cultural
-  + etiqueta creada: marketing de marca
-  + etiqueta creada: libros
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/premio-primera-novela-2026-amazon-sep-portada.jpg
-  + imagen subida: premio-primera-novela-2026-amazon-sep-portada.jpg (id 9416)
-content/noticias/premio-primera-novela-2026-amazon-sep.md: post creada (future) id=9417 https://www.publi20.com/?p=9417
+  = imagen reutilizada: premio-primera-novela-2026-amazon-sep-portada (id 9416)
+content/noticias/premio-primera-novela-2026-amazon-sep.md: post actualizada (publish) id=9417 https://www.publi20.com/noticias/premio-primera-novela-2026-amazon-sep/
   SEO Rank Math: 200 palabra clave: premio primera novela 2026
-  = imagen reutilizada: uaemex-hostinger-cienciaton-2026-portada (id 9379)
-content/noticias/uaemex-hostinger-cienciaton-2026.md: post actualizada (publish) id=9380 https://www.publi20.com/noticias/uaemex-hostinger-cienciaton-2026/
-  SEO Rank Math: 200 palabra clave: nota de prensa
-content/paginas/noticias.md: page creada (publish) id=9419 https://www.publi20.com/noticias/
