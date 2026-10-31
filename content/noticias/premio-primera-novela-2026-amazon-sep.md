@@ -79,3 +79,4 @@ La Secretaría de Educación Pública y Amazon México, dentro de la Estrategia 
 No hay fecha anunciada. En 2026 las bases se publicaron en mayo y cerraron el 8 de junio, de acuerdo con [Grupo Animal](https://grupoanimal.mx/estilo-de-vida/se-busca-la-mejor-opera-prima-todo-lo-que-debes-saber-sobre-el-premio-primera-novela-2026); conviene esperar un calendario similar.
 
 <p class="p20-credito">Información del comunicado de prensa de la Secretaría de Educación Pública y Amazon México del 15 de octubre de 2026, verificada al 31 de octubre de 2026.</p>
+

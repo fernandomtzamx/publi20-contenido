@@ -35,3 +35,4 @@ Si tienes una nota exclusiva (datos propios, una entrevista o un caso que aún n
 Escribe a **contacto@publi20.com** con el comunicado en el cuerpo del correo o en un archivo de texto, la fecha de embargo si la hay y un contacto para dudas. Si incluyes imágenes, recuerda que generamos nuestras propias portadas y no usamos logotipos de terceros.
 
 Las noticias se firman por la redacción de Publi2.0 y se revisan antes de publicarse. Si detectas un error en una nota publicada, escríbenos con la fuente y lo corregimos.
+

@@ -65,3 +65,4 @@ Según el comunicado, la rectora Martha Patricia Zarza Delgado subrayó la respo
 ## Qué hacer con esto mañana
 
 Si tienes una marca de tecnología y buscas presencia en el Estado de México, revisa la agenda del Mes de la Ciencia de la UAEMéx para el año que entra: hay más de 300 actividades y pocas tienen patrocinador privado. Si eres agencia, guarda este caso como ejemplo de activación educativa que generó cobertura en prensa local y en medios nacionales como [Xataka México](https://www.xataka.com.mx/robotica-e-ia/hostinger-usa-ia-para-ayudar-a-investigadores-mexicanos-a-convertir-sus-proyectos-cientificos-herramientas-digitales) en la misma semana. Y si eres investigador o emprendedor con una idea y cero código, la prueba gratuita de cinco créditos es suficiente para averiguar si el prototipo se sostiene antes de pagar un peso.
+
