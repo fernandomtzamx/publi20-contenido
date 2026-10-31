@@ -3,7 +3,7 @@ title: "Premio Primera Novela 2026: Amazon y la SEP premian \"La Travestiada\""
 slug: premio-primera-novela-2026-amazon-sep
 type: post
 status: publish
-date: 2026-10-31 08:30
+date: 2026-10-31 07:45
 excerpt: "Yobaín Vázquez Bailón gana el Premio Primera Novela 2026 de Amazon México y la SEP con \"La Travestiada\". Qué premia el certamen y qué gana Amazon con él."
 categories: [noticias]
 tags: [Amazon México, SEP, Premio Primera Novela, patrocinio cultural, marketing de marca, libros, comunicados de prensa]
