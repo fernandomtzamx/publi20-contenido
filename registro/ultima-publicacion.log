@@ -1,17 +1,14 @@
-fecha: 2026-10-30T12:56:16Z
-commit: c34f7aa78f30a34ed8c773800aeec223a5c432d6
+fecha: 2026-10-31T14:01:08Z
+commit: 78672eb83718b8f6451502d48ef6e1cac6b64775
 evento: push
-resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41059111762
+resultado: failure
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41208150140
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/rankings/agencias-marketing-digital-mexico.md 
+Argumentos: content/noticias/premio-primera-novela-2026-amazon-sep.md content/noticias/uaemex-hostinger-cienciaton-2026.md content/paginas/noticias.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Conectado como soporte (roles: administrator)
-  + imagen subida: agencias-marketing-digital-mexico-portada-v2.png (id 9399)
-content/rankings/agencias-marketing-digital-mexico.md: post actualizada (publish) id=9390 https://www.publi20.com/rankings/agencias-marketing-digital-mexico/
-  SEO Rank Math: 200 palabra clave: agencias de marketing digital en mexico
+Aviso: /wp-json/ no devolvió JSON
+DIAGNÓSTICO: el servidor respondió 200 sin JSON (posible bloqueo o caché). server=openresty/1.31.1.1 | inicio: '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n  <script>\n      (function(){\n          setTimeout(function(){\n '
