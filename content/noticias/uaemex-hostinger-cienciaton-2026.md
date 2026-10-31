@@ -14,7 +14,7 @@ featured_alt: "Equipos de estudiantes trabajando con laptops en el patio de una 
 
 Treinta equipos de investigación, un día de trabajo y una regla poco habitual en un hackatón: nadie tenía que saber programar. Así fue la primera edición del Cienciatón UAEMéx 2026, "Ciencia Abierta, Tecnologías que Transforman", una iniciativa conjunta de Hostinger y la Universidad Autónoma del Estado de México a través de su Secretaría de Ciencia.
 
-La información proviene de un comunicado de Hostinger enviado a Publi2.0 por la agencia Fénix 47. Lo que sigue es lo que anunciaron, lo que confirman otras fuentes y por qué vale la pena leerlo si vendes tecnología, haces marketing B2B o buscas talento en el Estado de México.
+La información proviene de un comunicado de Hostinger enviado a Publi2.0. Lo que sigue es lo que anunciaron, lo que confirman otras fuentes y por qué vale la pena leerlo si vendes tecnología, haces marketing B2B o buscas talento en el Estado de México.
 
 <div class="p20-tldr" markdown="1">
 **Si solo tienes 30 segundos:**
