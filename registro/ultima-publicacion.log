@@ -1,17 +1,17 @@
-fecha: 2026-10-31T14:03:10Z
-commit: bf4c1818999dc534477c087e56831b4e9fe1ddfe
+fecha: 2026-11-02T12:24:36Z
+commit: fb4fd3c4a6f47ce5f52d4354b004301d8326a674
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41208311998
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41444418587
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/noticias/premio-primera-novela-2026-amazon-sep.md 
+Argumentos: content/publicidad/comerciales-prohibidos-censurados.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  = imagen reutilizada: premio-primera-novela-2026-amazon-sep-portada (id 9416)
-content/noticias/premio-primera-novela-2026-amazon-sep.md: post actualizada (publish) id=9417 https://www.publi20.com/noticias/premio-primera-novela-2026-amazon-sep/
-  SEO Rank Math: 200 palabra clave: premio primera novela 2026
+  = imagen reutilizada: comerciales-prohibidos-censurados-foto (id 8374)
+content/publicidad/comerciales-prohibidos-censurados.md: post actualizada (publish) id=8371 https://www.publi20.com/publicidad/creatividad/comerciales-prohibidos-censurados/
+  SEO Rank Math: 200 palabra clave: comerciales prohibidos
