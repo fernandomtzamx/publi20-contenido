@@ -1,17 +1,21 @@
-fecha: 2026-11-02T12:24:36Z
-commit: fb4fd3c4a6f47ce5f52d4354b004301d8326a674
+fecha: 2026-11-04T12:42:08Z
+commit: 6a9d232f8feab6a328c57f9f3fe71d5b898808b2
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41444418587
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41831487261
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/publicidad/comerciales-prohibidos-censurados.md 
+Argumentos: content/rankings/agencias-influencer-marketing-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  = imagen reutilizada: comerciales-prohibidos-censurados-foto (id 8374)
-content/publicidad/comerciales-prohibidos-censurados.md: post actualizada (publish) id=8371 https://www.publi20.com/publicidad/creatividad/comerciales-prohibidos-censurados/
-  SEO Rank Math: 200 palabra clave: comerciales prohibidos
+  + etiqueta creada: agencias de influencers
+  + etiqueta creada: influencer marketing
+  + etiqueta creada: creadores de contenido
+  + etiqueta creada: Profeco
+  + imagen subida: agencias-influencer-marketing-mexico-portada.png (id 9445)
+content/rankings/agencias-influencer-marketing-mexico.md: post creada (publish) id=9446 https://www.publi20.com/rankings/agencias-influencer-marketing-mexico/
+  SEO Rank Math: 200 palabra clave: agencias de influencers mexico
