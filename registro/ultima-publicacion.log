@@ -1,21 +1,23 @@
-fecha: 2026-11-04T12:42:08Z
-commit: 6a9d232f8feab6a328c57f9f3fe71d5b898808b2
+fecha: 2026-11-06T12:24:11Z
+commit: 77745ba8dd7a0907092ef57bfc95abcccf69b263
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/41831487261
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/42217284576
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/rankings/agencias-influencer-marketing-mexico.md 
+Argumentos: content/emprendimiento/herramientas-online-offline.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: agencias de influencers
-  + etiqueta creada: influencer marketing
-  + etiqueta creada: creadores de contenido
-  + etiqueta creada: Profeco
-  + imagen subida: agencias-influencer-marketing-mexico-portada.png (id 9445)
-content/rankings/agencias-influencer-marketing-mexico.md: post creada (publish) id=9446 https://www.publi20.com/rankings/agencias-influencer-marketing-mexico/
-  SEO Rank Math: 200 palabra clave: agencias de influencers mexico
+  + etiqueta creada: herramientas para emprender
+  + etiqueta creada: productividad
+  + etiqueta creada: herramientas offline
+  + etiqueta creada: apps para negocios
+  + etiqueta creada: cobro con tarjeta
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/herramientas-online-offline-portada.jpg
+  + imagen subida: herramientas-online-offline-portada.jpg (id 9455)
+content/emprendimiento/herramientas-online-offline.md: post creada (future) id=9456 https://www.publi20.com/?p=9456
+  SEO Rank Math: 200 palabra clave: herramientas offline
