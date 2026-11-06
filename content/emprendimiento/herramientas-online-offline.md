@@ -3,7 +3,7 @@ title: "Herramientas online y offline para emprender en 2026: el kit por etapa"
 slug: herramientas-online-offline
 type: post
 status: publish
-date: 2026-11-06 06:26
+date: 2026-11-06 06:20
 excerpt: "Kit de herramientas online y offline para emprender en 2026 por etapa del negocio: qué usar gratis, cuándo conviene pagar y qué sigue funcionando sin internet."
 categories: [productividad]
 tags: [herramientas para emprender, productividad, pymes, herramientas offline, apps para negocios, cobro con tarjeta]
