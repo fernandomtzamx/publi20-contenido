@@ -1,23 +1,26 @@
-fecha: 2026-11-06T12:24:11Z
-commit: 77745ba8dd7a0907092ef57bfc95abcccf69b263
+fecha: 2026-11-09T12:27:02Z
+commit: ed51a8ba2065a45bf65ecb393d0ef569c21ec92c
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/42217284576
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/42616975500
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/emprendimiento/herramientas-online-offline.md 
+Argumentos: content/noticias/palladium-cares-centro-capacitacion-quintana-roo.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: herramientas para emprender
-  + etiqueta creada: productividad
-  + etiqueta creada: herramientas offline
-  + etiqueta creada: apps para negocios
-  + etiqueta creada: cobro con tarjeta
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/herramientas-online-offline-portada.jpg
-  + imagen subida: herramientas-online-offline-portada.jpg (id 9455)
-content/emprendimiento/herramientas-online-offline.md: post creada (future) id=9456 https://www.publi20.com/?p=9456
-  SEO Rank Math: 200 palabra clave: herramientas offline
+  + etiqueta creada: Palladium Hotel Group
+  + etiqueta creada: Palladium Cares
+  + etiqueta creada: responsabilidad social
+  + etiqueta creada: Quintana Roo
+  + etiqueta creada: Isla Mujeres
+  + etiqueta creada: Costa Mujeres
+  + etiqueta creada: turismo
+  + etiqueta creada: capacitación
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/palladium-cares-centro-capacitacion-quintana-roo-portada.jpg
+  + imagen subida: palladium-cares-centro-capacitacion-quintana-roo-portada.jpg (id 9473)
+content/noticias/palladium-cares-centro-capacitacion-quintana-roo.md: post creada (future) id=9474 https://www.publi20.com/?p=9474
+  SEO Rank Math: 200 palabra clave: palladium cares
