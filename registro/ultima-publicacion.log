@@ -1,26 +1,19 @@
-fecha: 2026-11-09T12:27:02Z
-commit: ed51a8ba2065a45bf65ecb393d0ef569c21ec92c
+fecha: 2026-11-11T13:08:08Z
+commit: 38733f23624e31da10579abade466dba2c302dfe
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/42616975500
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/43026322928
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/noticias/palladium-cares-centro-capacitacion-quintana-roo.md 
+Argumentos: content/rankings/agencias-de-publicidad-puebla.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Palladium Hotel Group
-  + etiqueta creada: Palladium Cares
-  + etiqueta creada: responsabilidad social
-  + etiqueta creada: Quintana Roo
-  + etiqueta creada: Isla Mujeres
-  + etiqueta creada: Costa Mujeres
-  + etiqueta creada: turismo
-  + etiqueta creada: capacitación
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/palladium-cares-centro-capacitacion-quintana-roo-portada.jpg
-  + imagen subida: palladium-cares-centro-capacitacion-quintana-roo-portada.jpg (id 9473)
-content/noticias/palladium-cares-centro-capacitacion-quintana-roo.md: post creada (future) id=9474 https://www.publi20.com/?p=9474
-  SEO Rank Math: 200 palabra clave: palladium cares
+  + etiqueta creada: Cholula
+  + etiqueta creada: Angelópolis
+  + imagen subida: agencias-de-publicidad-puebla-portada.png (id 9483)
+content/rankings/agencias-de-publicidad-puebla.md: post creada (publish) id=9484 https://www.publi20.com/rankings/agencias-de-publicidad-puebla/
+  SEO Rank Math: 200 palabra clave: agencias de publicidad en puebla
