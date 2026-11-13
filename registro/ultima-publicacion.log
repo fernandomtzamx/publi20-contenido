@@ -1,19 +1,25 @@
-fecha: 2026-11-11T13:08:08Z
-commit: 38733f23624e31da10579abade466dba2c302dfe
+fecha: 2026-11-13T12:32:19Z
+commit: 4dda7851b3ea845b4f418dfefd9668b220a73d47
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/43026322928
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/43425897047
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/rankings/agencias-de-publicidad-puebla.md 
+Argumentos: content/publicidad/revistas-de-publicidad-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Cholula
-  + etiqueta creada: Angelópolis
-  + imagen subida: agencias-de-publicidad-puebla-portada.png (id 9483)
-content/rankings/agencias-de-publicidad-puebla.md: post creada (publish) id=9484 https://www.publi20.com/rankings/agencias-de-publicidad-puebla/
-  SEO Rank Math: 200 palabra clave: agencias de publicidad en puebla
+  + etiqueta creada: revistas de publicidad
+  + etiqueta creada: revistas de marketing
+  + etiqueta creada: media kit
+  + etiqueta creada: medios impresos
+  + etiqueta creada: pauta en revistas
+  + etiqueta creada: Merca2.0
+  + etiqueta creada: InformaBTL
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/revistas-de-publicidad-mexico-portada.jpg
+  + imagen subida: revistas-de-publicidad-mexico-portada.jpg (id 9493)
+content/publicidad/revistas-de-publicidad-mexico.md: post creada (publish) id=9494 https://www.publi20.com/publicidad/medios/revistas-de-publicidad-mexico/
+  SEO Rank Math: 200 palabra clave: revista publicitaria
