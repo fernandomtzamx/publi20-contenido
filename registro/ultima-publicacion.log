@@ -1,25 +1,27 @@
-fecha: 2026-11-13T12:32:19Z
-commit: 4dda7851b3ea845b4f418dfefd9668b220a73d47
+fecha: 2026-11-16T12:23:56Z
+commit: c1582236e1c8347f1c99c5be7d6696c5876ebc48
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/43425897047
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/43866026663
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/publicidad/revistas-de-publicidad-mexico.md 
+Argumentos: content/noticias/mondrian-condesa-benlliure-meetings-events.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: revistas de publicidad
-  + etiqueta creada: revistas de marketing
-  + etiqueta creada: media kit
-  + etiqueta creada: medios impresos
-  + etiqueta creada: pauta en revistas
-  + etiqueta creada: Merca2.0
-  + etiqueta creada: InformaBTL
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/revistas-de-publicidad-mexico-portada.jpg
-  + imagen subida: revistas-de-publicidad-mexico-portada.jpg (id 9493)
-content/publicidad/revistas-de-publicidad-mexico.md: post creada (publish) id=9494 https://www.publi20.com/publicidad/medios/revistas-de-publicidad-mexico/
-  SEO Rank Math: 200 palabra clave: revista publicitaria
+  + etiqueta creada: Mondrian Mexico City Condesa
+  + etiqueta creada: Benlliure
+  + etiqueta creada: Distrito Mondrian
+  + etiqueta creada: i421 Live District
+  + etiqueta creada: turismo de reuniones
+  + etiqueta creada: MICE
+  + etiqueta creada: eventos corporativos
+  + etiqueta creada: Ennismore
+  + etiqueta creada: Accor
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/mondrian-condesa-benlliure-meetings-events-portada.jpg
+  + imagen subida: mondrian-condesa-benlliure-meetings-events-portada.jpg (id 9504)
+content/noticias/mondrian-condesa-benlliure-meetings-events.md: post creada (future) id=9505 https://www.publi20.com/?p=9505
+  SEO Rank Math: 200 palabra clave: mondrian mexico city condesa
