@@ -1,27 +1,21 @@
-fecha: 2026-11-16T12:23:56Z
-commit: c1582236e1c8347f1c99c5be7d6696c5876ebc48
+fecha: 2026-11-18T14:30:28Z
+commit: c0f9c2966b4dccd41cecc4ceda3019befb16d9dd
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/43866026663
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/44324926669
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/noticias/mondrian-condesa-benlliure-meetings-events.md 
+Argumentos: content/rankings/agencias-seo-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Mondrian Mexico City Condesa
-  + etiqueta creada: Benlliure
-  + etiqueta creada: Distrito Mondrian
-  + etiqueta creada: i421 Live District
-  + etiqueta creada: turismo de reuniones
-  + etiqueta creada: MICE
-  + etiqueta creada: eventos corporativos
-  + etiqueta creada: Ennismore
-  + etiqueta creada: Accor
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/mondrian-condesa-benlliure-meetings-events-portada.jpg
-  + imagen subida: mondrian-condesa-benlliure-meetings-events-portada.jpg (id 9504)
-content/noticias/mondrian-condesa-benlliure-meetings-events.md: post creada (future) id=9505 https://www.publi20.com/?p=9505
-  SEO Rank Math: 200 palabra clave: mondrian mexico city condesa
+  + etiqueta creada: agencias SEO
+  + etiqueta creada: posicionamiento web
+  + etiqueta creada: marketing de contenidos
+  + etiqueta creada: GEO
+  + imagen subida: agencias-seo-mexico-portada.png (id 9514)
+content/rankings/agencias-seo-mexico.md: post creada (publish) id=9515 https://www.publi20.com/rankings/agencias-seo-mexico/
+  SEO Rank Math: 200 palabra clave: agencias seo mexico
