@@ -1,23 +1,25 @@
-fecha: 2026-11-20T12:26:25Z
-commit: dc89efbe93b093f2ef0739400fa329dc7d3d09bd
+fecha: 2026-11-23T12:21:24Z
+commit: 3f4ad1746c16d504dcddc29266c9a75668920ca0
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/44735654047
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/45173387057
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/negocios/costo-campana-publicidad-mexico.md 
+Argumentos: content/noticias/palladium-holiday-moments-campana.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: costo de publicidad
-  + etiqueta creada: presupuesto de publicidad
-  + etiqueta creada: Google Ads
-  + etiqueta creada: Meta Ads
-  + etiqueta creada: publicidad en televisión
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/costo-campana-publicidad-mexico-portada.jpg
-  + imagen subida: costo-campana-publicidad-mexico-portada.jpg (id 9524)
-content/negocios/costo-campana-publicidad-mexico.md: post creada (publish) id=9525 https://www.publi20.com/negocios/costo-campana-publicidad-mexico/
-  SEO Rank Math: 200 palabra clave: cuanto cuesta una campaña de publicidad
+  + etiqueta creada: Holiday Moments
+  + etiqueta creada: Grand Palladium
+  + etiqueta creada: TRS Hotels
+  + etiqueta creada: BRAVO Dinner & Dance
+  + etiqueta creada: Caribe mexicano
+  + etiqueta creada: Riviera Maya
+  + etiqueta creada: marketing turístico
+  + portada generada con Gemini (gemini-nano-banana-2.1): images/palladium-holiday-moments-campana-portada.jpg
+  + imagen subida: palladium-holiday-moments-campana-portada.jpg (id 9534)
+content/noticias/palladium-holiday-moments-campana.md: post creada (publish) id=9535 https://www.publi20.com/noticias/palladium-holiday-moments-campana/
+  SEO Rank Math: 200 palabra clave: palladium holiday moments
