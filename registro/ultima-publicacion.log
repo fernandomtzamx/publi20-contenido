@@ -1,25 +1,22 @@
-fecha: 2026-11-23T12:21:24Z
-commit: 3f4ad1746c16d504dcddc29266c9a75668920ca0
+fecha: 2026-11-25T12:35:29Z
+commit: 64f09262b7a16ecdcaa08c185cfd88d629359a03
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/45173387057
+run: https://github.com/fernandomtzamx/publi20-contenido/actions/runs/45615163468
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
 GEMINI_API_KEY: presente
-Argumentos: content/noticias/palladium-holiday-moments-campana.md 
+Argumentos: content/rankings/productoras-animacion-motion-graphics-mexico.md 
 Endpoint: https://www.publi20.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: Holiday Moments
-  + etiqueta creada: Grand Palladium
-  + etiqueta creada: TRS Hotels
-  + etiqueta creada: BRAVO Dinner & Dance
-  + etiqueta creada: Caribe mexicano
-  + etiqueta creada: Riviera Maya
-  + etiqueta creada: marketing turístico
-  + portada generada con Gemini (gemini-nano-banana-2.1): images/palladium-holiday-moments-campana-portada.jpg
-  + imagen subida: palladium-holiday-moments-campana-portada.jpg (id 9534)
-content/noticias/palladium-holiday-moments-campana.md: post creada (publish) id=9535 https://www.publi20.com/noticias/palladium-holiday-moments-campana/
-  SEO Rank Math: 200 palabra clave: palladium holiday moments
+  + etiqueta creada: animación
+  + etiqueta creada: motion graphics
+  + etiqueta creada: stop motion
+  + etiqueta creada: animación 3D
+  + etiqueta creada: productoras de animación
+  + imagen subida: productoras-animacion-motion-graphics-mexico-portada.png (id 9544)
+content/rankings/productoras-animacion-motion-graphics-mexico.md: post creada (publish) id=9545 https://www.publi20.com/rankings/productoras-animacion-motion-graphics-mexico/
+  SEO Rank Math: 200 palabra clave: productoras de animacion en mexico
